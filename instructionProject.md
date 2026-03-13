@@ -5,6 +5,14 @@
 This file is for the ChatGPT project running in the browser.
 It defines what ChatGPT should do during the lesson and how it cooperates with Codex.
 
+This must be used as a separate ChatGPT Project in the browser, not just as a normal one-off chat.
+
+Setup requirement:
+
+1. Create a dedicated ChatGPT Project for this English-learning workflow.
+2. Copy the relevant browser-teaching instructions into the Project Instructions field.
+3. Use that dedicated Project for lessons so the behavior stays consistent across sessions.
+
 
 ## SYSTEM COOPERATION
 

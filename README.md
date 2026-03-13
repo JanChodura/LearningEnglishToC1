@@ -142,14 +142,17 @@ Detailed instructions live in these files:
 
 Use them as the source of truth for behavior, file formats, and workflow rules.
 
+For the browser teaching side, create a separate ChatGPT Project and paste the browser-teaching instructions into that Project's Instructions field.
+
 ## Typical Workflow
 
 1. Generate a lesson in `lessons/`
-2. Open the lesson with ChatGPT
-3. Complete the lesson
-4. Save the result to `results/`
-5. Let Codex process the result automatically
-6. Regenerate and inspect the HTML views
+2. Open the dedicated ChatGPT Project in the browser
+3. Load or open the lesson with ChatGPT
+4. Complete the lesson
+5. Save the result to `results/`
+6. Let Codex process the result automatically
+7. Regenerate and inspect the HTML views
 
 ## Notes
 
