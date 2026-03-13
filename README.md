@@ -14,6 +14,8 @@ I wanted a learning system that would help me:
 
 The goal is not just to read and type in English, but also to speak in full sentences, upload or enter spoken responses, and use the system as a real practice loop.
 
+The system should also support vocabulary captured during the day. If I come across new words, phrases, phrasal verbs, or idioms while reading or working, I want to be able to paste them into the prompt, save them properly into the dataset, and optionally generate a priority lesson focused on those exact items.
+
 This project is a structured English-learning system built around two cooperating agents:
 
 - Codex prepares lessons, processes lesson results, updates repetition data, and maintains project files.
@@ -86,6 +88,8 @@ Each lesson combines:
 - new vocabulary
 - review vocabulary from `learning.json`
 
+Lessons can also be built around newly captured vocabulary from the same day, if the user wants to prioritize those items.
+
 Lessons are saved as JSON so that ChatGPT can follow them exactly.
 
 ## Result Model
@@ -153,3 +157,4 @@ Use them as the source of truth for behavior, file formats, and workflow rules.
 - Review is driven by both spaced repetition and repeated mistake patterns.
 - The HTML layer is only a viewer; JSON files are the source of truth.
 - If the user wants to add new words or phrases, they can simply type them in the console and Codex will handle updating the project files.
+- If the user adds fresh vocabulary from something they just read or heard that day, Codex can offer a priority lesson focused on exactly those items.

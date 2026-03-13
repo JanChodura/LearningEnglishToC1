@@ -89,6 +89,14 @@ Codex should support lesson topics within the current level:
 - if the user provides a custom topic, Codex should select at least an approximate set of relevant words and phrases for that topic from the existing vocabulary data
 - if the user does not want any topic, Codex should simply select the next words in the normal order
 
+Codex should also support user-supplied fresh vocabulary from the current day:
+
+- if the user writes new words, phrases, phrasal verbs, or idioms into the prompt, Codex should offer to turn them into a priority lesson
+- if the user confirms, Codex should first save them into the appropriate `vocabulary/*.json` files with the relevant metadata
+- the metadata should include the best available type, level, meaning, example, context, and any other useful supporting data such as synonyms when appropriate
+- after confirmation, the next generated lesson should prioritize these freshly added items and build the lesson directly around them
+- if the user does not confirm, Codex should not force them into the next lesson and should continue with the normal lesson selection logic
+
 Select:
 
 - 10 words of the following types (20 words at B1 level):
