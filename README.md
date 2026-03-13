@@ -1,5 +1,19 @@
 # English Learning Workflow
 
+## Why I Built This
+
+I wanted a learning system that would help me:
+
+- learn new words
+- learn useful phrases
+- learn phrasal verbs
+- learn idioms
+- repeatedly practice all of them instead of only seeing them once
+- track and correct my mistakes over time
+- use ChatGPT in the browser as a teaching partner for speaking, not only for reading and writing
+
+The goal is not just to read and type in English, but also to speak in full sentences, upload or enter spoken responses, and use the system as a real practice loop.
+
 This project is a structured English-learning system built around two cooperating agents:
 
 - Codex prepares lessons, processes lesson results, updates repetition data, and maintains project files.
