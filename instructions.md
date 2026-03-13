@@ -1,41 +1,41 @@
-# INSTRUKCE PRO VÝUKU ANGLIČTINY (Codex / LLM)
+# ENGLISH LEARNING INSTRUCTIONS (Codex / LLM)
 
 -- =========================================================
--- ARCHITEKTURA SYSTÉMU
+-- SYSTEM ARCHITECTURE
 -- =========================================================
--- Systém funguje jako dvoufázový workflow mezi Codexem a ChatGPT.
+-- The system operates as a two-stage workflow between Codex and ChatGPT.
 
 1) CODEX
-   - generuje JSON lekce
-   - vybírá slovní zásobu
-   - přidává gramatiku
-   - přidává chyby z errors.json
+   - generates lesson JSON
+   - selects vocabulary
+   - adds grammar
+   - includes mistakes from errors.json
 
-2) CHATGPT (výukový agent)
-   - AI tutor angličtiny
-   - načte JSON lekci
-   - provede výuku
-   - zaznamená chyby
-   - vytvoří JSON výsledků lekce
-   
-    Tvým cílem je systematicky zlepšovat angličtinu studenta
-    až do úrovně C1 pomocí:
+2) CHATGPT (teaching agent)
+   - acts as an AI English tutor
+   - loads the lesson JSON
+   - runs the lesson
+   - records mistakes
+   - creates the lesson results JSON
 
-    - strukturovaných lekcí
-    - adaptivního procvičování
-    - sledování chyb
-    - systému spaced repetition
+    The goal is to systematically improve the student's English
+    up to C1 level through:
+
+    - structured lessons
+    - adaptive practice
+    - mistake tracking
+    - a spaced repetition system
 
 
 3) CODEX
-   - načte JSON výsledků v results_xxx.json
-   - aktualizuje learning.json
-   - aktualizuje errors.json
-   - aktualizuje spaced repetition (next)
-   - provede tyto kroky automaticky hned po vytvoření nového result souboru, bez dalšího dotazu uživateli
+   - loads the results JSON from results_xxx.json
+   - updates learning.json
+   - updates errors.json
+   - updates spaced repetition (`next`)
+   - performs these steps automatically immediately after a new result file is created, without asking the user again
 
 -- =========================================================
--- STRUKTURA PROJEKTU
+-- PROJECT STRUCTURE
 -- =========================================================
 
 english/
@@ -54,26 +54,26 @@ vocabulary/
 grammar.json
 
 lessons/
-  lesson_YYYY-MM-DD.json (pripadne s indexem _index.json, kdyz je v jednom dni vice lekci)
+  lesson_YYYY-MM-DD.json (optionally with an index as _index.json if there are multiple lessons on the same day)
 
 results/
   result_YYYY-MM-DD.json
 
 
 -- =========================================================
--- 1. GENEROVÁNÍ JSON LEKCE (CODEX)
+-- 1. GENERATING LESSON JSON (CODEX)
 -- =========================================================
 
--- CÍL
--- vytvořit lekci kombinující:
--- nové slovíčka
--- opakování podle spaced repetition
--- jedno gramatické pravidlo
--- revizi předchozích chyb
+-- GOAL
+-- Create a lesson that combines:
+-- new vocabulary
+-- spaced repetition review
+-- one grammar rule
+-- review of previous mistakes
 
 
 -- =========================================================
--- 2. ZDROJOVÁ DATA (CODEX)
+-- 2. SOURCE DATA (CODEX)
 -- =========================================================
 
 vocabulary/
@@ -83,13 +83,13 @@ errors.json
 
 
 -- =========================================================
--- 3. VÝBĚR NOVÝCH SLOV (CODEX)
+-- 3. SELECTING NEW WORDS (CODEX)
 -- =========================================================
 
-Vyber z datasetu od jednodušších po složitější, tedy postupně od levelu B1-> B2 -> C1: 
-to znamená probrat nejdříve všechna slova, gramatiku, idiomy, frázová slovesa od B1 až pak další level B2 a C1 nakonec
+Select items from the dataset from easier to harder, progressing from B1 -> B2 -> C1.
+This means covering all words, grammar, idioms, and phrasal verbs at B1 first, then moving on to B2, and finally C1.
 
-10 slov typu (20 slov levelu B1):
+10 words of the following types (20 words at B1 level):
 noun
 verb
 adverb
@@ -99,41 +99,41 @@ adverb
 2 idioms
 
 
--- PODMÍNKY
+-- CONDITIONS
 
-slova musí existovat v datasetu
-slova NESMÍ existovat v learning.json
-vybírej rovnoměrně podle levelu pokud možno
-než Codex zapíše nové slovo do datasetu, musí zkontrolovat, zda už stejné slovo nebo zjevná varianta téhož slova v příslušném JSON souboru neexistuje, aby nevznikaly duplicity
+words must exist in the dataset
+words MUST NOT already exist in learning.json
+select evenly by level whenever possible
+before Codex writes a new word into the dataset, it must check whether the same word or an obvious variant already exists in the relevant JSON file, so that duplicates are not created
 
 
--- PRO KAŽDÉ NOVÉ SLOVO
+-- FOR EACH NEW WORD
 
 "new": "y"
 
 
 
 -- =========================================================
--- 4. VÝBĚR SLOV K OPAKOVÁNÍ (CODEX)
+-- 4. SELECTING WORDS FOR REVIEW (CODEX)
 -- =========================================================
 
-Z learning.json vyber:
+From learning.json select:
 
-20 slov s nejstarším datem v atributu next
-
-
-POSTUP
-
-1 seřaď learning.json podle next vzestupně
-
-2 vyber prvních 20 položek
+20 words with the oldest date in the `next` attribute
 
 
-PRO KAŽDÉ SLOVO
+PROCEDURE
 
-najdi detail ve vocabulary datasetu podle typu
+1 sort learning.json by `next` in ascending order
 
-dopln metadata:
+2 select the first 20 items
+
+
+FOR EACH WORD
+
+find the details in the vocabulary dataset by type
+
+add metadata:
 
 type
 level
@@ -141,50 +141,50 @@ context
 example
 
 
-nastav:
+set:
 
 "new": "n"
 
 
 
 -- =========================================================
--- 5. VÝBĚR GRAMATIKY (CODEX)
+-- 5. SELECTING GRAMMAR (CODEX)
 -- =========================================================
 
-Z grammar.json vyber:
+From grammar.json select:
 
-1 gramatické pravidlo odpovídající levelu studenta
+1 grammar rule appropriate to the student's level
 
-Preferuj pravidla:
+Prefer rules:
 
-- která student ještě neměl
-- které je nižší level
-- nebo která potřebuje procvičit
-
-
--- =========================================================
--- 6. VÝBĚR CHYB (CODEX)
--- =========================================================
-
-Z errors.json vyber:
-
-maximálně 5 chyb s nejvyšší prioritou
-
-
-Priorita:
-
-1) nejvyšší count_errors
-2) nejnovější datum
-3) nejrelevantnější k aktuálnímu tématu
-
-
-Tyto chyby budou použity pro:
-
-revizi na začátku lekce
+- the student has not studied yet
+- that are at a lower level
+- or that need more practice
 
 
 -- =========================================================
--- 7. STRUKTURA JSON LEKCE (CODEX)
+-- 6. SELECTING MISTAKES (CODEX)
+-- =========================================================
+
+From errors.json select:
+
+at most 5 mistakes with the highest priority
+
+
+Priority:
+
+1) highest count_errors
+2) most recent date
+3) most relevant to the current topic
+
+
+These mistakes will be used for:
+
+review at the beginning of the lesson
+
+
+-- =========================================================
+-- 7. LESSON JSON STRUCTURE (CODEX)
 -- =========================================================
 
 {
@@ -223,69 +223,69 @@ revizi na začátku lekce
 
 
 -- =========================================================
--- 8. STRUKTURA LEKCE (CHATGPT AGENT)
+-- 8. LESSON STRUCTURE (CHATGPT AGENT)
 -- =========================================================
 
-ChatGPT postupuje takto a striktně takto. Načte si lessonxxx.json a postupuje PŘESNĚ bod po bodu. Sám od sebe nevypisuj více částí lekce najednou. Pouze když má student otázku, tak se přeruší průběh lekce, ale pak dále ChatGPT pokračuje:
-Hlavním smyslem je naučit se nové věci a okamžitě je aplikovat, případně upevňovat starší znalosti. Vše je v angličtině. Výuka kromě samotných slov bude probíhat ve větách.
+ChatGPT must follow this sequence strictly. It loads lessonxxx.json and proceeds EXACTLY step by step. It must not output multiple lesson sections at once on its own. If the student asks a question, the lesson may pause, but ChatGPT must continue afterward.
+The main purpose is to learn new material and apply it immediately, while also reinforcing older knowledge. Everything is in English. The teaching should happen in full sentences, not only through isolated words.
 
-Postup výuky lekce:
+Lesson flow:
 
-1. vysvětli aktuální bod
-2. dej cvičení
-3. čekej na odpověď studenta
-4. přejdi na dalš bod lekce začni AŽ POTÉ, co student odpoví.
-5. Po posledním bodu v lekci json ChatGPT vytvoří JSON výsledků. Slovně vyhodnotí a tím je vlastně pro vlákno ChatGPT konec, pokud ještě student nemá sám od sebe otázky.
+1. explain the current point
+2. give an exercise
+3. wait for the student's answer
+4. move to the next lesson point ONLY AFTER the student answers
+5. After the last point in the lesson JSON, ChatGPT creates the results JSON. It gives a verbal evaluation, and that is effectively the end of the ChatGPT thread unless the student asks more questions.
 
-Nikdy:
-- nepřeskakuj dopředu
-- neoznamuj další části lekce
-- nevypisuj seznam dalších kroků
+Never:
+- skip ahead
+- announce later parts of the lesson
+- print a list of upcoming steps
 
-1) GRAMATIKA
+1) GRAMMAR
 
-vysvětlení nového pravidla
-
-
-2) REVIZE CHYB
-
-procvičení chyb z review_errors
-
-ChatGPT nesmí studenta zkoušet jen přesným zopakováním stejné původní chybné věty.
-Má použít uloženou chybu jako vzor a vytvořit novou krátkou úlohu stejného typu:
-
-- doplnění správného slovesa nebo předložky
-- opravu nové podobné věty
-- krátkou transformační větu
-
-Původní dvojici `phrase_wrong` a `phrase_correct` může krátce ukázat jako vysvětlení, ale samotné zkoušení má být na nové větě stejného typu.
+explain the new rule
 
 
-3) SLOVNÍ ZÁSOBA
+2) MISTAKE REVIEW
 
-nová slova - 3x za sebou; vypsat celé kolo se všemi slovy najednou :
-   - první kolo anglicky + význam + věta + český překlad slov
-   - druhé kolo anglicky + věta a já odpovím česky. 
-   - třetí kolo česky s anglickým významen a já odpovím anglicky
+practice mistakes from review_errors
 
-opakování - zase vše najednou česky s anglickým významem a já odpovím česky, v případě chyby se opakuje
-chatGPT ukáže použití ve větách
+ChatGPT must not test the student only by repeating the exact original incorrect sentence.
+It should use the stored mistake as a pattern and create a new short task of the same type:
 
-4) KONVERZACE
+- fill in the correct verb or preposition
+- correct a new similar sentence
+- complete a short transformation task
 
-krátký úkol využívající slovní zásobu
+It may briefly show the original `phrase_wrong` and `phrase_correct` pair as part of the explanation, but the actual testing must use a new sentence of the same type.
+
+
+3) VOCABULARY
+
+new words - 3 rounds in a row; present each full round with all words at once:
+   - first round: English + meaning + sentence + Czech translation of the words
+   - second round: English + sentence and I answer in Czech
+   - third round: Czech with the English meaning and I answer in English
+
+review - again all at once in Czech with the English meaning and I answer in Czech; if there is a mistake, it repeats
+ChatGPT shows the words used in sentences
+
+4) CONVERSATION
+
+a short task that uses the vocabulary
 
 
 -- =========================================================
--- 10. JSON VÝSLEDKU LEKCE (ChatGPT Agent)
+-- 10. LESSON RESULT JSON (ChatGPT AGENT)
 -- =========================================================
 
-soubor:
+file:
 
-english/results/result_YYYY-MM-DD.json (kdyz bude vice v jednom dni tak pridat jeste dalsi _index.json)
+english/results/result_YYYY-MM-DD.json (if there are multiple results on the same day, add an additional _index.json)
 
 
-STRUKTURA
+STRUCTURE
 
 {
   "lesson_date": "2026-03-11",
@@ -314,29 +314,29 @@ STRUKTURA
   ]
 }
 
-Pokud v lekci nevzniknou žádné konkrétní chyby vhodné k uložení, pak:
+If no specific mistakes suitable for saving occur during the lesson, then:
 
 `"errors": []`
 
 
 
 -- =========================================================
--- 11. TVORBA errors.json (CODEX)
+-- 11. CREATING errors.json (CODEX)
 -- =========================================================
 
-errors.json obsahuje seznam jazykových chyb studenta.
+errors.json contains a list of the student's language mistakes.
 
-Každý záznam reprezentuje jeden typ chyby.
+Each entry represents one type of mistake.
 
-ChatGPT musí během lekce:
+During the lesson, ChatGPT must:
 
-1 zaznamenat chybnou frázi
-2 zaznamenat správnou formu
-3 aktualizovat statistiku pokusů
-4 zapsat tyto konkrétní chyby i do pole `errors` ve výsledném result JSON
+1 record the incorrect phrase
+2 record the correct form
+3 update attempt statistics
+4 write these specific mistakes into the `errors` field in the final result JSON as well
 
 
-STRUKTURA ZÁZNAMU
+ENTRY STRUCTURE
 
 {
   "date": "2026-03-11",
@@ -355,136 +355,136 @@ STRUKTURA ZÁZNAMU
 
 
 
-PRAVIDLA AKTUALIZACE
+UPDATE RULES
 
-pokud chyba již existuje v errors.json
+if the mistake already exists in errors.json
 
-    zvýš:
+    increase:
     count_errors
     count_attempts
 
-pokud student frázi opraví správně
+if the student corrects the phrase correctly
 
-    zvýš:
+    increase:
     count_attempts
 
-    nastav:
+    set:
     score = 1
 
-pokud student chybuje znovu
+if the student makes the mistake again
 
-    zvýš:
+    increase:
     count_errors
 
 
 
 -- =========================================================
--- 12. ZPRACOVÁNÍ VÝSLEDKŮ (CODEX)
+-- 12. PROCESSING RESULTS (CODEX)
 -- =========================================================
 
-Po dokončení lekce:
+After the lesson is finished:
 
 
-1) načti result_YYYY-MM-DD.json (pripadne s indexem)
+1) load result_YYYY-MM-DD.json (optionally with an index)
 
 
-2) aktualizuj
+2) update
 
-learning.json (i na základě error.json)
-
-
-3) přepočítej spaced repetition
+learning.json (also based on error.json)
 
 
-aktualizuj atribut:
-result - s:success, f - failure, maximálně 10 položek, když tak první promazávej "sss" - 3x úspěch, "sfsssfsssf" - POSLEDNICH deset výsledků
-next - nastav nové datum opakování po dnech 1,1,2,2,4,4,10,10,20,40,200 (po první výuce té věci je jeden den, na konci už po 200 dnech). Když je chyba, tak vrať na jedna. V připadě úspěchu po chybě nastav na 4 a pak 40, 200. Když ale po chybě je znovu chyba tak se celý cyklus musí opakovat úplně od začátku.
-
-AUTOMATICKÉ PRAVIDLO:
-
-- jakmile vznikne nový soubor `results/result_YYYY-MM-DD*.json`, Codex musí ihned bez dalšího promptu:
-- najít odpovídající lesson soubor stejného dne a indexu
-- propsat nová a opakovaná slova do learning.json
-- přepočítat `result`, `reviews`, `last` a `next`
-- převést pole `errors` z result souboru do errors.json
-- pokud pole `errors` chybí nebo je prázdné, Codex nesmí konkrétní chyby vymýšlet
-- při tvorbě další lekce má Codex z errors.json vytvářet `review_errors` pro stejný typ chyby, ne pro doslovné opakování stejné věty
-- po každé takové změně musí spustit regeneraci HTML
+3) recalculate spaced repetition
 
 
+update the attributes:
+result - s: success, f: failure, maximum 10 items; if needed trim from the beginning, `"sss"` = 3x success, `"sfsssfsssf"` = the LAST ten results
+next - set the next review date after 1,1,2,2,4,4,10,10,20,40,200 days (after the first time learning an item, the next review is in one day; at the end it is after 200 days). If there is a mistake, reset to one. If there is success after a mistake, set it to 4 and then 40, 200. But if there is another mistake after a mistake, the whole cycle must restart completely from the beginning.
 
--- =========================================================
--- HLAVNÍ CÍL SYSTÉMU
--- =========================================================
+AUTOMATIC RULE:
 
-Postoupit do levelu C1
+- as soon as a new file `results/result_YYYY-MM-DD*.json` appears, Codex must immediately, without any further prompt:
+- find the corresponding lesson file with the same date and index
+- write new and reviewed words into learning.json
+- recalculate `result`, `reviews`, `last`, and `next`
+- transfer the `errors` array from the result file into errors.json
+- if the `errors` field is missing or empty, Codex must not invent specific mistakes
+- when creating the next lesson, Codex should create `review_errors` from errors.json for the same type of mistake, not by literally repeating the same sentence
+- after every such change it must run HTML regeneration
 
-lekce musí kombinovat:
-
-novou slovní zásobu
-opakování podle spaced repetition
-
-
-výsledek:
-
-postupné rozšiřování slovní zásoby
-
-systematické opakování
-
-sledování pokroku studenta
-
-A hlavně se jedná o konverzaci ve větách
 
 
 -- =========================================================
--- 13. VOLITELNÝ history.log
+-- MAIN GOAL OF THE SYSTEM
 -- =========================================================
 
-Jako jednoduchá záloha komunikace Codex bude udržovat soubor:
+Reach C1 level
+
+Lessons must combine:
+
+new vocabulary
+review based on spaced repetition
+
+
+Result:
+
+gradual vocabulary expansion
+
+systematic review
+
+tracking the student's progress
+
+Above all, the learning should happen through sentence-based conversation
+
+
+-- =========================================================
+-- 13. OPTIONAL history.log
+-- =========================================================
+
+As a simple backup of communication, Codex will maintain the file:
 
 history.log
 
-Tento soubor je pouze doplňkový a není kritickou částí workflow.
+This file is only supplementary and is not a critical part of the workflow.
 
-PRAVIDLA
+RULES
 
-- zapisuje se pouze text komunikace USER a ASSISTANT v konzoli
-- nezapisují se výpisy souborů, adresářů ani tool output
-- obsah souborů se zapisuje pouze pokud to uživatel explicitně požaduje
-- každý záznam je na samostatný řádek
-- každý řádek obsahuje timestamp, roli a text zprávy
+- only USER and ASSISTANT console communication text is written
+- file listings, directory listings, and tool output are not written
+- file contents are written only if the user explicitly requests it
+- each record is written on a separate line
+- each line contains a timestamp, role, and message text
 
-PŘÍKLAD
+EXAMPLE
 
-2026-03-13 11:50:12 USER: vytvoř mi lekci
-2026-03-13 11:50:20 ASSISTANT: Načítám instrukce a připravím JSON lekce podle dostupných dat.
+2026-03-13 11:50:12 USER: create a lesson for me
+2026-03-13 11:50:20 ASSISTANT: I am loading the instructions and will prepare the lesson JSON based on the available data.
 
 
 -- =========================================================
--- 14. REGENERACE HTML NÁHLEDŮ
+-- 14. HTML PREVIEW REGENERATION
 -- =========================================================
 
-V projektu existuje skript:
+The project contains this script:
 
 english/generate_html.ps1
 
-Tento skript regeneruje:
+This script regenerates:
 
-- root `index.html`
-- HTML náhledy v adresáři `html/`
+- the root `index.html`
+- HTML previews in the `html/` directory
 
-PRAVIDLA
+RULES
 
-- po každém zápisu nového souboru do `results/` je potřeba spustit regeneraci HTML
-- po každé změně `learning.json`, `errors.json` nebo `grammar.json` je potřeba spustit regeneraci HTML
-- když Codex přidá nebo upraví JSON soubory ve `vocabulary/`, `lessons/` nebo `results/`, má poté spustit regeneraci HTML
-- když uživatel zadá nová slovíčka nebo jinou změnu dat, která se projeví v JSON souborech, Codex má po zápisu těchto změn spustit regeneraci HTML
-- když Codex přidá nová slovíčka do `vocabulary/*.json`, musí zároveň zajistit denní HTML přehled podle pole `inserted`
-- pokud už pro dané datum denní vocabulary HTML soubor existuje, nová slovíčka se mají po regeneraci propsat do stejného denního souboru
-- pokud pro dané datum denní vocabulary HTML soubor ještě neexistuje, má se po regeneraci vytvořit nový
-- v `index.html` má být ve Vocabulary sekci odkaz `last date` na nejnovější denní přehled
-- v denním vocabulary přehledu má být i odkaz `previous` na předchozí den, pokud existuje
+- after every new file written to `results/`, HTML regeneration must be run
+- after every change to `learning.json`, `errors.json`, or `grammar.json`, HTML regeneration must be run
+- when Codex adds or edits JSON files in `vocabulary/`, `lessons/`, or `results/`, it must then run HTML regeneration
+- when the user enters new words or makes another data change that affects JSON files, Codex must run HTML regeneration after writing those changes
+- when Codex adds new words to `vocabulary/*.json`, it must also ensure the daily HTML overview based on the `inserted` field
+- if a daily vocabulary HTML file for the given date already exists, the new words should be written into that same daily file after regeneration
+- if a daily vocabulary HTML file for the given date does not yet exist, a new one should be created after regeneration
+- in `index.html`, the Vocabulary section should contain a `last date` link to the newest daily overview
+- in the daily vocabulary overview, there should also be a `previous` link to the previous day, if it exists
 
-CÍL
+GOAL
 
-HTML náhledy mají odpovídat aktuálním JSON souborům a nesmí zůstat zastaralé po změně dat.
+HTML previews should always match the current JSON files and must not remain outdated after data changes.
