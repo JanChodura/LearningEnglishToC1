@@ -82,6 +82,13 @@ errors.json
 Select items from the dataset from easier to harder, progressing from B1 -> B2 -> C1.
 This means covering all words, grammar, idioms, and phrasal verbs at B1 first, then moving on to B2, and finally C1.
 
+Codex should support lesson topics within the current level:
+
+- offer suitable topic suggestions for the student's current level
+- the user may also provide a custom topic
+- if the user provides a custom topic, Codex should select at least an approximate set of relevant words and phrases for that topic from the existing vocabulary data
+- if the user does not want any topic, Codex should simply select the next words in the normal order
+
 Select:
 
 - 10 words of the following types (20 words at B1 level):
@@ -97,6 +104,8 @@ Select:
 - words MUST NOT already exist in `learning.json`
 - select evenly by level whenever possible
 - before Codex writes a new word into the dataset, it must check whether the same word or an obvious variant already exists in the relevant JSON file, so that duplicates are not created
+- before using selected words, phrases, phrasal verbs, or idioms, Codex must verify that their records in `vocabulary/*.json` are correct and usable
+- if Codex finds an obvious issue in a vocabulary record, it must fix it first and print the correction only as an informational message in the console
 
 ### For Each New Word
 
@@ -365,6 +374,17 @@ As soon as a new file `results/result_YYYY-MM-DD*.json` appears, Codex must imme
 - if the `errors` field is missing or empty, Codex must not invent specific mistakes
 - when creating the next lesson, Codex should create `review_errors` from `errors.json` for the same type of mistake, not by literally repeating the same sentence
 - after every such change it must run HTML regeneration
+
+### Level Completion Celebration
+
+When the student finishes an entire level (for example, completes all planned vocabulary, grammar, idioms, and phrasal verbs for B1 and is ready to move to B2), Codex must print a very visible celebration message to the console.
+
+Requirements:
+
+- the celebration should be large, explicit, and impossible to miss in the console output
+- it should clearly state which level has just been completed
+- it should clearly state which level comes next
+- this celebration is only a console message and does not need to be stored in JSON
 
 ## Main Goal of the System
 
