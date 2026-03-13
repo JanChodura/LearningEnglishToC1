@@ -1,0 +1,54 @@
+[
+  {
+    "en": "beyond",
+    "cz": "za; nad rámec",
+    "explanation": "further away than something or more than a limit",
+    "usage_context": "space, limits, abstract meaning",
+    "example_sentence": "The task was beyond my expectations in the best way.",
+    "level": "B2",
+    "synonyms": [
+      "past",
+      "further than"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "judiciously",
+    "cz": "uvážlivě",
+    "explanation": "in a careful and sensible way",
+    "usage_context": "decision making, formal writing",
+    "example_sentence": "Resources should be used judiciously during the project.",
+    "level": "C1",
+    "synonyms": [
+      "wisely",
+      "carefully"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "merely",
+    "cz": "pouze",
+    "explanation": "only and nothing more",
+    "usage_context": "general, emphasis",
+    "example_sentence": "It was merely a suggestion, not an order.",
+    "level": "B2",
+    "synonyms": [
+      "only",
+      "simply"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "throughout",
+    "cz": "po celou dobu; všude v",
+    "explanation": "during the whole period of time or in every part of a place",
+    "usage_context": "time, place",
+    "example_sentence": "She remained calm throughout the meeting.",
+    "level": "B2",
+    "synonyms": [
+      "all through",
+      "everywhere in"
+    ],
+    "inserted": "2026-03-13"
+  }
+]

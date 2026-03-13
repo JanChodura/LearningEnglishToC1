@@ -1,0 +1,4267 @@
+[
+  {
+    "en": "accept",
+    "cz": "přijmout; akceptovat",
+    "explanation": "to agree to receive or take something offered",
+    "usage_context": "common in everyday communication, work, and social situations",
+    "example_sentence": "She accepted the job offer after thinking about it for a day.",
+    "level": "B1",
+    "synonyms": [
+      "receive",
+      "take",
+      "approve",
+      "agree"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "achieve",
+    "cz": "dosáhnout",
+    "explanation": "to successfully reach a goal after effort",
+    "usage_context": "used in education, career, and personal goals",
+    "example_sentence": "He achieved his goal of running a marathon.",
+    "level": "B1",
+    "synonyms": [
+      "accomplish",
+      "attain",
+      "reach",
+      "realize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "act",
+    "cz": "jednat; chovat se",
+    "explanation": "to behave in a particular way or take action",
+    "usage_context": "general everyday and professional contexts",
+    "example_sentence": "You should act quickly before the problem gets worse.",
+    "level": "B1",
+    "synonyms": [
+      "behave",
+      "perform",
+      "react",
+      "operate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "add",
+    "cz": "přidat",
+    "explanation": "to put something together with something else",
+    "usage_context": "common in cooking, math, and daily tasks",
+    "example_sentence": "Add some salt to the soup.",
+    "level": "B1",
+    "synonyms": [
+      "include",
+      "attach",
+      "combine",
+      "insert"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "admit",
+    "cz": "přiznat; připustit",
+    "explanation": "to agree that something is true",
+    "usage_context": "used in discussions, arguments, and formal contexts",
+    "example_sentence": "He admitted that he had made a mistake.",
+    "level": "B1",
+    "synonyms": [
+      "acknowledge",
+      "confess",
+      "allow",
+      "recognize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "advise",
+    "cz": "radit; doporučit",
+    "explanation": "to give someone advice or suggestions",
+    "usage_context": "common in professional and personal guidance",
+    "example_sentence": "The doctor advised him to rest.",
+    "level": "B1",
+    "synonyms": [
+      "recommend",
+      "suggest",
+      "counsel",
+      "guide"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "affect",
+    "cz": "ovlivnit",
+    "explanation": "to have an influence on something",
+    "usage_context": "used in academic, professional, and everyday contexts",
+    "example_sentence": "The weather can affect your mood.",
+    "level": "B1",
+    "synonyms": [
+      "influence",
+      "impact",
+      "alter",
+      "change"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "agree",
+    "cz": "souhlasit",
+    "explanation": "to have the same opinion",
+    "usage_context": "used in discussions and decisions",
+    "example_sentence": "I agree with your idea.",
+    "level": "B1",
+    "synonyms": [
+      "accept",
+      "approve",
+      "support",
+      "consent"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "allow",
+    "cz": "dovolit",
+    "explanation": "to permit something to happen",
+    "usage_context": "used in rules and permissions",
+    "example_sentence": "The teacher allowed us to leave early.",
+    "level": "B1",
+    "synonyms": [
+      "permit",
+      "authorize",
+      "enable",
+      "let"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "answer",
+    "cz": "odpovědět",
+    "explanation": "to respond to a question",
+    "usage_context": "common in conversation and communication",
+    "example_sentence": "She answered the email immediately.",
+    "level": "B1",
+    "synonyms": [
+      "reply",
+      "respond",
+      "react"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "appear",
+    "cz": "objevit se; zdát se",
+    "explanation": "to become visible or seem to be something",
+    "usage_context": "used in descriptions and observations",
+    "example_sentence": "A strange message appeared on the screen.",
+    "level": "B1",
+    "synonyms": [
+      "emerge",
+      "show",
+      "seem",
+      "arise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "apply",
+    "cz": "podat žádost; použít",
+    "explanation": "to formally ask for something or use something",
+    "usage_context": "used in jobs, education, and instructions",
+    "example_sentence": "He applied for a new position.",
+    "level": "B1",
+    "synonyms": [
+      "request",
+      "use",
+      "employ",
+      "utilize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "argue",
+    "cz": "hádat se; argumentovat",
+    "explanation": "to express disagreement",
+    "usage_context": "used in discussions and debates",
+    "example_sentence": "They argued about politics.",
+    "level": "B1",
+    "synonyms": [
+      "debate",
+      "dispute",
+      "quarrel",
+      "discuss"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "arrive",
+    "cz": "dorazit",
+    "explanation": "to reach a destination",
+    "usage_context": "used in travel and scheduling",
+    "example_sentence": "We arrived at the station early.",
+    "level": "B1",
+    "synonyms": [
+      "reach",
+      "come",
+      "appear"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ask",
+    "cz": "zeptat se",
+    "explanation": "to request information",
+    "usage_context": "common in everyday conversation",
+    "example_sentence": "She asked a difficult question.",
+    "level": "B1",
+    "synonyms": [
+      "question",
+      "inquire",
+      "request"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "avoid",
+    "cz": "vyhnout se",
+    "explanation": "to keep away from something",
+    "usage_context": "used in safety and decision contexts",
+    "example_sentence": "Try to avoid unnecessary risks.",
+    "level": "B1",
+    "synonyms": [
+      "prevent",
+      "evade",
+      "escape",
+      "dodge"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "become",
+    "cz": "stát se",
+    "explanation": "to begin to be something",
+    "usage_context": "used when describing change",
+    "example_sentence": "He became a software engineer.",
+    "level": "B1",
+    "synonyms": [
+      "turn",
+      "grow",
+      "develop",
+      "transform"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "begin",
+    "cz": "začít",
+    "explanation": "to start doing something",
+    "usage_context": "common in all contexts",
+    "example_sentence": "They began working on the project.",
+    "level": "B1",
+    "synonyms": [
+      "start",
+      "initiate",
+      "commence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "believe",
+    "cz": "věřit",
+    "explanation": "to think something is true",
+    "usage_context": "used in opinions and trust",
+    "example_sentence": "I believe your story.",
+    "level": "B1",
+    "synonyms": [
+      "trust",
+      "accept",
+      "suppose",
+      "assume"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "belong",
+    "cz": "patřit",
+    "explanation": "to be the property of someone",
+    "usage_context": "used for ownership and relationships",
+    "example_sentence": "This book belongs to me.",
+    "level": "B1",
+    "synonyms": [
+      "fit",
+      "relate",
+      "correspond"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "bring",
+    "cz": "přinést",
+    "explanation": "to carry something toward someone",
+    "usage_context": "used in everyday tasks",
+    "example_sentence": "Please bring your laptop.",
+    "level": "B1",
+    "synonyms": [
+      "carry",
+      "deliver",
+      "fetch"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "build",
+    "cz": "postavit; vybudovat",
+    "explanation": "to construct something",
+    "usage_context": "used in physical and abstract contexts",
+    "example_sentence": "They built a new house.",
+    "level": "B1",
+    "synonyms": [
+      "construct",
+      "create",
+      "develop"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "buy",
+    "cz": "koupit",
+    "explanation": "to purchase something",
+    "usage_context": "common everyday commerce",
+    "example_sentence": "She bought a new phone.",
+    "level": "B1",
+    "synonyms": [
+      "purchase",
+      "acquire",
+      "obtain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "call",
+    "cz": "zavolat; nazvat",
+    "explanation": "to contact someone by phone or give a name",
+    "usage_context": "used in communication",
+    "example_sentence": "Call me when you arrive.",
+    "level": "B1",
+    "synonyms": [
+      "phone",
+      "contact",
+      "name"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "care",
+    "cz": "starat se; záležet",
+    "explanation": "to feel concern or look after",
+    "usage_context": "used in relationships and responsibility",
+    "example_sentence": "She cares about her family.",
+    "level": "B1",
+    "synonyms": [
+      "mind",
+      "protect",
+      "look after"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "carry",
+    "cz": "nést",
+    "explanation": "to hold and move something",
+    "usage_context": "used in physical actions",
+    "example_sentence": "He carried the bag upstairs.",
+    "level": "B1",
+    "synonyms": [
+      "transport",
+      "bear",
+      "move"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "catch",
+    "cz": "chytit",
+    "explanation": "to capture or stop something moving",
+    "usage_context": "used in sports and everyday actions",
+    "example_sentence": "She caught the ball.",
+    "level": "B1",
+    "synonyms": [
+      "grab",
+      "capture",
+      "seize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "change",
+    "cz": "změnit",
+    "explanation": "to make something different",
+    "usage_context": "used everywhere",
+    "example_sentence": "We need to change our plan.",
+    "level": "B1",
+    "synonyms": [
+      "alter",
+      "modify",
+      "adjust"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "choose",
+    "cz": "vybrat",
+    "explanation": "to decide between options",
+    "usage_context": "used in decisions",
+    "example_sentence": "Choose the best option.",
+    "level": "B1",
+    "synonyms": [
+      "select",
+      "pick",
+      "decide"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "clean",
+    "cz": "vyčistit",
+    "explanation": "to remove dirt",
+    "usage_context": "used in household tasks",
+    "example_sentence": "He cleaned the kitchen.",
+    "level": "B1",
+    "synonyms": [
+      "wash",
+      "tidy",
+      "clear"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "climb",
+    "cz": "lézt; šplhat",
+    "explanation": "to move upward",
+    "usage_context": "used in sports and nature",
+    "example_sentence": "They climbed the mountain.",
+    "level": "B1",
+    "synonyms": [
+      "ascend",
+      "mount",
+      "scale"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "close",
+    "cz": "zavřít",
+    "explanation": "to shut something",
+    "usage_context": "used in everyday tasks",
+    "example_sentence": "Close the window.",
+    "level": "B1",
+    "synonyms": [
+      "shut",
+      "seal",
+      "finish"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "collect",
+    "cz": "sbírat",
+    "explanation": "to gather things together",
+    "usage_context": "used in hobbies and work",
+    "example_sentence": "She collects stamps.",
+    "level": "B1",
+    "synonyms": [
+      "gather",
+      "accumulate",
+      "assemble"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "come",
+    "cz": "přijít",
+    "explanation": "to move toward a place",
+    "usage_context": "basic movement verb",
+    "example_sentence": "Come here for a moment.",
+    "level": "B1",
+    "synonyms": [
+      "arrive",
+      "approach"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "compare",
+    "cz": "porovnat",
+    "explanation": "to examine differences",
+    "usage_context": "used in analysis and discussion",
+    "example_sentence": "Compare these two results.",
+    "level": "B1",
+    "synonyms": [
+      "contrast",
+      "evaluate",
+      "analyze"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complain",
+    "cz": "stěžovat si",
+    "explanation": "to express dissatisfaction",
+    "usage_context": "used in social interactions",
+    "example_sentence": "He complained about the noise.",
+    "level": "B1",
+    "synonyms": [
+      "protest",
+      "object",
+      "grumble"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complete",
+    "cz": "dokončit",
+    "explanation": "to finish something",
+    "usage_context": "used in tasks and projects",
+    "example_sentence": "She completed the report.",
+    "level": "B1",
+    "synonyms": [
+      "finish",
+      "finalize",
+      "accomplish"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consider",
+    "cz": "zvážit",
+    "explanation": "to think carefully",
+    "usage_context": "used in decisions",
+    "example_sentence": "Consider all the options.",
+    "level": "B1",
+    "synonyms": [
+      "evaluate",
+      "reflect",
+      "examine"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "continue",
+    "cz": "pokračovat",
+    "explanation": "to keep doing something",
+    "usage_context": "used in processes",
+    "example_sentence": "Please continue speaking.",
+    "level": "B1",
+    "synonyms": [
+      "proceed",
+      "persist",
+      "carry on"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cook",
+    "cz": "vařit",
+    "explanation": "to prepare food",
+    "usage_context": "common everyday activity",
+    "example_sentence": "He cooked dinner.",
+    "level": "B1",
+    "synonyms": [
+      "prepare",
+      "bake",
+      "fry"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "correct",
+    "cz": "opravit",
+    "explanation": "to fix a mistake",
+    "usage_context": "used in learning and editing",
+    "example_sentence": "The teacher corrected the test.",
+    "level": "B1",
+    "synonyms": [
+      "fix",
+      "amend",
+      "revise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "create",
+    "cz": "vytvořit",
+    "explanation": "to make something new",
+    "usage_context": "used in creative and technical contexts",
+    "example_sentence": "They created a new app.",
+    "level": "B1",
+    "synonyms": [
+      "make",
+      "produce",
+      "generate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cut",
+    "cz": "řezat",
+    "explanation": "to divide with a sharp tool",
+    "usage_context": "used in cooking and work",
+    "example_sentence": "Cut the paper in half.",
+    "level": "B1",
+    "synonyms": [
+      "slice",
+      "chop",
+      "divide"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "decide",
+    "cz": "rozhodnout se",
+    "explanation": "to make a choice",
+    "usage_context": "used in planning",
+    "example_sentence": "She decided to move abroad.",
+    "level": "B1",
+    "synonyms": [
+      "choose",
+      "determine",
+      "resolve"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "deliver",
+    "cz": "doručit",
+    "explanation": "to bring something to someone",
+    "usage_context": "used in logistics and services",
+    "example_sentence": "The company delivered the package.",
+    "level": "B1",
+    "synonyms": [
+      "transport",
+      "bring",
+      "supply"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "describe",
+    "cz": "popsat",
+    "explanation": "to explain something in words",
+    "usage_context": "used in communication",
+    "example_sentence": "Describe the problem clearly.",
+    "level": "B1",
+    "synonyms": [
+      "explain",
+      "portray",
+      "outline"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "develop",
+    "cz": "rozvíjet; vyvíjet",
+    "explanation": "to grow or improve",
+    "usage_context": "used in business and personal growth",
+    "example_sentence": "The company developed new software.",
+    "level": "B1",
+    "synonyms": [
+      "grow",
+      "expand",
+      "evolve"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "discover",
+    "cz": "objevit",
+    "explanation": "to find something new",
+    "usage_context": "used in science and exploration",
+    "example_sentence": "Scientists discovered a new species.",
+    "level": "B1",
+    "synonyms": [
+      "find",
+      "detect",
+      "uncover"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "discuss",
+    "cz": "diskutovat",
+    "explanation": "to talk about something",
+    "usage_context": "used in meetings and conversation",
+    "example_sentence": "We discussed the project.",
+    "level": "B1",
+    "synonyms": [
+      "debate",
+      "examine",
+      "talk"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "drive",
+    "cz": "řídit",
+    "explanation": "to control a vehicle",
+    "usage_context": "used in transport",
+    "example_sentence": "She drives to work.",
+    "level": "B1",
+    "synonyms": [
+      "operate",
+      "steer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "drop",
+    "cz": "upustit",
+    "explanation": "to let something fall",
+    "usage_context": "used in physical actions",
+    "example_sentence": "He dropped the glass.",
+    "level": "B1",
+    "synonyms": [
+      "release",
+      "fall",
+      "spill"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "earn",
+    "cz": "vydělat",
+    "explanation": "to receive money for work",
+    "usage_context": "used in employment",
+    "example_sentence": "She earns a good salary.",
+    "level": "B1",
+    "synonyms": [
+      "gain",
+      "receive",
+      "make"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "eat",
+    "cz": "jíst",
+    "explanation": "to consume food",
+    "usage_context": "everyday activity",
+    "example_sentence": "They ate lunch together.",
+    "level": "B1",
+    "synonyms": [
+      "consume",
+      "devour"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "encourage",
+    "cz": "povzbudit",
+    "explanation": "to support someone emotionally",
+    "usage_context": "used in education and leadership",
+    "example_sentence": "Teachers encourage students.",
+    "level": "B1",
+    "synonyms": [
+      "motivate",
+      "inspire",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "enjoy",
+    "cz": "užít si",
+    "explanation": "to take pleasure in something",
+    "usage_context": "used in daily life",
+    "example_sentence": "I enjoy reading books.",
+    "level": "B1",
+    "synonyms": [
+      "like",
+      "appreciate",
+      "relish"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "enter",
+    "cz": "vstoupit",
+    "explanation": "to go inside",
+    "usage_context": "used in places and systems",
+    "example_sentence": "Enter the building quietly.",
+    "level": "B1",
+    "synonyms": [
+      "go in",
+      "access",
+      "join"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "explain",
+    "cz": "vysvětlit",
+    "explanation": "to make something clear",
+    "usage_context": "used in teaching and communication",
+    "example_sentence": "He explained the algorithm.",
+    "level": "B1",
+    "synonyms": [
+      "clarify",
+      "describe",
+      "illustrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "face",
+    "cz": "čelit",
+    "explanation": "to deal with a problem",
+    "usage_context": "used in challenges",
+    "example_sentence": "They faced many difficulties.",
+    "level": "B1",
+    "synonyms": [
+      "confront",
+      "encounter",
+      "address"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fail",
+    "cz": "selhat",
+    "explanation": "to not succeed",
+    "usage_context": "used in results and evaluation",
+    "example_sentence": "The experiment failed.",
+    "level": "B1",
+    "synonyms": [
+      "collapse",
+      "fall short"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fall",
+    "cz": "spadnout",
+    "explanation": "to move downward",
+    "usage_context": "used in motion",
+    "example_sentence": "The leaves fell from the tree.",
+    "level": "B1",
+    "synonyms": [
+      "drop",
+      "descend"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "feel",
+    "cz": "cítit",
+    "explanation": "to experience emotion or sensation",
+    "usage_context": "used in everyday conversation",
+    "example_sentence": "I feel tired.",
+    "level": "B1",
+    "synonyms": [
+      "sense",
+      "experience",
+      "perceive"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fight",
+    "cz": "bojovat",
+    "explanation": "to struggle physically or metaphorically",
+    "usage_context": "used in conflict contexts",
+    "example_sentence": "They fought for their rights.",
+    "level": "B1",
+    "synonyms": [
+      "battle",
+      "struggle",
+      "resist"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fill",
+    "cz": "naplnit",
+    "explanation": "to make something full",
+    "usage_context": "used in containers and forms",
+    "example_sentence": "Fill the bottle with water.",
+    "level": "B1",
+    "synonyms": [
+      "load",
+      "occupy",
+      "pack"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "find",
+    "cz": "najít",
+    "explanation": "to discover something",
+    "usage_context": "used in search contexts",
+    "example_sentence": "She found her keys.",
+    "level": "B1",
+    "synonyms": [
+      "locate",
+      "discover",
+      "identify"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "finish",
+    "cz": "dokončit",
+    "explanation": "to end something",
+    "usage_context": "used in tasks",
+    "example_sentence": "I finished the book.",
+    "level": "B1",
+    "synonyms": [
+      "complete",
+      "conclude",
+      "end"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "follow",
+    "cz": "následovat",
+    "explanation": "to go after someone or something",
+    "usage_context": "used in movement or instructions",
+    "example_sentence": "Follow the instructions carefully.",
+    "level": "B1",
+    "synonyms": [
+      "pursue",
+      "track",
+      "observe"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "forget",
+    "cz": "zapomenout",
+    "explanation": "to fail to remember",
+    "usage_context": "used in memory contexts",
+    "example_sentence": "I forgot his name.",
+    "level": "B1",
+    "synonyms": [
+      "overlook",
+      "lose memory"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "forgive",
+    "cz": "odpustit",
+    "explanation": "to stop feeling angry about something",
+    "usage_context": "used in relationships",
+    "example_sentence": "She forgave him.",
+    "level": "B1",
+    "synonyms": [
+      "pardon",
+      "excuse"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "gain",
+    "cz": "získat",
+    "explanation": "to obtain something valuable",
+    "usage_context": "used in work and progress",
+    "example_sentence": "He gained experience.",
+    "level": "B1",
+    "synonyms": [
+      "acquire",
+      "earn",
+      "obtain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "get",
+    "cz": "dostat; získat",
+    "explanation": "to receive or obtain",
+    "usage_context": "very common verb",
+    "example_sentence": "I got your message.",
+    "level": "B1",
+    "synonyms": [
+      "receive",
+      "obtain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "give",
+    "cz": "dát",
+    "explanation": "to transfer something to someone",
+    "usage_context": "used in everyday exchange",
+    "example_sentence": "She gave him a gift.",
+    "level": "B1",
+    "synonyms": [
+      "provide",
+      "offer",
+      "deliver"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "go",
+    "cz": "jít",
+    "explanation": "to move from one place to another",
+    "usage_context": "basic movement verb",
+    "example_sentence": "We go to work every day.",
+    "level": "B1",
+    "synonyms": [
+      "travel",
+      "move"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "grow",
+    "cz": "růst",
+    "explanation": "to increase in size",
+    "usage_context": "used in nature and development",
+    "example_sentence": "The company grew quickly.",
+    "level": "B1",
+    "synonyms": [
+      "expand",
+      "develop"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "guess",
+    "cz": "hádat",
+    "explanation": "to estimate without certainty",
+    "usage_context": "used in informal conversation",
+    "example_sentence": "I guess he is right.",
+    "level": "B1",
+    "synonyms": [
+      "estimate",
+      "suppose"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "handle",
+    "cz": "zvládnout",
+    "explanation": "to manage something difficult",
+    "usage_context": "used in work contexts",
+    "example_sentence": "She handled the situation well.",
+    "level": "B1",
+    "synonyms": [
+      "manage",
+      "control",
+      "deal with"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "happen",
+    "cz": "stát se",
+    "explanation": "to occur",
+    "usage_context": "used in describing events",
+    "example_sentence": "Something strange happened.",
+    "level": "B1",
+    "synonyms": [
+      "occur",
+      "arise",
+      "take place"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hate",
+    "cz": "nenávidět",
+    "explanation": "to strongly dislike",
+    "usage_context": "used in emotions",
+    "example_sentence": "I hate waiting.",
+    "level": "B1",
+    "synonyms": [
+      "detest",
+      "dislike"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "have",
+    "cz": "mít",
+    "explanation": "to possess",
+    "usage_context": "very common verb",
+    "example_sentence": "I have a car.",
+    "level": "B1",
+    "synonyms": [
+      "own",
+      "possess"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hear",
+    "cz": "slyšet",
+    "explanation": "to perceive sound",
+    "usage_context": "used in senses",
+    "example_sentence": "I heard a noise.",
+    "level": "B1",
+    "synonyms": [
+      "listen",
+      "perceive"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "help",
+    "cz": "pomoci",
+    "explanation": "to assist someone",
+    "usage_context": "used everywhere",
+    "example_sentence": "He helped me solve the problem.",
+    "level": "B1",
+    "synonyms": [
+      "assist",
+      "support",
+      "aid"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hold",
+    "cz": "držet",
+    "explanation": "to keep something in your hands",
+    "usage_context": "used in physical and abstract contexts",
+    "example_sentence": "Hold the ladder.",
+    "level": "B1",
+    "synonyms": [
+      "grip",
+      "grasp",
+      "keep"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hope",
+    "cz": "doufat",
+    "explanation": "to expect something good",
+    "usage_context": "used in emotion and plans",
+    "example_sentence": "I hope you succeed.",
+    "level": "B1",
+    "synonyms": [
+      "wish",
+      "expect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "improve",
+    "cz": "zlepšit",
+    "explanation": "to make something better",
+    "usage_context": "used in progress contexts",
+    "example_sentence": "Practice improves your skills.",
+    "level": "B1",
+    "synonyms": [
+      "enhance",
+      "upgrade",
+      "develop"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "include",
+    "cz": "zahrnovat",
+    "explanation": "to contain as part of something",
+    "usage_context": "used in lists and descriptions",
+    "example_sentence": "The price includes tax.",
+    "level": "B1",
+    "synonyms": [
+      "contain",
+      "involve",
+      "incorporate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "increase",
+    "cz": "zvýšit",
+    "explanation": "to make something larger",
+    "usage_context": "used in statistics and business",
+    "example_sentence": "Sales increased last year.",
+    "level": "B1",
+    "synonyms": [
+      "raise",
+      "grow",
+      "expand"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inform",
+    "cz": "informovat",
+    "explanation": "to tell someone information",
+    "usage_context": "used in formal communication",
+    "example_sentence": "They informed us about the change.",
+    "level": "B1",
+    "synonyms": [
+      "notify",
+      "tell",
+      "report"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "invite",
+    "cz": "pozvat",
+    "explanation": "to ask someone to attend",
+    "usage_context": "used in social situations",
+    "example_sentence": "She invited me to dinner.",
+    "level": "B1",
+    "synonyms": [
+      "ask",
+      "request",
+      "welcome"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "join",
+    "cz": "připojit se",
+    "explanation": "to become part of something",
+    "usage_context": "used in groups and activities",
+    "example_sentence": "He joined the team.",
+    "level": "B1",
+    "synonyms": [
+      "enter",
+      "participate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "keep",
+    "cz": "udržet",
+    "explanation": "to continue having something",
+    "usage_context": "used in many contexts",
+    "example_sentence": "Keep your promises.",
+    "level": "B1",
+    "synonyms": [
+      "maintain",
+      "retain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "know",
+    "cz": "vědět; znát",
+    "explanation": "to have knowledge",
+    "usage_context": "used everywhere",
+    "example_sentence": "I know the answer.",
+    "level": "B1",
+    "synonyms": [
+      "understand",
+      "recognize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "learn",
+    "cz": "učit se",
+    "explanation": "to gain knowledge",
+    "usage_context": "used in education",
+    "example_sentence": "She learns quickly.",
+    "level": "B1",
+    "synonyms": [
+      "study",
+      "acquire"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "leave",
+    "cz": "odejít",
+    "explanation": "to go away from somewhere",
+    "usage_context": "used in travel",
+    "example_sentence": "They left early.",
+    "level": "B1",
+    "synonyms": [
+      "depart",
+      "exit"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "like",
+    "cz": "mít rád",
+    "explanation": "to enjoy something",
+    "usage_context": "used in preferences",
+    "example_sentence": "I like coffee.",
+    "level": "B1",
+    "synonyms": [
+      "enjoy",
+      "appreciate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "listen",
+    "cz": "poslouchat",
+    "explanation": "to pay attention to sound",
+    "usage_context": "used in communication",
+    "example_sentence": "Listen carefully.",
+    "level": "B1",
+    "synonyms": [
+      "hear",
+      "attend"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "live",
+    "cz": "žít",
+    "explanation": "to be alive or reside",
+    "usage_context": "used in life situations",
+    "example_sentence": "They live in Prague.",
+    "level": "B1",
+    "synonyms": [
+      "exist",
+      "reside"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "look",
+    "cz": "dívat se",
+    "explanation": "to direct your eyes",
+    "usage_context": "used in perception",
+    "example_sentence": "Look at the screen.",
+    "level": "B1",
+    "synonyms": [
+      "watch",
+      "observe"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "lose",
+    "cz": "ztratit",
+    "explanation": "to not have something anymore",
+    "usage_context": "used in mistakes or accidents",
+    "example_sentence": "I lost my wallet.",
+    "level": "B1",
+    "synonyms": [
+      "misplace",
+      "drop"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "love",
+    "cz": "milovat",
+    "explanation": "to feel deep affection",
+    "usage_context": "used in emotions",
+    "example_sentence": "She loves music.",
+    "level": "B1",
+    "synonyms": [
+      "adore",
+      "cherish"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "make",
+    "cz": "udělat; vyrobit",
+    "explanation": "to create something",
+    "usage_context": "extremely common",
+    "example_sentence": "Make a plan.",
+    "level": "B1",
+    "synonyms": [
+      "create",
+      "produce"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "manage",
+    "cz": "zvládnout; řídit",
+    "explanation": "to control or succeed",
+    "usage_context": "used in work contexts",
+    "example_sentence": "He manages a team.",
+    "level": "B1",
+    "synonyms": [
+      "handle",
+      "direct"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "meet",
+    "cz": "setkat se",
+    "explanation": "to come together",
+    "usage_context": "used socially",
+    "example_sentence": "We met yesterday.",
+    "level": "B1",
+    "synonyms": [
+      "encounter",
+      "gather"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "move",
+    "cz": "pohnout; přestěhovat",
+    "explanation": "to change position",
+    "usage_context": "used in motion and life changes",
+    "example_sentence": "They moved to another city.",
+    "level": "B1",
+    "synonyms": [
+      "shift",
+      "relocate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "need",
+    "cz": "potřebovat",
+    "explanation": "to require something",
+    "usage_context": "used everywhere",
+    "example_sentence": "I need help.",
+    "level": "B1",
+    "synonyms": [
+      "require",
+      "demand"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "notice",
+    "cz": "všimnout si",
+    "explanation": "to become aware of something",
+    "usage_context": "used in observation",
+    "example_sentence": "She noticed the error.",
+    "level": "B1",
+    "synonyms": [
+      "observe",
+      "detect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "open",
+    "cz": "otevřít",
+    "explanation": "to make something accessible",
+    "usage_context": "used in daily tasks",
+    "example_sentence": "Open the door.",
+    "level": "B1",
+    "synonyms": [
+      "unlock",
+      "uncover"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "order",
+    "cz": "objednat; nařídit",
+    "explanation": "to request goods or give commands",
+    "usage_context": "used in restaurants and authority",
+    "example_sentence": "He ordered a coffee.",
+    "level": "B1",
+    "synonyms": [
+      "request",
+      "command"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "own",
+    "cz": "vlastnit",
+    "explanation": "to possess something",
+    "usage_context": "used in property context",
+    "example_sentence": "She owns a small company.",
+    "level": "B1",
+    "synonyms": [
+      "possess",
+      "have"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "pass",
+    "cz": "projít; podat",
+    "explanation": "to move by something",
+    "usage_context": "used in movement",
+    "example_sentence": "We passed the station.",
+    "level": "B1",
+    "synonyms": [
+      "cross",
+      "go by"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "pay",
+    "cz": "zaplatit",
+    "explanation": "to give money for something",
+    "usage_context": "used in commerce",
+    "example_sentence": "I paid the bill.",
+    "level": "B1",
+    "synonyms": [
+      "spend",
+      "settle"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "play",
+    "cz": "hrát",
+    "explanation": "to take part in a game",
+    "usage_context": "used in sports and music",
+    "example_sentence": "They play football.",
+    "level": "B1",
+    "synonyms": [
+      "perform",
+      "participate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "prepare",
+    "cz": "připravit",
+    "explanation": "to get something ready",
+    "usage_context": "used in planning",
+    "example_sentence": "Prepare the documents.",
+    "level": "B1",
+    "synonyms": [
+      "organize",
+      "arrange"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "present",
+    "cz": "prezentovat",
+    "explanation": "to show something formally",
+    "usage_context": "used in work or school",
+    "example_sentence": "She presented her idea.",
+    "level": "B1",
+    "synonyms": [
+      "show",
+      "demonstrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "protect",
+    "cz": "chránit",
+    "explanation": "to keep safe",
+    "usage_context": "used in safety contexts",
+    "example_sentence": "Protect your data.",
+    "level": "B1",
+    "synonyms": [
+      "defend",
+      "guard"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "prove",
+    "cz": "dokázat",
+    "explanation": "to show that something is true",
+    "usage_context": "used in logic or evidence",
+    "example_sentence": "He proved the theory.",
+    "level": "B1",
+    "synonyms": [
+      "demonstrate",
+      "confirm"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "provide",
+    "cz": "poskytnout",
+    "explanation": "to supply something",
+    "usage_context": "used in services",
+    "example_sentence": "The company provides support.",
+    "level": "B1",
+    "synonyms": [
+      "supply",
+      "give"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reach",
+    "cz": "dosáhnout",
+    "explanation": "to arrive at a place or goal",
+    "usage_context": "used in travel and goals",
+    "example_sentence": "They reached the top.",
+    "level": "B1",
+    "synonyms": [
+      "arrive",
+      "attain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "read",
+    "cz": "číst",
+    "explanation": "to look at written words",
+    "usage_context": "used in education",
+    "example_sentence": "She reads every evening.",
+    "level": "B1",
+    "synonyms": [
+      "study",
+      "review"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "receive",
+    "cz": "obdržet",
+    "explanation": "to get something sent",
+    "usage_context": "used in formal communication",
+    "example_sentence": "I received your email.",
+    "level": "B1",
+    "synonyms": [
+      "get",
+      "obtain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "recognize",
+    "cz": "rozpoznat",
+    "explanation": "to identify something known",
+    "usage_context": "used in memory and perception",
+    "example_sentence": "I recognized his voice.",
+    "level": "B1",
+    "synonyms": [
+      "identify",
+      "recall"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "record",
+    "cz": "zaznamenat",
+    "explanation": "to store information",
+    "usage_context": "used in media and data",
+    "example_sentence": "They recorded the meeting.",
+    "level": "B1",
+    "synonyms": [
+      "document",
+      "capture"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reduce",
+    "cz": "snížit",
+    "explanation": "to make smaller",
+    "usage_context": "used in statistics and planning",
+    "example_sentence": "They reduced costs.",
+    "level": "B1",
+    "synonyms": [
+      "decrease",
+      "lower"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "remember",
+    "cz": "pamatovat si",
+    "explanation": "to keep something in memory",
+    "usage_context": "used in daily life",
+    "example_sentence": "Remember the password.",
+    "level": "B1",
+    "synonyms": [
+      "recall",
+      "retain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "remove",
+    "cz": "odstranit",
+    "explanation": "to take something away",
+    "usage_context": "used in cleaning and editing",
+    "example_sentence": "Remove the file.",
+    "level": "B1",
+    "synonyms": [
+      "delete",
+      "eliminate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "repeat",
+    "cz": "opakovat",
+    "explanation": "to say or do again",
+    "usage_context": "used in learning",
+    "example_sentence": "Repeat the sentence.",
+    "level": "B1",
+    "synonyms": [
+      "redo",
+      "restate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "replace",
+    "cz": "nahradit",
+    "explanation": "to put something instead",
+    "usage_context": "used in repair contexts",
+    "example_sentence": "Replace the battery.",
+    "level": "B1",
+    "synonyms": [
+      "substitute",
+      "change"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "report",
+    "cz": "hlásit; oznámit",
+    "explanation": "to give information formally",
+    "usage_context": "used in news and work",
+    "example_sentence": "Report the problem.",
+    "level": "B1",
+    "synonyms": [
+      "inform",
+      "notify"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "require",
+    "cz": "vyžadovat",
+    "explanation": "to need something officially",
+    "usage_context": "used in rules",
+    "example_sentence": "The job requires experience.",
+    "level": "B1",
+    "synonyms": [
+      "need",
+      "demand"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rest",
+    "cz": "odpočívat",
+    "explanation": "to relax",
+    "usage_context": "used in health contexts",
+    "example_sentence": "You should rest.",
+    "level": "B1",
+    "synonyms": [
+      "relax",
+      "pause"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "return",
+    "cz": "vrátit se",
+    "explanation": "to go back",
+    "usage_context": "used in travel and goods",
+    "example_sentence": "Return the book.",
+    "level": "B1",
+    "synonyms": [
+      "come back",
+      "restore"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "run",
+    "cz": "běžet; řídit",
+    "explanation": "to move fast or operate",
+    "usage_context": "used in sport and business",
+    "example_sentence": "He runs a company.",
+    "level": "B1",
+    "synonyms": [
+      "operate",
+      "manage"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "save",
+    "cz": "uložit; zachránit",
+    "explanation": "to keep something safe",
+    "usage_context": "used in technology and safety",
+    "example_sentence": "Save the document.",
+    "level": "B1",
+    "synonyms": [
+      "store",
+      "protect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "say",
+    "cz": "říci",
+    "explanation": "to speak words",
+    "usage_context": "used everywhere",
+    "example_sentence": "She said hello.",
+    "level": "B1",
+    "synonyms": [
+      "state",
+      "tell"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "search",
+    "cz": "hledat",
+    "explanation": "to look carefully",
+    "usage_context": "used in investigation",
+    "example_sentence": "Search the database.",
+    "level": "B1",
+    "synonyms": [
+      "seek",
+      "explore"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "see",
+    "cz": "vidět",
+    "explanation": "to perceive with eyes",
+    "usage_context": "used in perception",
+    "example_sentence": "I see the problem.",
+    "level": "B1",
+    "synonyms": [
+      "observe",
+      "notice"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sell",
+    "cz": "prodat",
+    "explanation": "to exchange for money",
+    "usage_context": "used in commerce",
+    "example_sentence": "They sell software.",
+    "level": "B1",
+    "synonyms": [
+      "trade",
+      "market"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "send",
+    "cz": "poslat",
+    "explanation": "to cause something to go somewhere",
+    "usage_context": "used in communication",
+    "example_sentence": "Send the email.",
+    "level": "B1",
+    "synonyms": [
+      "dispatch",
+      "transmit"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "serve",
+    "cz": "sloužit; podávat",
+    "explanation": "to provide service",
+    "usage_context": "used in hospitality",
+    "example_sentence": "They served dinner.",
+    "level": "B1",
+    "synonyms": [
+      "provide",
+      "deliver"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "set",
+    "cz": "nastavit",
+    "explanation": "to put in a particular position",
+    "usage_context": "used in configuration",
+    "example_sentence": "Set the timer.",
+    "level": "B1",
+    "synonyms": [
+      "adjust",
+      "arrange"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "show",
+    "cz": "ukázat",
+    "explanation": "to make visible",
+    "usage_context": "used in demonstrations",
+    "example_sentence": "Show me the code.",
+    "level": "B1",
+    "synonyms": [
+      "display",
+      "present"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "solve",
+    "cz": "vyřešit",
+    "explanation": "to find an answer",
+    "usage_context": "used in problems",
+    "example_sentence": "Solve the issue.",
+    "level": "B1",
+    "synonyms": [
+      "fix",
+      "resolve"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "speak",
+    "cz": "mluvit",
+    "explanation": "to use language verbally",
+    "usage_context": "used in communication",
+    "example_sentence": "Speak clearly.",
+    "level": "B1",
+    "synonyms": [
+      "talk",
+      "communicate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "spend",
+    "cz": "utratit; trávit",
+    "explanation": "to use money or time",
+    "usage_context": "used in daily life",
+    "example_sentence": "He spends time learning.",
+    "level": "B1",
+    "synonyms": [
+      "use",
+      "invest"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "start",
+    "cz": "začít",
+    "explanation": "to begin something",
+    "usage_context": "used everywhere",
+    "example_sentence": "Start the engine.",
+    "level": "B1",
+    "synonyms": [
+      "begin",
+      "launch"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stay",
+    "cz": "zůstat",
+    "explanation": "to remain somewhere",
+    "usage_context": "used in travel or states",
+    "example_sentence": "Stay here.",
+    "level": "B1",
+    "synonyms": [
+      "remain",
+      "continue"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stop",
+    "cz": "zastavit",
+    "explanation": "to end movement or action",
+    "usage_context": "used in control",
+    "example_sentence": "Stop the process.",
+    "level": "B1",
+    "synonyms": [
+      "halt",
+      "end"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "study",
+    "cz": "studovat",
+    "explanation": "to learn systematically",
+    "usage_context": "used in education",
+    "example_sentence": "She studies English.",
+    "level": "B1",
+    "synonyms": [
+      "learn",
+      "analyze"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "suggest",
+    "cz": "navrhnout",
+    "explanation": "to propose an idea",
+    "usage_context": "used in meetings",
+    "example_sentence": "I suggest a different approach.",
+    "level": "B1",
+    "synonyms": [
+      "recommend",
+      "propose"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "support",
+    "cz": "podporovat",
+    "explanation": "to help or defend",
+    "usage_context": "used in teams and arguments",
+    "example_sentence": "They support the project.",
+    "level": "B1",
+    "synonyms": [
+      "assist",
+      "back"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "take",
+    "cz": "vzít",
+    "explanation": "to move something with you",
+    "usage_context": "used everywhere",
+    "example_sentence": "Take the document.",
+    "level": "B1",
+    "synonyms": [
+      "grab",
+      "obtain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "talk",
+    "cz": "mluvit",
+    "explanation": "to communicate verbally",
+    "usage_context": "used in everyday communication",
+    "example_sentence": "We talked yesterday.",
+    "level": "B1",
+    "synonyms": [
+      "speak",
+      "discuss"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "teach",
+    "cz": "učit",
+    "explanation": "to help someone learn",
+    "usage_context": "used in education",
+    "example_sentence": "He teaches programming.",
+    "level": "B1",
+    "synonyms": [
+      "instruct",
+      "train"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "tell",
+    "cz": "říct; sdělit",
+    "explanation": "to give information",
+    "usage_context": "used in communication",
+    "example_sentence": "Tell me the truth.",
+    "level": "B1",
+    "synonyms": [
+      "inform",
+      "explain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "think",
+    "cz": "myslet",
+    "explanation": "to use the mind",
+    "usage_context": "used everywhere",
+    "example_sentence": "Think carefully.",
+    "level": "B1",
+    "synonyms": [
+      "consider",
+      "reflect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "try",
+    "cz": "zkusit",
+    "explanation": "to attempt something",
+    "usage_context": "used in effort contexts",
+    "example_sentence": "Try again.",
+    "level": "B1",
+    "synonyms": [
+      "attempt",
+      "test"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "understand",
+    "cz": "rozumět",
+    "explanation": "to know the meaning",
+    "usage_context": "used in learning",
+    "example_sentence": "I understand the problem.",
+    "level": "B1",
+    "synonyms": [
+      "grasp",
+      "comprehend"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "use",
+    "cz": "použít",
+    "explanation": "to employ something",
+    "usage_context": "used everywhere",
+    "example_sentence": "Use the tool.",
+    "level": "B1",
+    "synonyms": [
+      "apply",
+      "utilize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "wait",
+    "cz": "čekat",
+    "explanation": "to stay until something happens",
+    "usage_context": "used in daily life",
+    "example_sentence": "Wait for me.",
+    "level": "B1",
+    "synonyms": [
+      "pause",
+      "remain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "walk",
+    "cz": "chodit",
+    "explanation": "to move on foot",
+    "usage_context": "used in everyday movement",
+    "example_sentence": "We walked home.",
+    "level": "B1",
+    "synonyms": [
+      "stroll",
+      "travel"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "want",
+    "cz": "chtít",
+    "explanation": "to desire something",
+    "usage_context": "used in requests",
+    "example_sentence": "I want coffee.",
+    "level": "B1",
+    "synonyms": [
+      "desire",
+      "wish"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "watch",
+    "cz": "sledovat",
+    "explanation": "to look at carefully",
+    "usage_context": "used in media",
+    "example_sentence": "Watch the screen.",
+    "level": "B1",
+    "synonyms": [
+      "observe",
+      "view"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "win",
+    "cz": "vyhrát",
+    "explanation": "to achieve victory",
+    "usage_context": "used in competition",
+    "example_sentence": "They won the match.",
+    "level": "B1",
+    "synonyms": [
+      "succeed",
+      "triumph"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "work",
+    "cz": "pracovat",
+    "explanation": "to perform a job",
+    "usage_context": "used in employment",
+    "example_sentence": "She works in IT.",
+    "level": "B1",
+    "synonyms": [
+      "labor",
+      "operate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "write",
+    "cz": "psát",
+    "explanation": "to produce text",
+    "usage_context": "used in communication",
+    "example_sentence": "Write the report.",
+    "level": "B1",
+    "synonyms": [
+      "record",
+      "compose"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "analyze",
+    "cz": "analyzovat",
+    "explanation": "to examine something carefully in order to understand it",
+    "usage_context": "academic study, data analysis, problem solving",
+    "example_sentence": "We need to analyze the results of the experiment.",
+    "level": "B2",
+    "synonyms": [
+      "examine",
+      "evaluate",
+      "study",
+      "inspect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "assume",
+    "cz": "předpokládat",
+    "explanation": "to think something is true without complete proof",
+    "usage_context": "reasoning, discussions, research",
+    "example_sentence": "We assumed the system would handle the load.",
+    "level": "B2",
+    "synonyms": [
+      "suppose",
+      "presume",
+      "expect",
+      "infer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "attempt",
+    "cz": "pokusit se",
+    "explanation": "to try to do something difficult",
+    "usage_context": "problem solving, projects, challenges",
+    "example_sentence": "They attempted to solve the issue overnight.",
+    "level": "B2",
+    "synonyms": [
+      "try",
+      "endeavor",
+      "strive",
+      "undertake"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "attribute",
+    "cz": "přičítat",
+    "explanation": "to believe that something is caused by a particular factor",
+    "usage_context": "analysis, explanation of causes",
+    "example_sentence": "She attributes her success to hard work.",
+    "level": "B2",
+    "synonyms": [
+      "assign",
+      "credit",
+      "ascribe"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "balance",
+    "cz": "vyvážit",
+    "explanation": "to keep something stable or equal",
+    "usage_context": "management, planning, finance",
+    "example_sentence": "You must balance work and personal life.",
+    "level": "B2",
+    "synonyms": [
+      "stabilize",
+      "equalize",
+      "adjust"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "benefit",
+    "cz": "mít prospěch",
+    "explanation": "to receive an advantage from something",
+    "usage_context": "business, personal development",
+    "example_sentence": "Many users benefit from the update.",
+    "level": "B2",
+    "synonyms": [
+      "gain",
+      "profit",
+      "advantage"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "capture",
+    "cz": "zachytit",
+    "explanation": "to record or obtain something valuable",
+    "usage_context": "technology, photography, security",
+    "example_sentence": "The system captures user activity.",
+    "level": "B2",
+    "synonyms": [
+      "record",
+      "seize",
+      "collect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "clarify",
+    "cz": "objasnit",
+    "explanation": "to make something clearer",
+    "usage_context": "communication, explanation",
+    "example_sentence": "Let me clarify the requirements.",
+    "level": "B2",
+    "synonyms": [
+      "explain",
+      "specify",
+      "illuminate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "combine",
+    "cz": "kombinovat",
+    "explanation": "to join things together",
+    "usage_context": "data processing, cooking, strategy",
+    "example_sentence": "Combine the results into one report.",
+    "level": "B2",
+    "synonyms": [
+      "merge",
+      "unite",
+      "integrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "commit",
+    "cz": "zavázat se",
+    "explanation": "to promise to do something",
+    "usage_context": "projects, responsibilities",
+    "example_sentence": "He committed to finishing the project.",
+    "level": "B2",
+    "synonyms": [
+      "pledge",
+      "dedicate",
+      "promise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "compensate",
+    "cz": "kompenzovat",
+    "explanation": "to make up for something lost",
+    "usage_context": "business, finance",
+    "example_sentence": "The company compensated customers.",
+    "level": "B2",
+    "synonyms": [
+      "offset",
+      "repay",
+      "reimburse"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "compile",
+    "cz": "sestavit",
+    "explanation": "to collect information into a single document",
+    "usage_context": "research, programming",
+    "example_sentence": "They compiled the statistics.",
+    "level": "B2",
+    "synonyms": [
+      "assemble",
+      "collect",
+      "gather"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conclude",
+    "cz": "uzavřít",
+    "explanation": "to reach a decision after thinking",
+    "usage_context": "analysis, reports",
+    "example_sentence": "We concluded the strategy was risky.",
+    "level": "B2",
+    "synonyms": [
+      "decide",
+      "infer",
+      "determine"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conduct",
+    "cz": "provést",
+    "explanation": "to organize and carry out an activity",
+    "usage_context": "research, investigations",
+    "example_sentence": "Scientists conducted a new study.",
+    "level": "B2",
+    "synonyms": [
+      "perform",
+      "carry out",
+      "execute"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "confirm",
+    "cz": "potvrdit",
+    "explanation": "to show something is true",
+    "usage_context": "verification, communication",
+    "example_sentence": "Please confirm your reservation.",
+    "level": "B2",
+    "synonyms": [
+      "verify",
+      "validate",
+      "affirm"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consider",
+    "cz": "zvážit",
+    "explanation": "to think carefully about something",
+    "usage_context": "decision making",
+    "example_sentence": "They considered several options.",
+    "level": "B2",
+    "synonyms": [
+      "evaluate",
+      "examine",
+      "reflect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "construct",
+    "cz": "postavit",
+    "explanation": "to build something complex",
+    "usage_context": "engineering, architecture",
+    "example_sentence": "Engineers constructed the bridge.",
+    "level": "B2",
+    "synonyms": [
+      "build",
+      "assemble",
+      "create"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "contribute",
+    "cz": "přispět",
+    "explanation": "to give something that helps a result",
+    "usage_context": "teamwork, research",
+    "example_sentence": "Many developers contributed to the project.",
+    "level": "B2",
+    "synonyms": [
+      "add",
+      "donate",
+      "provide"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "convert",
+    "cz": "převést",
+    "explanation": "to change something into another form",
+    "usage_context": "technology, finance",
+    "example_sentence": "The tool converts files automatically.",
+    "level": "B2",
+    "synonyms": [
+      "transform",
+      "change",
+      "adapt"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "convince",
+    "cz": "přesvědčit",
+    "explanation": "to make someone believe something",
+    "usage_context": "discussion, negotiation",
+    "example_sentence": "She convinced the team to try it.",
+    "level": "B2",
+    "synonyms": [
+      "persuade",
+      "influence",
+      "assure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cooperate",
+    "cz": "spolupracovat",
+    "explanation": "to work together with others",
+    "usage_context": "teams, diplomacy",
+    "example_sentence": "Teams must cooperate closely.",
+    "level": "B2",
+    "synonyms": [
+      "collaborate",
+      "assist",
+      "coordinate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "coordinate",
+    "cz": "koordinovat",
+    "explanation": "to organize people or activities",
+    "usage_context": "management, planning",
+    "example_sentence": "She coordinated the entire event.",
+    "level": "B2",
+    "synonyms": [
+      "organize",
+      "align",
+      "manage"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "criticize",
+    "cz": "kritizovat",
+    "explanation": "to express disapproval",
+    "usage_context": "reviews, discussions",
+    "example_sentence": "Experts criticized the proposal.",
+    "level": "B2",
+    "synonyms": [
+      "judge",
+      "condemn",
+      "evaluate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "demonstrate",
+    "cz": "demonstrovat; ukázat",
+    "explanation": "to clearly show how something works",
+    "usage_context": "education, presentations",
+    "example_sentence": "He demonstrated the new feature.",
+    "level": "B2",
+    "synonyms": [
+      "illustrate",
+      "display",
+      "present"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "derive",
+    "cz": "odvodit",
+    "explanation": "to obtain something from a source",
+    "usage_context": "analysis, mathematics",
+    "example_sentence": "The formula derives from physics.",
+    "level": "B2",
+    "synonyms": [
+      "obtain",
+      "infer",
+      "extract"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "determine",
+    "cz": "určit",
+    "explanation": "to find out exactly",
+    "usage_context": "science, planning",
+    "example_sentence": "We must determine the cause.",
+    "level": "B2",
+    "synonyms": [
+      "identify",
+      "establish",
+      "decide"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "distinguish",
+    "cz": "rozlišit",
+    "explanation": "to recognize the difference",
+    "usage_context": "analysis, perception",
+    "example_sentence": "It's hard to distinguish the two versions.",
+    "level": "B2",
+    "synonyms": [
+      "differentiate",
+      "separate",
+      "identify"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dominate",
+    "cz": "dominovat",
+    "explanation": "to be the most powerful",
+    "usage_context": "competition, markets",
+    "example_sentence": "The company dominates the market.",
+    "level": "B2",
+    "synonyms": [
+      "control",
+      "lead",
+      "prevail"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "emphasize",
+    "cz": "zdůraznit",
+    "explanation": "to give special importance",
+    "usage_context": "presentations, writing",
+    "example_sentence": "The teacher emphasized safety.",
+    "level": "B2",
+    "synonyms": [
+      "stress",
+      "highlight",
+      "underline"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "encounter",
+    "cz": "narazit na",
+    "explanation": "to meet unexpectedly",
+    "usage_context": "work, travel",
+    "example_sentence": "We encountered a technical problem.",
+    "level": "B2",
+    "synonyms": [
+      "meet",
+      "face",
+      "experience"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "enhance",
+    "cz": "zlepšit",
+    "explanation": "to improve quality or value",
+    "usage_context": "technology, business",
+    "example_sentence": "The update enhances performance.",
+    "level": "B2",
+    "synonyms": [
+      "improve",
+      "boost",
+      "upgrade"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ensure",
+    "cz": "zajistit",
+    "explanation": "to make certain something happens",
+    "usage_context": "process control, safety",
+    "example_sentence": "Ensure all files are backed up.",
+    "level": "B2",
+    "synonyms": [
+      "guarantee",
+      "secure",
+      "confirm"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "establish",
+    "cz": "založit; stanovit",
+    "explanation": "to create something stable",
+    "usage_context": "business, research",
+    "example_sentence": "They established a new company.",
+    "level": "B2",
+    "synonyms": [
+      "create",
+      "found",
+      "institute"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "evaluate",
+    "cz": "vyhodnotit",
+    "explanation": "to judge quality or value",
+    "usage_context": "analysis, decision making",
+    "example_sentence": "Evaluate the data carefully.",
+    "level": "B2",
+    "synonyms": [
+      "assess",
+      "judge",
+      "review"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "expand",
+    "cz": "rozšířit",
+    "explanation": "to make something larger",
+    "usage_context": "business, geography",
+    "example_sentence": "The company plans to expand.",
+    "level": "B2",
+    "synonyms": [
+      "grow",
+      "enlarge",
+      "extend"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "exploit",
+    "cz": "využít",
+    "explanation": "to use something fully",
+    "usage_context": "business strategy",
+    "example_sentence": "They exploited the opportunity.",
+    "level": "B2",
+    "synonyms": [
+      "utilize",
+      "leverage",
+      "use"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "facilitate",
+    "cz": "usnadnit",
+    "explanation": "to make something easier",
+    "usage_context": "management, education",
+    "example_sentence": "Technology facilitates communication.",
+    "level": "B2",
+    "synonyms": [
+      "ease",
+      "assist",
+      "simplify"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "generate",
+    "cz": "vytvořit",
+    "explanation": "to produce something",
+    "usage_context": "technology, science",
+    "example_sentence": "The system generates reports.",
+    "level": "B2",
+    "synonyms": [
+      "produce",
+      "create",
+      "yield"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "identify",
+    "cz": "identifikovat",
+    "explanation": "to recognize something",
+    "usage_context": "investigation, analysis",
+    "example_sentence": "We identified the problem.",
+    "level": "B2",
+    "synonyms": [
+      "recognize",
+      "detect",
+      "determine"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "illustrate",
+    "cz": "ilustrovat",
+    "explanation": "to explain with examples",
+    "usage_context": "education, writing",
+    "example_sentence": "The diagram illustrates the process.",
+    "level": "B2",
+    "synonyms": [
+      "explain",
+      "demonstrate",
+      "depict"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "implement",
+    "cz": "implementovat",
+    "explanation": "to put a plan into action",
+    "usage_context": "projects, management",
+    "example_sentence": "They implemented the new policy.",
+    "level": "B2",
+    "synonyms": [
+      "execute",
+      "apply",
+      "enforce"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "indicate",
+    "cz": "naznačit",
+    "explanation": "to show or point out",
+    "usage_context": "data, communication",
+    "example_sentence": "The graph indicates growth.",
+    "level": "B2",
+    "synonyms": [
+      "show",
+      "suggest",
+      "reveal"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "influence",
+    "cz": "ovlivnit",
+    "explanation": "to affect someone's decisions",
+    "usage_context": "social, politics",
+    "example_sentence": "Media influences opinions.",
+    "level": "B2",
+    "synonyms": [
+      "affect",
+      "shape",
+      "impact"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "initiate",
+    "cz": "zahájit",
+    "explanation": "to begin something formally",
+    "usage_context": "projects, research",
+    "example_sentence": "The company initiated the program.",
+    "level": "B2",
+    "synonyms": [
+      "start",
+      "launch",
+      "commence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "integrate",
+    "cz": "integrovat",
+    "explanation": "to combine into a whole",
+    "usage_context": "technology, society",
+    "example_sentence": "They integrated the new system.",
+    "level": "B2",
+    "synonyms": [
+      "combine",
+      "merge",
+      "unify"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "interpret",
+    "cz": "interpretovat",
+    "explanation": "to explain meaning",
+    "usage_context": "analysis, art",
+    "example_sentence": "Experts interpret the data.",
+    "level": "B2",
+    "synonyms": [
+      "explain",
+      "analyze",
+      "understand"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "maintain",
+    "cz": "udržovat",
+    "explanation": "to keep something working",
+    "usage_context": "systems, habits",
+    "example_sentence": "Maintain the equipment regularly.",
+    "level": "B2",
+    "synonyms": [
+      "preserve",
+      "sustain",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "monitor",
+    "cz": "sledovat",
+    "explanation": "to watch carefully over time",
+    "usage_context": "security, IT",
+    "example_sentence": "Engineers monitor the network.",
+    "level": "B2",
+    "synonyms": [
+      "observe",
+      "track",
+      "supervise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "negotiate",
+    "cz": "vyjednávat",
+    "explanation": "to discuss terms",
+    "usage_context": "business, diplomacy",
+    "example_sentence": "They negotiated the contract.",
+    "level": "B2",
+    "synonyms": [
+      "discuss",
+      "bargain",
+      "settle"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "optimize",
+    "cz": "optimalizovat",
+    "explanation": "to make as effective as possible",
+    "usage_context": "technology, business",
+    "example_sentence": "Developers optimize the code.",
+    "level": "B2",
+    "synonyms": [
+      "improve",
+      "refine",
+      "enhance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "outline",
+    "cz": "nastínit",
+    "explanation": "to give a general description",
+    "usage_context": "planning, presentations",
+    "example_sentence": "She outlined the strategy.",
+    "level": "B2",
+    "synonyms": [
+      "summarize",
+      "sketch",
+      "describe"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "overcome",
+    "cz": "překonat",
+    "explanation": "to succeed despite difficulty",
+    "usage_context": "challenges, personal growth",
+    "example_sentence": "He overcame many obstacles.",
+    "level": "B2",
+    "synonyms": [
+      "defeat",
+      "conquer",
+      "surpass"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "participate",
+    "cz": "účastnit se",
+    "explanation": "to take part in something",
+    "usage_context": "events, teamwork",
+    "example_sentence": "Students participate actively.",
+    "level": "B2",
+    "synonyms": [
+      "join",
+      "engage",
+      "attend"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "perceive",
+    "cz": "vnímat",
+    "explanation": "to notice something using senses",
+    "usage_context": "psychology, observation",
+    "example_sentence": "People perceive colors differently.",
+    "level": "B2",
+    "synonyms": [
+      "sense",
+      "notice",
+      "observe"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "predict",
+    "cz": "předpovědět",
+    "explanation": "to say what will happen",
+    "usage_context": "science, economics",
+    "example_sentence": "Experts predicted growth.",
+    "level": "B2",
+    "synonyms": [
+      "forecast",
+      "anticipate",
+      "expect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "prioritize",
+    "cz": "upřednostnit",
+    "explanation": "to arrange by importance",
+    "usage_context": "management, planning",
+    "example_sentence": "You must prioritize tasks.",
+    "level": "B2",
+    "synonyms": [
+      "rank",
+      "organize",
+      "focus"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "promote",
+    "cz": "podporovat; propagovat",
+    "explanation": "to support development",
+    "usage_context": "marketing, leadership",
+    "example_sentence": "They promote innovation.",
+    "level": "B2",
+    "synonyms": [
+      "encourage",
+      "advertise",
+      "advance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "propose",
+    "cz": "navrhnout",
+    "explanation": "to suggest an idea",
+    "usage_context": "meetings, planning",
+    "example_sentence": "He proposed a new solution.",
+    "level": "B2",
+    "synonyms": [
+      "suggest",
+      "recommend",
+      "offer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "pursue",
+    "cz": "usilovat o",
+    "explanation": "to continue trying to achieve something",
+    "usage_context": "career, goals",
+    "example_sentence": "She pursued a research career.",
+    "level": "B2",
+    "synonyms": [
+      "seek",
+      "chase",
+      "follow"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "recognize",
+    "cz": "rozpoznat",
+    "explanation": "to identify something known",
+    "usage_context": "perception, learning",
+    "example_sentence": "I recognized the pattern.",
+    "level": "B2",
+    "synonyms": [
+      "identify",
+      "acknowledge",
+      "detect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "recommend",
+    "cz": "doporučit",
+    "explanation": "to suggest something good",
+    "usage_context": "advice, reviews",
+    "example_sentence": "I recommend this book.",
+    "level": "B2",
+    "synonyms": [
+      "suggest",
+      "advise",
+      "endorse"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reflect",
+    "cz": "odrážet; přemýšlet",
+    "explanation": "to think deeply or show an image",
+    "usage_context": "thinking, physics",
+    "example_sentence": "The results reflect reality.",
+    "level": "B2",
+    "synonyms": [
+      "consider",
+      "mirror",
+      "represent"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reinforce",
+    "cz": "posílit",
+    "explanation": "to strengthen something",
+    "usage_context": "structures, ideas",
+    "example_sentence": "Training reinforces skills.",
+    "level": "B2",
+    "synonyms": [
+      "strengthen",
+      "support",
+      "boost"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reject",
+    "cz": "odmítnout",
+    "explanation": "to refuse something",
+    "usage_context": "decisions, proposals",
+    "example_sentence": "They rejected the offer.",
+    "level": "B2",
+    "synonyms": [
+      "refuse",
+      "decline",
+      "dismiss"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rely",
+    "cz": "spoléhat",
+    "explanation": "to depend on someone or something",
+    "usage_context": "relationships, systems",
+    "example_sentence": "We rely on accurate data.",
+    "level": "B2",
+    "synonyms": [
+      "depend",
+      "trust",
+      "count"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "resolve",
+    "cz": "vyřešit",
+    "explanation": "to solve a problem",
+    "usage_context": "conflict resolution",
+    "example_sentence": "They resolved the conflict.",
+    "level": "B2",
+    "synonyms": [
+      "solve",
+      "settle",
+      "fix"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "retain",
+    "cz": "uchovat",
+    "explanation": "to keep something",
+    "usage_context": "business, memory",
+    "example_sentence": "The company retained customers.",
+    "level": "B2",
+    "synonyms": [
+      "keep",
+      "preserve",
+      "maintain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reveal",
+    "cz": "odhalit",
+    "explanation": "to make something known",
+    "usage_context": "investigation, storytelling",
+    "example_sentence": "The report revealed corruption.",
+    "level": "B2",
+    "synonyms": [
+      "expose",
+      "disclose",
+      "uncover"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "simulate",
+    "cz": "simulovat",
+    "explanation": "to imitate a situation",
+    "usage_context": "science, training",
+    "example_sentence": "They simulated the environment.",
+    "level": "B2",
+    "synonyms": [
+      "imitate",
+      "model",
+      "replicate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "specify",
+    "cz": "upřesnit",
+    "explanation": "to clearly state details",
+    "usage_context": "instructions, documentation",
+    "example_sentence": "Specify the parameters.",
+    "level": "B2",
+    "synonyms": [
+      "define",
+      "state",
+      "clarify"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stabilize",
+    "cz": "stabilizovat",
+    "explanation": "to make something stable",
+    "usage_context": "economics, engineering",
+    "example_sentence": "Policies stabilized the market.",
+    "level": "B2",
+    "synonyms": [
+      "secure",
+      "steady",
+      "balance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "strengthen",
+    "cz": "posílit",
+    "explanation": "to make stronger",
+    "usage_context": "skills, structures",
+    "example_sentence": "Exercise strengthens muscles.",
+    "level": "B2",
+    "synonyms": [
+      "reinforce",
+      "fortify",
+      "improve"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "summarize",
+    "cz": "shrnou",
+    "explanation": "to express main points",
+    "usage_context": "reports, communication",
+    "example_sentence": "Please summarize the article.",
+    "level": "B2",
+    "synonyms": [
+      "outline",
+      "condense",
+      "recap"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sustain",
+    "cz": "udržet",
+    "explanation": "to keep something going",
+    "usage_context": "economy, environment",
+    "example_sentence": "The plan sustains growth.",
+    "level": "B2",
+    "synonyms": [
+      "maintain",
+      "support",
+      "continue"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "transform",
+    "cz": "proměnit",
+    "explanation": "to change dramatically",
+    "usage_context": "technology, society",
+    "example_sentence": "AI transforms industries.",
+    "level": "B2",
+    "synonyms": [
+      "convert",
+      "change",
+      "evolve"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "trigger",
+    "cz": "spustit",
+    "explanation": "to cause something to start",
+    "usage_context": "technology, psychology",
+    "example_sentence": "The event triggered an alert.",
+    "level": "B2",
+    "synonyms": [
+      "activate",
+      "start",
+      "initiate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "validate",
+    "cz": "ověřit",
+    "explanation": "to prove correctness",
+    "usage_context": "science, systems",
+    "example_sentence": "Tests validate the model.",
+    "level": "B2",
+    "synonyms": [
+      "verify",
+      "confirm",
+      "prove"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "abandon",
+    "cz": "opustit; vzdát se",
+    "explanation": "to leave something permanently or stop supporting it",
+    "usage_context": "formal writing, projects, strategies",
+    "example_sentence": "The company abandoned the outdated platform.",
+    "level": "C1",
+    "synonyms": [
+      "desert",
+      "leave",
+      "relinquish",
+      "discard"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accelerate",
+    "cz": "urychlit",
+    "explanation": "to increase the speed of something",
+    "usage_context": "technology, economics, science",
+    "example_sentence": "Automation accelerated the production process.",
+    "level": "C1",
+    "synonyms": [
+      "speed up",
+      "hasten",
+      "advance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accommodate",
+    "cz": "přizpůsobit se; ubytovat",
+    "explanation": "to adjust to new conditions or provide space for someone",
+    "usage_context": "business, travel, negotiation",
+    "example_sentence": "The system accommodates multiple users.",
+    "level": "C1",
+    "synonyms": [
+      "adapt",
+      "adjust",
+      "host",
+      "house"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accumulate",
+    "cz": "nahromadit",
+    "explanation": "to gradually gather or collect something",
+    "usage_context": "finance, research, data",
+    "example_sentence": "Over time the company accumulated large profits.",
+    "level": "C1",
+    "synonyms": [
+      "gather",
+      "collect",
+      "build up"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "acknowledge",
+    "cz": "uznat; potvrdit",
+    "explanation": "to accept that something is true or exists",
+    "usage_context": "formal communication, reports",
+    "example_sentence": "He acknowledged the limitations of the study.",
+    "level": "C1",
+    "synonyms": [
+      "recognize",
+      "admit",
+      "accept"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adapt",
+    "cz": "přizpůsobit",
+    "explanation": "to change something to suit new conditions",
+    "usage_context": "technology, culture",
+    "example_sentence": "Companies must adapt to market changes.",
+    "level": "C1",
+    "synonyms": [
+      "adjust",
+      "modify",
+      "alter"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "administer",
+    "cz": "spravovat; řídit",
+    "explanation": "to manage or organize something officially",
+    "usage_context": "organizations, government",
+    "example_sentence": "She administers the research program.",
+    "level": "C1",
+    "synonyms": [
+      "manage",
+      "govern",
+      "supervise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "advocate",
+    "cz": "prosazovat",
+    "explanation": "to publicly support an idea or policy",
+    "usage_context": "politics, social issues",
+    "example_sentence": "Experts advocate stronger regulations.",
+    "level": "C1",
+    "synonyms": [
+      "support",
+      "promote",
+      "endorse"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "allocate",
+    "cz": "přidělit",
+    "explanation": "to distribute resources for a purpose",
+    "usage_context": "management, budgeting",
+    "example_sentence": "Funds were allocated to research.",
+    "level": "C1",
+    "synonyms": [
+      "assign",
+      "distribute",
+      "allot"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "anticipate",
+    "cz": "předvídat",
+    "explanation": "to expect something before it happens",
+    "usage_context": "planning, strategy",
+    "example_sentence": "We anticipated strong demand.",
+    "level": "C1",
+    "synonyms": [
+      "predict",
+      "foresee",
+      "expect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "articulate",
+    "cz": "jasně vyjádřit",
+    "explanation": "to express an idea clearly",
+    "usage_context": "academic, professional communication",
+    "example_sentence": "She articulated the problem precisely.",
+    "level": "C1",
+    "synonyms": [
+      "express",
+      "formulate",
+      "convey"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "assert",
+    "cz": "tvrdit",
+    "explanation": "to state something confidently",
+    "usage_context": "arguments, debates",
+    "example_sentence": "He asserted his independence.",
+    "level": "C1",
+    "synonyms": [
+      "declare",
+      "claim",
+      "state"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "assess",
+    "cz": "posoudit",
+    "explanation": "to evaluate the nature or quality of something",
+    "usage_context": "analysis, education",
+    "example_sentence": "Researchers assessed the risks.",
+    "level": "C1",
+    "synonyms": [
+      "evaluate",
+      "judge",
+      "estimate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "attain",
+    "cz": "dosáhnout",
+    "explanation": "to succeed in achieving something difficult",
+    "usage_context": "career, education",
+    "example_sentence": "She attained a high level of expertise.",
+    "level": "C1",
+    "synonyms": [
+      "achieve",
+      "reach",
+      "accomplish"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "authorize",
+    "cz": "pověřit; schválit",
+    "explanation": "to officially allow something",
+    "usage_context": "law, administration",
+    "example_sentence": "Managers authorized the purchase.",
+    "level": "C1",
+    "synonyms": [
+      "permit",
+      "approve",
+      "sanction"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "bolster",
+    "cz": "posílit",
+    "explanation": "to strengthen support or resources",
+    "usage_context": "politics, strategy",
+    "example_sentence": "New policies bolstered the economy.",
+    "level": "C1",
+    "synonyms": [
+      "strengthen",
+      "reinforce",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cease",
+    "cz": "přestat",
+    "explanation": "to stop doing something",
+    "usage_context": "formal contexts",
+    "example_sentence": "Operations ceased immediately.",
+    "level": "C1",
+    "synonyms": [
+      "stop",
+      "halt",
+      "discontinue"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "circulate",
+    "cz": "kolovat; šířit",
+    "explanation": "to move continuously within a system",
+    "usage_context": "economics, communication",
+    "example_sentence": "Information circulated rapidly.",
+    "level": "C1",
+    "synonyms": [
+      "spread",
+      "distribute",
+      "flow"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "collaborate",
+    "cz": "spolupracovat",
+    "explanation": "to work jointly with others",
+    "usage_context": "science, projects",
+    "example_sentence": "Researchers collaborated internationally.",
+    "level": "C1",
+    "synonyms": [
+      "cooperate",
+      "partner",
+      "coordinate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "compel",
+    "cz": "přinutit",
+    "explanation": "to force someone to do something",
+    "usage_context": "law, argumentation",
+    "example_sentence": "Evidence compelled the jury to reconsider.",
+    "level": "C1",
+    "synonyms": [
+      "force",
+      "oblige",
+      "pressure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "comprise",
+    "cz": "skládat se z",
+    "explanation": "to consist of something",
+    "usage_context": "formal descriptions",
+    "example_sentence": "The committee comprises five members.",
+    "level": "C1",
+    "synonyms": [
+      "include",
+      "contain",
+      "consist of"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conceive",
+    "cz": "představit si; vymyslet",
+    "explanation": "to form an idea in the mind",
+    "usage_context": "innovation, planning",
+    "example_sentence": "They conceived a new design.",
+    "level": "C1",
+    "synonyms": [
+      "imagine",
+      "envision",
+      "devise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "constrain",
+    "cz": "omezit",
+    "explanation": "to restrict something",
+    "usage_context": "policy, design",
+    "example_sentence": "Budget limits constrained development.",
+    "level": "C1",
+    "synonyms": [
+      "restrict",
+      "limit",
+      "confine"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consult",
+    "cz": "konzultovat",
+    "explanation": "to seek professional advice",
+    "usage_context": "business, medicine",
+    "example_sentence": "She consulted a specialist.",
+    "level": "C1",
+    "synonyms": [
+      "seek advice",
+      "discuss"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "contemplate",
+    "cz": "uvažovat",
+    "explanation": "to consider something carefully",
+    "usage_context": "reflection, planning",
+    "example_sentence": "They contemplated expansion.",
+    "level": "C1",
+    "synonyms": [
+      "consider",
+      "ponder",
+      "reflect"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "contradict",
+    "cz": "odporovat",
+    "explanation": "to express the opposite of something",
+    "usage_context": "logic, debates",
+    "example_sentence": "The results contradict earlier findings.",
+    "level": "C1",
+    "synonyms": [
+      "oppose",
+      "deny",
+      "dispute"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "convey",
+    "cz": "sdělit; přenést",
+    "explanation": "to communicate or transport something",
+    "usage_context": "communication, logistics",
+    "example_sentence": "The report conveys important insights.",
+    "level": "C1",
+    "synonyms": [
+      "communicate",
+      "transmit"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cultivate",
+    "cz": "pěstovat; rozvíjet",
+    "explanation": "to develop a skill or relationship",
+    "usage_context": "education, agriculture",
+    "example_sentence": "She cultivated strong partnerships.",
+    "level": "C1",
+    "synonyms": [
+      "develop",
+      "foster",
+      "grow"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "defer",
+    "cz": "odložit",
+    "explanation": "to delay something until later",
+    "usage_context": "formal planning",
+    "example_sentence": "The decision was deferred.",
+    "level": "C1",
+    "synonyms": [
+      "postpone",
+      "delay"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "depict",
+    "cz": "zobrazit",
+    "explanation": "to represent something visually or in words",
+    "usage_context": "art, literature",
+    "example_sentence": "The film depicts historical events.",
+    "level": "C1",
+    "synonyms": [
+      "portray",
+      "illustrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "derive",
+    "cz": "odvodit",
+    "explanation": "to obtain from a source",
+    "usage_context": "analysis, mathematics",
+    "example_sentence": "Many terms derive from Latin.",
+    "level": "C1",
+    "synonyms": [
+      "obtain",
+      "infer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "designate",
+    "cz": "určit; označit",
+    "explanation": "to assign a role or purpose",
+    "usage_context": "management, administration",
+    "example_sentence": "The building was designated a monument.",
+    "level": "C1",
+    "synonyms": [
+      "assign",
+      "appoint"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "diminish",
+    "cz": "zmenšit",
+    "explanation": "to reduce in size or importance",
+    "usage_context": "economics, perception",
+    "example_sentence": "Confidence diminished quickly.",
+    "level": "C1",
+    "synonyms": [
+      "decrease",
+      "reduce"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "disclose",
+    "cz": "odhalit",
+    "explanation": "to reveal information",
+    "usage_context": "legal, corporate",
+    "example_sentence": "The company disclosed financial data.",
+    "level": "C1",
+    "synonyms": [
+      "reveal",
+      "expose"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "disrupt",
+    "cz": "narušit",
+    "explanation": "to interrupt normal operations",
+    "usage_context": "technology, business",
+    "example_sentence": "The outage disrupted services.",
+    "level": "C1",
+    "synonyms": [
+      "disturb",
+      "interrupt"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "divert",
+    "cz": "odklonit",
+    "explanation": "to redirect something",
+    "usage_context": "transport, attention",
+    "example_sentence": "Traffic was diverted.",
+    "level": "C1",
+    "synonyms": [
+      "redirect",
+      "shift"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "eliminate",
+    "cz": "eliminovat",
+    "explanation": "to remove completely",
+    "usage_context": "science, policy",
+    "example_sentence": "The update eliminated bugs.",
+    "level": "C1",
+    "synonyms": [
+      "remove",
+      "eradicate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "embody",
+    "cz": "ztělesňovat",
+    "explanation": "to represent an idea fully",
+    "usage_context": "philosophy, literature",
+    "example_sentence": "The design embodies simplicity.",
+    "level": "C1",
+    "synonyms": [
+      "represent",
+      "express"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "enforce",
+    "cz": "vynutit",
+    "explanation": "to ensure compliance with rules",
+    "usage_context": "law, regulation",
+    "example_sentence": "Authorities enforce regulations.",
+    "level": "C1",
+    "synonyms": [
+      "apply",
+      "impose"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "enhance",
+    "cz": "zlepšit",
+    "explanation": "to increase quality",
+    "usage_context": "technology, design",
+    "example_sentence": "New tools enhance productivity.",
+    "level": "C1",
+    "synonyms": [
+      "improve",
+      "strengthen"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "entail",
+    "cz": "obnášet",
+    "explanation": "to involve something as a necessary part",
+    "usage_context": "formal discussion",
+    "example_sentence": "The role entails responsibility.",
+    "level": "C1",
+    "synonyms": [
+      "involve",
+      "require"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "evoke",
+    "cz": "vyvolat",
+    "explanation": "to bring a feeling or memory",
+    "usage_context": "literature, psychology",
+    "example_sentence": "The music evokes nostalgia.",
+    "level": "C1",
+    "synonyms": [
+      "trigger",
+      "provoke"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "exert",
+    "cz": "vyvinout (úsilí)",
+    "explanation": "to apply force or influence",
+    "usage_context": "science, effort",
+    "example_sentence": "They exerted pressure on the system.",
+    "level": "C1",
+    "synonyms": [
+      "apply",
+      "exercise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "facilitate",
+    "cz": "usnadnit",
+    "explanation": "to make a process easier",
+    "usage_context": "management, education",
+    "example_sentence": "Technology facilitates collaboration.",
+    "level": "C1",
+    "synonyms": [
+      "ease",
+      "assist"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "formulate",
+    "cz": "formulovat",
+    "explanation": "to express systematically",
+    "usage_context": "science, strategy",
+    "example_sentence": "Researchers formulated a hypothesis.",
+    "level": "C1",
+    "synonyms": [
+      "develop",
+      "devise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "foster",
+    "cz": "podporovat",
+    "explanation": "to encourage development",
+    "usage_context": "education, policy",
+    "example_sentence": "Programs foster innovation.",
+    "level": "C1",
+    "synonyms": [
+      "encourage",
+      "promote"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hinder",
+    "cz": "bránit",
+    "explanation": "to make progress difficult",
+    "usage_context": "projects, research",
+    "example_sentence": "Lack of funding hindered progress.",
+    "level": "C1",
+    "synonyms": [
+      "obstruct",
+      "impede"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "implement",
+    "cz": "implementovat",
+    "explanation": "to put a plan into effect",
+    "usage_context": "management, technology",
+    "example_sentence": "They implemented a new system.",
+    "level": "C1",
+    "synonyms": [
+      "execute",
+      "apply"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "incorporate",
+    "cz": "začlenit",
+    "explanation": "to include as part of something",
+    "usage_context": "business, design",
+    "example_sentence": "The plan incorporates feedback.",
+    "level": "C1",
+    "synonyms": [
+      "include",
+      "integrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "induce",
+    "cz": "vyvolat",
+    "explanation": "to cause something",
+    "usage_context": "science, medicine",
+    "example_sentence": "The drug induces sleep.",
+    "level": "C1",
+    "synonyms": [
+      "cause",
+      "trigger"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inhibit",
+    "cz": "potlačit",
+    "explanation": "to restrain or limit something",
+    "usage_context": "biology, psychology",
+    "example_sentence": "Fear inhibited creativity.",
+    "level": "C1",
+    "synonyms": [
+      "restrict",
+      "suppress"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "initiate",
+    "cz": "zahájit",
+    "explanation": "to begin something formally",
+    "usage_context": "projects, science",
+    "example_sentence": "The company initiated negotiations.",
+    "level": "C1",
+    "synonyms": [
+      "launch",
+      "start"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "integrate",
+    "cz": "integrovat",
+    "explanation": "to combine parts into a whole",
+    "usage_context": "technology, society",
+    "example_sentence": "Systems were integrated successfully.",
+    "level": "C1",
+    "synonyms": [
+      "combine",
+      "merge"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "mediate",
+    "cz": "zprostředkovat",
+    "explanation": "to help resolve conflict",
+    "usage_context": "diplomacy, law",
+    "example_sentence": "A lawyer mediated the dispute.",
+    "level": "C1",
+    "synonyms": [
+      "negotiate",
+      "arbitrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "mitigate",
+    "cz": "zmírnit",
+    "explanation": "to reduce severity",
+    "usage_context": "risk management",
+    "example_sentence": "Measures mitigated the damage.",
+    "level": "C1",
+    "synonyms": [
+      "alleviate",
+      "reduce"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "mobilize",
+    "cz": "mobilizovat",
+    "explanation": "to organize resources",
+    "usage_context": "politics, military",
+    "example_sentence": "Volunteers mobilized quickly.",
+    "level": "C1",
+    "synonyms": [
+      "organize",
+      "rally"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "modify",
+    "cz": "upravit",
+    "explanation": "to change slightly",
+    "usage_context": "engineering, design",
+    "example_sentence": "Engineers modified the design.",
+    "level": "C1",
+    "synonyms": [
+      "adjust",
+      "alter"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "navigate",
+    "cz": "orientovat se",
+    "explanation": "to find a way through complex situations",
+    "usage_context": "technology, travel",
+    "example_sentence": "He navigated the system easily.",
+    "level": "C1",
+    "synonyms": [
+      "steer",
+      "guide"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "optimize",
+    "cz": "optimalizovat",
+    "explanation": "to make as effective as possible",
+    "usage_context": "technology, engineering",
+    "example_sentence": "Developers optimized performance.",
+    "level": "C1",
+    "synonyms": [
+      "improve",
+      "refine"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "perpetuate",
+    "cz": "udržovat (negativní stav)",
+    "explanation": "to cause something to continue",
+    "usage_context": "social issues",
+    "example_sentence": "Policies perpetuate inequality.",
+    "level": "C1",
+    "synonyms": [
+      "maintain",
+      "sustain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "prioritize",
+    "cz": "stanovit priority",
+    "explanation": "to rank by importance",
+    "usage_context": "management",
+    "example_sentence": "Leaders prioritize tasks carefully.",
+    "level": "C1",
+    "synonyms": [
+      "rank",
+      "organize"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "procure",
+    "cz": "obstarat",
+    "explanation": "to obtain something officially",
+    "usage_context": "business, procurement",
+    "example_sentence": "They procured new equipment.",
+    "level": "C1",
+    "synonyms": [
+      "acquire",
+      "obtain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reinforce",
+    "cz": "posílit",
+    "explanation": "to strengthen something",
+    "usage_context": "education, engineering",
+    "example_sentence": "Training reinforced skills.",
+    "level": "C1",
+    "synonyms": [
+      "strengthen",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "relinquish",
+    "cz": "vzdát se",
+    "explanation": "to give up something voluntarily",
+    "usage_context": "formal contexts",
+    "example_sentence": "He relinquished control.",
+    "level": "C1",
+    "synonyms": [
+      "surrender",
+      "abandon"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "scrutinize",
+    "cz": "pečlivě zkoumat",
+    "explanation": "to examine very closely",
+    "usage_context": "research, auditing",
+    "example_sentence": "Auditors scrutinized the accounts.",
+    "level": "C1",
+    "synonyms": [
+      "inspect",
+      "analyze"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stimulate",
+    "cz": "stimulovat",
+    "explanation": "to encourage activity",
+    "usage_context": "economics, science",
+    "example_sentence": "Policies stimulate growth.",
+    "level": "C1",
+    "synonyms": [
+      "encourage",
+      "trigger"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "substantiate",
+    "cz": "podložit důkazy",
+    "explanation": "to provide evidence",
+    "usage_context": "legal, research",
+    "example_sentence": "Data substantiated the claim.",
+    "level": "C1",
+    "synonyms": [
+      "confirm",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sustain",
+    "cz": "udržet",
+    "explanation": "to maintain over time",
+    "usage_context": "economics, ecology",
+    "example_sentence": "The strategy sustains growth.",
+    "level": "C1",
+    "synonyms": [
+      "maintain",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "synthesize",
+    "cz": "syntetizovat; spojit",
+    "explanation": "to combine elements into a whole",
+    "usage_context": "research, chemistry",
+    "example_sentence": "Scientists synthesized the results.",
+    "level": "C1",
+    "synonyms": [
+      "combine",
+      "integrate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "undermine",
+    "cz": "podkopat",
+    "explanation": "to weaken gradually",
+    "usage_context": "politics, strategy",
+    "example_sentence": "Rumors undermined trust.",
+    "level": "C1",
+    "synonyms": [
+      "weaken",
+      "erode"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "validate",
+    "cz": "ověřit",
+    "explanation": "to prove correctness",
+    "usage_context": "science, technology",
+    "example_sentence": "Tests validated the model.",
+    "level": "C1",
+    "synonyms": [
+      "verify",
+      "confirm"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "obey",
+    "cz": "uposlechnout; poslouchat",
+    "explanation": "to do what a person, rule, or law tells you to do",
+    "usage_context": "rules, authority, daily life",
+    "example_sentence": "Children do not always obey their parents immediately.",
+    "level": "B2",
+    "synonyms": [
+      "follow",
+      "comply with",
+      "observe"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "flunk",
+    "cz": "propadnout; neuspět",
+    "explanation": "to fail an exam, course, or test",
+    "usage_context": "education, informal speech",
+    "example_sentence": "He flunked the math exam and had to retake it.",
+    "level": "B2",
+    "synonyms": [
+      "fail",
+      "not pass"
+    ],
+    "inserted": "2026-03-13"
+  }
+]

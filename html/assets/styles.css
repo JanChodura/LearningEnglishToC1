@@ -1,0 +1,302 @@
+:root {
+  --bg: #f4efe6;
+  --panel: #fffaf2;
+  --panel-strong: #f0e3cf;
+  --text: #1f1a14;
+  --muted: #6b5d4d;
+  --line: #d7c7b2;
+  --accent: #8f3b2e;
+  --accent-soft: #eac6ad;
+  --shadow: 0 18px 40px rgba(68, 47, 29, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(143, 59, 46, 0.12), transparent 30%),
+    linear-gradient(180deg, #f8f2e8 0%, var(--bg) 100%);
+}
+
+.page {
+  width: min(1500px, calc(100% - 24px));
+  margin: 0 auto;
+  padding: 18px 0 34px;
+}
+
+.hero {
+  padding: 22px;
+  margin-bottom: 14px;
+  background: linear-gradient(135deg, var(--panel) 0%, #f9f0e3 100%);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  line-height: 0.95;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 1.45rem;
+}
+
+.source,
+.json-meta,
+.link-list span,
+.back-link {
+  color: var(--muted);
+}
+
+.panel {
+  margin-bottom: 12px;
+  padding: 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+.top-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.back-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.back-link:hover,
+.link-list a:hover {
+  color: var(--accent);
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.link-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: linear-gradient(180deg, #fffdf8 0%, #fbf4ea 100%);
+}
+
+.link-list a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.json-root {
+  display: grid;
+  gap: 8px;
+}
+
+.word-record-list {
+  display: grid;
+  gap: 10px;
+  max-width: 1100px;
+}
+
+.word-record {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fffaf4;
+}
+
+.word-line {
+  line-height: 1.35;
+}
+
+.word-line + .word-line {
+  margin-top: 5px;
+}
+
+.word-main {
+  font-size: 1.12rem;
+}
+
+.word-main strong {
+  font-weight: 700;
+}
+
+.word-detail {
+  color: var(--text);
+  font-size: 0.94rem;
+}
+
+.word-subdetail {
+  color: var(--text);
+  font-size: 0.86rem;
+}
+
+.word-meta {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.json-node {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fffdf9;
+}
+
+.json-key {
+  margin-bottom: 6px;
+  font-size: 0.92rem;
+  color: var(--accent);
+}
+
+.json-object,
+.json-array {
+  display: grid;
+  gap: 8px;
+}
+
+.json-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 180px) 1fr;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.json-label {
+  font-weight: 700;
+}
+
+.json-value {
+  min-width: 0;
+}
+
+.json-string,
+.json-number,
+.json-boolean,
+.json-null {
+  display: inline-block;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.json-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.json-table {
+  display: grid;
+  column-gap: 0;
+  row-gap: 1px;
+  width: 100%;
+}
+
+.json-head,
+.json-cell {
+  padding: 8px 14px;
+  background: #fffdf9;
+  min-width: 0;
+}
+
+.json-head {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: #f6ecde;
+}
+
+.json-cell {
+  font-size: 0.92rem;
+  border-top: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.json-cell .json-node {
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.json-cell .json-key,
+.json-cell .json-meta {
+  display: none;
+}
+
+.json-cell.is-word {
+  font-weight: 700;
+}
+
+
+.json-error {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .page {
+    width: min(100% - 20px, 100%);
+    padding-top: 10px;
+  }
+
+  .hero,
+  .panel {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .json-row {
+    grid-template-columns: 1fr;
+  }
+
+  .json-table {
+    grid-template-columns: 1fr;
+  }
+
+  .json-head {
+    display: none;
+  }
+
+  .json-cell {
+    border-top: 1px solid var(--line);
+  }
+}

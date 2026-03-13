@@ -1,0 +1,145 @@
+{
+  "grammar": {
+    "name": "past simple regular and irregular verbs",
+    "level": "B1"
+  },
+  "review_errors": [],
+  "lesson": [
+    {
+      "word": "address",
+      "type": "noun",
+      "level": "B1",
+      "context": "communication",
+      "example": "Please write your address here.",
+      "new": "y"
+    },
+    {
+      "word": "advice",
+      "type": "noun",
+      "level": "B1",
+      "context": "communication",
+      "example": "She gave me useful advice.",
+      "new": "y"
+    },
+    {
+      "word": "article",
+      "type": "noun",
+      "level": "B1",
+      "context": "media",
+      "example": "I read an interesting article.",
+      "new": "y"
+    },
+    {
+      "word": "decision",
+      "type": "noun",
+      "level": "B1",
+      "context": "management",
+      "example": "It was a difficult decision.",
+      "new": "y"
+    },
+    {
+      "word": "advise",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in professional and personal guidance",
+      "example": "The doctor advised him to rest.",
+      "new": "y"
+    },
+    {
+      "word": "allow",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in rules and permissions",
+      "example": "The teacher allowed us to leave early.",
+      "new": "y"
+    },
+    {
+      "word": "apply",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in jobs, education, and instructions",
+      "example": "He applied for a new position.",
+      "new": "y"
+    },
+    {
+      "word": "arrive",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in travel and scheduling",
+      "example": "We arrived at the station early.",
+      "new": "y"
+    },
+    {
+      "word": "ability",
+      "type": "noun",
+      "level": "B1",
+      "context": "skills, work, education",
+      "example": "Her ability to solve problems impressed the team.",
+      "new": "n"
+    },
+    {
+      "word": "accept",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in everyday communication, work, and social situations",
+      "example": "She accepted the job offer after thinking about it for a day.",
+      "new": "n"
+    },
+    {
+      "word": "access",
+      "type": "noun",
+      "level": "B1",
+      "context": "technology, services",
+      "example": "Users need access to the database.",
+      "new": "n"
+    },
+    {
+      "word": "account",
+      "type": "noun",
+      "level": "B1",
+      "context": "finance, internet",
+      "example": "I created a new account yesterday.",
+      "new": "n"
+    },
+    {
+      "word": "achieve",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in education, career, and personal goals",
+      "example": "He achieved his goal of running a marathon.",
+      "new": "n"
+    },
+    {
+      "word": "bring up",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "conversation, family",
+      "example": "She brought up an interesting point.",
+      "new": "y"
+    },
+    {
+      "word": "deal with",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "work, problems",
+      "example": "She deals with customer issues.",
+      "new": "y"
+    },
+    {
+      "word": "once in a blue moon",
+      "type": "idiom",
+      "level": "B1",
+      "context": "daily life",
+      "example": "I eat fast food once in a blue moon.",
+      "new": "y"
+    },
+    {
+      "word": "call it a day",
+      "type": "idiom",
+      "level": "B1",
+      "context": "work",
+      "example": "Let's call it a day.",
+      "new": "y"
+    }
+  ]
+}

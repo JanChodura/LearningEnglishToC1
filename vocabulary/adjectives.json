@@ -1,0 +1,5799 @@
+[
+  {
+    "en": "big",
+    "cz": [
+      "velký"
+    ],
+    "explanation": "having a large size",
+    "example_sentence": "They live in a big house.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "large",
+      "huge",
+      "enormous"
+    ],
+    "antonyms": [
+      "small",
+      "tiny"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "small",
+    "cz": [
+      "malý"
+    ],
+    "explanation": "having little size",
+    "example_sentence": "The room is small but comfortable.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "tiny",
+      "little"
+    ],
+    "antonyms": [
+      "big",
+      "large"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "large",
+    "cz": [
+      "velký"
+    ],
+    "explanation": "greater in size than average",
+    "example_sentence": "They bought a large table.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "big",
+      "huge"
+    ],
+    "antonyms": [
+      "small"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "huge",
+    "cz": [
+      "obrovský"
+    ],
+    "explanation": "extremely large in size",
+    "example_sentence": "The company made a huge profit.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "enormous",
+      "massive"
+    ],
+    "antonyms": [
+      "small"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "little",
+    "cz": [
+      "malý"
+    ],
+    "explanation": "small in size or amount",
+    "example_sentence": "She has little experience.",
+    "level": "B1",
+    "strength": 1,
+    "synonyms": [
+      "small",
+      "tiny"
+    ],
+    "antonyms": [
+      "big"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "important",
+    "cz": [
+      "důležitý"
+    ],
+    "explanation": "having great value or influence",
+    "example_sentence": "This is an important decision.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "significant",
+      "essential"
+    ],
+    "antonyms": [
+      "unimportant"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "essential",
+    "cz": [
+      "zásadní"
+    ],
+    "explanation": "absolutely necessary",
+    "example_sentence": "Water is essential for life.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "crucial",
+      "vital"
+    ],
+    "antonyms": [
+      "nonessential"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "basic",
+    "cz": [
+      "základní"
+    ],
+    "explanation": "forming the base level",
+    "example_sentence": "He knows the basic rules.",
+    "level": "B1",
+    "strength": 1,
+    "synonyms": [
+      "simple",
+      "fundamental"
+    ],
+    "antonyms": [
+      "advanced"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "simple",
+    "cz": [
+      "jednoduchý"
+    ],
+    "explanation": "easy to understand",
+    "example_sentence": "The instructions are simple.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "easy",
+      "basic"
+    ],
+    "antonyms": [
+      "complex"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complex",
+    "cz": [
+      "složitý"
+    ],
+    "explanation": "having many parts",
+    "example_sentence": "The system is complex.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "complicated",
+      "intricate"
+    ],
+    "antonyms": [
+      "simple"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complicated",
+    "cz": [
+      "složitý"
+    ],
+    "explanation": "difficult to understand",
+    "example_sentence": "The situation is complicated.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "complex",
+      "difficult"
+    ],
+    "antonyms": [
+      "simple"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "clear",
+    "cz": [
+      "jasný"
+    ],
+    "explanation": "easy to understand",
+    "example_sentence": "Her explanation was clear.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "obvious",
+      "understandable"
+    ],
+    "antonyms": [
+      "unclear"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "obvious",
+    "cz": [
+      "zřejmý"
+    ],
+    "explanation": "easy to see or understand",
+    "example_sentence": "The answer is obvious.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "clear",
+      "evident"
+    ],
+    "antonyms": [
+      "unclear"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "difficult",
+    "cz": [
+      "obtížný"
+    ],
+    "explanation": "hard to do or understand",
+    "example_sentence": "The exam was difficult.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "hard",
+      "challenging"
+    ],
+    "antonyms": [
+      "easy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hard",
+    "cz": [
+      "těžký"
+    ],
+    "explanation": "requiring effort",
+    "example_sentence": "Learning languages is hard.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "difficult",
+      "tough"
+    ],
+    "antonyms": [
+      "easy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "challenging",
+    "cz": [
+      "náročný"
+    ],
+    "explanation": "requiring a lot of skill or effort",
+    "example_sentence": "The task is challenging.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "difficult",
+      "demanding"
+    ],
+    "antonyms": [
+      "easy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "easy",
+    "cz": [
+      "snadný"
+    ],
+    "explanation": "not difficult",
+    "example_sentence": "This exercise is easy.",
+    "level": "B1",
+    "strength": 1,
+    "synonyms": [
+      "simple",
+      "effortless"
+    ],
+    "antonyms": [
+      "difficult"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "quick",
+    "cz": [
+      "rychlý"
+    ],
+    "explanation": "happening in short time",
+    "example_sentence": "It was a quick meeting.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "fast",
+      "rapid"
+    ],
+    "antonyms": [
+      "slow"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fast",
+    "cz": [
+      "rychlý"
+    ],
+    "explanation": "moving with high speed",
+    "example_sentence": "The train is fast.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "quick",
+      "rapid"
+    ],
+    "antonyms": [
+      "slow"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rapid",
+    "cz": [
+      "rychlý"
+    ],
+    "explanation": "happening very quickly",
+    "example_sentence": "Rapid growth surprised analysts.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "fast",
+      "swift"
+    ],
+    "antonyms": [
+      "slow"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "slow",
+    "cz": [
+      "pomalý"
+    ],
+    "explanation": "moving without speed",
+    "example_sentence": "Traffic was slow.",
+    "level": "B1",
+    "strength": 1,
+    "synonyms": [
+      "gradual"
+    ],
+    "antonyms": [
+      "fast"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "comfortable",
+    "cz": [
+      "pohodlný"
+    ],
+    "explanation": "providing physical ease",
+    "example_sentence": "The chair is comfortable.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "pleasant",
+      "cozy"
+    ],
+    "antonyms": [
+      "uncomfortable"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "pleasant",
+    "cz": [
+      "příjemný"
+    ],
+    "explanation": "giving a good feeling",
+    "example_sentence": "We had a pleasant evening.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "nice",
+      "enjoyable"
+    ],
+    "antonyms": [
+      "unpleasant"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "nice",
+    "cz": [
+      "milý"
+    ],
+    "explanation": "příjemný or kind",
+    "example_sentence": "She is a nice person.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "pleasant",
+      "friendly"
+    ],
+    "antonyms": [
+      "nasty"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "friendly",
+    "cz": [
+      "přátelský"
+    ],
+    "explanation": "kind and helpful",
+    "example_sentence": "The staff were friendly.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "kind",
+      "welcoming"
+    ],
+    "antonyms": [
+      "hostile"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "kind",
+    "cz": [
+      "laskavý"
+    ],
+    "explanation": "showing care for others",
+    "example_sentence": "He is very kind.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "friendly",
+      "caring"
+    ],
+    "antonyms": [
+      "cruel"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "angry",
+    "cz": [
+      "rozzlobený"
+    ],
+    "explanation": "feeling strong annoyance",
+    "example_sentence": "He was angry about the delay.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "mad",
+      "furious"
+    ],
+    "antonyms": [
+      "calm"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "furious",
+    "cz": [
+      "zuřivý"
+    ],
+    "explanation": "extremely angry",
+    "example_sentence": "She was furious after hearing the news.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "angry",
+      "enraged"
+    ],
+    "antonyms": [
+      "calm"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "happy",
+    "cz": [
+      "šťastný"
+    ],
+    "explanation": "feeling pleasure or joy",
+    "example_sentence": "She felt happy today.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "glad",
+      "cheerful"
+    ],
+    "antonyms": [
+      "sad"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "glad",
+    "cz": [
+      "rád"
+    ],
+    "explanation": "feeling pleasure",
+    "example_sentence": "I am glad to see you.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "happy",
+      "pleased"
+    ],
+    "antonyms": [
+      "sad"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cheerful",
+    "cz": [
+      "veselý"
+    ],
+    "explanation": "showing happiness",
+    "example_sentence": "He remained cheerful.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "happy",
+      "joyful"
+    ],
+    "antonyms": [
+      "sad"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "joyful",
+    "cz": [
+      "radostný"
+    ],
+    "explanation": "full of joy",
+    "example_sentence": "The children were joyful.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "happy",
+      "delighted"
+    ],
+    "antonyms": [
+      "sad"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "delighted",
+    "cz": [
+      "potěšený"
+    ],
+    "explanation": "very pleased",
+    "example_sentence": "She was delighted with the gift.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "happy",
+      "pleased"
+    ],
+    "antonyms": [
+      "disappointed"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "excited",
+    "cz": [
+      "nadšený"
+    ],
+    "explanation": "feeling strong enthusiasm",
+    "example_sentence": "He is excited about the trip.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "thrilled",
+      "enthusiastic"
+    ],
+    "antonyms": [
+      "bored"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "thrilled",
+    "cz": [
+      "nadšený"
+    ],
+    "explanation": "extremely excited",
+    "example_sentence": "She was thrilled to win.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "excited",
+      "delighted"
+    ],
+    "antonyms": [
+      "bored"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "interesting",
+    "cz": [
+      "zajímavý"
+    ],
+    "explanation": "holding attention",
+    "example_sentence": "The lecture was interesting.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "fascinating",
+      "engaging"
+    ],
+    "antonyms": [
+      "boring"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fascinating",
+    "cz": [
+      "fascinující"
+    ],
+    "explanation": "extremely interesting",
+    "example_sentence": "The book is fascinating.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "interesting",
+      "captivating"
+    ],
+    "antonyms": [
+      "boring"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "boring",
+    "cz": [
+      "nudný"
+    ],
+    "explanation": "not interesting",
+    "example_sentence": "The movie was boring.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "dull",
+      "tedious"
+    ],
+    "antonyms": [
+      "interesting"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dull",
+    "cz": [
+      "nudný"
+    ],
+    "explanation": "lacking interest",
+    "example_sentence": "The lecture felt dull.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "boring",
+      "tedious"
+    ],
+    "antonyms": [
+      "interesting"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "terrible",
+    "cz": [
+      "strašný"
+    ],
+    "explanation": "extremely bad",
+    "example_sentence": "The weather was terrible.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "awful",
+      "horrible"
+    ],
+    "antonyms": [
+      "wonderful"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "bad",
+    "cz": [
+      "špatný"
+    ],
+    "explanation": "not good",
+    "example_sentence": "He had a bad day.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "poor",
+      "terrible"
+    ],
+    "antonyms": [
+      "good"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "poor",
+    "cz": [
+      "slabý"
+    ],
+    "explanation": "not good quality",
+    "example_sentence": "The results were poor.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "weak",
+      "bad"
+    ],
+    "antonyms": [
+      "good"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "good",
+    "cz": [
+      "dobrý"
+    ],
+    "explanation": "of high quality",
+    "example_sentence": "She did a good job.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "great",
+      "excellent"
+    ],
+    "antonyms": [
+      "bad"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "great",
+    "cz": [
+      "skvělý"
+    ],
+    "explanation": "very good",
+    "example_sentence": "We had a great time.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "excellent",
+      "wonderful"
+    ],
+    "antonyms": [
+      "terrible"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "excellent",
+    "cz": [
+      "vynikající"
+    ],
+    "explanation": "extremely good",
+    "example_sentence": "The service was excellent.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "outstanding",
+      "superb"
+    ],
+    "antonyms": [
+      "poor"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cold",
+    "cz": [
+      "studený"
+    ],
+    "explanation": "having low temperature",
+    "example_sentence": "It is cold outside.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "chilly",
+      "freezing"
+    ],
+    "antonyms": [
+      "hot"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "chilly",
+    "cz": [
+      "chladný"
+    ],
+    "explanation": "unpleasantly cold",
+    "example_sentence": "The morning was chilly.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "cold",
+      "cool"
+    ],
+    "antonyms": [
+      "hot"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "freezing",
+    "cz": [
+      "mrazivý"
+    ],
+    "explanation": "extremely cold",
+    "example_sentence": "It was freezing last night.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "icy",
+      "cold"
+    ],
+    "antonyms": [
+      "hot"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "warm",
+    "cz": [
+      "teplý"
+    ],
+    "explanation": "having comfortable heat",
+    "example_sentence": "The room is warm.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "pleasant",
+      "hot"
+    ],
+    "antonyms": [
+      "cold"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hot",
+    "cz": [
+      "horký"
+    ],
+    "explanation": "having high temperature",
+    "example_sentence": "It is very hot today.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "warm",
+      "boiling"
+    ],
+    "antonyms": [
+      "cold"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "boiling",
+    "cz": [
+      "vařící"
+    ],
+    "explanation": "extremely hot",
+    "example_sentence": "The water is boiling.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "very hot"
+    ],
+    "antonyms": [
+      "unboiling"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rich",
+    "cz": [
+      "bohatý"
+    ],
+    "explanation": "having a lot of money",
+    "example_sentence": "He became rich.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "wealthy",
+      "affluent"
+    ],
+    "antonyms": [
+      "unrich"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "wealthy",
+    "cz": [
+      "bohatý"
+    ],
+    "explanation": "having great wealth",
+    "example_sentence": "They are wealthy investors.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "rich",
+      "prosperous"
+    ],
+    "antonyms": [
+      "unwealthy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "poor",
+    "cz": [
+      "chudý"
+    ],
+    "explanation": "having little money",
+    "example_sentence": "The region is poor.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "needy",
+      "impoverished"
+    ],
+    "antonyms": [
+      "good"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cheap",
+    "cz": [
+      "levný"
+    ],
+    "explanation": "low in price",
+    "example_sentence": "The shirt was cheap.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "inexpensive",
+      "low-cost"
+    ],
+    "antonyms": [
+      "uncheap"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "expensive",
+    "cz": [
+      "drahý"
+    ],
+    "explanation": "costing a lot",
+    "example_sentence": "The car is expensive.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "costly",
+      "pricey"
+    ],
+    "antonyms": [
+      "unexpensive"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "costly",
+    "cz": [
+      "nákladný"
+    ],
+    "explanation": "very expensive",
+    "example_sentence": "The repair was costly.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "expensive",
+      "pricey"
+    ],
+    "antonyms": [
+      "uncostly"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "modern",
+    "cz": [
+      "moderní"
+    ],
+    "explanation": "relating to current times",
+    "example_sentence": "The building is modern.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "contemporary",
+      "new"
+    ],
+    "antonyms": [
+      "unmodern"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "new",
+    "cz": [
+      "nový"
+    ],
+    "explanation": "recently made",
+    "example_sentence": "She bought a new phone.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "recent",
+      "modern"
+    ],
+    "antonyms": [
+      "unnew"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "old",
+    "cz": [
+      "starý"
+    ],
+    "explanation": "having existed long time",
+    "example_sentence": "The house is old.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "ancient",
+      "aged"
+    ],
+    "antonyms": [
+      "unold"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ancient",
+    "cz": [
+      "starobylý"
+    ],
+    "explanation": "very old historically",
+    "example_sentence": "The ruins are ancient.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "historic",
+      "old"
+    ],
+    "antonyms": [
+      "unancient"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "clean",
+    "cz": [
+      "čistý"
+    ],
+    "explanation": "not dirty",
+    "example_sentence": "The kitchen is clean.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "tidy",
+      "spotless"
+    ],
+    "antonyms": [
+      "unclean"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "spotless",
+    "cz": [
+      "bez poskvrny"
+    ],
+    "explanation": "perfectly clean",
+    "example_sentence": "The room looked spotless.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "clean",
+      "immaculate"
+    ],
+    "antonyms": [
+      "unspotless"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "messy",
+    "cz": [
+      "nepořádný"
+    ],
+    "explanation": "not tidy",
+    "example_sentence": "His desk is messy.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "untidy",
+      "cluttered"
+    ],
+    "antonyms": [
+      "unmessy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "untidy",
+    "cz": [
+      "neuklizený"
+    ],
+    "explanation": "not arranged neatly",
+    "example_sentence": "The room looked untidy.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "messy"
+    ],
+    "antonyms": [
+      "tidy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "crowded",
+    "cz": [
+      "přeplněný"
+    ],
+    "explanation": "full of people",
+    "example_sentence": "The train was crowded.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "packed",
+      "busy"
+    ],
+    "antonyms": [
+      "uncrowded"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "packed",
+    "cz": [
+      "natěsnaný"
+    ],
+    "explanation": "very crowded",
+    "example_sentence": "The stadium was packed.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "crowded"
+    ],
+    "antonyms": [
+      "unpacked"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "empty",
+    "cz": [
+      "prázdný"
+    ],
+    "explanation": "containing nothing",
+    "example_sentence": "The room is empty.",
+    "level": "B1",
+    "strength": 1,
+    "synonyms": [
+      "vacant"
+    ],
+    "antonyms": [
+      "unempty"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vacant",
+    "cz": [
+      "prázdný"
+    ],
+    "explanation": "not occupied",
+    "example_sentence": "The apartment is vacant.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "empty"
+    ],
+    "antonyms": [
+      "unvacant"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "popular",
+    "cz": [
+      "populární"
+    ],
+    "explanation": "liked by many",
+    "example_sentence": "The show is popular.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "well-known",
+      "famous"
+    ],
+    "antonyms": [
+      "unpopular"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "famous",
+    "cz": [
+      "slavný"
+    ],
+    "explanation": "known by many people",
+    "example_sentence": "She is a famous actor.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "well-known",
+      "celebrated"
+    ],
+    "antonyms": [
+      "unfamous"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "well-known",
+    "cz": [
+      "známý"
+    ],
+    "explanation": "recognized widely",
+    "example_sentence": "He is a well-known writer.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "famous"
+    ],
+    "antonyms": [
+      "unwell-known"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rare",
+    "cz": [
+      "vzácný"
+    ],
+    "explanation": "not common",
+    "example_sentence": "This bird is rare.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "uncommon"
+    ],
+    "antonyms": [
+      "unrare"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "common",
+    "cz": [
+      "běžný"
+    ],
+    "explanation": "occurring often",
+    "example_sentence": "This problem is common.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "typical",
+      "usual"
+    ],
+    "antonyms": [
+      "uncommon"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "usual",
+    "cz": [
+      "obvyklý"
+    ],
+    "explanation": "happening regularly",
+    "example_sentence": "We meet at the usual place.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "normal",
+      "typical"
+    ],
+    "antonyms": [
+      "unusual"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "normal",
+    "cz": [
+      "normální"
+    ],
+    "explanation": "typical or expected",
+    "example_sentence": "The results are normal.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "standard",
+      "usual"
+    ],
+    "antonyms": [
+      "unnormal"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "strange",
+    "cz": [
+      "divný"
+    ],
+    "explanation": "unusual or unexpected",
+    "example_sentence": "That is a strange idea.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "odd",
+      "unusual"
+    ],
+    "antonyms": [
+      "unstrange"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "odd",
+    "cz": [
+      "zvláštní"
+    ],
+    "explanation": "slightly strange",
+    "example_sentence": "He has an odd habit.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "strange"
+    ],
+    "antonyms": [
+      "unodd"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unusual",
+    "cz": [
+      "neobvyklý"
+    ],
+    "explanation": "not typical",
+    "example_sentence": "The weather is unusual.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "rare",
+      "strange"
+    ],
+    "antonyms": [
+      "usual"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "beautiful",
+    "cz": [
+      "krásný"
+    ],
+    "explanation": "very attractive",
+    "example_sentence": "The view is beautiful.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "pretty",
+      "lovely"
+    ],
+    "antonyms": [
+      "unbeautiful"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "pretty",
+    "cz": [
+      "hezký"
+    ],
+    "explanation": "pleasant to look at",
+    "example_sentence": "She wore a pretty dress.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "beautiful",
+      "attractive"
+    ],
+    "antonyms": [
+      "unpretty"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ugly",
+    "cz": [
+      "ošklivý"
+    ],
+    "explanation": "unpleasant to look at",
+    "example_sentence": "The building is ugly.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "unattractive",
+      "hideous"
+    ],
+    "antonyms": [
+      "unugly"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hideous",
+    "cz": [
+      "odporný"
+    ],
+    "explanation": "extremely ugly",
+    "example_sentence": "The statue looked hideous.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "ugly",
+      "horrible"
+    ],
+    "antonyms": [
+      "unhideous"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "strong",
+    "cz": [
+      "silný"
+    ],
+    "explanation": "having power",
+    "example_sentence": "He is strong.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "powerful",
+      "sturdy"
+    ],
+    "antonyms": [
+      "unstrong"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "powerful",
+    "cz": [
+      "mocný"
+    ],
+    "explanation": "having great strength",
+    "example_sentence": "It is a powerful engine.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "strong",
+      "influential"
+    ],
+    "antonyms": [
+      "unpowerful"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "weak",
+    "cz": [
+      "slabý"
+    ],
+    "explanation": "lacking strength",
+    "example_sentence": "He felt weak.",
+    "level": "B1",
+    "strength": 1,
+    "synonyms": [
+      "fragile"
+    ],
+    "antonyms": [
+      "unweak"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fragile",
+    "cz": [
+      "křehký"
+    ],
+    "explanation": "easily broken",
+    "example_sentence": "The glass is fragile.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "delicate"
+    ],
+    "antonyms": [
+      "unfragile"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "safe",
+    "cz": [
+      "bezpečný"
+    ],
+    "explanation": "free from danger",
+    "example_sentence": "The area is safe.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "secure"
+    ],
+    "antonyms": [
+      "unsafe"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "secure",
+    "cz": [
+      "zajištěný"
+    ],
+    "explanation": "protected from danger",
+    "example_sentence": "The system is secure.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "safe",
+      "protected"
+    ],
+    "antonyms": [
+      "unsecure"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dangerous",
+    "cz": [
+      "nebezpečný"
+    ],
+    "explanation": "likely to cause harm",
+    "example_sentence": "It is dangerous here.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "risky",
+      "hazardous"
+    ],
+    "antonyms": [
+      "undangerous"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hazardous",
+    "cz": [
+      "rizikový"
+    ],
+    "explanation": "very dangerous",
+    "example_sentence": "This material is hazardous.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "dangerous"
+    ],
+    "antonyms": [
+      "unhazardous"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "smart",
+    "cz": [
+      "chytrý"
+    ],
+    "explanation": "intelligent",
+    "example_sentence": "She is smart.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "clever",
+      "intelligent"
+    ],
+    "antonyms": [
+      "unsmart"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "clever",
+    "cz": [
+      "chytrý"
+    ],
+    "explanation": "quick to understand",
+    "example_sentence": "He is clever.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "smart",
+      "bright"
+    ],
+    "antonyms": [
+      "unclever"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "brilliant",
+    "cz": [
+      "brilantní"
+    ],
+    "explanation": "extremely intelligent",
+    "example_sentence": "She had a brilliant idea.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "smart",
+      "genius"
+    ],
+    "antonyms": [
+      "unbrilliant"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "lazy",
+    "cz": [
+      "líný"
+    ],
+    "explanation": "not willing to work",
+    "example_sentence": "He felt lazy.",
+    "level": "B1",
+    "strength": 2,
+    "synonyms": [
+      "idle"
+    ],
+    "antonyms": [
+      "unlazy"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "active",
+    "cz": [
+      "aktivní"
+    ],
+    "explanation": "doing many activities",
+    "example_sentence": "She lives an active life.",
+    "level": "B1",
+    "strength": 3,
+    "synonyms": [
+      "energetic"
+    ],
+    "antonyms": [
+      "unactive"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "energetic",
+    "cz": [
+      "energický"
+    ],
+    "explanation": "full of energy",
+    "example_sentence": "He is energetic.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "active",
+      "lively"
+    ],
+    "antonyms": [
+      "unenergetic"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "lively",
+    "cz": [
+      "živý"
+    ],
+    "explanation": "full of life and activity",
+    "example_sentence": "It was a lively party.",
+    "level": "B1",
+    "strength": 4,
+    "synonyms": [
+      "energetic",
+      "vibrant"
+    ],
+    "antonyms": [
+      "unlively"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vibrant",
+    "cz": [
+      "pulzující"
+    ],
+    "explanation": "full of energy",
+    "example_sentence": "The city is vibrant.",
+    "level": "B1",
+    "strength": 5,
+    "synonyms": [
+      "lively",
+      "dynamic"
+    ],
+    "antonyms": [
+      "unvibrant"
+    ],
+    "difficulty_rank": 1,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adequate",
+    "cz": [
+      "dostatečný"
+    ],
+    "explanation": "good enough for a particular purpose",
+    "example_sentence": "The resources were adequate for the project.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "sufficient",
+      "acceptable"
+    ],
+    "antonyms": [
+      "unadequate"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sufficient",
+    "cz": [
+      "postačující"
+    ],
+    "explanation": "as much as needed",
+    "example_sentence": "The data is sufficient to draw conclusions.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "adequate",
+      "enough"
+    ],
+    "antonyms": [
+      "unsufficient"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ample",
+    "cz": [
+      "bohatý, více než dostatečný"
+    ],
+    "explanation": "more than enough",
+    "example_sentence": "We have ample time to finish.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "plentiful",
+      "abundant"
+    ],
+    "antonyms": [
+      "unample"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "abundant",
+    "cz": [
+      "hojný"
+    ],
+    "explanation": "existing in large quantities",
+    "example_sentence": "The region has abundant resources.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "plentiful",
+      "rich"
+    ],
+    "antonyms": [
+      "unabundant"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "minimal",
+    "cz": [
+      "minimální"
+    ],
+    "explanation": "very small in amount",
+    "example_sentence": "The impact was minimal.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "slight",
+      "minor"
+    ],
+    "antonyms": [
+      "unminimal"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "moderate",
+    "cz": [
+      "mírný, střední"
+    ],
+    "explanation": "not extreme",
+    "example_sentence": "The risk is moderate.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "average",
+      "medium"
+    ],
+    "antonyms": [
+      "unmoderate"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "considerable",
+    "cz": [
+      "značný"
+    ],
+    "explanation": "fairly large in amount",
+    "example_sentence": "The company made considerable progress.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "substantial",
+      "significant"
+    ],
+    "antonyms": [
+      "unconsiderable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "substantial",
+    "cz": [
+      "významný, podstatný"
+    ],
+    "explanation": "large in size or importance",
+    "example_sentence": "They made substantial investments.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "considerable",
+      "significant"
+    ],
+    "antonyms": [
+      "unsubstantial"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "relevant",
+    "cz": [
+      "relevantní"
+    ],
+    "explanation": "closely connected to the matter",
+    "example_sentence": "Please provide relevant information.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "pertinent",
+      "related"
+    ],
+    "antonyms": [
+      "unrelevant"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "pertinent",
+    "cz": [
+      "příslušný, relevantní"
+    ],
+    "explanation": "directly related to something",
+    "example_sentence": "His comment was pertinent.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "relevant"
+    ],
+    "antonyms": [
+      "unpertinent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "irrelevant",
+    "cz": [
+      "irelevantní"
+    ],
+    "explanation": "not related to the topic",
+    "example_sentence": "That detail is irrelevant.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "unrelated"
+    ],
+    "antonyms": [
+      "relevant"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accurate",
+    "cz": [
+      "přesný"
+    ],
+    "explanation": "correct and exact",
+    "example_sentence": "The results are accurate.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "precise",
+      "exact"
+    ],
+    "antonyms": [
+      "unaccurate"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "precise",
+    "cz": [
+      "přesný, precizní"
+    ],
+    "explanation": "very exact and careful",
+    "example_sentence": "The measurement is precise.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "accurate",
+      "exact"
+    ],
+    "antonyms": [
+      "unprecise"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "approximate",
+    "cz": [
+      "přibližný"
+    ],
+    "explanation": "close but not exact",
+    "example_sentence": "The cost is approximate.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "rough",
+      "estimated"
+    ],
+    "antonyms": [
+      "unapproximate"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "estimated",
+    "cz": [
+      "odhadovaný"
+    ],
+    "explanation": "calculated approximately",
+    "example_sentence": "The estimated value increased.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "approximate"
+    ],
+    "antonyms": [
+      "unestimated"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "obvious",
+    "cz": [
+      "zřejmý"
+    ],
+    "explanation": "easy to notice or understand",
+    "example_sentence": "The mistake was obvious.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "clear",
+      "evident"
+    ],
+    "antonyms": [
+      "unclear"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "evident",
+    "cz": [
+      "zjevný"
+    ],
+    "explanation": "clearly seen or understood",
+    "example_sentence": "The trend is evident.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "obvious",
+      "apparent"
+    ],
+    "antonyms": [
+      "unevident"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "apparent",
+    "cz": [
+      "zjevný, patrný"
+    ],
+    "explanation": "able to be seen or understood",
+    "example_sentence": "The cause is apparent.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "evident"
+    ],
+    "antonyms": [
+      "unapparent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hidden",
+    "cz": [
+      "skrytý"
+    ],
+    "explanation": "not easy to see or detect",
+    "example_sentence": "There was a hidden problem.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "concealed"
+    ],
+    "antonyms": [
+      "unhidden"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "concealed",
+    "cz": [
+      "utajený"
+    ],
+    "explanation": "deliberately hidden",
+    "example_sentence": "The weapon was concealed.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "hidden"
+    ],
+    "antonyms": [
+      "unconcealed"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "significant",
+    "cz": [
+      "významný"
+    ],
+    "explanation": "important or notable",
+    "example_sentence": "The difference is significant.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "important",
+      "meaningful"
+    ],
+    "antonyms": [
+      "unsignificant"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "crucial",
+    "cz": [
+      "zásadní"
+    ],
+    "explanation": "extremely important",
+    "example_sentence": "Timing is crucial.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "vital",
+      "essential"
+    ],
+    "antonyms": [
+      "uncrucial"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vital",
+    "cz": [
+      "životně důležitý"
+    ],
+    "explanation": "necessary for success or survival",
+    "example_sentence": "Communication is vital.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "crucial",
+      "essential"
+    ],
+    "antonyms": [
+      "unvital"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "optional",
+    "cz": [
+      "volitelný"
+    ],
+    "explanation": "not required",
+    "example_sentence": "Attendance is optional.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "voluntary"
+    ],
+    "antonyms": [
+      "unoptional"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "mandatory",
+    "cz": [
+      "povinný"
+    ],
+    "explanation": "required by rule",
+    "example_sentence": "Helmets are mandatory.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "required",
+      "compulsory"
+    ],
+    "antonyms": [
+      "unmandatory"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "compulsory",
+    "cz": [
+      "povinný"
+    ],
+    "explanation": "required by law or rule",
+    "example_sentence": "Attendance is compulsory.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "mandatory"
+    ],
+    "antonyms": [
+      "uncompulsory"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "voluntary",
+    "cz": [
+      "dobrovolný"
+    ],
+    "explanation": "done by choice",
+    "example_sentence": "Participation is voluntary.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "optional"
+    ],
+    "antonyms": [
+      "unvoluntary"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "frequent",
+    "cz": [
+      "častý"
+    ],
+    "explanation": "happening often",
+    "example_sentence": "Frequent updates are needed.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "common",
+      "regular"
+    ],
+    "antonyms": [
+      "unfrequent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "regular",
+    "cz": [
+      "pravidelný"
+    ],
+    "explanation": "happening repeatedly",
+    "example_sentence": "He takes regular breaks.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "routine"
+    ],
+    "antonyms": [
+      "unregular"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "occasional",
+    "cz": [
+      "příležitostný"
+    ],
+    "explanation": "happening sometimes",
+    "example_sentence": "We meet occasionally.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "sporadic"
+    ],
+    "antonyms": [
+      "unoccasional"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sporadic",
+    "cz": [
+      "sporadický"
+    ],
+    "explanation": "irregular and rare",
+    "example_sentence": "There were sporadic failures.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "occasional"
+    ],
+    "antonyms": [
+      "unsporadic"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "constant",
+    "cz": [
+      "stálý"
+    ],
+    "explanation": "continuing without stopping",
+    "example_sentence": "The pressure remained constant.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "continuous"
+    ],
+    "antonyms": [
+      "unconstant"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "continuous",
+    "cz": [
+      "nepřetržitý"
+    ],
+    "explanation": "without interruption",
+    "example_sentence": "Continuous monitoring helps.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "constant"
+    ],
+    "antonyms": [
+      "uncontinuous"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "intermittent",
+    "cz": [
+      "přerušovaný"
+    ],
+    "explanation": "stopping and starting repeatedly",
+    "example_sentence": "The signal was intermittent.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "sporadic"
+    ],
+    "antonyms": [
+      "termittent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "efficient",
+    "cz": [
+      "efektivní"
+    ],
+    "explanation": "achieving results with little waste",
+    "example_sentence": "The system is efficient.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "effective",
+      "productive"
+    ],
+    "antonyms": [
+      "unefficient"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "effective",
+    "cz": [
+      "účinný"
+    ],
+    "explanation": "producing desired results",
+    "example_sentence": "The treatment is effective.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "successful"
+    ],
+    "antonyms": [
+      "uneffective"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "productive",
+    "cz": [
+      "produktivní"
+    ],
+    "explanation": "producing a lot of results",
+    "example_sentence": "It was a productive meeting.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "efficient"
+    ],
+    "antonyms": [
+      "unproductive"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inefficient",
+    "cz": [
+      "neefektivní"
+    ],
+    "explanation": "wasting time or resources",
+    "example_sentence": "The process is inefficient.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "wasteful"
+    ],
+    "antonyms": [
+      "efficient"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "wasteful",
+    "cz": [
+      "plýtvavý"
+    ],
+    "explanation": "using more resources than necessary",
+    "example_sentence": "The method is wasteful.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "inefficient"
+    ],
+    "antonyms": [
+      "unwasteful"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "capable",
+    "cz": [
+      "schopný"
+    ],
+    "explanation": "having the ability",
+    "example_sentence": "She is capable of leading.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "competent"
+    ],
+    "antonyms": [
+      "uncapable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "competent",
+    "cz": [
+      "kompetentní"
+    ],
+    "explanation": "having necessary ability",
+    "example_sentence": "He is competent.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "capable",
+      "skilled"
+    ],
+    "antonyms": [
+      "uncompetent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "skilled",
+    "cz": [
+      "zkušený"
+    ],
+    "explanation": "having developed ability",
+    "example_sentence": "A skilled engineer designed it.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "expert",
+      "capable"
+    ],
+    "antonyms": [
+      "unskilled"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "expert",
+    "cz": [
+      "odborný, expertní"
+    ],
+    "explanation": "having very high skill",
+    "example_sentence": "She is an expert.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "specialist"
+    ],
+    "antonyms": [
+      "unexpert"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inexperienced",
+    "cz": [
+      "nezkušený"
+    ],
+    "explanation": "lacking experience",
+    "example_sentence": "The team is inexperienced.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "novice"
+    ],
+    "antonyms": [
+      "experienced"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "novice",
+    "cz": [
+      "nováček"
+    ],
+    "explanation": "someone new to a field",
+    "example_sentence": "He is a novice.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "beginner"
+    ],
+    "antonyms": [
+      "unnovice"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complex",
+    "cz": [
+      "složitý"
+    ],
+    "explanation": "having many parts",
+    "example_sentence": "The architecture is complex.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "complicated"
+    ],
+    "antonyms": [
+      "simple"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "intricate",
+    "cz": [
+      "složitý, propracovaný"
+    ],
+    "explanation": "very complex with many details",
+    "example_sentence": "The pattern is intricate.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "complex"
+    ],
+    "antonyms": [
+      "tricate"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "simple",
+    "cz": [
+      "jednoduchý"
+    ],
+    "explanation": "easy to understand",
+    "example_sentence": "The rule is simple.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "basic"
+    ],
+    "antonyms": [
+      "complex"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "basic",
+    "cz": [
+      "základní"
+    ],
+    "explanation": "forming the base level",
+    "example_sentence": "They learned basic skills.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "simple"
+    ],
+    "antonyms": [
+      "advanced"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fundamental",
+    "cz": [
+      "základní, fundamentální"
+    ],
+    "explanation": "forming the essential base",
+    "example_sentence": "Trust is fundamental.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "basic",
+      "essential"
+    ],
+    "antonyms": [
+      "unfundamental"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "extensive",
+    "cz": [
+      "rozsáhlý"
+    ],
+    "explanation": "covering a large area or amount",
+    "example_sentence": "They did extensive research.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "broad",
+      "wide"
+    ],
+    "antonyms": [
+      "unextensive"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "broad",
+    "cz": [
+      "široký"
+    ],
+    "explanation": "wide in range",
+    "example_sentence": "The policy has broad support.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "wide"
+    ],
+    "antonyms": [
+      "unbroad"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "narrow",
+    "cz": [
+      "úzký"
+    ],
+    "explanation": "limited in scope",
+    "example_sentence": "A narrow focus.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "limited"
+    ],
+    "antonyms": [
+      "unnarrow"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "limited",
+    "cz": [
+      "omezený"
+    ],
+    "explanation": "restricted in size or amount",
+    "example_sentence": "Funds are limited.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "restricted"
+    ],
+    "antonyms": [
+      "unlimited"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "restricted",
+    "cz": [
+      "omezený"
+    ],
+    "explanation": "controlled or limited",
+    "example_sentence": "Access is restricted.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "limited"
+    ],
+    "antonyms": [
+      "unrestricted"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "flexible",
+    "cz": [
+      "flexibilní"
+    ],
+    "explanation": "able to adapt easily",
+    "example_sentence": "Flexible hours help.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "adaptable"
+    ],
+    "antonyms": [
+      "unflexible"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adaptable",
+    "cz": [
+      "přizpůsobivý"
+    ],
+    "explanation": "able to change easily",
+    "example_sentence": "Humans are adaptable.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "flexible"
+    ],
+    "antonyms": [
+      "unadaptable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rigid",
+    "cz": [
+      "rigidní"
+    ],
+    "explanation": "not flexible",
+    "example_sentence": "The rules are rigid.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "inflexible"
+    ],
+    "antonyms": [
+      "unrigid"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inflexible",
+    "cz": [
+      "nepoddajný"
+    ],
+    "explanation": "unable to change",
+    "example_sentence": "The system is inflexible.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "rigid"
+    ],
+    "antonyms": [
+      "flexible"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stable",
+    "cz": [
+      "stabilní"
+    ],
+    "explanation": "not likely to change suddenly",
+    "example_sentence": "The currency is stable.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "steady"
+    ],
+    "antonyms": [
+      "unstable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "steady",
+    "cz": [
+      "stálý"
+    ],
+    "explanation": "not changing",
+    "example_sentence": "A steady speed.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "stable"
+    ],
+    "antonyms": [
+      "unsteady"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unstable",
+    "cz": [
+      "nestabilní"
+    ],
+    "explanation": "likely to change suddenly",
+    "example_sentence": "Markets are unstable.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "volatile"
+    ],
+    "antonyms": [
+      "stable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "volatile",
+    "cz": [
+      "nestálý"
+    ],
+    "explanation": "changing quickly",
+    "example_sentence": "A volatile market.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "unstable"
+    ],
+    "antonyms": [
+      "unvolatile"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "visible",
+    "cz": [
+      "viditelný"
+    ],
+    "explanation": "able to be seen",
+    "example_sentence": "The damage is visible.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "noticeable"
+    ],
+    "antonyms": [
+      "unvisible"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "noticeable",
+    "cz": [
+      "znatelný"
+    ],
+    "explanation": "easy to notice",
+    "example_sentence": "There was noticeable change.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "visible"
+    ],
+    "antonyms": [
+      "unnoticeable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "invisible",
+    "cz": [
+      "neviditelný"
+    ],
+    "explanation": "not able to be seen",
+    "example_sentence": "Gas is invisible.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "hidden"
+    ],
+    "antonyms": [
+      "visible"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "transparent",
+    "cz": [
+      "transparentní"
+    ],
+    "explanation": "easy to understand",
+    "example_sentence": "The process is transparent.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "open"
+    ],
+    "antonyms": [
+      "untransparent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "opaque",
+    "cz": [
+      "neprůhledný, netransparentní"
+    ],
+    "explanation": "hard to understand",
+    "example_sentence": "The system is opaque.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "unclear"
+    ],
+    "antonyms": [
+      "unopaque"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "credible",
+    "cz": [
+      "důvěryhodný"
+    ],
+    "explanation": "believable",
+    "example_sentence": "The witness is credible.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "reliable"
+    ],
+    "antonyms": [
+      "uncredible"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reliable",
+    "cz": [
+      "spolehlivý"
+    ],
+    "explanation": "able to be trusted",
+    "example_sentence": "The system is reliable.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "dependable"
+    ],
+    "antonyms": [
+      "unreliable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dependable",
+    "cz": [
+      "spolehlivý"
+    ],
+    "explanation": "worthy of trust",
+    "example_sentence": "He is dependable.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "reliable"
+    ],
+    "antonyms": [
+      "undependable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unreliable",
+    "cz": [
+      "nespolehlivý"
+    ],
+    "explanation": "not dependable",
+    "example_sentence": "The connection is unreliable.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "unstable"
+    ],
+    "antonyms": [
+      "reliable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "valid",
+    "cz": [
+      "platný, validní"
+    ],
+    "explanation": "logically correct",
+    "example_sentence": "The conclusion is valid.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "sound"
+    ],
+    "antonyms": [
+      "unvalid"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "invalid",
+    "cz": [
+      "neplatný"
+    ],
+    "explanation": "not valid",
+    "example_sentence": "The ticket is invalid.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "void"
+    ],
+    "antonyms": [
+      "valid"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "logical",
+    "cz": [
+      "logický"
+    ],
+    "explanation": "based on reasoning",
+    "example_sentence": "His argument is logical.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "rational"
+    ],
+    "antonyms": [
+      "unlogical"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rational",
+    "cz": [
+      "racionální"
+    ],
+    "explanation": "based on reason",
+    "example_sentence": "The choice is rational.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "logical"
+    ],
+    "antonyms": [
+      "unrational"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "irrational",
+    "cz": [
+      "iracionální"
+    ],
+    "explanation": "not based on reason",
+    "example_sentence": "Fear can be irrational.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "illogical"
+    ],
+    "antonyms": [
+      "rational"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ambitious",
+    "cz": [
+      "ambiciózní"
+    ],
+    "explanation": "having strong goals",
+    "example_sentence": "She is ambitious.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "driven"
+    ],
+    "antonyms": [
+      "unambitious"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "motivated",
+    "cz": [
+      "motivovaný"
+    ],
+    "explanation": "having strong desire to act",
+    "example_sentence": "A motivated team.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "driven"
+    ],
+    "antonyms": [
+      "unmotivated"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "driven",
+    "cz": [
+      "hnaný ambicí"
+    ],
+    "explanation": "strongly motivated",
+    "example_sentence": "A driven leader.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "ambitious"
+    ],
+    "antonyms": [
+      "undriven"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "passive",
+    "cz": [
+      "pasivní"
+    ],
+    "explanation": "not active",
+    "example_sentence": "A passive response.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "inactive"
+    ],
+    "antonyms": [
+      "unpassive"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "active",
+    "cz": [
+      "aktivní"
+    ],
+    "explanation": "engaging in action",
+    "example_sentence": "An active lifestyle.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "energetic"
+    ],
+    "antonyms": [
+      "unactive"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "energetic",
+    "cz": [
+      "energický"
+    ],
+    "explanation": "full of energy",
+    "example_sentence": "He is energetic.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "lively"
+    ],
+    "antonyms": [
+      "unenergetic"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vibrant",
+    "cz": [
+      "pulzující"
+    ],
+    "explanation": "full of life",
+    "example_sentence": "A vibrant city.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "lively"
+    ],
+    "antonyms": [
+      "unvibrant"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "magnificent",
+    "cz": [
+      "velkolepý"
+    ],
+    "explanation": "extremely impressive",
+    "example_sentence": "A magnificent palace.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "splendid"
+    ],
+    "antonyms": [
+      "unmagnificent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "splendid",
+    "cz": [
+      "skvělý"
+    ],
+    "explanation": "very impressive",
+    "example_sentence": "A splendid view.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "excellent"
+    ],
+    "antonyms": [
+      "unsplendid"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "superb",
+    "cz": [
+      "vynikající"
+    ],
+    "explanation": "extremely good",
+    "example_sentence": "Superb quality.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "excellent"
+    ],
+    "antonyms": [
+      "unsuperb"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ordinary",
+    "cz": [
+      "obyčejný"
+    ],
+    "explanation": "not special",
+    "example_sentence": "An ordinary day.",
+    "level": "B2",
+    "strength": 1,
+    "synonyms": [
+      "normal"
+    ],
+    "antonyms": [
+      "unordinary"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "remarkable",
+    "cz": [
+      "pozoruhodný"
+    ],
+    "explanation": "worthy of attention",
+    "example_sentence": "Remarkable results.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "notable"
+    ],
+    "antonyms": [
+      "unremarkable"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "extraordinary",
+    "cz": [
+      "mimořádný"
+    ],
+    "explanation": "very unusual",
+    "example_sentence": "Extraordinary talent.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "remarkable"
+    ],
+    "antonyms": [
+      "unextraordinary"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rare",
+    "cz": [
+      "vzácný"
+    ],
+    "explanation": "not common",
+    "example_sentence": "A rare species.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "uncommon"
+    ],
+    "antonyms": [
+      "unrare"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "uncommon",
+    "cz": [
+      "neobvyklý"
+    ],
+    "explanation": "not often seen",
+    "example_sentence": "An uncommon mistake.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "rare"
+    ],
+    "antonyms": [
+      "common"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unique",
+    "cz": [
+      "jedinečný"
+    ],
+    "explanation": "being the only one",
+    "example_sentence": "A unique opportunity.",
+    "level": "B2",
+    "strength": 5,
+    "synonyms": [
+      "distinct"
+    ],
+    "antonyms": [
+      "ique"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "similar",
+    "cz": [
+      "podobný"
+    ],
+    "explanation": "almost the same",
+    "example_sentence": "The results are similar.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "alike"
+    ],
+    "antonyms": [
+      "unsimilar"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "different",
+    "cz": [
+      "odlišný"
+    ],
+    "explanation": "not the same",
+    "example_sentence": "Two different ideas.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "distinct"
+    ],
+    "antonyms": [
+      "undifferent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "distinct",
+    "cz": [
+      "odlišný, jasný"
+    ],
+    "explanation": "clearly different",
+    "example_sentence": "Distinct patterns.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "clear"
+    ],
+    "antonyms": [
+      "undistinct"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "identical",
+    "cz": [
+      "identický"
+    ],
+    "explanation": "exactly the same",
+    "example_sentence": "Two identical copies.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "same"
+    ],
+    "antonyms": [
+      "unidentical"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consistent",
+    "cz": [
+      "konzistentní"
+    ],
+    "explanation": "not changing",
+    "example_sentence": "Consistent performance.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "steady"
+    ],
+    "antonyms": [
+      "unconsistent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inconsistent",
+    "cz": [
+      "nekonzistentní"
+    ],
+    "explanation": "changing unpredictably",
+    "example_sentence": "Inconsistent data.",
+    "level": "B2",
+    "strength": 2,
+    "synonyms": [
+      "irregular"
+    ],
+    "antonyms": [
+      "consistent"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adequate",
+    "cz": [
+      "dostatečný"
+    ],
+    "explanation": "good enough for a specific need but not exceptional",
+    "example_sentence": "The explanation was adequate but not very detailed.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "sufficient",
+      "acceptable"
+    ],
+    "antonyms": [
+      "unadequate"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sufficient",
+    "cz": [
+      "postačující"
+    ],
+    "explanation": "as much as needed for a purpose",
+    "example_sentence": "The evidence is sufficient to support the claim.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "adequate",
+      "enough"
+    ],
+    "antonyms": [
+      "unsufficient"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ample",
+    "cz": [
+      "bohatý, více než dostatečný"
+    ],
+    "explanation": "more than enough in quantity",
+    "example_sentence": "There was ample time to finish the report.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "abundant",
+      "plentiful"
+    ],
+    "antonyms": [
+      "unample"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "abundant",
+    "cz": [
+      "hojný"
+    ],
+    "explanation": "existing in large quantities",
+    "example_sentence": "Natural resources are abundant in the region.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "plentiful",
+      "rich"
+    ],
+    "antonyms": [
+      "unabundant"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "negligible",
+    "cz": [
+      "zanedbatelný"
+    ],
+    "explanation": "so small that it can be ignored",
+    "example_sentence": "The difference was negligible.",
+    "level": "C1",
+    "strength": 1,
+    "synonyms": [
+      "insignificant",
+      "trivial"
+    ],
+    "antonyms": [
+      "unnegligible"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "moderate",
+    "cz": [
+      "mírný"
+    ],
+    "explanation": "neither small nor large in amount",
+    "example_sentence": "The improvement was moderate.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "average",
+      "medium"
+    ],
+    "antonyms": [
+      "unmoderate"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "substantial",
+    "cz": [
+      "značný"
+    ],
+    "explanation": "large in size, value, or importance",
+    "example_sentence": "The company reported substantial growth.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "considerable",
+      "significant"
+    ],
+    "antonyms": [
+      "unsubstantial"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "considerable",
+    "cz": [
+      "značný"
+    ],
+    "explanation": "fairly large or important",
+    "example_sentence": "The task requires considerable effort.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "substantial",
+      "significant"
+    ],
+    "antonyms": [
+      "unconsiderable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "significant",
+    "cz": [
+      "významný"
+    ],
+    "explanation": "important or meaningful in effect",
+    "example_sentence": "The results show significant improvement.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "notable",
+      "meaningful"
+    ],
+    "antonyms": [
+      "unsignificant"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "crucial",
+    "cz": [
+      "zásadní"
+    ],
+    "explanation": "extremely important for success",
+    "example_sentence": "Timing is crucial in negotiations.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "vital",
+      "essential"
+    ],
+    "antonyms": [
+      "uncrucial"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vital",
+    "cz": [
+      "zásadní, životně důležitý"
+    ],
+    "explanation": "absolutely necessary or critical",
+    "example_sentence": "Communication is vital for teamwork.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "crucial",
+      "essential"
+    ],
+    "antonyms": [
+      "unvital"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fundamental",
+    "cz": [
+      "základní"
+    ],
+    "explanation": "forming the essential base of something",
+    "example_sentence": "Trust is fundamental to cooperation.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "basic",
+      "essential"
+    ],
+    "antonyms": [
+      "unfundamental"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "superficial",
+    "cz": [
+      "povrchní"
+    ],
+    "explanation": "concerned only with the surface",
+    "example_sentence": "The report offered only superficial analysis.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "shallow"
+    ],
+    "antonyms": [
+      "unsuperficial"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "thorough",
+    "cz": [
+      "důkladný"
+    ],
+    "explanation": "done with great care and completeness",
+    "example_sentence": "The investigation was thorough.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "comprehensive",
+      "detailed"
+    ],
+    "antonyms": [
+      "unthorough"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "comprehensive",
+    "cz": [
+      "komplexní"
+    ],
+    "explanation": "including many details or aspects",
+    "example_sentence": "The book provides a comprehensive overview.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "extensive",
+      "complete"
+    ],
+    "antonyms": [
+      "uncomprehensive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "extensive",
+    "cz": [
+      "rozsáhlý"
+    ],
+    "explanation": "covering a large area or scope",
+    "example_sentence": "They conducted extensive experiments.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "wide",
+      "broad"
+    ],
+    "antonyms": [
+      "unextensive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "limited",
+    "cz": [
+      "omezený"
+    ],
+    "explanation": "restricted in size or scope",
+    "example_sentence": "Our budget is limited.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "restricted"
+    ],
+    "antonyms": [
+      "unlimited"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "restrictive",
+    "cz": [
+      "omezující"
+    ],
+    "explanation": "imposing limits or constraints",
+    "example_sentence": "The regulations are highly restrictive.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "limiting"
+    ],
+    "antonyms": [
+      "unrestrictive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "flexible",
+    "cz": [
+      "flexibilní"
+    ],
+    "explanation": "able to adapt easily to change",
+    "example_sentence": "Flexible policies help employees.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "adaptable"
+    ],
+    "antonyms": [
+      "unflexible"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adaptable",
+    "cz": [
+      "přizpůsobivý"
+    ],
+    "explanation": "able to adjust to new conditions",
+    "example_sentence": "Humans are highly adaptable.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "flexible"
+    ],
+    "antonyms": [
+      "unadaptable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rigid",
+    "cz": [
+      "rigidní"
+    ],
+    "explanation": "not willing to change",
+    "example_sentence": "The system is too rigid.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "inflexible"
+    ],
+    "antonyms": [
+      "unrigid"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inflexible",
+    "cz": [
+      "nepružný"
+    ],
+    "explanation": "unable to change or adapt",
+    "example_sentence": "The rules are inflexible.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "rigid"
+    ],
+    "antonyms": [
+      "flexible"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stable",
+    "cz": [
+      "stabilní"
+    ],
+    "explanation": "not likely to change suddenly",
+    "example_sentence": "The currency remained stable.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "steady"
+    ],
+    "antonyms": [
+      "unstable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "volatile",
+    "cz": [
+      "nestálý"
+    ],
+    "explanation": "likely to change quickly and unpredictably",
+    "example_sentence": "The market is extremely volatile.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "unstable"
+    ],
+    "antonyms": [
+      "unvolatile"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unstable",
+    "cz": [
+      "nestabilní"
+    ],
+    "explanation": "likely to change or fail",
+    "example_sentence": "Political conditions remain unstable.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "volatile"
+    ],
+    "antonyms": [
+      "stable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "coherent",
+    "cz": [
+      "soudržný, logický"
+    ],
+    "explanation": "logically connected and consistent",
+    "example_sentence": "Her argument was coherent.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "consistent",
+      "logical"
+    ],
+    "antonyms": [
+      "uncoherent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "incoherent",
+    "cz": [
+      "nesoudržný"
+    ],
+    "explanation": "lacking logical connection",
+    "example_sentence": "His explanation sounded incoherent.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "confused"
+    ],
+    "antonyms": [
+      "coherent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consistent",
+    "cz": [
+      "konzistentní"
+    ],
+    "explanation": "acting the same way over time",
+    "example_sentence": "The data is consistent.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "steady",
+      "reliable"
+    ],
+    "antonyms": [
+      "unconsistent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inconsistent",
+    "cz": [
+      "nekonzistentní"
+    ],
+    "explanation": "not staying the same",
+    "example_sentence": "The results were inconsistent.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "irregular"
+    ],
+    "antonyms": [
+      "consistent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "credible",
+    "cz": [
+      "důvěryhodný"
+    ],
+    "explanation": "able to be believed",
+    "example_sentence": "The witness seemed credible.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "reliable",
+      "plausible"
+    ],
+    "antonyms": [
+      "uncredible"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "plausible",
+    "cz": [
+      "věrohodný"
+    ],
+    "explanation": "seeming reasonable or believable",
+    "example_sentence": "His explanation sounded plausible.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "credible"
+    ],
+    "antonyms": [
+      "unplausible"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "implausible",
+    "cz": [
+      "nepravděpodobný"
+    ],
+    "explanation": "unlikely to be true",
+    "example_sentence": "The theory seems implausible.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "unlikely"
+    ],
+    "antonyms": [
+      "plausible"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "transparent",
+    "cz": [
+      "transparentní"
+    ],
+    "explanation": "easy to understand or see through",
+    "example_sentence": "The process must remain transparent.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "open",
+      "clear"
+    ],
+    "antonyms": [
+      "untransparent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "opaque",
+    "cz": [
+      "neprůhledný, netransparentní"
+    ],
+    "explanation": "hard to understand or see through",
+    "example_sentence": "The financial system was opaque.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "unclear"
+    ],
+    "antonyms": [
+      "unopaque"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "apparent",
+    "cz": [
+      "zjevný"
+    ],
+    "explanation": "easy to notice or understand",
+    "example_sentence": "The problem became apparent.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "evident"
+    ],
+    "antonyms": [
+      "unapparent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "obvious",
+    "cz": [
+      "zřejmý"
+    ],
+    "explanation": "very easy to see or understand",
+    "example_sentence": "The mistake was obvious.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "clear"
+    ],
+    "antonyms": [
+      "unclear"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "subtle",
+    "cz": [
+      "jemný, nenápadný"
+    ],
+    "explanation": "difficult to notice or understand",
+    "example_sentence": "The painting shows subtle details.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "delicate",
+      "nuanced"
+    ],
+    "antonyms": [
+      "unsubtle"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "nuanced",
+    "cz": [
+      "nuancovaný"
+    ],
+    "explanation": "showing slight differences",
+    "example_sentence": "The debate required nuanced thinking.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "subtle"
+    ],
+    "antonyms": [
+      "unnuanced"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "explicit",
+    "cz": [
+      "výslovný"
+    ],
+    "explanation": "stated clearly",
+    "example_sentence": "The instructions were explicit.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "clear",
+      "direct"
+    ],
+    "antonyms": [
+      "unexplicit"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "implicit",
+    "cz": [
+      "implicitní"
+    ],
+    "explanation": "implied rather than stated",
+    "example_sentence": "The rule was implicit.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "implied"
+    ],
+    "antonyms": [
+      "plicit"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ambiguous",
+    "cz": [
+      "nejednoznačný"
+    ],
+    "explanation": "having multiple possible meanings",
+    "example_sentence": "The phrase is ambiguous.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "unclear"
+    ],
+    "antonyms": [
+      "unambiguous"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "precise",
+    "cz": [
+      "přesný"
+    ],
+    "explanation": "exact and accurate",
+    "example_sentence": "The instrument is precise.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "accurate"
+    ],
+    "antonyms": [
+      "unprecise"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accurate",
+    "cz": [
+      "přesný"
+    ],
+    "explanation": "correct and exact",
+    "example_sentence": "The measurement is accurate.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "precise"
+    ],
+    "antonyms": [
+      "unaccurate"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "approximate",
+    "cz": [
+      "přibližný"
+    ],
+    "explanation": "close but not exact",
+    "example_sentence": "The cost is approximate.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "rough"
+    ],
+    "antonyms": [
+      "unapproximate"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "estimated",
+    "cz": [
+      "odhadovaný"
+    ],
+    "explanation": "based on a calculation rather than exact data",
+    "example_sentence": "The estimated value changed.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "approximate"
+    ],
+    "antonyms": [
+      "unestimated"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "progressive",
+    "cz": [
+      "pokrokový"
+    ],
+    "explanation": "supporting change and development",
+    "example_sentence": "The policy is progressive.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "forward-looking"
+    ],
+    "antonyms": [
+      "unprogressive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conservative",
+    "cz": [
+      "konzervativní"
+    ],
+    "explanation": "preferring traditional approaches",
+    "example_sentence": "The strategy is conservative.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "traditional"
+    ],
+    "antonyms": [
+      "unconservative"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "innovative",
+    "cz": [
+      "inovativní"
+    ],
+    "explanation": "introducing new ideas or methods",
+    "example_sentence": "The company is innovative.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "creative"
+    ],
+    "antonyms": [
+      "novative"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "creative",
+    "cz": [
+      "kreativní"
+    ],
+    "explanation": "able to produce new ideas",
+    "example_sentence": "She is very creative.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "inventive"
+    ],
+    "antonyms": [
+      "uncreative"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inventive",
+    "cz": [
+      "vynalézavý"
+    ],
+    "explanation": "good at creating new ideas",
+    "example_sentence": "An inventive solution emerged.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "creative"
+    ],
+    "antonyms": [
+      "ventive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conventional",
+    "cz": [
+      "konvenční"
+    ],
+    "explanation": "based on accepted traditions",
+    "example_sentence": "They followed conventional methods.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "traditional"
+    ],
+    "antonyms": [
+      "unconventional"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unconventional",
+    "cz": [
+      "nekonvenční"
+    ],
+    "explanation": "different from common methods",
+    "example_sentence": "His approach was unconventional.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "original"
+    ],
+    "antonyms": [
+      "conventional"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "original",
+    "cz": [
+      "originální"
+    ],
+    "explanation": "new and different",
+    "example_sentence": "The design is original.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "unique"
+    ],
+    "antonyms": [
+      "unoriginal"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unique",
+    "cz": [
+      "jedinečný"
+    ],
+    "explanation": "the only one of its kind",
+    "example_sentence": "The building is unique.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "distinct"
+    ],
+    "antonyms": [
+      "ique"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rare",
+    "cz": [
+      "vzácný"
+    ],
+    "explanation": "not common",
+    "example_sentence": "This condition is rare.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "uncommon"
+    ],
+    "antonyms": [
+      "unrare"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "common",
+    "cz": [
+      "běžný"
+    ],
+    "explanation": "happening often",
+    "example_sentence": "This mistake is common.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "typical"
+    ],
+    "antonyms": [
+      "uncommon"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "typical",
+    "cz": [
+      "typický"
+    ],
+    "explanation": "showing common characteristics",
+    "example_sentence": "The behavior is typical.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "normal"
+    ],
+    "antonyms": [
+      "untypical"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "extraordinary",
+    "cz": [
+      "mimořádný"
+    ],
+    "explanation": "very unusual or impressive",
+    "example_sentence": "She showed extraordinary courage.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "remarkable"
+    ],
+    "antonyms": [
+      "unextraordinary"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "remarkable",
+    "cz": [
+      "pozoruhodný"
+    ],
+    "explanation": "worthy of attention",
+    "example_sentence": "The discovery is remarkable.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "notable"
+    ],
+    "antonyms": [
+      "unremarkable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "notable",
+    "cz": [
+      "významný"
+    ],
+    "explanation": "important or noticeable",
+    "example_sentence": "A notable scientist.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "remarkable"
+    ],
+    "antonyms": [
+      "unnotable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "trivial",
+    "cz": [
+      "banální"
+    ],
+    "explanation": "not important",
+    "example_sentence": "The issue is trivial.",
+    "level": "C1",
+    "strength": 1,
+    "synonyms": [
+      "insignificant"
+    ],
+    "antonyms": [
+      "untrivial"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "insignificant",
+    "cz": [
+      "nevýznamný"
+    ],
+    "explanation": "too small to matter",
+    "example_sentence": "The difference is insignificant.",
+    "level": "C1",
+    "strength": 1,
+    "synonyms": [
+      "minor"
+    ],
+    "antonyms": [
+      "significant"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "minor",
+    "cz": [
+      "menší, nepodstatný"
+    ],
+    "explanation": "not very important",
+    "example_sentence": "A minor change.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "small"
+    ],
+    "antonyms": [
+      "unminor"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "major",
+    "cz": [
+      "hlavní"
+    ],
+    "explanation": "very important",
+    "example_sentence": "A major breakthrough.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "significant"
+    ],
+    "antonyms": [
+      "unmajor"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "critical",
+    "cz": [
+      "kritický"
+    ],
+    "explanation": "extremely important",
+    "example_sentence": "The stage is critical.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "crucial"
+    ],
+    "antonyms": [
+      "uncritical"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "robust",
+    "cz": [
+      "odolný, robustní"
+    ],
+    "explanation": "strong and unlikely to fail",
+    "example_sentence": "A robust system.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "resilient"
+    ],
+    "antonyms": [
+      "unrobust"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fragile",
+    "cz": [
+      "křehký"
+    ],
+    "explanation": "easily damaged",
+    "example_sentence": "The structure is fragile.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "delicate"
+    ],
+    "antonyms": [
+      "unfragile"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "resilient",
+    "cz": [
+      "odolný"
+    ],
+    "explanation": "able to recover quickly",
+    "example_sentence": "Children are resilient.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "strong"
+    ],
+    "antonyms": [
+      "unresilient"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vulnerable",
+    "cz": [
+      "zranitelný"
+    ],
+    "explanation": "open to harm or damage",
+    "example_sentence": "The network is vulnerable.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "exposed"
+    ],
+    "antonyms": [
+      "unvulnerable"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "secure",
+    "cz": [
+      "bezpečný"
+    ],
+    "explanation": "protected from danger",
+    "example_sentence": "The data is secure.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "safe"
+    ],
+    "antonyms": [
+      "unsecure"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "unsafe",
+    "cz": [
+      "nebezpečný"
+    ],
+    "explanation": "not safe",
+    "example_sentence": "The equipment is unsafe.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "dangerous"
+    ],
+    "antonyms": [
+      "safe"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hazardous",
+    "cz": [
+      "rizikový"
+    ],
+    "explanation": "likely to cause harm",
+    "example_sentence": "Hazardous materials.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "dangerous"
+    ],
+    "antonyms": [
+      "unhazardous"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "beneficial",
+    "cz": [
+      "přínosný"
+    ],
+    "explanation": "producing good results",
+    "example_sentence": "Exercise is beneficial.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "helpful"
+    ],
+    "antonyms": [
+      "unbeneficial"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "harmful",
+    "cz": [
+      "škodlivý"
+    ],
+    "explanation": "causing damage",
+    "example_sentence": "Smoking is harmful.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "damaging"
+    ],
+    "antonyms": [
+      "unharmful"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "productive",
+    "cz": [
+      "produktivní"
+    ],
+    "explanation": "producing results",
+    "example_sentence": "A productive meeting.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "efficient"
+    ],
+    "antonyms": [
+      "unproductive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "efficient",
+    "cz": [
+      "efektivní"
+    ],
+    "explanation": "working well without waste",
+    "example_sentence": "An efficient system.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "productive"
+    ],
+    "antonyms": [
+      "unefficient"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inefficient",
+    "cz": [
+      "neefektivní"
+    ],
+    "explanation": "wasting time or resources",
+    "example_sentence": "An inefficient process.",
+    "level": "C1",
+    "strength": 2,
+    "synonyms": [
+      "wasteful"
+    ],
+    "antonyms": [
+      "efficient"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "wasteful",
+    "cz": [
+      "plýtvavý"
+    ],
+    "explanation": "using resources carelessly",
+    "example_sentence": "A wasteful practice.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "inefficient"
+    ],
+    "antonyms": [
+      "unwasteful"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "competitive",
+    "cz": [
+      "konkurenční"
+    ],
+    "explanation": "able to compete successfully",
+    "example_sentence": "A competitive market.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "rivalrous"
+    ],
+    "antonyms": [
+      "uncompetitive"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cooperative",
+    "cz": [
+      "spolupracující"
+    ],
+    "explanation": "working together well",
+    "example_sentence": "A cooperative team.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "collaborative"
+    ],
+    "antonyms": [
+      "uncooperative"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "collaborative",
+    "cz": [
+      "spolupracující"
+    ],
+    "explanation": "working jointly",
+    "example_sentence": "A collaborative effort.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "cooperative"
+    ],
+    "antonyms": [
+      "uncollaborative"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "independent",
+    "cz": [
+      "nezávislý"
+    ],
+    "explanation": "not controlled by others",
+    "example_sentence": "An independent organization.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "autonomous"
+    ],
+    "antonyms": [
+      "dependent"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "autonomous",
+    "cz": [
+      "autonomní"
+    ],
+    "explanation": "having self-governance",
+    "example_sentence": "An autonomous region.",
+    "level": "C1",
+    "strength": 5,
+    "synonyms": [
+      "independent"
+    ],
+    "antonyms": [
+      "unautonomous"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "objective",
+    "cz": [
+      "objektivní"
+    ],
+    "explanation": "not influenced by personal feelings",
+    "example_sentence": "An objective review.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "neutral"
+    ],
+    "antonyms": [
+      "unobjective"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "subjective",
+    "cz": [
+      "subjektivní"
+    ],
+    "explanation": "based on personal opinion",
+    "example_sentence": "A subjective interpretation.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "personal"
+    ],
+    "antonyms": [
+      "unsubjective"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "neutral",
+    "cz": [
+      "neutrální"
+    ],
+    "explanation": "not supporting either side",
+    "example_sentence": "A neutral observer.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "impartial"
+    ],
+    "antonyms": [
+      "unneutral"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "impartial",
+    "cz": [
+      "nestranný"
+    ],
+    "explanation": "fair and unbiased",
+    "example_sentence": "An impartial judge.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "neutral"
+    ],
+    "antonyms": [
+      "partial"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "general",
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "arbitrary",
+    "cz": [
+      "svévolný",
+      "libovolný"
+    ],
+    "explanation": "based on random choice or personal whim rather than reason",
+    "example_sentence": "The deadline felt arbitrary and hard to justify.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "random",
+      "capricious",
+      "unreasoned"
+    ],
+    "antonyms": [
+      "reasoned",
+      "logical"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "formal, analysis",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "meticulous",
+    "cz": [
+      "pečlivý",
+      "puntičkářský"
+    ],
+    "explanation": "showing great attention to detail and accuracy",
+    "example_sentence": "She is meticulous when reviewing contracts.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "careful",
+      "thorough",
+      "precise"
+    ],
+    "antonyms": [
+      "careless",
+      "sloppy"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "work, study",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "versatile",
+    "cz": [
+      "všestranný"
+    ],
+    "explanation": "able to adapt to many different functions or activities",
+    "example_sentence": "It is a versatile tool for writing and editing.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "flexible",
+      "adaptable",
+      "multitalented"
+    ],
+    "antonyms": [
+      "limited",
+      "specialized"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general, work",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "inevitable",
+    "cz": [
+      "nevyhnutelný"
+    ],
+    "explanation": "certain to happen and impossible to avoid",
+    "example_sentence": "Some level of change is inevitable in growing companies.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "unavoidable",
+      "certain"
+    ],
+    "antonyms": [
+      "avoidable",
+      "uncertain"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "general",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "articulate",
+    "cz": [
+      "výřečný",
+      "srozumitelný"
+    ],
+    "explanation": "able to express ideas clearly and effectively",
+    "example_sentence": "She is articulate and confident in meetings.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "eloquent",
+      "clear",
+      "expressive"
+    ],
+    "antonyms": [
+      "inarticulate",
+      "unclear"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "communication",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "severe",
+    "cz": [
+      "vážný",
+      "silný",
+      "přísný"
+    ],
+    "explanation": "very serious, harsh, or intense",
+    "example_sentence": "The region suffered severe weather conditions.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "serious",
+      "harsh",
+      "intense"
+    ],
+    "antonyms": [
+      "mild",
+      "gentle"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "news, health, general",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "proficient",
+    "cz": [
+      "zběhlý",
+      "zkušený"
+    ],
+    "explanation": "skilled and competent at doing something",
+    "example_sentence": "He is proficient in English and German.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "skilled",
+      "competent",
+      "capable"
+    ],
+    "antonyms": [
+      "inexperienced",
+      "unskilled"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "work, education",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "mediocre",
+    "cz": [
+      "průměrný",
+      "podprůměrný"
+    ],
+    "explanation": "not very good, only average in quality",
+    "example_sentence": "The first draft was mediocre and needed more work.",
+    "level": "B2",
+    "strength": 3,
+    "synonyms": [
+      "average",
+      "ordinary",
+      "inferior"
+    ],
+    "antonyms": [
+      "excellent",
+      "outstanding"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "evaluation",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "concise",
+    "cz": [
+      "stručný",
+      "výstižný"
+    ],
+    "explanation": "giving a lot of information clearly in a few words",
+    "example_sentence": "Try to keep your summary concise and clear.",
+    "level": "B2",
+    "strength": 4,
+    "synonyms": [
+      "brief",
+      "succinct",
+      "compact"
+    ],
+    "antonyms": [
+      "wordy",
+      "verbose"
+    ],
+    "difficulty_rank": 2,
+    "usage_content": "writing, communication",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "conducive",
+    "cz": [
+      "napomáhající",
+      "příznivý"
+    ],
+    "explanation": "making a certain situation or outcome likely or possible",
+    "example_sentence": "A quiet room is conducive to focused work.",
+    "level": "C1",
+    "strength": 3,
+    "synonyms": [
+      "favorable",
+      "helpful",
+      "beneficial"
+    ],
+    "antonyms": [
+      "unhelpful",
+      "harmful"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "formal, work",
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "flawless",
+    "cz": [
+      "bezchybný"
+    ],
+    "explanation": "perfect and without any mistakes or defects",
+    "example_sentence": "Her pronunciation was almost flawless.",
+    "level": "C1",
+    "strength": 4,
+    "synonyms": [
+      "perfect",
+      "impeccable",
+      "faultless"
+    ],
+    "antonyms": [
+      "flawed",
+      "imperfect"
+    ],
+    "difficulty_rank": 3,
+    "usage_content": "evaluation",
+    "inserted": "2026-03-13"
+  }
+]

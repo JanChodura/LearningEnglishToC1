@@ -1,0 +1,129 @@
+{
+  "grammar": {
+    "name": "present simple vs present continuous",
+    "level": "B1"
+  },
+  "review_errors": [],
+  "lesson": [
+    {
+      "word": "ability",
+      "type": "noun",
+      "level": "B1",
+      "context": "skills, work, education",
+      "example": "Her ability to solve problems impressed the team.",
+      "new": "y"
+    },
+    {
+      "word": "access",
+      "type": "noun",
+      "level": "B1",
+      "context": "technology, services",
+      "example": "Users need access to the database.",
+      "new": "y"
+    },
+    {
+      "word": "account",
+      "type": "noun",
+      "level": "B1",
+      "context": "finance, internet",
+      "example": "I created a new account yesterday.",
+      "new": "y"
+    },
+    {
+      "word": "achievement",
+      "type": "noun",
+      "level": "B1",
+      "context": "career, study",
+      "example": "Graduating was a major achievement.",
+      "new": "y"
+    },
+    {
+      "word": "activity",
+      "type": "noun",
+      "level": "B1",
+      "context": "daily life",
+      "example": "Outdoor activities are popular here.",
+      "new": "y"
+    },
+    {
+      "word": "accept",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in everyday communication, work, and social situations",
+      "example": "She accepted the job offer after thinking about it for a day.",
+      "new": "y"
+    },
+    {
+      "word": "achieve",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in education, career, and personal goals",
+      "example": "He achieved his goal of running a marathon.",
+      "new": "y"
+    },
+    {
+      "word": "act",
+      "type": "verb",
+      "level": "B1",
+      "context": "general everyday and professional contexts",
+      "example": "You should act quickly before the problem gets worse.",
+      "new": "y"
+    },
+    {
+      "word": "add",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in cooking, math, and daily tasks",
+      "example": "Add some salt to the soup.",
+      "new": "y"
+    },
+    {
+      "word": "admit",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in discussions, arguments, and formal contexts",
+      "example": "He admitted that he had made a mistake.",
+      "new": "y"
+    },
+    {
+      "word": "ask for",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "daily communication, services",
+      "example": "She asked for help with the task.",
+      "new": "y"
+    },
+    {
+      "word": "back up",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "technology, teamwork",
+      "example": "Always back up your files.",
+      "new": "y"
+    },
+    {
+      "word": "break the ice",
+      "type": "idiom",
+      "level": "B1",
+      "context": "social",
+      "example": "He told a joke to break the ice.",
+      "new": "y"
+    },
+    {
+      "word": "piece of cake",
+      "type": "idiom",
+      "level": "B1",
+      "context": "daily life",
+      "example": "The exam was a piece of cake.",
+      "new": "y"
+    },
+    {
+      "word": "big",
+      "type": "adjective",
+      "level": "B1",
+      "context": "general",
+      "example": "They live in a big house.",
+      "new": "n"
+    }
+  ]
+}

@@ -1,0 +1,4519 @@
+[
+  {
+    "en": "ability",
+    "cz": "schopnost",
+    "explanation": "the power or skill to do something",
+    "usage_context": "skills, work, education",
+    "example_sentence": "Her ability to solve problems impressed the team.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "skill",
+      "capacity",
+      "talent"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "access",
+    "cz": "přístup",
+    "explanation": "the opportunity to use or enter something",
+    "usage_context": "technology, services",
+    "example_sentence": "Users need access to the database.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "entry",
+      "availability",
+      "permission"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "account",
+    "cz": "účet; účetnictví",
+    "explanation": "a record of money or online service",
+    "usage_context": "finance, internet",
+    "example_sentence": "I created a new account yesterday.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "profile",
+      "record"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "achievement",
+    "cz": "úspěch",
+    "explanation": "something accomplished successfully",
+    "usage_context": "career, study",
+    "example_sentence": "Graduating was a major achievement.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "success",
+      "accomplishment"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "activity",
+    "cz": "činnost; aktivita",
+    "explanation": "something people do for enjoyment or work",
+    "usage_context": "daily life",
+    "example_sentence": "Outdoor activities are popular here.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "action",
+      "task",
+      "exercise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "address",
+    "cz": "adresa",
+    "explanation": "details of where someone lives or works",
+    "usage_context": "communication",
+    "example_sentence": "Please write your address here.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "location",
+      "residence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "advantage",
+    "cz": "výhoda",
+    "explanation": "something that helps you succeed",
+    "usage_context": "business, competition",
+    "example_sentence": "Experience is a big advantage.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "benefit",
+      "edge"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "advice",
+    "cz": "rada",
+    "explanation": "an opinion about what someone should do",
+    "usage_context": "communication",
+    "example_sentence": "She gave me useful advice.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "guidance",
+      "suggestion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "agreement",
+    "cz": "dohoda",
+    "explanation": "a decision accepted by two or more sides",
+    "usage_context": "business, law",
+    "example_sentence": "They signed the agreement.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "deal",
+      "contract"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "airline",
+    "cz": "letecká společnost",
+    "explanation": "a company that provides flights",
+    "usage_context": "travel",
+    "example_sentence": "The airline canceled the flight.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "carrier",
+      "flight company"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "airport",
+    "cz": "letiště",
+    "explanation": "a place where airplanes arrive and depart",
+    "usage_context": "travel",
+    "example_sentence": "We arrived at the airport early.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "air terminal"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "analysis",
+    "cz": "analýza",
+    "explanation": "detailed examination of something",
+    "usage_context": "science, work",
+    "example_sentence": "The analysis showed new trends.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "examination",
+      "study"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "answer",
+    "cz": "odpověď",
+    "explanation": "something said in response to a question",
+    "usage_context": "communication",
+    "example_sentence": "His answer was correct.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "reply",
+      "response"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "area",
+    "cz": "oblast",
+    "explanation": "a region or part of a place or topic",
+    "usage_context": "geography, topics",
+    "example_sentence": "This area is very quiet.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "region",
+      "zone"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "argument",
+    "cz": "hádka; argument",
+    "explanation": "a disagreement or discussion",
+    "usage_context": "relationships",
+    "example_sentence": "They had an argument yesterday.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "dispute",
+      "debate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "arrival",
+    "cz": "příjezd",
+    "explanation": "the act of coming to a place",
+    "usage_context": "travel",
+    "example_sentence": "Our arrival was delayed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "coming",
+      "entry"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "article",
+    "cz": "článek",
+    "explanation": "a piece of writing in a publication",
+    "usage_context": "media",
+    "example_sentence": "I read an interesting article.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "text",
+      "report"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "aspect",
+    "cz": "aspekt",
+    "explanation": "a particular part of something",
+    "usage_context": "analysis",
+    "example_sentence": "We discussed several aspects.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "element",
+      "feature"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "attempt",
+    "cz": "pokus",
+    "explanation": "an effort to achieve something",
+    "usage_context": "effort, projects",
+    "example_sentence": "His first attempt failed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "try",
+      "effort"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "attention",
+    "cz": "pozornost",
+    "explanation": "notice or focus on something",
+    "usage_context": "communication",
+    "example_sentence": "Pay attention to the details.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "focus",
+      "notice"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "audience",
+    "cz": "publikum",
+    "explanation": "people watching or listening",
+    "usage_context": "events",
+    "example_sentence": "The audience applauded.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "spectators",
+      "viewers"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "background",
+    "cz": "pozadí; minulost",
+    "explanation": "a person's history or situation",
+    "usage_context": "career",
+    "example_sentence": "Her background is in engineering.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "history",
+      "context"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "balance",
+    "cz": "rovnováha",
+    "explanation": "a state of equal distribution",
+    "usage_context": "health, finance",
+    "example_sentence": "Work‑life balance is important.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "stability",
+      "equilibrium"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "behavior",
+    "cz": "chování",
+    "explanation": "the way someone acts",
+    "usage_context": "psychology",
+    "example_sentence": "Children learn behavior from adults.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "conduct",
+      "actions"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "benefit",
+    "cz": "výhoda",
+    "explanation": "a helpful or positive effect",
+    "usage_context": "business, health",
+    "example_sentence": "Exercise has many benefits.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "advantage",
+      "gain"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "board",
+    "cz": "rada; deska",
+    "explanation": "a group managing an organization",
+    "usage_context": "business",
+    "example_sentence": "The board approved the plan.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "committee",
+      "panel"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "budget",
+    "cz": "rozpočet",
+    "explanation": "a plan of spending money",
+    "usage_context": "finance",
+    "example_sentence": "We must reduce the budget.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "financial plan"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "building",
+    "cz": "budova",
+    "explanation": "a structure with walls and a roof",
+    "usage_context": "cities",
+    "example_sentence": "That building is new.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "structure",
+      "property"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "business",
+    "cz": "podnikání; firma",
+    "explanation": "activity of buying and selling",
+    "usage_context": "economy",
+    "example_sentence": "She started a small business.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "company",
+      "trade"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "career",
+    "cz": "kariéra",
+    "explanation": "a long-term professional life",
+    "usage_context": "work",
+    "example_sentence": "He built a successful career.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "profession",
+      "occupation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "case",
+    "cz": "případ",
+    "explanation": "a particular situation or example",
+    "usage_context": "law, analysis",
+    "example_sentence": "This case is unusual.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "instance",
+      "example"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "challenge",
+    "cz": "výzva",
+    "explanation": "a difficult task",
+    "usage_context": "work, sport",
+    "example_sentence": "Learning languages is a challenge.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "difficulty",
+      "test"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "change",
+    "cz": "změna",
+    "explanation": "the act of becoming different",
+    "usage_context": "life",
+    "example_sentence": "The company made a change.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "alteration",
+      "shift"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "choice",
+    "cz": "volba",
+    "explanation": "an act of selecting",
+    "usage_context": "decisions",
+    "example_sentence": "You have two choices.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "option",
+      "selection"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "city",
+    "cz": "město",
+    "explanation": "a large town",
+    "usage_context": "geography",
+    "example_sentence": "Prague is a beautiful city.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "urban area"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "client",
+    "cz": "klient",
+    "explanation": "a person using services",
+    "usage_context": "business",
+    "example_sentence": "The client approved the design.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "customer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "coach",
+    "cz": "trenér",
+    "explanation": "a person who trains athletes",
+    "usage_context": "sports",
+    "example_sentence": "The coach gave instructions.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "trainer",
+      "mentor"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "collection",
+    "cz": "sbírka",
+    "explanation": "a group of objects",
+    "usage_context": "hobby",
+    "example_sentence": "She has a coin collection.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "set",
+      "assortment"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "community",
+    "cz": "komunita",
+    "explanation": "people living together",
+    "usage_context": "society",
+    "example_sentence": "The community helped rebuild.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "society",
+      "group"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "company",
+    "cz": "společnost; firma",
+    "explanation": "a business organization",
+    "usage_context": "economy",
+    "example_sentence": "The company hires engineers.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "firm",
+      "corporation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "competition",
+    "cz": "soutěž",
+    "explanation": "a situation where people compete",
+    "usage_context": "sports",
+    "example_sentence": "The competition was tough.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "contest",
+      "rivalry"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "computer",
+    "cz": "počítač",
+    "explanation": "an electronic device for processing data",
+    "usage_context": "technology",
+    "example_sentence": "The computer crashed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "machine",
+      "PC"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "concept",
+    "cz": "koncept",
+    "explanation": "an abstract idea",
+    "usage_context": "education",
+    "example_sentence": "The concept is difficult.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "idea",
+      "notion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "condition",
+    "cz": "podmínka; stav",
+    "explanation": "a situation affecting something",
+    "usage_context": "health",
+    "example_sentence": "The car is in good condition.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "state",
+      "situation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conference",
+    "cz": "konference",
+    "explanation": "a formal meeting for discussion",
+    "usage_context": "work",
+    "example_sentence": "They attended a conference.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "meeting",
+      "convention"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "confidence",
+    "cz": "sebevědomí",
+    "explanation": "belief in oneself",
+    "usage_context": "psychology",
+    "example_sentence": "Confidence improves performance.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "self‑belief"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "connection",
+    "cz": "spojení",
+    "explanation": "a link between things",
+    "usage_context": "technology",
+    "example_sentence": "Internet connection failed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "link",
+      "relation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "construction",
+    "cz": "stavba",
+    "explanation": "the act of building something",
+    "usage_context": "engineering",
+    "example_sentence": "Construction began last year.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "building",
+      "development"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consumer",
+    "cz": "spotřebitel",
+    "explanation": "a person who buys goods",
+    "usage_context": "economy",
+    "example_sentence": "Consumers want quality.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "buyer",
+      "customer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "content",
+    "cz": "obsah",
+    "explanation": "the material in something",
+    "usage_context": "media",
+    "example_sentence": "The website content changed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "material",
+      "information"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "control",
+    "cz": "kontrola; řízení",
+    "explanation": "power to influence something",
+    "usage_context": "management",
+    "example_sentence": "They lost control.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "authority",
+      "command"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conversation",
+    "cz": "rozhovor",
+    "explanation": "informal talk between people",
+    "usage_context": "communication",
+    "example_sentence": "We had a long conversation.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "discussion",
+      "talk"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cost",
+    "cz": "náklad",
+    "explanation": "the price of something",
+    "usage_context": "finance",
+    "example_sentence": "The cost is high.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "price",
+      "expense"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "culture",
+    "cz": "kultura",
+    "explanation": "customs and ideas of society",
+    "usage_context": "society",
+    "example_sentence": "Culture shapes behavior.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "tradition",
+      "civilization"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "customer",
+    "cz": "zákazník",
+    "explanation": "a person buying goods",
+    "usage_context": "business",
+    "example_sentence": "Customers expect quality.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "client",
+      "buyer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "data",
+    "cz": "data",
+    "explanation": "information used for analysis",
+    "usage_context": "technology",
+    "example_sentence": "We analyzed the data.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "information",
+      "statistics"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "decision",
+    "cz": "rozhodnutí",
+    "explanation": "a choice made after thinking",
+    "usage_context": "management",
+    "example_sentence": "It was a difficult decision.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "choice",
+      "judgment"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "delivery",
+    "cz": "doručení",
+    "explanation": "the act of bringing goods",
+    "usage_context": "commerce",
+    "example_sentence": "The delivery arrived late.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "shipment",
+      "distribution"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "department",
+    "cz": "oddělení",
+    "explanation": "a division of organization",
+    "usage_context": "business",
+    "example_sentence": "She works in HR department.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "division",
+      "section"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "design",
+    "cz": "design; návrh",
+    "explanation": "the plan for how something looks",
+    "usage_context": "creative work",
+    "example_sentence": "The design is modern.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "plan",
+      "layout"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "development",
+    "cz": "vývoj",
+    "explanation": "growth or progress",
+    "usage_context": "technology",
+    "example_sentence": "Software development continues.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "progress",
+      "expansion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "device",
+    "cz": "zařízení",
+    "explanation": "a piece of equipment",
+    "usage_context": "technology",
+    "example_sentence": "This device measures temperature.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "tool",
+      "gadget"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "difference",
+    "cz": "rozdíl",
+    "explanation": "a way things are not the same",
+    "usage_context": "analysis",
+    "example_sentence": "The difference is small.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "distinction",
+      "contrast"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "difficulty",
+    "cz": "obtíž",
+    "explanation": "something hard to do",
+    "usage_context": "learning",
+    "example_sentence": "He had difficulty understanding.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "problem",
+      "challenge"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "direction",
+    "cz": "směr",
+    "explanation": "a path something moves",
+    "usage_context": "travel",
+    "example_sentence": "Follow this direction.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "route",
+      "way"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "discussion",
+    "cz": "diskuse",
+    "explanation": "a conversation about a topic",
+    "usage_context": "meetings",
+    "example_sentence": "We had a discussion.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "debate",
+      "talk"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "document",
+    "cz": "dokument",
+    "explanation": "a written or digital record",
+    "usage_context": "work",
+    "example_sentence": "Sign the document.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "file",
+      "record"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "education",
+    "cz": "vzdělání",
+    "explanation": "the process of learning",
+    "usage_context": "school",
+    "example_sentence": "Education improves opportunities.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "learning",
+      "schooling"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "effect",
+    "cz": "účinek",
+    "explanation": "a result caused by something",
+    "usage_context": "science",
+    "example_sentence": "The effect was immediate.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "result",
+      "impact"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "effort",
+    "cz": "úsilí",
+    "explanation": "energy used to achieve something",
+    "usage_context": "work",
+    "example_sentence": "He made great effort.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "attempt",
+      "work"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "employee",
+    "cz": "zaměstnanec",
+    "explanation": "a person working for a company",
+    "usage_context": "business",
+    "example_sentence": "Employees received bonuses.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "worker",
+      "staff"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "energy",
+    "cz": "energie",
+    "explanation": "power used to do work",
+    "usage_context": "science",
+    "example_sentence": "Solar energy is clean.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "power",
+      "force"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "environment",
+    "cz": "prostředí",
+    "explanation": "the surroundings where life exists",
+    "usage_context": "nature",
+    "example_sentence": "Protect the environment.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "surroundings",
+      "nature"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "event",
+    "cz": "událost",
+    "explanation": "something that happens",
+    "usage_context": "news",
+    "example_sentence": "The event attracted visitors.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "occasion",
+      "happening"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "example",
+    "cz": "příklad",
+    "explanation": "something used to explain",
+    "usage_context": "education",
+    "example_sentence": "This is a good example.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "instance",
+      "sample"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "experience",
+    "cz": "zkušenost",
+    "explanation": "knowledge gained through practice",
+    "usage_context": "career",
+    "example_sentence": "She has work experience.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "practice",
+      "knowledge"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "factor",
+    "cz": "faktor",
+    "explanation": "something influencing result",
+    "usage_context": "analysis",
+    "example_sentence": "Cost is an important factor.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "element",
+      "cause"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "failure",
+    "cz": "selhání",
+    "explanation": "lack of success",
+    "usage_context": "projects",
+    "example_sentence": "The project ended in failure.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "collapse",
+      "defeat"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "family",
+    "cz": "rodina",
+    "explanation": "group of relatives",
+    "usage_context": "life",
+    "example_sentence": "Family support matters.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "relatives",
+      "household"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "feature",
+    "cz": "vlastnost",
+    "explanation": "an important characteristic",
+    "usage_context": "technology",
+    "example_sentence": "The phone has new features.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "function",
+      "trait"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "feedback",
+    "cz": "zpětná vazba",
+    "explanation": "information about performance",
+    "usage_context": "work",
+    "example_sentence": "We received positive feedback.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "response",
+      "evaluation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "field",
+    "cz": "obor",
+    "explanation": "an area of study or work",
+    "usage_context": "education",
+    "example_sentence": "He works in IT field.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "domain",
+      "discipline"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "flight",
+    "cz": "let",
+    "explanation": "a journey by plane",
+    "usage_context": "travel",
+    "example_sentence": "The flight lasted two hours.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "trip",
+      "journey"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "focus",
+    "cz": "zaměření",
+    "explanation": "special attention to something",
+    "usage_context": "work",
+    "example_sentence": "Focus improves productivity.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "attention",
+      "concentration"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "goal",
+    "cz": "cíl",
+    "explanation": "something you want to achieve",
+    "usage_context": "planning",
+    "example_sentence": "His goal is promotion.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "aim",
+      "objective"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "growth",
+    "cz": "růst",
+    "explanation": "increase in size or number",
+    "usage_context": "economy",
+    "example_sentence": "Economic growth slowed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "increase",
+      "expansion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "habit",
+    "cz": "zvyk",
+    "explanation": "a repeated behavior",
+    "usage_context": "psychology",
+    "example_sentence": "Reading is a good habit.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "routine",
+      "practice"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "health",
+    "cz": "zdraví",
+    "explanation": "the state of body and mind",
+    "usage_context": "life",
+    "example_sentence": "Health is essential.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "wellbeing"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "idea",
+    "cz": "myšlenka",
+    "explanation": "a thought or concept",
+    "usage_context": "creativity",
+    "example_sentence": "She had an idea.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "concept",
+      "notion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "industry",
+    "cz": "průmysl",
+    "explanation": "economic activity producing goods",
+    "usage_context": "economy",
+    "example_sentence": "The tech industry grows.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "sector"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "information",
+    "cz": "informace",
+    "explanation": "facts or data",
+    "usage_context": "communication",
+    "example_sentence": "Information spreads quickly.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "data",
+      "knowledge"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "issue",
+    "cz": "problém; téma",
+    "explanation": "an important topic or difficulty",
+    "usage_context": "discussion",
+    "example_sentence": "This issue needs attention.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "problem",
+      "matter"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "knowledge",
+    "cz": "znalosti",
+    "explanation": "information and understanding",
+    "usage_context": "learning",
+    "example_sentence": "Knowledge grows with practice.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "understanding",
+      "expertise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "language",
+    "cz": "jazyk",
+    "explanation": "system used for communication",
+    "usage_context": "culture",
+    "example_sentence": "English is global language.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "speech",
+      "tongue"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "level",
+    "cz": "úroveň",
+    "explanation": "a stage or degree",
+    "usage_context": "education",
+    "example_sentence": "Her English level improved.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "standard",
+      "stage"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "market",
+    "cz": "trh",
+    "explanation": "place or system for buying",
+    "usage_context": "economy",
+    "example_sentence": "The market changed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "trade",
+      "marketplace"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "message",
+    "cz": "zpráva",
+    "explanation": "information sent to someone",
+    "usage_context": "communication",
+    "example_sentence": "I got your message.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "note",
+      "communication"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "method",
+    "cz": "metoda",
+    "explanation": "a particular way of doing something",
+    "usage_context": "science",
+    "example_sentence": "This method works.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "approach",
+      "technique"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "model",
+    "cz": "model",
+    "explanation": "representation of something",
+    "usage_context": "science",
+    "example_sentence": "They built a model.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "representation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "moment",
+    "cz": "okamžik",
+    "explanation": "a very short time",
+    "usage_context": "life",
+    "example_sentence": "Wait a moment.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "instant"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "network",
+    "cz": "síť",
+    "explanation": "a system of connected things",
+    "usage_context": "technology",
+    "example_sentence": "The network failed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "system",
+      "grid"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "opinion",
+    "cz": "názor",
+    "explanation": "a belief or view",
+    "usage_context": "discussion",
+    "example_sentence": "Everyone shared opinion.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "view",
+      "belief"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "opportunity",
+    "cz": "příležitost",
+    "explanation": "a good chance",
+    "usage_context": "career",
+    "example_sentence": "This is great opportunity.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "chance",
+      "possibility"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "order",
+    "cz": "objednávka; pořádek",
+    "explanation": "request for goods",
+    "usage_context": "commerce",
+    "example_sentence": "The order arrived.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "request",
+      "arrangement"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "organization",
+    "cz": "organizace",
+    "explanation": "group working together",
+    "usage_context": "business",
+    "example_sentence": "The organization expanded.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "institution",
+      "group"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "outcome",
+    "cz": "výsledek",
+    "explanation": "the final result",
+    "usage_context": "analysis",
+    "example_sentence": "Outcome surprised us.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "result",
+      "consequence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "performance",
+    "cz": "výkon",
+    "explanation": "how well something works",
+    "usage_context": "work",
+    "example_sentence": "System performance improved.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "efficiency",
+      "result"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "plan",
+    "cz": "plán",
+    "explanation": "a detailed proposal",
+    "usage_context": "management",
+    "example_sentence": "The plan succeeded.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "strategy",
+      "scheme"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "policy",
+    "cz": "politika; pravidlo",
+    "explanation": "a principle guiding decisions",
+    "usage_context": "business",
+    "example_sentence": "Company policy changed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "rule",
+      "guideline"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "position",
+    "cz": "pozice",
+    "explanation": "a job or place",
+    "usage_context": "career",
+    "example_sentence": "She applied for position.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "role",
+      "post"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "practice",
+    "cz": "praxe",
+    "explanation": "repeated activity to improve skill",
+    "usage_context": "learning",
+    "example_sentence": "Practice improves skills.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "training"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "process",
+    "cz": "proces",
+    "explanation": "series of actions",
+    "usage_context": "work",
+    "example_sentence": "The process is complex.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "procedure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "product",
+    "cz": "produkt",
+    "explanation": "something produced to sell",
+    "usage_context": "business",
+    "example_sentence": "The product launched.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "item",
+      "good"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "project",
+    "cz": "projekt",
+    "explanation": "planned piece of work",
+    "usage_context": "work",
+    "example_sentence": "The project finished.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "assignment",
+      "initiative"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "quality",
+    "cz": "kvalita",
+    "explanation": "how good something is",
+    "usage_context": "evaluation",
+    "example_sentence": "Quality matters.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "standard",
+      "excellence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "question",
+    "cz": "otázka",
+    "explanation": "sentence asking for answer",
+    "usage_context": "communication",
+    "example_sentence": "Ask a question.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "query"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reason",
+    "cz": "důvod",
+    "explanation": "cause of something",
+    "usage_context": "logic",
+    "example_sentence": "The reason is clear.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "cause",
+      "motive"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "relationship",
+    "cz": "vztah",
+    "explanation": "connection between people",
+    "usage_context": "social",
+    "example_sentence": "Their relationship improved.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "bond",
+      "connection"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "research",
+    "cz": "výzkum",
+    "explanation": "systematic investigation",
+    "usage_context": "science",
+    "example_sentence": "Research takes time.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "study",
+      "investigation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "result",
+    "cz": "výsledek",
+    "explanation": "something produced by action",
+    "usage_context": "analysis",
+    "example_sentence": "Results were positive.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "outcome",
+      "consequence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "risk",
+    "cz": "riziko",
+    "explanation": "possibility of loss",
+    "usage_context": "business",
+    "example_sentence": "Investment has risk.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "danger",
+      "hazard"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "role",
+    "cz": "role",
+    "explanation": "function or position",
+    "usage_context": "work",
+    "example_sentence": "He plays key role.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "position",
+      "duty"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "service",
+    "cz": "služba",
+    "explanation": "work done for customers",
+    "usage_context": "business",
+    "example_sentence": "Customer service matters.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "assistance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "solution",
+    "cz": "řešení",
+    "explanation": "way to solve problem",
+    "usage_context": "analysis",
+    "example_sentence": "We found solution.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "answer",
+      "fix"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "strategy",
+    "cz": "strategie",
+    "explanation": "long‑term plan",
+    "usage_context": "business",
+    "example_sentence": "The strategy worked.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "plan",
+      "approach"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "system",
+    "cz": "systém",
+    "explanation": "organized set of parts",
+    "usage_context": "technology",
+    "example_sentence": "The system failed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "structure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "team",
+    "cz": "tým",
+    "explanation": "group working together",
+    "usage_context": "work",
+    "example_sentence": "The team succeeded.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "group",
+      "crew"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "technology",
+    "cz": "technologie",
+    "explanation": "tools and machines",
+    "usage_context": "science",
+    "example_sentence": "Technology evolves.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "tech"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "time",
+    "cz": "čas",
+    "explanation": "continuing progress of events",
+    "usage_context": "life",
+    "example_sentence": "Time is valuable.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "period"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "tool",
+    "cz": "nástroj",
+    "explanation": "instrument used for work",
+    "usage_context": "engineering",
+    "example_sentence": "This tool helps.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "instrument"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "training",
+    "cz": "trénink",
+    "explanation": "activity to learn skills",
+    "usage_context": "work",
+    "example_sentence": "Training improved skills.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "practice"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "trend",
+    "cz": "trend",
+    "explanation": "general direction of change",
+    "usage_context": "analysis",
+    "example_sentence": "The trend continues.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "tendency"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "value",
+    "cz": "hodnota",
+    "explanation": "importance or worth",
+    "usage_context": "economy",
+    "example_sentence": "Education has value.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "worth",
+      "importance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "view",
+    "cz": "pohled; názor",
+    "explanation": "opinion or sight",
+    "usage_context": "discussion",
+    "example_sentence": "His view changed.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "opinion",
+      "perspective"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vision",
+    "cz": "vize",
+    "explanation": "idea about future",
+    "usage_context": "leadership",
+    "example_sentence": "Leaders share vision.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "dream",
+      "outlook"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "work",
+    "cz": "práce",
+    "explanation": "activity requiring effort",
+    "usage_context": "career",
+    "example_sentence": "Work continues.",
+    "level": "B1",
+    "strength": null,
+    "synonyms": [
+      "labor",
+      "job"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accessibility",
+    "cz": "dostupnost, přístupnost",
+    "explanation": "the quality of being easy to reach or use",
+    "usage_context": "technology, infrastructure",
+    "example_sentence": "Improving accessibility of public transport helps many people.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "availability",
+      "reachability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accommodation",
+    "cz": "ubytování",
+    "explanation": " a place where someone lives or stays temporarily",
+    "usage_context": "travel, housing",
+    "example_sentence": "We booked accommodation near the conference center.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "lodging",
+      "housing"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accountability",
+    "cz": "odpovědnost za své činy",
+    "explanation": "the obligation to take responsibility for actions",
+    "usage_context": "business, politics",
+    "example_sentence": "Managers must show accountability for their decisions.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "responsibility",
+      "liability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accuracy",
+    "cz": "přesnost",
+    "explanation": "the quality of being correct or exact",
+    "usage_context": "science, data",
+    "example_sentence": "The accuracy of the measurement is important.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "precision",
+      "exactness"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adaptation",
+    "cz": "přizpůsobení, adaptace",
+    "explanation": "the process of adjusting to new conditions",
+    "usage_context": "biology, psychology",
+    "example_sentence": "Successful adaptation to change is crucial.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "adjustment",
+      "modification"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "administration",
+    "cz": "správa, vedení",
+    "explanation": "the management of an organization",
+    "usage_context": "business, government",
+    "example_sentence": "The university administration announced new rules.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "management",
+      "governance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "agriculture",
+    "cz": "zemědělství",
+    "explanation": "the practice of farming and cultivating land",
+    "usage_context": "economy, environment",
+    "example_sentence": "Agriculture plays a key role in the local economy.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "farming",
+      "cultivation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ambition",
+    "cz": "ambice, ctižádost",
+    "explanation": "a strong desire to achieve something",
+    "usage_context": "career, psychology",
+    "example_sentence": "Her ambition pushed her to start a company.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "aspiration",
+      "drive"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "analysis",
+    "cz": "analýza",
+    "explanation": "a detailed examination of something",
+    "usage_context": "complex topics, science",
+    "example_sentence": "The analysis revealed unexpected patterns.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "examination",
+      "study"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "anticipation",
+    "cz": "očekávání",
+    "explanation": "the act of expecting something",
+    "usage_context": "psychology",
+    "example_sentence": "The anticipation of success motivated the team.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "expectation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "anxiety",
+    "cz": "úzkost, nervozita",
+    "explanation": "a feeling of worry or fear",
+    "usage_context": "psychology, health",
+    "example_sentence": "Public speaking often causes anxiety.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "worry",
+      "stress"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "appeal",
+    "cz": "přitažlivost",
+    "explanation": "the quality of being attractive or interesting",
+    "usage_context": "marketing, psychology",
+    "example_sentence": "The design has strong visual appeal.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "attraction",
+      "charm"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "application",
+    "cz": "žádost, aplikace",
+    "explanation": "a formal request or a software program",
+    "usage_context": "work, technology",
+    "example_sentence": "She submitted a job application.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "request",
+      "submission"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "architecture",
+    "cz": "architektura",
+    "explanation": "the art and science of designing buildings",
+    "usage_context": "art, engineering",
+    "example_sentence": "The city is famous for its modern architecture.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "design",
+      "structure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "assessment",
+    "cz": "posouzení, hodnocení",
+    "explanation": "an evaluation of something",
+    "usage_context": "education, business",
+    "example_sentence": "The teacher made an assessment of the project.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "evaluation",
+      "appraisal"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "association",
+    "cz": "sdružení, spojení",
+    "explanation": "a group of people with common interest",
+    "usage_context": "organizations",
+    "example_sentence": "He joined a professional association.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "organization",
+      "union"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "atmosphere",
+    "cz": "atmosféra, prostředí",
+    "explanation": "the feeling of a place or situation",
+    "usage_context": "social life",
+    "example_sentence": "The café has a relaxed atmosphere.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "mood",
+      "environment"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "authority",
+    "cz": "autorita, pravomoc",
+    "explanation": "power to make decisions",
+    "usage_context": "politics, management",
+    "example_sentence": "Local authorities approved the plan.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "power",
+      "control"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "automation",
+    "cz": "automatizace",
+    "explanation": "the use of machines to perform tasks",
+    "usage_context": "technology, industry",
+    "example_sentence": "Automation increases productivity.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "mechanization"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "availability",
+    "cz": "dostupnost",
+    "explanation": "the state of being available",
+    "usage_context": "services, technology",
+    "example_sentence": "Product availability improved this year.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "accessibility"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "awareness",
+    "cz": "povědomí, uvědomění",
+    "explanation": "knowledge about something important",
+    "usage_context": "education, society",
+    "example_sentence": "The campaign raised awareness about climate change.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "consciousness"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "barrier",
+    "cz": "překážka",
+    "explanation": "something that blocks progress",
+    "usage_context": "business, psychology",
+    "example_sentence": "Language can be a barrier in communication.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "obstacle",
+      "hurdle"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "behavior",
+    "cz": "chování",
+    "explanation": "the way someone acts",
+    "usage_context": "psychology",
+    "example_sentence": "Children learn behavior from adults.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "conduct",
+      "actions"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "beneficiary",
+    "cz": "příjemce (výhody)",
+    "explanation": "a person who benefits from something",
+    "usage_context": "law, finance",
+    "example_sentence": "The beneficiary received the funds.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "recipient"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "biology",
+    "cz": "biologie",
+    "explanation": "the study of living organisms",
+    "usage_context": "science",
+    "example_sentence": "She studies biology at university.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "life science"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "boundary",
+    "cz": "hranice, mez",
+    "explanation": "a line that marks a limit",
+    "usage_context": "geography, concepts",
+    "example_sentence": "The river forms a natural boundary.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "border",
+      "limit"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "breakthrough",
+    "cz": "průlom",
+    "explanation": "a major discovery or progress",
+    "usage_context": "science, technology",
+    "example_sentence": "Scientists announced a medical breakthrough.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "advance",
+      "discovery"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "capacity",
+    "cz": "kapacita, schopnost",
+    "explanation": "the ability or space to contain something",
+    "usage_context": "engineering, business",
+    "example_sentence": "The stadium has a capacity of 50,000.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "ability",
+      "volume"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "category",
+    "cz": "kategorie",
+    "explanation": "a group of things with similar characteristics",
+    "usage_context": "classification",
+    "example_sentence": "This product falls into a new category.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "class",
+      "type"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "celebration",
+    "cz": "oslava",
+    "explanation": "an event marking a special occasion",
+    "usage_context": "social life",
+    "example_sentence": "The celebration lasted all night.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "festivity",
+      "party"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "certainty",
+    "cz": "jistota",
+    "explanation": "the state of being sure",
+    "usage_context": "logic, psychology",
+    "example_sentence": "There is no certainty about the result.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "assurance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "challenge",
+    "cz": "výzva",
+    "explanation": "a difficult task",
+    "usage_context": "work, sport",
+    "example_sentence": "Learning a language is a challenge.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "difficulty",
+      "test"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "circumstance",
+    "cz": "okolnost",
+    "explanation": "a condition affecting a situation",
+    "usage_context": "general language",
+    "example_sentence": "Under these circumstances we must wait.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "situation",
+      "condition"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "clarity",
+    "cz": "jasnost",
+    "explanation": "the quality of being clear",
+    "usage_context": "communication",
+    "example_sentence": "Clarity is essential in writing.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "precision",
+      "clearness"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "climate",
+    "cz": "klima",
+    "explanation": "the weather conditions in a region",
+    "usage_context": "environment",
+    "example_sentence": "Climate change affects agriculture.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "weather pattern"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "collaboration",
+    "cz": "spolupráce",
+    "explanation": "working together with others",
+    "usage_context": "work, science",
+    "example_sentence": "The project requires international collaboration.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "cooperation",
+      "partnership"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "commitment",
+    "cz": "závazek",
+    "explanation": "the state of being dedicated to something",
+    "usage_context": "work, relationships",
+    "example_sentence": "His commitment to the project was impressive.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "dedication",
+      "obligation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "communication",
+    "cz": "komunikace",
+    "explanation": "the exchange of information",
+    "usage_context": "social life",
+    "example_sentence": "Effective communication prevents misunderstandings.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "interaction"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "comparison",
+    "cz": "srovnání",
+    "explanation": "the act of examining similarities or differences",
+    "usage_context": "analysis",
+    "example_sentence": "The comparison shows clear differences.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "contrast",
+      "evaluation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complexity",
+    "cz": "složitost",
+    "explanation": "the state of having many parts",
+    "usage_context": "science, systems",
+    "example_sentence": "The complexity of the system surprised us.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "complication"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "component",
+    "cz": "součást, komponent",
+    "explanation": "a part of a larger system",
+    "usage_context": "technology",
+    "example_sentence": "Each component must work correctly.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "element",
+      "part"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "concentration",
+    "cz": "soustředění",
+    "explanation": "the ability to focus attention",
+    "usage_context": "psychology, work",
+    "example_sentence": "Noise affects concentration.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "focus",
+      "attention"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "concept",
+    "cz": "koncept, pojem",
+    "explanation": "an abstract idea",
+    "usage_context": "education",
+    "example_sentence": "The concept is difficult to understand.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "idea",
+      "notion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conclusion",
+    "cz": "závěr",
+    "explanation": "the final decision or opinion",
+    "usage_context": "analysis",
+    "example_sentence": "The conclusion was based on data.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "result",
+      "finding"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "confidence",
+    "cz": "sebevědomí",
+    "explanation": "belief in one's abilities",
+    "usage_context": "psychology",
+    "example_sentence": "Practice builds confidence.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "self-belief",
+      "assurance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "connection",
+    "cz": "spojení, souvislost",
+    "explanation": "a relationship between things",
+    "usage_context": "technology, ideas",
+    "example_sentence": "There is a connection between sleep and health.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "link",
+      "relation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consequence",
+    "cz": "následek",
+    "explanation": "the result of an action",
+    "usage_context": "general language",
+    "example_sentence": "Every decision has consequences.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "result",
+      "outcome"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consideration",
+    "cz": "zvážení",
+    "explanation": "careful thought",
+    "usage_context": "decision-making",
+    "example_sentence": "After consideration we changed the plan.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "reflection"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "construction",
+    "cz": "stavba",
+    "explanation": "the process of building",
+    "usage_context": "engineering",
+    "example_sentence": "Construction began last year.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "building",
+      "development"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consumer",
+    "cz": "spotřebitel",
+    "explanation": "a person who buys goods",
+    "usage_context": "economy",
+    "example_sentence": "Consumers demand better quality.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "buyer",
+      "customer"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "context",
+    "cz": "kontext",
+    "explanation": "the situation in which something occurs",
+    "usage_context": "communication",
+    "example_sentence": "Words can change meaning depending on context.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "background"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "contribution",
+    "cz": "příspěvek",
+    "explanation": "something given to help",
+    "usage_context": "work, society",
+    "example_sentence": "She made an important contribution.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "donation",
+      "input"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "controversy",
+    "cz": "kontroverze",
+    "explanation": "a public disagreement",
+    "usage_context": "media, politics",
+    "example_sentence": "The decision caused controversy.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "debate",
+      "dispute"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "convenience",
+    "cz": "pohodlí",
+    "explanation": "the quality of being easy to use",
+    "usage_context": "daily life",
+    "example_sentence": "Online shopping offers great convenience.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "comfort",
+      "ease"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "cooperation",
+    "cz": "spolupráce",
+    "explanation": "working together",
+    "usage_context": "work, politics",
+    "example_sentence": "International cooperation is necessary.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "collaboration"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "coordination",
+    "cz": "koordinace",
+    "explanation": "the organization of different elements",
+    "usage_context": "management",
+    "example_sentence": "Good coordination is essential.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "organization"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "creativity",
+    "cz": "kreativita",
+    "explanation": "the ability to produce new ideas",
+    "usage_context": "art, work",
+    "example_sentence": "Creativity helps solve problems.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "imagination",
+      "originality"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "criticism",
+    "cz": "kritika",
+    "explanation": "the act of expressing disapproval",
+    "usage_context": "culture, discussion",
+    "example_sentence": "The film received harsh criticism.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "disapproval",
+      "review"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "curiosity",
+    "cz": "zvědavost",
+    "explanation": "a strong desire to know something",
+    "usage_context": "psychology",
+    "example_sentence": "Curiosity drives learning.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "interest",
+      "inquisitiveness"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "database",
+    "cz": "databáze",
+    "explanation": "an organized collection of data",
+    "usage_context": "technology",
+    "example_sentence": "The database stores user information.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "data system"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "democracy",
+    "cz": "demokracie",
+    "explanation": "a system of government by the people",
+    "usage_context": "politics",
+    "example_sentence": "Democracy requires active citizens.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "self-government"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "density",
+    "cz": "hustota",
+    "explanation": "the amount of something in a space",
+    "usage_context": "science",
+    "example_sentence": "Population density is increasing.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "concentration"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "departure",
+    "cz": "odjezd",
+    "explanation": "the act of leaving",
+    "usage_context": "travel",
+    "example_sentence": "The train departure is delayed.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "exit",
+      "leaving"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dependence",
+    "cz": "závislost",
+    "explanation": "reliance on something",
+    "usage_context": "economy, psychology",
+    "example_sentence": "Energy dependence can be risky.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "reliance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "diagnosis",
+    "cz": "diagnóza",
+    "explanation": "identifying a problem or disease",
+    "usage_context": "medicine",
+    "example_sentence": "The doctor made a diagnosis.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "identification"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "disaster",
+    "cz": "katastrofa",
+    "explanation": "a sudden event causing damage",
+    "usage_context": "environment",
+    "example_sentence": "The flood was a disaster.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "catastrophe"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "discipline",
+    "cz": "disciplína, obor",
+    "explanation": "training or a field of study",
+    "usage_context": "education",
+    "example_sentence": "Physics is a scientific discipline.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "field",
+      "control"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "discovery",
+    "cz": "objev",
+    "explanation": "finding something new",
+    "usage_context": "science",
+    "example_sentence": "The discovery changed medicine.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "finding",
+      "breakthrough"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "distribution",
+    "cz": "distribuce",
+    "explanation": "the process of delivering goods",
+    "usage_context": "business",
+    "example_sentence": "Distribution costs are rising.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "delivery",
+      "allocation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "diversity",
+    "cz": "rozmanitost",
+    "explanation": "variety of different things",
+    "usage_context": "society",
+    "example_sentence": "Cultural diversity enriches society.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "variety",
+      "difference"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "documentation",
+    "cz": "dokumentace",
+    "explanation": "written records",
+    "usage_context": "technology",
+    "example_sentence": "Good documentation helps developers.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "records",
+      "files"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "economy",
+    "cz": "ekonomika",
+    "explanation": "the system of production and trade",
+    "usage_context": "finance",
+    "example_sentence": "The economy is growing.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "market system"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "efficiency",
+    "cz": "efektivita",
+    "explanation": "the ability to work well without waste",
+    "usage_context": "business",
+    "example_sentence": "Automation increases efficiency.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "productivity"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "emotion",
+    "cz": "emoce",
+    "explanation": "a strong feeling",
+    "usage_context": "psychology",
+    "example_sentence": "Music can evoke emotion.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "feeling"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "employment",
+    "cz": "zaměstnanost",
+    "explanation": "the state of having a job",
+    "usage_context": "economy",
+    "example_sentence": "Employment rates improved.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "jobs",
+      "work"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "encouragement",
+    "cz": "povzbuzení",
+    "explanation": "support that inspires confidence",
+    "usage_context": "psychology",
+    "example_sentence": "Her encouragement helped him continue.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "support",
+      "motivation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "engineering",
+    "cz": "inženýrství",
+    "explanation": "the application of science to design",
+    "usage_context": "technology",
+    "example_sentence": "Engineering requires strong math skills.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "technical science"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "environment",
+    "cz": "prostředí",
+    "explanation": "the surroundings where life exists",
+    "usage_context": "nature",
+    "example_sentence": "We must protect the environment.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "nature",
+      "ecosystem"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "equipment",
+    "cz": "vybavení",
+    "explanation": "tools used for a purpose",
+    "usage_context": "sport, work",
+    "example_sentence": "The laboratory equipment is expensive.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "gear",
+      "apparatus"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "evidence",
+    "cz": "důkaz",
+    "explanation": "facts supporting a claim",
+    "usage_context": "law, science",
+    "example_sentence": "There is evidence of climate change.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "proof",
+      "indication"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "evolution",
+    "cz": "evoluce",
+    "explanation": "gradual development over time",
+    "usage_context": "science",
+    "example_sentence": "Evolution explains biodiversity.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "development",
+      "progression"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "evaluation",
+    "cz": "hodnocení",
+    "explanation": "judging value or quality",
+    "usage_context": "education",
+    "example_sentence": "The evaluation took several hours.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "assessment"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "exploration",
+    "cz": "průzkum",
+    "explanation": "investigation of unknown areas",
+    "usage_context": "science",
+    "example_sentence": "Space exploration continues.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "investigation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "foundation",
+    "cz": "základ",
+    "explanation": "the base supporting something",
+    "usage_context": "organizations",
+    "example_sentence": "The charity foundation helps children.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "base",
+      "basis"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "framework",
+    "cz": "rámec, struktura",
+    "explanation": "a structure supporting a system",
+    "usage_context": "business, theory",
+    "example_sentence": "We developed a strategic framework.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "structure",
+      "system"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "freedom",
+    "cz": "svoboda",
+    "explanation": "the power to act freely",
+    "usage_context": "politics, society",
+    "example_sentence": "Freedom of speech is essential.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "liberty"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "generation",
+    "cz": "generace",
+    "explanation": "a group born at similar time",
+    "usage_context": "society",
+    "example_sentence": "The younger generation prefers digital tools.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "age group"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "growth",
+    "cz": "růst",
+    "explanation": "increase in size or number",
+    "usage_context": "economy",
+    "example_sentence": "Economic growth slowed.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "increase",
+      "expansion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "guidance",
+    "cz": "vedení, pokyny",
+    "explanation": "advice helping someone",
+    "usage_context": "education",
+    "example_sentence": "Students need guidance.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "advice",
+      "direction"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "heritage",
+    "cz": "dědictví",
+    "explanation": "traditions from the past",
+    "usage_context": "culture",
+    "example_sentence": "The city protects its cultural heritage.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "legacy"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "identity",
+    "cz": "identita",
+    "explanation": "who someone is",
+    "usage_context": "psychology",
+    "example_sentence": "Language is part of identity.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "self",
+      "individuality"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "impact",
+    "cz": "dopad",
+    "explanation": "a strong effect",
+    "usage_context": "science, society",
+    "example_sentence": "Technology has huge impact.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "effect",
+      "influence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inequality",
+    "cz": "nerovnost",
+    "explanation": "difference in status or wealth",
+    "usage_context": "society",
+    "example_sentence": "Income inequality is rising.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "imbalance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "innovation",
+    "cz": "inovace",
+    "explanation": "a new idea or invention",
+    "usage_context": "technology",
+    "example_sentence": "Innovation drives progress.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "novelty",
+      "invention"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inspection",
+    "cz": "kontrola, inspekce",
+    "explanation": "careful examination",
+    "usage_context": "industry",
+    "example_sentence": "The building passed inspection.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "check",
+      "review"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "integration",
+    "cz": "integrace",
+    "explanation": "combining parts into whole",
+    "usage_context": "society, technology",
+    "example_sentence": "Integration improves efficiency.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "unification"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "interaction",
+    "cz": "interakce",
+    "explanation": "mutual influence between people",
+    "usage_context": "social science",
+    "example_sentence": "Online interaction increased.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "communication"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "interpretation",
+    "cz": "interpretace",
+    "explanation": "explaining the meaning of something",
+    "usage_context": "art, science",
+    "example_sentence": "Different interpretations exist.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "explanation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "investment",
+    "cz": "investice",
+    "explanation": "spending money expecting profit",
+    "usage_context": "finance",
+    "example_sentence": "Foreign investment increased.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "funding",
+      "capital"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "leadership",
+    "cz": "vůdcovství",
+    "explanation": "ability to lead people",
+    "usage_context": "management",
+    "example_sentence": "Leadership skills are valuable.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "guidance",
+      "authority"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "limitation",
+    "cz": "omezení",
+    "explanation": "a rule or restriction",
+    "usage_context": "law, planning",
+    "example_sentence": "Every method has limitations.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "restriction",
+      "constraint"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "manufacturing",
+    "cz": "výroba",
+    "explanation": "industrial production of goods",
+    "usage_context": "industry",
+    "example_sentence": "Manufacturing jobs declined.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "production"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "measurement",
+    "cz": "měření",
+    "explanation": "determining size or amount",
+    "usage_context": "science",
+    "example_sentence": "Accurate measurement is necessary.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "calculation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "mobility",
+    "cz": "mobilita",
+    "explanation": "ability to move easily",
+    "usage_context": "transport",
+    "example_sentence": "Urban mobility is changing.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "movement"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "motivation",
+    "cz": "motivace",
+    "explanation": "reason for action",
+    "usage_context": "psychology",
+    "example_sentence": "Motivation drives productivity.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "drive",
+      "incentive"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "negotiation",
+    "cz": "vyjednávání",
+    "explanation": "discussion to reach agreement",
+    "usage_context": "business",
+    "example_sentence": "Negotiations lasted weeks.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "bargaining"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "observation",
+    "cz": "pozorování",
+    "explanation": "watching carefully",
+    "usage_context": "science",
+    "example_sentence": "Observation revealed patterns.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "monitoring"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "participation",
+    "cz": "účast",
+    "explanation": "taking part in something",
+    "usage_context": "society",
+    "example_sentence": "Participation in elections increased.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "involvement"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "perspective",
+    "cz": "pohled, perspektiva",
+    "explanation": "a way of thinking about something",
+    "usage_context": "discussion",
+    "example_sentence": "We need a new perspective.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "viewpoint"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "probability",
+    "cz": "pravděpodobnost",
+    "explanation": "likelihood something happens",
+    "usage_context": "math, analysis",
+    "example_sentence": "The probability is low.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "chance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "proposal",
+    "cz": "návrh",
+    "explanation": "a formal suggestion",
+    "usage_context": "business",
+    "example_sentence": "They accepted the proposal.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "suggestion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "recovery",
+    "cz": "oživení, zotavení",
+    "explanation": "return to normal state",
+    "usage_context": "economy, health",
+    "example_sentence": "Economic recovery takes time.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "restoration"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "reputation",
+    "cz": "pověst",
+    "explanation": "general opinion about someone",
+    "usage_context": "business",
+    "example_sentence": "The company has strong reputation.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "prestige",
+      "status"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "requirement",
+    "cz": "požadavek",
+    "explanation": "something necessary",
+    "usage_context": "work",
+    "example_sentence": "Experience is requirement.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "condition"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "resolution",
+    "cz": "řešení, usnesení",
+    "explanation": "decision to solve a problem",
+    "usage_context": "politics",
+    "example_sentence": "They reached resolution.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "solution"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "responsibility",
+    "cz": "odpovědnost",
+    "explanation": "duty to deal with something",
+    "usage_context": "work",
+    "example_sentence": "This task is my responsibility.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "duty",
+      "obligation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "strategy",
+    "cz": "strategie",
+    "explanation": "a plan to achieve goal",
+    "usage_context": "business",
+    "example_sentence": "The strategy improved sales.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "plan",
+      "approach"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "transition",
+    "cz": "přechod",
+    "explanation": "change from one state to another",
+    "usage_context": "politics, economy",
+    "example_sentence": "The transition was slow.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "shift",
+      "transformation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "variation",
+    "cz": "variace, rozdíl",
+    "explanation": "difference in form",
+    "usage_context": "science",
+    "example_sentence": "Temperature variation was small.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "difference"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vision",
+    "cz": "vize",
+    "explanation": "idea about future",
+    "usage_context": "leadership",
+    "example_sentence": "The leader shared his vision.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "outlook",
+      "aspiration"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "accountability",
+    "cz": "odpovědnost za své činy",
+    "explanation": "the obligation to explain and take responsibility for actions",
+    "usage_context": "politics, management",
+    "example_sentence": "Public officials must demonstrate accountability.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "responsibility",
+      "liability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "adaptability",
+    "cz": "přizpůsobivost",
+    "explanation": "the ability to change in response to new conditions",
+    "usage_context": "psychology, business",
+    "example_sentence": "Adaptability is essential in a rapidly changing economy.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "flexibility",
+      "resilience"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ambiguity",
+    "cz": "nejednoznačnost",
+    "explanation": "the quality of having more than one possible meaning",
+    "usage_context": "language, communication",
+    "example_sentence": "The ambiguity of the statement caused confusion.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "uncertainty",
+      "vagueness"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "analogy",
+    "cz": "analogie",
+    "explanation": "comparison between two things to explain a concept",
+    "usage_context": "education, science",
+    "example_sentence": "The teacher used an analogy to explain the theory.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "comparison",
+      "parallel"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "anomaly",
+    "cz": "anomálie",
+    "explanation": "something that deviates from what is standard or expected",
+    "usage_context": "science, statistics",
+    "example_sentence": "The data contained a statistical anomaly.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "irregularity",
+      "deviation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "anticipation",
+    "cz": "očekávání",
+    "explanation": "the act of expecting something in advance",
+    "usage_context": "psychology",
+    "example_sentence": "There was great anticipation before the launch.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "expectation",
+      "prediction"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "arbitrary",
+    "cz": "libovolnost",
+    "explanation": "the quality of being based on random choice rather than reason",
+    "usage_context": "law, philosophy",
+    "example_sentence": "The decision seemed arbitrary.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "randomness",
+      "unpredictability"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "assumption",
+    "cz": "předpoklad",
+    "explanation": "something accepted as true without proof",
+    "usage_context": "logic, science",
+    "example_sentence": "The theory is based on several assumptions.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "presumption",
+      "hypothesis"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "authenticity",
+    "cz": "autentičnost",
+    "explanation": "the quality of being genuine or real",
+    "usage_context": "culture, art",
+    "example_sentence": "The museum verified the authenticity of the painting.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "genuineness",
+      "originality"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "autonomy",
+    "cz": "autonomie",
+    "explanation": "the ability to govern oneself",
+    "usage_context": "politics, psychology",
+    "example_sentence": "Universities often value academic autonomy.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "independence",
+      "self-rule"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "bias",
+    "cz": "předsudek, zaujatost",
+    "explanation": "an unfair preference for or against something",
+    "usage_context": "media, psychology",
+    "example_sentence": "The study tried to eliminate bias.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "prejudice",
+      "partiality"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "coherence",
+    "cz": "soudržnost, logická návaznost",
+    "explanation": "the quality of forming a logical and consistent whole",
+    "usage_context": "writing, science",
+    "example_sentence": "The argument lacks coherence.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "consistency",
+      "unity"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "complexity",
+    "cz": "složitost",
+    "explanation": "the state of having many interconnected parts",
+    "usage_context": "science, systems",
+    "example_sentence": "The complexity of the problem requires careful analysis.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "complication",
+      "intricacy"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "compliance",
+    "cz": "soulad, dodržování pravidel",
+    "explanation": "the act of obeying laws or regulations",
+    "usage_context": "law, business",
+    "example_sentence": "The company ensured regulatory compliance.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "conformity",
+      "adherence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "conformity",
+    "cz": "konformita",
+    "explanation": "behavior that follows social norms",
+    "usage_context": "sociology",
+    "example_sentence": "Group pressure often leads to conformity.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "agreement",
+      "compliance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "consensus",
+    "cz": "konsensus, shoda",
+    "explanation": "general agreement among members of a group",
+    "usage_context": "politics, research",
+    "example_sentence": "The committee reached a consensus.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "agreement",
+      "unanimity"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "constraint",
+    "cz": "omezení",
+    "explanation": "a limitation that restricts action",
+    "usage_context": "economics, engineering",
+    "example_sentence": "Budget constraints delayed the project.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "restriction",
+      "limitation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "controversy",
+    "cz": "kontroverze",
+    "explanation": "a public disagreement about an issue",
+    "usage_context": "media, politics",
+    "example_sentence": "The decision sparked controversy.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "debate",
+      "dispute"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "credibility",
+    "cz": "důvěryhodnost",
+    "explanation": "the quality of being trusted or believed",
+    "usage_context": "media, science",
+    "example_sentence": "The witness lacked credibility.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "trustworthiness",
+      "reliability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "criterion",
+    "cz": "kritérium",
+    "explanation": "a standard used for judging something",
+    "usage_context": "research, evaluation",
+    "example_sentence": "Price was the main selection criterion.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "standard",
+      "measure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "deviation",
+    "cz": "odchylka",
+    "explanation": "a difference from the expected value",
+    "usage_context": "statistics",
+    "example_sentence": "The deviation from the norm was significant.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "variance",
+      "divergence"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dilemma",
+    "cz": "dilema",
+    "explanation": "a difficult choice between two options",
+    "usage_context": "ethics",
+    "example_sentence": "She faced a moral dilemma.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "predicament",
+      "difficulty"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "discourse",
+    "cz": "diskurz, odborná debata",
+    "explanation": "formal discussion of a topic",
+    "usage_context": "academia",
+    "example_sentence": "The article contributes to political discourse.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "discussion",
+      "debate"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "distinction",
+    "cz": "rozlišení",
+    "explanation": "recognition of difference between things",
+    "usage_context": "education",
+    "example_sentence": "The paper makes a clear distinction.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "difference",
+      "contrast"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "divergence",
+    "cz": "rozcházení, odchylka",
+    "explanation": "the process of becoming different",
+    "usage_context": "economics, science",
+    "example_sentence": "Economic divergence is growing.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "separation",
+      "deviation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dominance",
+    "cz": "dominance, převaha",
+    "explanation": "the state of being most powerful",
+    "usage_context": "sociology, politics",
+    "example_sentence": "The species shows dominance in the ecosystem.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "supremacy",
+      "control"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "dynamics",
+    "cz": "dynamika",
+    "explanation": "forces that influence change in a system",
+    "usage_context": "physics, sociology",
+    "example_sentence": "Team dynamics affect productivity.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "movement",
+      "interaction"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "emergence",
+    "cz": "vznik",
+    "explanation": "the process of becoming visible or known",
+    "usage_context": "science",
+    "example_sentence": "The emergence of new technologies changed society.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "appearance",
+      "rise"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "empirical",
+    "cz": "empirický přístup",
+    "explanation": "knowledge based on observation or experiment",
+    "usage_context": "science",
+    "example_sentence": "The theory requires empirical evidence.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "observational",
+      "experimental"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "equilibrium",
+    "cz": "rovnováha",
+    "explanation": "a state of balance between forces",
+    "usage_context": "economics, physics",
+    "example_sentence": "Markets move toward equilibrium.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "balance",
+      "stability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ethics",
+    "cz": "etika",
+    "explanation": "moral principles guiding behavior",
+    "usage_context": "philosophy",
+    "example_sentence": "Medical ethics are complex.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "morality",
+      "principles"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "exaggeration",
+    "cz": "přehánění",
+    "explanation": "representation as greater than reality",
+    "usage_context": "communication",
+    "example_sentence": "The story contained exaggeration.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "overstatement"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "facilitation",
+    "cz": "usnadnění",
+    "explanation": "the act of making something easier",
+    "usage_context": "management",
+    "example_sentence": "The facilitator ensured smooth discussion.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "assistance",
+      "support"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "fluctuation",
+    "cz": "kolísání",
+    "explanation": "irregular rise and fall",
+    "usage_context": "economics",
+    "example_sentence": "Currency fluctuation affects trade.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "variation",
+      "instability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "framework",
+    "cz": "konceptuální rámec",
+    "explanation": "structure supporting a theory or system",
+    "usage_context": "research",
+    "example_sentence": "The study proposes a new framework.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "structure",
+      "model"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "hypothesis",
+    "cz": "hypotéza",
+    "explanation": "a proposed explanation for testing",
+    "usage_context": "science",
+    "example_sentence": "The hypothesis was later confirmed.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "theory",
+      "assumption"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "ideology",
+    "cz": "ideologie",
+    "explanation": "a system of beliefs guiding actions",
+    "usage_context": "politics",
+    "example_sentence": "Political ideology influences decisions.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "doctrine",
+      "belief system"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "implication",
+    "cz": "důsledek, implikace",
+    "explanation": "an indirect consequence",
+    "usage_context": "analysis",
+    "example_sentence": "The policy has serious implications.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "consequence",
+      "inference"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "incentive",
+    "cz": "pobídka",
+    "explanation": "something motivating action",
+    "usage_context": "economics",
+    "example_sentence": "Tax incentives encourage investment.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "motivation",
+      "stimulus"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inevitability",
+    "cz": "nevyhnutelnost",
+    "explanation": "the quality of being certain to happen",
+    "usage_context": "philosophy",
+    "example_sentence": "Change has an inevitability.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "certainty",
+      "necessity"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "inference",
+    "cz": "odvození závěru",
+    "explanation": "a conclusion drawn from evidence",
+    "usage_context": "logic",
+    "example_sentence": "The inference was reasonable.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "deduction",
+      "conclusion"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "infrastructure",
+    "cz": "infrastruktura",
+    "explanation": "basic systems supporting society",
+    "usage_context": "economics",
+    "example_sentence": "Infrastructure investment improves growth.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "foundation",
+      "framework"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "integrity",
+    "cz": "integrita, poctivost",
+    "explanation": "the quality of being honest and moral",
+    "usage_context": "ethics",
+    "example_sentence": "Leaders must show integrity.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "honesty",
+      "morality"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "intervention",
+    "cz": "zásah",
+    "explanation": "action taken to influence outcome",
+    "usage_context": "politics, medicine",
+    "example_sentence": "Government intervention stabilized markets.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "interference",
+      "involvement"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "intuition",
+    "cz": "intuice",
+    "explanation": "understanding without conscious reasoning",
+    "usage_context": "psychology",
+    "example_sentence": "Her intuition proved correct.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "instinct",
+      "insight"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "justification",
+    "cz": "ospravedlnění",
+    "explanation": "a reason explaining a decision",
+    "usage_context": "law",
+    "example_sentence": "There was no justification for the delay.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "reason",
+      "rationale"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "legitimacy",
+    "cz": "legitimita",
+    "explanation": "the quality of being lawful or accepted",
+    "usage_context": "politics",
+    "example_sentence": "The government questioned the election legitimacy.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "validity",
+      "authority"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "methodology",
+    "cz": "metodologie",
+    "explanation": "the system of methods used in research",
+    "usage_context": "science",
+    "example_sentence": "The methodology is clearly explained.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "approach",
+      "procedure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "moderation",
+    "cz": "umírněnost",
+    "explanation": "avoidance of extremes",
+    "usage_context": "philosophy",
+    "example_sentence": "Moderation is considered a virtue.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "balance",
+      "restraint"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "narrative",
+    "cz": "narativ, vyprávění",
+    "explanation": "a structured story or explanation",
+    "usage_context": "media",
+    "example_sentence": "The narrative shaped public opinion.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "storyline",
+      "account"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "nuance",
+    "cz": "jemný rozdíl",
+    "explanation": "a subtle distinction",
+    "usage_context": "language",
+    "example_sentence": "Language learners must notice nuance.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "subtlety",
+      "shade"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "paradox",
+    "cz": "paradox",
+    "explanation": "statement that seems contradictory but may be true",
+    "usage_context": "philosophy",
+    "example_sentence": "Freedom sometimes creates a paradox.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "contradiction",
+      "puzzle"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "perception",
+    "cz": "vnímání",
+    "explanation": "the way something is interpreted",
+    "usage_context": "psychology",
+    "example_sentence": "Perception varies between cultures.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "awareness",
+      "interpretation"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "phenomenon",
+    "cz": "jev",
+    "explanation": "something observable",
+    "usage_context": "science",
+    "example_sentence": "Gravity is a natural phenomenon.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "occurrence",
+      "event"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "precedent",
+    "cz": "precedens",
+    "explanation": "earlier event used as example",
+    "usage_context": "law",
+    "example_sentence": "The court followed precedent.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "example",
+      "case"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "premise",
+    "cz": "předpoklad",
+    "explanation": "an assumption forming basis of argument",
+    "usage_context": "logic",
+    "example_sentence": "The argument rests on a false premise.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "assumption",
+      "basis"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "probability",
+    "cz": "pravděpodobnost",
+    "explanation": "likelihood of something happening",
+    "usage_context": "statistics",
+    "example_sentence": "The probability is extremely low.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "chance",
+      "likelihood"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "rationale",
+    "cz": "zdůvodnění",
+    "explanation": "logical explanation of decisions",
+    "usage_context": "policy",
+    "example_sentence": "The policy lacks rationale.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "justification",
+      "reasoning"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "resilience",
+    "cz": "odolnost",
+    "explanation": "ability to recover quickly",
+    "usage_context": "psychology",
+    "example_sentence": "Resilience helps people survive crises.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "strength",
+      "endurance"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "scarcity",
+    "cz": "nedostatek",
+    "explanation": "limited availability of resources",
+    "usage_context": "economics",
+    "example_sentence": "Water scarcity affects agriculture.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "shortage",
+      "deficit"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "sophistication",
+    "cz": "vyspělost",
+    "explanation": "complex and refined quality",
+    "usage_context": "technology, culture",
+    "example_sentence": "The software shows high sophistication.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "complexity",
+      "refinement"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "speculation",
+    "cz": "spekulace",
+    "explanation": "forming theory without firm evidence",
+    "usage_context": "finance",
+    "example_sentence": "Market speculation increased prices.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "guess",
+      "conjecture"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "stability",
+    "cz": "stabilita",
+    "explanation": "the state of being steady",
+    "usage_context": "economics",
+    "example_sentence": "Political stability encourages investment.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "balance",
+      "security"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "synthesis",
+    "cz": "synteza",
+    "explanation": "combining ideas into a whole",
+    "usage_context": "science",
+    "example_sentence": "The essay requires synthesis of sources.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "combination",
+      "integration"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "transparency",
+    "cz": "transparentnost",
+    "explanation": "openness and clarity",
+    "usage_context": "politics",
+    "example_sentence": "Transparency improves trust.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "openness",
+      "clarity"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "uncertainty",
+    "cz": "nejistota",
+    "explanation": "lack of certainty",
+    "usage_context": "economics",
+    "example_sentence": "Economic uncertainty slowed investment.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "doubt",
+      "unpredictability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "validity",
+    "cz": "platnost",
+    "explanation": "the quality of being logically sound",
+    "usage_context": "research",
+    "example_sentence": "The validity of the results was tested.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "accuracy",
+      "soundness"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "viability",
+    "cz": "životaschopnost",
+    "explanation": "ability to work successfully",
+    "usage_context": "business",
+    "example_sentence": "The plan's viability is unclear.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "feasibility",
+      "sustainability"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "vulnerability",
+    "cz": "zranitelnost",
+    "explanation": "susceptibility to harm",
+    "usage_context": "security",
+    "example_sentence": "Cyber systems show vulnerability.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "weakness",
+      "exposure"
+    ],
+    "inserted": "2026-03-12"
+  },
+  {
+    "en": "merit",
+    "cz": "zásluha; opodstatnění",
+    "explanation": "a good quality or an advantage that deserves praise or consideration",
+    "usage_context": "evaluation, discussion",
+    "example_sentence": "Her proposal has real merit despite the risks.",
+    "level": "C1",
+    "strength": null,
+    "synonyms": [
+      "value",
+      "virtue",
+      "worth"
+    ],
+    "inserted": "2026-03-13"
+  },
+  {
+    "en": "treatment",
+    "cz": "léčba; zacházení",
+    "explanation": "medical care or the way someone is dealt with",
+    "usage_context": "health, social situations",
+    "example_sentence": "The treatment helped him recover much faster.",
+    "level": "B2",
+    "strength": null,
+    "synonyms": [
+      "care",
+      "therapy",
+      "handling"
+    ],
+    "inserted": "2026-03-13"
+  }
+]
