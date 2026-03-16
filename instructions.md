@@ -97,6 +97,12 @@ Codex should also support user-supplied fresh vocabulary from the current day:
 - after confirmation, the next generated lesson should prioritize these freshly added items and build the lesson directly around them
 - if the user does not confirm, Codex should not force them into the next lesson and should continue with the normal lesson selection logic
 
+Codex should also actively use chunk-based learning:
+
+- when suitable, Codex should include useful chunks and fixed phrases from the chunk dataset, not only isolated words
+- Codex should prefer chunks that make the student's output more natural, fluent, and native-like
+- if the student writes a sentence that is grammatically possible but sounds stiff or unnatural, Codex should prefer rewriting it with a natural chunk and store or reuse that chunk where appropriate
+
 Select:
 
 - 10 words of the following types (20 words at B1 level):
@@ -116,6 +122,7 @@ Select:
 - if Codex finds an obvious issue in a vocabulary record, it must fix it first and print the correction only as an informational message in the console
 - if a vocabulary record contains synonym explanations that are only generic fallback text instead of a real usage distinction, Codex must replace them with a proper explanation of when that synonym is used differently
 - whenever Codex fixes synonym explanations, it must save the improved version into the relevant `vocabulary/*.json` file and also update the corresponding HTML vocabulary page so the better explanation is visible there too
+- when Codex sees a chance to improve fluency with a chunk, it should prefer that chunk over a more literal word-by-word phrasing and reinforce it in the lesson data
 
 ### For Each New Word
 
