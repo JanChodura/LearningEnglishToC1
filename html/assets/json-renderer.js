@@ -288,11 +288,6 @@
       wrapper.appendChild(title);
     }
 
-    var meta = document.createElement("p");
-    meta.className = "json-meta";
-    meta.textContent = items.length + " item(s)";
-    wrapper.appendChild(meta);
-
     var columns = collectColumns(items);
     var table = document.createElement("div");
     table.className = "json-table";
@@ -351,11 +346,6 @@
         return renderObjectList(value, key);
       }
 
-      var meta = document.createElement("p");
-      meta.className = "json-meta";
-      meta.textContent = value.length + " item(s)";
-      wrapper.appendChild(meta);
-
       var list = document.createElement("div");
       list.className = "json-array";
       value.forEach(function (item) {
@@ -367,11 +357,6 @@
 
     if (value && typeof value === "object") {
       var entries = Object.entries(value);
-      var metaObj = document.createElement("p");
-      metaObj.className = "json-meta";
-      metaObj.textContent = entries.length + " field(s)";
-      wrapper.appendChild(metaObj);
-
       var grid = document.createElement("div");
       grid.className = "json-object";
       entries.forEach(function (entry) {

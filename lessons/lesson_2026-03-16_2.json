@@ -1,0 +1,65 @@
+{
+  "grammar": {
+    "name": "present perfect with ever and never",
+    "level": "B1"
+  },
+  "review_errors": [],
+  "lesson": [
+    {
+      "word": "bring up",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "conversation, family",
+      "example": "She brought up an interesting point.",
+      "new": "n"
+    },
+    {
+      "word": "call it a day",
+      "type": "idiom",
+      "level": "B1",
+      "context": "work",
+      "example": "Let's call it a day.",
+      "new": "n"
+    },
+    {
+      "word": "deal with",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "work, problems",
+      "example": "She deals with customer issues.",
+      "new": "n"
+    },
+    {
+      "word": "decision",
+      "type": "noun",
+      "level": "B1",
+      "context": "management",
+      "example": "It was a difficult decision.",
+      "new": "n"
+    },
+    {
+      "word": "once in a blue moon",
+      "type": "idiom",
+      "level": "B1",
+      "context": "daily life",
+      "example": "I eat fast food once in a blue moon.",
+      "new": "n"
+    },
+    {
+      "word": "break the ice",
+      "type": "idiom",
+      "level": "B1",
+      "context": "social",
+      "example": "He told a joke to break the ice.",
+      "new": "n"
+    },
+    {
+      "word": "piece of cake",
+      "type": "idiom",
+      "level": "B1",
+      "context": "daily life",
+      "example": "The exam was a piece of cake.",
+      "new": "n"
+    }
+  ]
+}

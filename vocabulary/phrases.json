@@ -2,2188 +2,2188 @@
   {
     "en": "at the moment",
     "cz": "v tuto chvíli",
-    "explanation": "right now",
-    "usage_context": "daily life",
-    "example_sentence": "I'm busy at the moment.",
+    "desc": "right now",
+    "usage": "daily life",
+    "example": "I'm busy at the moment.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the end",
     "cz": "nakonec",
-    "explanation": "finally after some time",
-    "usage_context": "story",
-    "example_sentence": "In the end we decided to stay.",
+    "desc": "finally after some time",
+    "usage": "story",
+    "example": "In the end we decided to stay.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for a while",
     "cz": "na chvíli",
-    "explanation": "for a short time",
-    "usage_context": "daily life",
-    "example_sentence": "Sit here for a while.",
+    "desc": "for a short time",
+    "usage": "daily life",
+    "example": "Sit here for a while.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "all the time",
     "cz": "pořád",
-    "explanation": "continuously",
-    "usage_context": "daily life",
-    "example_sentence": "He talks all the time.",
+    "desc": "continuously",
+    "usage": "daily life",
+    "example": "He talks all the time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from time to time",
     "cz": "čas od času",
-    "explanation": "occasionally",
-    "usage_context": "life",
-    "example_sentence": "I go hiking from time to time.",
+    "desc": "occasionally",
+    "usage": "life",
+    "example": "I go hiking from time to time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the future",
     "cz": "v budoucnu",
-    "explanation": "time after now",
-    "usage_context": "planning",
-    "example_sentence": "I want to travel more in the future.",
+    "desc": "time after now",
+    "usage": "planning",
+    "example": "I want to travel more in the future.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the past",
     "cz": "v minulosti",
-    "explanation": "time before now",
-    "usage_context": "discussion",
-    "example_sentence": "People lived differently in the past.",
+    "desc": "time before now",
+    "usage": "discussion",
+    "example": "People lived differently in the past.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "by mistake",
     "cz": "omylem",
-    "explanation": "accidentally",
-    "usage_context": "daily life",
-    "example_sentence": "I deleted the file by mistake.",
+    "desc": "accidentally",
+    "usage": "daily life",
+    "example": "I deleted the file by mistake.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on purpose",
     "cz": "schválně",
-    "explanation": "intentionally",
-    "usage_context": "social",
-    "example_sentence": "He broke it on purpose.",
+    "desc": "intentionally",
+    "usage": "social",
+    "example": "He broke it on purpose.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in general",
     "cz": "obecně",
-    "explanation": "generally speaking",
-    "usage_context": "discussion",
-    "example_sentence": "In general this method works.",
+    "desc": "generally speaking",
+    "usage": "discussion",
+    "example": "In general this method works.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in particular",
     "cz": "zejména",
-    "explanation": "especially",
-    "usage_context": "discussion",
-    "example_sentence": "I like fruit, in particular apples.",
+    "desc": "especially",
+    "usage": "discussion",
+    "example": "I like fruit, in particular apples.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for example",
     "cz": "například",
-    "explanation": "introducing an example",
-    "usage_context": "discussion",
-    "example_sentence": "For example we could try Java.",
+    "desc": "introducing an example",
+    "usage": "discussion",
+    "example": "For example we could try Java.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "as a result",
     "cz": "v důsledku toho",
-    "explanation": "because of something",
-    "usage_context": "analysis",
-    "example_sentence": "As a result sales increased.",
+    "desc": "because of something",
+    "usage": "analysis",
+    "example": "As a result sales increased.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in addition",
     "cz": "navíc",
-    "explanation": "adding information",
-    "usage_context": "writing",
-    "example_sentence": "In addition we improved performance.",
+    "desc": "adding information",
+    "usage": "writing",
+    "example": "In addition we improved performance.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at first",
     "cz": "nejprve",
-    "explanation": "in the beginning",
-    "usage_context": "story",
-    "example_sentence": "At first it was difficult.",
+    "desc": "in the beginning",
+    "usage": "story",
+    "example": "At first it was difficult.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at least",
     "cz": "alespoň",
-    "explanation": "minimum amount",
-    "usage_context": "discussion",
-    "example_sentence": "Call me at least once.",
+    "desc": "minimum amount",
+    "usage": "discussion",
+    "example": "Call me at least once.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at most",
     "cz": "maximálně",
-    "explanation": "maximum amount",
-    "usage_context": "planning",
-    "example_sentence": "It will take two hours at most.",
+    "desc": "maximum amount",
+    "usage": "planning",
+    "example": "It will take two hours at most.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the same time",
     "cz": "zároveň",
-    "explanation": "simultaneously",
-    "usage_context": "discussion",
-    "example_sentence": "He works and studies at the same time.",
+    "desc": "simultaneously",
+    "usage": "discussion",
+    "example": "He works and studies at the same time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the other hand",
     "cz": "na druhou stranu",
-    "explanation": "contrast",
-    "usage_context": "discussion",
-    "example_sentence": "It's cheap, but on the other hand slow.",
+    "desc": "contrast",
+    "usage": "discussion",
+    "example": "It's cheap, but on the other hand slow.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in other words",
     "cz": "jinými slovy",
-    "explanation": "restating",
-    "usage_context": "discussion",
-    "example_sentence": "In other words we must start again.",
+    "desc": "restating",
+    "usage": "discussion",
+    "example": "In other words we must start again.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "as usual",
     "cz": "jako obvykle",
-    "explanation": "normally",
-    "usage_context": "daily life",
-    "example_sentence": "He arrived late as usual.",
+    "desc": "normally",
+    "usage": "daily life",
+    "example": "He arrived late as usual.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for sure",
     "cz": "určitě",
-    "explanation": "definitely",
-    "usage_context": "conversation",
-    "example_sentence": "I'll come tomorrow for sure.",
+    "desc": "definitely",
+    "usage": "conversation",
+    "example": "I'll come tomorrow for sure.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "of course",
     "cz": "samozřejmě",
-    "explanation": "obviously",
-    "usage_context": "conversation",
-    "example_sentence": "Of course I remember.",
+    "desc": "obviously",
+    "usage": "conversation",
+    "example": "Of course I remember.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "no problem",
     "cz": "žádný problém",
-    "explanation": "something is easy",
-    "usage_context": "social",
-    "example_sentence": "No problem, I can help.",
+    "desc": "something is easy",
+    "usage": "social",
+    "example": "No problem, I can help.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "right away",
     "cz": "hned",
-    "explanation": "immediately",
-    "usage_context": "daily life",
-    "example_sentence": "I'll do it right away.",
+    "desc": "immediately",
+    "usage": "daily life",
+    "example": "I'll do it right away.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "so far",
     "cz": "zatím",
-    "explanation": "until now",
-    "usage_context": "time",
-    "example_sentence": "So far everything works.",
+    "desc": "until now",
+    "usage": "time",
+    "example": "So far everything works.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "by the way",
     "cz": "mimochodem",
-    "explanation": "introducing new topic",
-    "usage_context": "conversation",
-    "example_sentence": "By the way have you seen John?",
+    "desc": "introducing new topic",
+    "usage": "conversation",
+    "example": "By the way have you seen John?",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "as soon as possible",
     "cz": "co nejdříve",
-    "explanation": "very quickly",
-    "usage_context": "work",
-    "example_sentence": "Send the report as soon as possible.",
+    "desc": "very quickly",
+    "usage": "work",
+    "example": "Send the report as soon as possible.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for a long time",
     "cz": "dlouho",
-    "explanation": "long duration",
-    "usage_context": "life",
-    "example_sentence": "I waited for a long time.",
+    "desc": "long duration",
+    "usage": "life",
+    "example": "I waited for a long time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a hurry",
     "cz": "ve spěchu",
-    "explanation": "very quickly",
-    "usage_context": "daily life",
-    "example_sentence": "I left in a hurry.",
+    "desc": "very quickly",
+    "usage": "daily life",
+    "example": "I left in a hurry.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a moment",
     "cz": "za chvíli",
-    "explanation": "very soon",
-    "usage_context": "daily life",
-    "example_sentence": "I'll be there in a moment.",
+    "desc": "very soon",
+    "usage": "daily life",
+    "example": "I'll be there in a moment.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at home",
     "cz": "doma",
-    "explanation": "in one's house",
-    "usage_context": "life",
-    "example_sentence": "She is at home.",
+    "desc": "in one's house",
+    "usage": "life",
+    "example": "She is at home.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at work",
     "cz": "v práci",
-    "explanation": "in workplace",
-    "usage_context": "life",
-    "example_sentence": "I'm at work.",
+    "desc": "in workplace",
+    "usage": "life",
+    "example": "I'm at work.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the way",
     "cz": "na cestě",
-    "explanation": "moving somewhere",
-    "usage_context": "travel",
-    "example_sentence": "I'm on the way.",
+    "desc": "moving somewhere",
+    "usage": "travel",
+    "example": "I'm on the way.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the middle",
     "cz": "uprostřed",
-    "explanation": "center position",
-    "usage_context": "description",
-    "example_sentence": "The shop is in the middle.",
+    "desc": "center position",
+    "usage": "description",
+    "example": "The shop is in the middle.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the top",
     "cz": "nahoře",
-    "explanation": "highest place",
-    "usage_context": "description",
-    "example_sentence": "The flag is at the top.",
+    "desc": "highest place",
+    "usage": "description",
+    "example": "The flag is at the top.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the bottom",
     "cz": "dole",
-    "explanation": "lowest place",
-    "usage_context": "description",
-    "example_sentence": "The key is at the bottom.",
+    "desc": "lowest place",
+    "usage": "description",
+    "example": "The key is at the bottom.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the corner",
     "cz": "v rohu",
-    "explanation": "corner location",
-    "usage_context": "description",
-    "example_sentence": "The table is in the corner.",
+    "desc": "corner location",
+    "usage": "description",
+    "example": "The table is in the corner.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "next to",
     "cz": "vedle",
-    "explanation": "very close",
-    "usage_context": "description",
-    "example_sentence": "Sit next to me.",
+    "desc": "very close",
+    "usage": "description",
+    "example": "Sit next to me.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "far away",
     "cz": "daleko",
-    "explanation": "large distance",
-    "usage_context": "travel",
-    "example_sentence": "The village is far away.",
+    "desc": "large distance",
+    "usage": "travel",
+    "example": "The village is far away.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "close to",
     "cz": "blízko",
-    "explanation": "short distance",
-    "usage_context": "description",
-    "example_sentence": "The station is close to the hotel.",
+    "desc": "short distance",
+    "usage": "description",
+    "example": "The station is close to the hotel.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in front of",
     "cz": "před",
-    "explanation": "before something spatially",
-    "usage_context": "description",
-    "example_sentence": "The car is in front of the house.",
+    "desc": "before something spatially",
+    "usage": "description",
+    "example": "The car is in front of the house.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "behind the scenes",
     "cz": "v zákulisí",
-    "explanation": "hidden actions",
-    "usage_context": "work",
-    "example_sentence": "A lot happens behind the scenes.",
+    "desc": "hidden actions",
+    "usage": "work",
+    "example": "A lot happens behind the scenes.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "all of a sudden",
     "cz": "najednou",
-    "explanation": "unexpectedly",
-    "usage_context": "story",
-    "example_sentence": "All of a sudden it started raining.",
+    "desc": "unexpectedly",
+    "usage": "story",
+    "example": "All of a sudden it started raining.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the last minute",
     "cz": "na poslední chvíli",
-    "explanation": "just before deadline",
-    "usage_context": "work",
-    "example_sentence": "He canceled at the last minute.",
+    "desc": "just before deadline",
+    "usage": "work",
+    "example": "He canceled at the last minute.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for the first time",
     "cz": "poprvé",
-    "explanation": "initial experience",
-    "usage_context": "life",
-    "example_sentence": "I visited Paris for the first time.",
+    "desc": "initial experience",
+    "usage": "life",
+    "example": "I visited Paris for the first time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for the last time",
     "cz": "naposledy",
-    "explanation": "final occurrence",
-    "usage_context": "life",
-    "example_sentence": "I saw him for the last time.",
+    "desc": "final occurrence",
+    "usage": "life",
+    "example": "I saw him for the last time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the meantime",
     "cz": "mezitím",
-    "explanation": "during the same time",
-    "usage_context": "time",
-    "example_sentence": "In the meantime we prepared dinner.",
+    "desc": "during the same time",
+    "usage": "time",
+    "example": "In the meantime we prepared dinner.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the morning",
     "cz": "ráno",
-    "explanation": "time of day",
-    "usage_context": "life",
-    "example_sentence": "I run in the morning.",
+    "desc": "time of day",
+    "usage": "life",
+    "example": "I run in the morning.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the evening",
     "cz": "večer",
-    "explanation": "time of day",
-    "usage_context": "life",
-    "example_sentence": "We meet in the evening.",
+    "desc": "time of day",
+    "usage": "life",
+    "example": "We meet in the evening.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at night",
     "cz": "v noci",
-    "explanation": "night time",
-    "usage_context": "life",
-    "example_sentence": "It gets cold at night.",
+    "desc": "night time",
+    "usage": "life",
+    "example": "It gets cold at night.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from now on",
     "cz": "odteď",
-    "explanation": "starting now",
-    "usage_context": "planning",
-    "example_sentence": "From now on I will study daily.",
+    "desc": "starting now",
+    "usage": "planning",
+    "example": "From now on I will study daily.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "up to now",
     "cz": "doposud",
-    "explanation": "until this moment",
-    "usage_context": "time",
-    "example_sentence": "Up to now we had no problems.",
+    "desc": "until this moment",
+    "usage": "time",
+    "example": "Up to now we had no problems.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "one more time",
     "cz": "ještě jednou",
-    "explanation": "repeat action",
-    "usage_context": "conversation",
-    "example_sentence": "Please say it one more time.",
+    "desc": "repeat action",
+    "usage": "conversation",
+    "example": "Please say it one more time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the beginning",
     "cz": "na začátku",
-    "explanation": "initial stage",
-    "usage_context": "story",
-    "example_sentence": "At the beginning it was confusing.",
+    "desc": "initial stage",
+    "usage": "story",
+    "example": "At the beginning it was confusing.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the end",
     "cz": "na konci",
-    "explanation": "final stage",
-    "usage_context": "story",
-    "example_sentence": "At the end we succeeded.",
+    "desc": "final stage",
+    "usage": "story",
+    "example": "At the end we succeeded.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "little by little",
     "cz": "postupně",
-    "explanation": "gradually",
-    "usage_context": "life",
-    "example_sentence": "Little by little things improved.",
+    "desc": "gradually",
+    "usage": "life",
+    "example": "Little by little things improved.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "more or less",
     "cz": "víceméně",
-    "explanation": "approximately",
-    "usage_context": "discussion",
-    "example_sentence": "It's more or less correct.",
+    "desc": "approximately",
+    "usage": "discussion",
+    "example": "It's more or less correct.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "once again",
     "cz": "znovu",
-    "explanation": "repetition",
-    "usage_context": "conversation",
-    "example_sentence": "Let me explain once again.",
+    "desc": "repetition",
+    "usage": "conversation",
+    "example": "Let me explain once again.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "all over the world",
     "cz": "po celém světě",
-    "explanation": "globally",
-    "usage_context": "discussion",
-    "example_sentence": "People use smartphones all over the world.",
+    "desc": "globally",
+    "usage": "discussion",
+    "example": "People use smartphones all over the world.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in many ways",
     "cz": "v mnoha ohledech",
-    "explanation": "in several aspects",
-    "usage_context": "analysis",
-    "example_sentence": "In many ways the system improved.",
+    "desc": "in several aspects",
+    "usage": "analysis",
+    "example": "In many ways the system improved.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in real life",
     "cz": "ve skutečném životě",
-    "explanation": "outside theory",
-    "usage_context": "discussion",
-    "example_sentence": "In real life things are harder.",
+    "desc": "outside theory",
+    "usage": "discussion",
+    "example": "In real life things are harder.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the same place",
     "cz": "na stejném místě",
-    "explanation": "same location",
-    "usage_context": "planning",
-    "example_sentence": "Meet me at the same place.",
+    "desc": "same location",
+    "usage": "planning",
+    "example": "Meet me at the same place.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for the most part",
     "cz": "většinou",
-    "explanation": "mainly",
-    "usage_context": "analysis",
-    "example_sentence": "For the most part it works.",
+    "desc": "mainly",
+    "usage": "analysis",
+    "example": "For the most part it works.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on a daily basis",
     "cz": "denně",
-    "explanation": "every day",
-    "usage_context": "work",
-    "example_sentence": "We monitor servers on a daily basis.",
+    "desc": "every day",
+    "usage": "work",
+    "example": "We monitor servers on a daily basis.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on time",
     "cz": "včas",
-    "explanation": "not late",
-    "usage_context": "work",
-    "example_sentence": "The train arrived on time.",
+    "desc": "not late",
+    "usage": "work",
+    "example": "The train arrived on time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in time",
     "cz": "včas aby se něco stalo",
-    "explanation": "before it is too late",
-    "usage_context": "life",
-    "example_sentence": "We arrived just in time.",
+    "desc": "before it is too late",
+    "usage": "life",
+    "example": "We arrived just in time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "without a doubt",
     "cz": "bezpochyby",
-    "explanation": "certainly",
-    "usage_context": "discussion",
-    "example_sentence": "This is without a doubt correct.",
+    "desc": "certainly",
+    "usage": "discussion",
+    "example": "This is without a doubt correct.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with a smile",
     "cz": "s úsměvem",
-    "explanation": "positive emotion",
-    "usage_context": "social",
-    "example_sentence": "She greeted us with a smile.",
+    "desc": "positive emotion",
+    "usage": "social",
+    "example": "She greeted us with a smile.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with great care",
     "cz": "s velkou péčí",
-    "explanation": "carefully",
-    "usage_context": "work",
-    "example_sentence": "Handle the device with great care.",
+    "desc": "carefully",
+    "usage": "work",
+    "example": "Handle the device with great care.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in great detail",
     "cz": "do velkého detailu",
-    "explanation": "very precisely",
-    "usage_context": "analysis",
-    "example_sentence": "He explained it in great detail.",
+    "desc": "very precisely",
+    "usage": "analysis",
+    "example": "He explained it in great detail.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a different way",
     "cz": "jiným způsobem",
-    "explanation": "alternative method",
-    "usage_context": "discussion",
-    "example_sentence": "Try to solve it in a different way.",
+    "desc": "alternative method",
+    "usage": "discussion",
+    "example": "Try to solve it in a different way.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for this reason",
     "cz": "z tohoto důvodu",
-    "explanation": "because of this",
-    "usage_context": "analysis",
-    "example_sentence": "For this reason we changed the plan.",
+    "desc": "because of this",
+    "usage": "analysis",
+    "example": "For this reason we changed the plan.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "under pressure",
     "cz": "pod tlakem",
-    "explanation": "in stressful situation",
-    "usage_context": "work",
-    "example_sentence": "He works well under pressure.",
+    "desc": "in stressful situation",
+    "usage": "work",
+    "example": "He works well under pressure.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in private",
     "cz": "soukromě",
-    "explanation": "not publicly",
-    "usage_context": "social",
-    "example_sentence": "They talked in private.",
+    "desc": "not publicly",
+    "usage": "social",
+    "example": "They talked in private.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in public",
     "cz": "veřejně",
-    "explanation": "openly in front of others",
-    "usage_context": "social",
-    "example_sentence": "She apologized in public.",
+    "desc": "openly in front of others",
+    "usage": "social",
+    "example": "She apologized in public.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at short notice",
     "cz": "na poslední chvíli",
-    "explanation": "little warning",
-    "usage_context": "work",
-    "example_sentence": "We had to travel at short notice.",
+    "desc": "little warning",
+    "usage": "work",
+    "example": "We had to travel at short notice.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "by chance",
     "cz": "náhodou",
-    "explanation": "accidentally",
-    "usage_context": "life",
-    "example_sentence": "We met by chance.",
+    "desc": "accidentally",
+    "usage": "life",
+    "example": "We met by chance.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on average",
     "cz": "v průměru",
-    "explanation": "statistical mean",
-    "usage_context": "analysis",
-    "example_sentence": "On average people sleep 7 hours.",
+    "desc": "statistical mean",
+    "usage": "analysis",
+    "example": "On average people sleep 7 hours.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in theory",
     "cz": "teoreticky",
-    "explanation": "according to theory",
-    "usage_context": "discussion",
-    "example_sentence": "In theory the code should work.",
+    "desc": "according to theory",
+    "usage": "discussion",
+    "example": "In theory the code should work.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in practice",
     "cz": "v praxi",
-    "explanation": "in real situation",
-    "usage_context": "discussion",
-    "example_sentence": "In practice it fails sometimes.",
+    "desc": "in real situation",
+    "usage": "discussion",
+    "example": "In practice it fails sometimes.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "under control",
     "cz": "pod kontrolou",
-    "explanation": "managed situation",
-    "usage_context": "work",
-    "example_sentence": "Everything is under control.",
+    "desc": "managed situation",
+    "usage": "work",
+    "example": "Everything is under control.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "out of control",
     "cz": "mimo kontrolu",
-    "explanation": "unmanageable",
-    "usage_context": "life",
-    "example_sentence": "The fire spread out of control.",
+    "desc": "unmanageable",
+    "usage": "life",
+    "example": "The fire spread out of control.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on your own",
     "cz": "sám",
-    "explanation": "alone",
-    "usage_context": "life",
-    "example_sentence": "He solved it on his own.",
+    "desc": "alone",
+    "usage": "life",
+    "example": "He solved it on his own.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for yourself",
     "cz": "sám pro sebe",
-    "explanation": "personally",
-    "usage_context": "life",
-    "example_sentence": "See it for yourself.",
+    "desc": "personally",
+    "usage": "life",
+    "example": "See it for yourself.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "by yourself",
     "cz": "sám",
-    "explanation": "without help",
-    "usage_context": "life",
-    "example_sentence": "Can you do it by yourself?",
+    "desc": "without help",
+    "usage": "life",
+    "example": "Can you do it by yourself?",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the right time",
     "cz": "ve správný čas",
-    "explanation": "appropriate moment",
-    "usage_context": "life",
-    "example_sentence": "He arrived at the right time.",
+    "desc": "appropriate moment",
+    "usage": "life",
+    "example": "He arrived at the right time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the wrong time",
     "cz": "ve špatný čas",
-    "explanation": "bad moment",
-    "usage_context": "life",
-    "example_sentence": "It happened at the wrong time.",
+    "desc": "bad moment",
+    "usage": "life",
+    "example": "It happened at the wrong time.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the long term",
     "cz": "dlouhodobě",
-    "explanation": "over long time",
-    "usage_context": "analysis",
-    "example_sentence": "In the long term this helps.",
+    "desc": "over long time",
+    "usage": "analysis",
+    "example": "In the long term this helps.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the short term",
     "cz": "krátkodobě",
-    "explanation": "over short time",
-    "usage_context": "analysis",
-    "example_sentence": "In the short term costs rise.",
+    "desc": "over short time",
+    "usage": "analysis",
+    "example": "In the short term costs rise.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "step by step",
     "cz": "krok za krokem",
-    "explanation": "gradually",
-    "usage_context": "learning",
-    "example_sentence": "We solved it step by step.",
+    "desc": "gradually",
+    "usage": "learning",
+    "example": "We solved it step by step.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "side by side",
     "cz": "vedle sebe",
-    "explanation": "together",
-    "usage_context": "description",
-    "example_sentence": "The houses stand side by side.",
+    "desc": "together",
+    "usage": "description",
+    "example": "The houses stand side by side.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "bit by bit",
     "cz": "kousek po kousku",
-    "explanation": "slowly piece by piece",
-    "usage_context": "life",
-    "example_sentence": "Bit by bit he improved.",
+    "desc": "slowly piece by piece",
+    "usage": "life",
+    "example": "Bit by bit he improved.",
     "level": "B1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "as far as I know",
     "cz": "pokud vím",
-    "explanation": "based on current knowledge",
-    "usage_context": "discussion",
-    "example_sentence": "As far as I know the server is stable.",
+    "desc": "based on current knowledge",
+    "usage": "discussion",
+    "example": "As far as I know the server is stable.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "as a matter of fact",
     "cz": "ve skutečnosti",
-    "explanation": "emphasizing truth",
-    "usage_context": "conversation",
-    "example_sentence": "As a matter of fact we already tested it.",
+    "desc": "emphasizing truth",
+    "usage": "conversation",
+    "example": "As a matter of fact we already tested it.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the end of the day",
     "cz": "nakonec",
-    "explanation": "when everything is considered",
-    "usage_context": "discussion",
-    "example_sentence": "At the end of the day results matter.",
+    "desc": "when everything is considered",
+    "usage": "discussion",
+    "example": "At the end of the day results matter.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at this stage",
     "cz": "v této fázi",
-    "explanation": "current stage",
-    "usage_context": "project",
-    "example_sentence": "At this stage we need more data.",
+    "desc": "current stage",
+    "usage": "project",
+    "example": "At this stage we need more data.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "be in charge of",
     "cz": "mít na starosti",
-    "explanation": "have responsibility",
-    "usage_context": "work",
-    "example_sentence": "She is in charge of the backend.",
+    "desc": "have responsibility",
+    "usage": "work",
+    "example": "She is in charge of the backend.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "be likely to",
     "cz": "je pravděpodobné",
-    "explanation": "probability expression",
-    "usage_context": "analysis",
-    "example_sentence": "This change is likely to improve performance.",
+    "desc": "probability expression",
+    "usage": "analysis",
+    "example": "This change is likely to improve performance.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "be supposed to",
     "cz": "mít něco dělat",
-    "explanation": "expected duty",
-    "usage_context": "work",
-    "example_sentence": "You are supposed to review the code.",
+    "desc": "expected duty",
+    "usage": "work",
+    "example": "You are supposed to review the code.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "by all means",
     "cz": "rozhodně",
-    "explanation": "strong agreement",
-    "usage_context": "conversation",
-    "example_sentence": "By all means contact me.",
+    "desc": "strong agreement",
+    "usage": "conversation",
+    "example": "By all means contact me.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "by the time",
     "cz": "když už",
-    "explanation": "time relation",
-    "usage_context": "story",
-    "example_sentence": "By the time we arrived it was dark.",
+    "desc": "time relation",
+    "usage": "story",
+    "example": "By the time we arrived it was dark.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "come into play",
     "cz": "začít hrát roli",
-    "explanation": "become relevant",
-    "usage_context": "analysis",
-    "example_sentence": "Several factors come into play.",
+    "desc": "become relevant",
+    "usage": "analysis",
+    "example": "Several factors come into play.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "come to a conclusion",
     "cz": "dojít k závěru",
-    "explanation": "reach decision",
-    "usage_context": "analysis",
-    "example_sentence": "We came to a conclusion.",
+    "desc": "reach decision",
+    "usage": "analysis",
+    "example": "We came to a conclusion.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "come to an agreement",
     "cz": "dohodnout se",
-    "explanation": "reach agreement",
-    "usage_context": "business",
-    "example_sentence": "Both sides came to an agreement.",
+    "desc": "reach agreement",
+    "usage": "business",
+    "example": "Both sides came to an agreement.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "deal with the issue",
     "cz": "řešit problém",
-    "explanation": "handle problem",
-    "usage_context": "work",
-    "example_sentence": "We must deal with the issue quickly.",
+    "desc": "handle problem",
+    "usage": "work",
+    "example": "We must deal with the issue quickly.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "draw attention to",
     "cz": "upozornit na",
-    "explanation": "highlight something",
-    "usage_context": "discussion",
-    "example_sentence": "The report draws attention to risks.",
+    "desc": "highlight something",
+    "usage": "discussion",
+    "example": "The report draws attention to risks.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for the sake of",
     "cz": "kvůli",
-    "explanation": "for benefit of something",
-    "usage_context": "discussion",
-    "example_sentence": "For the sake of clarity we simplified it.",
+    "desc": "for benefit of something",
+    "usage": "discussion",
+    "example": "For the sake of clarity we simplified it.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from my point of view",
     "cz": "z mého pohledu",
-    "explanation": "personal opinion",
-    "usage_context": "discussion",
-    "example_sentence": "From my point of view this is risky.",
+    "desc": "personal opinion",
+    "usage": "discussion",
+    "example": "From my point of view this is risky.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "get the impression",
     "cz": "získat dojem",
-    "explanation": "form opinion",
-    "usage_context": "conversation",
-    "example_sentence": "I got the impression he was tired.",
+    "desc": "form opinion",
+    "usage": "conversation",
+    "example": "I got the impression he was tired.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "give rise to",
     "cz": "vyvolat",
-    "explanation": "cause something",
-    "usage_context": "analysis",
-    "example_sentence": "This change may give rise to errors.",
+    "desc": "cause something",
+    "usage": "analysis",
+    "example": "This change may give rise to errors.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "have a tendency to",
     "cz": "mít tendenci",
-    "explanation": "often do something",
-    "usage_context": "analysis",
-    "example_sentence": "The system has a tendency to slow down.",
+    "desc": "often do something",
+    "usage": "analysis",
+    "example": "The system has a tendency to slow down.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in accordance with",
     "cz": "v souladu s",
-    "explanation": "following rules",
-    "usage_context": "law",
-    "example_sentence": "The process runs in accordance with policy.",
+    "desc": "following rules",
+    "usage": "law",
+    "example": "The process runs in accordance with policy.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in advance",
     "cz": "předem",
-    "explanation": "before something",
-    "usage_context": "planning",
-    "example_sentence": "Please send the agenda in advance.",
+    "desc": "before something",
+    "usage": "planning",
+    "example": "Please send the agenda in advance.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in case of",
     "cz": "v případě",
-    "explanation": "conditional situation",
-    "usage_context": "instructions",
-    "example_sentence": "Call support in case of failure.",
+    "desc": "conditional situation",
+    "usage": "instructions",
+    "example": "Call support in case of failure.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in comparison with",
     "cz": "ve srovnání s",
-    "explanation": "comparing",
-    "usage_context": "analysis",
-    "example_sentence": "In comparison with last year profits grew.",
+    "desc": "comparing",
+    "usage": "analysis",
+    "example": "In comparison with last year profits grew.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in contrast to",
     "cz": "na rozdíl od",
-    "explanation": "show difference",
-    "usage_context": "analysis",
-    "example_sentence": "In contrast to Java, Kotlin is concise.",
+    "desc": "show difference",
+    "usage": "analysis",
+    "example": "In contrast to Java, Kotlin is concise.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in favour of",
     "cz": "ve prospěch",
-    "explanation": "supporting",
-    "usage_context": "discussion",
-    "example_sentence": "Most people voted in favour of change.",
+    "desc": "supporting",
+    "usage": "discussion",
+    "example": "Most people voted in favour of change.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in terms of",
     "cz": "z hlediska",
-    "explanation": "regarding aspect",
-    "usage_context": "analysis",
-    "example_sentence": "In terms of speed it's better.",
+    "desc": "regarding aspect",
+    "usage": "analysis",
+    "example": "In terms of speed it's better.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the absence of",
     "cz": "při absenci",
-    "explanation": "when something missing",
-    "usage_context": "analysis",
-    "example_sentence": "In the absence of data we guessed.",
+    "desc": "when something missing",
+    "usage": "analysis",
+    "example": "In the absence of data we guessed.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the context of",
     "cz": "v kontextu",
-    "explanation": "within situation",
-    "usage_context": "analysis",
-    "example_sentence": "In the context of security this matters.",
+    "desc": "within situation",
+    "usage": "analysis",
+    "example": "In the context of security this matters.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the course of",
     "cz": "během",
-    "explanation": "during process",
-    "usage_context": "analysis",
-    "example_sentence": "In the course of testing we found bugs.",
+    "desc": "during process",
+    "usage": "analysis",
+    "example": "In the course of testing we found bugs.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the light of",
     "cz": "ve světle",
-    "explanation": "considering new facts",
-    "usage_context": "analysis",
-    "example_sentence": "In the light of results we changed plan.",
+    "desc": "considering new facts",
+    "usage": "analysis",
+    "example": "In the light of results we changed plan.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the long run",
     "cz": "z dlouhodobého hlediska",
-    "explanation": "over long period",
-    "usage_context": "analysis",
-    "example_sentence": "In the long run automation helps.",
+    "desc": "over long period",
+    "usage": "analysis",
+    "example": "In the long run automation helps.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the meantime",
     "cz": "mezitím",
-    "explanation": "during interval",
-    "usage_context": "time",
-    "example_sentence": "In the meantime we prepared logs.",
+    "desc": "during interval",
+    "usage": "time",
+    "example": "In the meantime we prepared logs.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the process of",
     "cz": "při procesu",
-    "explanation": "while doing",
-    "usage_context": "work",
-    "example_sentence": "The system is in the process of migration.",
+    "desc": "while doing",
+    "usage": "work",
+    "example": "The system is in the process of migration.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the same way",
     "cz": "stejným způsobem",
-    "explanation": "similar method",
-    "usage_context": "discussion",
-    "example_sentence": "Apply the fix in the same way.",
+    "desc": "similar method",
+    "usage": "discussion",
+    "example": "Apply the fix in the same way.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the short term",
     "cz": "krátkodobě",
-    "explanation": "short period",
-    "usage_context": "analysis",
-    "example_sentence": "In the short term costs increase.",
+    "desc": "short period",
+    "usage": "analysis",
+    "example": "In the short term costs increase.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "it turns out that",
     "cz": "ukáže se že",
-    "explanation": "unexpected result",
-    "usage_context": "story",
-    "example_sentence": "It turns out that the bug was trivial.",
+    "desc": "unexpected result",
+    "usage": "story",
+    "example": "It turns out that the bug was trivial.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "keep in mind",
     "cz": "mít na paměti",
-    "explanation": "remember",
-    "usage_context": "discussion",
-    "example_sentence": "Keep in mind performance limits.",
+    "desc": "remember",
+    "usage": "discussion",
+    "example": "Keep in mind performance limits.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "make a decision",
     "cz": "učinit rozhodnutí",
-    "explanation": "decide",
-    "usage_context": "work",
-    "example_sentence": "We must make a decision.",
+    "desc": "decide",
+    "usage": "work",
+    "example": "We must make a decision.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "make a difference",
     "cz": "mít vliv",
-    "explanation": "have impact",
-    "usage_context": "analysis",
-    "example_sentence": "Caching makes a difference.",
+    "desc": "have impact",
+    "usage": "analysis",
+    "example": "Caching makes a difference.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "make an effort",
     "cz": "vyvinout úsilí",
-    "explanation": "try harder",
-    "usage_context": "life",
-    "example_sentence": "You should make an effort.",
+    "desc": "try harder",
+    "usage": "life",
+    "example": "You should make an effort.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "make progress",
     "cz": "dělat pokrok",
-    "explanation": "advance",
-    "usage_context": "work",
-    "example_sentence": "We finally made progress.",
+    "desc": "advance",
+    "usage": "work",
+    "example": "We finally made progress.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on a regular basis",
     "cz": "pravidelně",
-    "explanation": "regular frequency",
-    "usage_context": "work",
-    "example_sentence": "We deploy on a regular basis.",
+    "desc": "regular frequency",
+    "usage": "work",
+    "example": "We deploy on a regular basis.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on behalf of",
     "cz": "jménem",
-    "explanation": "representing",
-    "usage_context": "formal",
-    "example_sentence": "She spoke on behalf of the team.",
+    "desc": "representing",
+    "usage": "formal",
+    "example": "She spoke on behalf of the team.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the basis of",
     "cz": "na základě",
-    "explanation": "based on",
-    "usage_context": "analysis",
-    "example_sentence": "The decision was on the basis of data.",
+    "desc": "based on",
+    "usage": "analysis",
+    "example": "The decision was on the basis of data.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the condition that",
     "cz": "za podmínky že",
-    "explanation": "conditional phrase",
-    "usage_context": "agreement",
-    "example_sentence": "We'll agree on the condition that it works.",
+    "desc": "conditional phrase",
+    "usage": "agreement",
+    "example": "We'll agree on the condition that it works.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the grounds that",
     "cz": "z důvodu že",
-    "explanation": "justification",
-    "usage_context": "argument",
-    "example_sentence": "They rejected it on the grounds that it failed.",
+    "desc": "justification",
+    "usage": "argument",
+    "example": "They rejected it on the grounds that it failed.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the whole",
     "cz": "celkově",
-    "explanation": "generally",
-    "usage_context": "analysis",
-    "example_sentence": "On the whole results look good.",
+    "desc": "generally",
+    "usage": "analysis",
+    "example": "On the whole results look good.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "out of curiosity",
     "cz": "ze zvědavosti",
-    "explanation": "motivated by curiosity",
-    "usage_context": "life",
-    "example_sentence": "Out of curiosity I checked logs.",
+    "desc": "motivated by curiosity",
+    "usage": "life",
+    "example": "Out of curiosity I checked logs.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "play a role",
     "cz": "hrát roli",
-    "explanation": "have influence",
-    "usage_context": "analysis",
-    "example_sentence": "Latency plays a role.",
+    "desc": "have influence",
+    "usage": "analysis",
+    "example": "Latency plays a role.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "put pressure on",
     "cz": "vyvíjet tlak",
-    "explanation": "force someone",
-    "usage_context": "discussion",
-    "example_sentence": "Managers put pressure on deadlines.",
+    "desc": "force someone",
+    "usage": "discussion",
+    "example": "Managers put pressure on deadlines.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "reach a decision",
     "cz": "dospět k rozhodnutí",
-    "explanation": "decide",
-    "usage_context": "meeting",
-    "example_sentence": "They reached a decision.",
+    "desc": "decide",
+    "usage": "meeting",
+    "example": "They reached a decision.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "refer to as",
     "cz": "označovat jako",
-    "explanation": "name something",
-    "usage_context": "discussion",
-    "example_sentence": "This pattern is referred to as observer.",
+    "desc": "name something",
+    "usage": "discussion",
+    "example": "This pattern is referred to as observer.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "result in",
     "cz": "vyústit v",
-    "explanation": "cause result",
-    "usage_context": "analysis",
-    "example_sentence": "The bug resulted in outage.",
+    "desc": "cause result",
+    "usage": "analysis",
+    "example": "The bug resulted in outage.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "serve as",
     "cz": "sloužit jako",
-    "explanation": "function as",
-    "usage_context": "design",
-    "example_sentence": "This class serves as adapter.",
+    "desc": "function as",
+    "usage": "design",
+    "example": "This class serves as adapter.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "set a goal",
     "cz": "stanovit cíl",
-    "explanation": "define objective",
-    "usage_context": "planning",
-    "example_sentence": "We set a goal for the quarter.",
+    "desc": "define objective",
+    "usage": "planning",
+    "example": "We set a goal for the quarter.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "set an example",
     "cz": "dát příklad",
-    "explanation": "demonstrate behavior",
-    "usage_context": "leadership",
-    "example_sentence": "Leaders should set an example.",
+    "desc": "demonstrate behavior",
+    "usage": "leadership",
+    "example": "Leaders should set an example.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "so as to",
     "cz": "aby",
-    "explanation": "purpose expression",
-    "usage_context": "formal",
-    "example_sentence": "We logged data so as to debug.",
+    "desc": "purpose expression",
+    "usage": "formal",
+    "example": "We logged data so as to debug.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "take into account",
     "cz": "brát v úvahu",
-    "explanation": "consider",
-    "usage_context": "analysis",
-    "example_sentence": "Take latency into account.",
+    "desc": "consider",
+    "usage": "analysis",
+    "example": "Take latency into account.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "take part in",
     "cz": "účastnit se",
-    "explanation": "participate",
-    "usage_context": "event",
-    "example_sentence": "Many developers took part in conference.",
+    "desc": "participate",
+    "usage": "event",
+    "example": "Many developers took part in conference.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "take responsibility",
     "cz": "převzít odpovědnost",
-    "explanation": "accept blame",
-    "usage_context": "work",
-    "example_sentence": "He took responsibility.",
+    "desc": "accept blame",
+    "usage": "work",
+    "example": "He took responsibility.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "take steps",
     "cz": "učinit kroky",
-    "explanation": "act toward goal",
-    "usage_context": "work",
-    "example_sentence": "We took steps to fix security.",
+    "desc": "act toward goal",
+    "usage": "work",
+    "example": "We took steps to fix security.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "the fact that",
     "cz": "skutečnost že",
-    "explanation": "introducing fact",
-    "usage_context": "discussion",
-    "example_sentence": "The fact that it works surprised us.",
+    "desc": "introducing fact",
+    "usage": "discussion",
+    "example": "The fact that it works surprised us.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with regard to",
     "cz": "s ohledem na",
-    "explanation": "about topic",
-    "usage_context": "formal",
-    "example_sentence": "With regard to security we updated code.",
+    "desc": "about topic",
+    "usage": "formal",
+    "example": "With regard to security we updated code.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with respect to",
     "cz": "s ohledem na",
-    "explanation": "in relation to",
-    "usage_context": "formal",
-    "example_sentence": "With respect to latency results improved.",
+    "desc": "in relation to",
+    "usage": "formal",
+    "example": "With respect to latency results improved.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with the aim of",
     "cz": "s cílem",
-    "explanation": "purpose",
-    "usage_context": "planning",
-    "example_sentence": "We tested with the aim of scaling.",
+    "desc": "purpose",
+    "usage": "planning",
+    "example": "We tested with the aim of scaling.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "within reach",
     "cz": "na dosah",
-    "explanation": "almost achievable",
-    "usage_context": "life",
-    "example_sentence": "Success is within reach.",
+    "desc": "almost achievable",
+    "usage": "life",
+    "example": "Success is within reach.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "without hesitation",
     "cz": "bez váhání",
-    "explanation": "immediately decide",
-    "usage_context": "life",
-    "example_sentence": "She agreed without hesitation.",
+    "desc": "immediately decide",
+    "usage": "life",
+    "example": "She agreed without hesitation.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "under the circumstances",
     "cz": "za daných okolností",
-    "explanation": "given situation",
-    "usage_context": "discussion",
-    "example_sentence": "Under the circumstances we stopped.",
+    "desc": "given situation",
+    "usage": "discussion",
+    "example": "Under the circumstances we stopped.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "under the assumption",
     "cz": "při předpokladu",
-    "explanation": "assuming something",
-    "usage_context": "analysis",
-    "example_sentence": "Under the assumption traffic grows.",
+    "desc": "assuming something",
+    "usage": "analysis",
+    "example": "Under the assumption traffic grows.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "beyond expectations",
     "cz": "nad očekávání",
-    "explanation": "better than expected",
-    "usage_context": "analysis",
-    "example_sentence": "Results were beyond expectations.",
+    "desc": "better than expected",
+    "usage": "analysis",
+    "example": "Results were beyond expectations.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for the time being",
     "cz": "prozatím",
-    "explanation": "temporary",
-    "usage_context": "planning",
-    "example_sentence": "For the time being we keep this solution.",
+    "desc": "temporary",
+    "usage": "planning",
+    "example": "For the time being we keep this solution.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at your disposal",
     "cz": "k dispozici",
-    "explanation": "available for use",
-    "usage_context": "formal",
-    "example_sentence": "Resources are at your disposal.",
+    "desc": "available for use",
+    "usage": "formal",
+    "example": "Resources are at your disposal.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the verge of",
     "cz": "na pokraji",
-    "explanation": "almost happening",
-    "usage_context": "analysis",
-    "example_sentence": "The system was on the verge of collapse.",
+    "desc": "almost happening",
+    "usage": "analysis",
+    "example": "The system was on the verge of collapse.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from scratch",
     "cz": "od nuly",
-    "explanation": "starting completely new",
-    "usage_context": "work",
-    "example_sentence": "We rewrote the module from scratch.",
+    "desc": "starting completely new",
+    "usage": "work",
+    "example": "We rewrote the module from scratch.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the middle of",
     "cz": "uprostřed něčeho",
-    "explanation": "during something",
-    "usage_context": "story",
-    "example_sentence": "We were in the middle of deployment.",
+    "desc": "during something",
+    "usage": "story",
+    "example": "We were in the middle of deployment.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "at the heart of",
     "cz": "v jádru",
-    "explanation": "central element",
-    "usage_context": "analysis",
-    "example_sentence": "Concurrency is at the heart of the issue.",
+    "desc": "central element",
+    "usage": "analysis",
+    "example": "Concurrency is at the heart of the issue.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the vicinity of",
     "cz": "v blízkosti",
-    "explanation": "near location",
-    "usage_context": "description",
-    "example_sentence": "The office is in the vicinity of station.",
+    "desc": "near location",
+    "usage": "description",
+    "example": "The office is in the vicinity of station.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "under the impression",
     "cz": "v domnění",
-    "explanation": "believing something",
-    "usage_context": "discussion",
-    "example_sentence": "I was under the impression it worked.",
+    "desc": "believing something",
+    "usage": "discussion",
+    "example": "I was under the impression it worked.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "for the purpose of",
     "cz": "za účelem",
-    "explanation": "goal of action",
-    "usage_context": "formal",
-    "example_sentence": "Logs exist for the purpose of debugging.",
+    "desc": "goal of action",
+    "usage": "formal",
+    "example": "Logs exist for the purpose of debugging.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in relation to",
     "cz": "ve vztahu k",
-    "explanation": "connected with",
-    "usage_context": "analysis",
-    "example_sentence": "In relation to cost it's efficient.",
+    "desc": "connected with",
+    "usage": "analysis",
+    "example": "In relation to cost it's efficient.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "as opposed to",
     "cz": "na rozdíl od",
-    "explanation": "contrast",
-    "usage_context": "analysis",
-    "example_sentence": "Kotlin uses val as opposed to var.",
+    "desc": "contrast",
+    "usage": "analysis",
+    "example": "Kotlin uses val as opposed to var.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with the exception of",
     "cz": "s výjimkou",
-    "explanation": "excluding",
-    "usage_context": "analysis",
-    "example_sentence": "All passed with the exception of one.",
+    "desc": "excluding",
+    "usage": "analysis",
+    "example": "All passed with the exception of one.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in exchange for",
     "cz": "výměnou za",
-    "explanation": "trade",
-    "usage_context": "business",
-    "example_sentence": "They offered equity in exchange for work.",
+    "desc": "trade",
+    "usage": "business",
+    "example": "They offered equity in exchange for work.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the verge of",
     "cz": "na pokraji",
-    "explanation": "almost happening",
-    "usage_context": "analysis",
-    "example_sentence": "The company was on the verge of failure.",
+    "desc": "almost happening",
+    "usage": "analysis",
+    "example": "The company was on the verge of failure.",
     "level": "B2",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in light of recent developments",
     "cz": "ve světle nedávných událostí",
-    "explanation": "considering new information",
-    "usage_context": "analysis",
-    "example_sentence": "In light of recent developments we changed the architecture.",
+    "desc": "considering new information",
+    "usage": "analysis",
+    "example": "In light of recent developments we changed the architecture.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from a broader perspective",
     "cz": "z širší perspektivy",
-    "explanation": "looking at the bigger picture",
-    "usage_context": "analysis",
-    "example_sentence": "From a broader perspective the change makes sense.",
+    "desc": "looking at the bigger picture",
+    "usage": "analysis",
+    "example": "From a broader perspective the change makes sense.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "to a considerable extent",
     "cz": "do značné míry",
-    "explanation": "to a large degree",
-    "usage_context": "analysis",
-    "example_sentence": "Latency depends to a considerable extent on network load.",
+    "desc": "to a large degree",
+    "usage": "analysis",
+    "example": "Latency depends to a considerable extent on network load.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the broader context",
     "cz": "v širším kontextu",
-    "explanation": "considering the larger situation",
-    "usage_context": "analysis",
-    "example_sentence": "In the broader context the failure was minor.",
+    "desc": "considering the larger situation",
+    "usage": "analysis",
+    "example": "In the broader context the failure was minor.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with regard to the matter",
     "cz": "s ohledem na danou věc",
-    "explanation": "concerning a topic",
-    "usage_context": "formal",
-    "example_sentence": "With regard to the matter we scheduled a review.",
+    "desc": "concerning a topic",
+    "usage": "formal",
+    "example": "With regard to the matter we scheduled a review.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the absence of evidence",
     "cz": "při absenci důkazů",
-    "explanation": "without proof",
-    "usage_context": "analysis",
-    "example_sentence": "In the absence of evidence we postponed the decision.",
+    "desc": "without proof",
+    "usage": "analysis",
+    "example": "In the absence of evidence we postponed the decision.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the long term perspective",
     "cz": "z dlouhodobé perspektivy",
-    "explanation": "considering future impact",
-    "usage_context": "analysis",
-    "example_sentence": "In the long term perspective automation wins.",
+    "desc": "considering future impact",
+    "usage": "analysis",
+    "example": "In the long term perspective automation wins.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in practical terms",
     "cz": "prakticky řečeno",
-    "explanation": "considering real effects",
-    "usage_context": "analysis",
-    "example_sentence": "In practical terms the patch reduces load.",
+    "desc": "considering real effects",
+    "usage": "analysis",
+    "example": "In practical terms the patch reduces load.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in theoretical terms",
     "cz": "teoreticky řečeno",
-    "explanation": "considering theory",
-    "usage_context": "discussion",
-    "example_sentence": "In theoretical terms the algorithm is optimal.",
+    "desc": "considering theory",
+    "usage": "discussion",
+    "example": "In theoretical terms the algorithm is optimal.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in retrospect",
     "cz": "při zpětném pohledu",
-    "explanation": "looking back",
-    "usage_context": "reflection",
-    "example_sentence": "In retrospect the bug was obvious.",
+    "desc": "looking back",
+    "usage": "reflection",
+    "example": "In retrospect the bug was obvious.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the grand scheme of things",
     "cz": "v širším měřítku věcí",
-    "explanation": "considering overall importance",
-    "usage_context": "discussion",
-    "example_sentence": "In the grand scheme of things the delay was small.",
+    "desc": "considering overall importance",
+    "usage": "discussion",
+    "example": "In the grand scheme of things the delay was small.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in view of the situation",
     "cz": "vzhledem k situaci",
-    "explanation": "considering circumstances",
-    "usage_context": "formal",
-    "example_sentence": "In view of the situation we delayed deployment.",
+    "desc": "considering circumstances",
+    "usage": "formal",
+    "example": "In view of the situation we delayed deployment.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with the intention of",
     "cz": "s úmyslem",
-    "explanation": "with a specific goal",
-    "usage_context": "analysis",
-    "example_sentence": "He spoke with the intention of clarifying the issue.",
+    "desc": "with a specific goal",
+    "usage": "analysis",
+    "example": "He spoke with the intention of clarifying the issue.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with the aim of",
     "cz": "s cílem",
-    "explanation": "with a purpose",
-    "usage_context": "analysis",
-    "example_sentence": "We redesigned the service with the aim of scaling.",
+    "desc": "with a purpose",
+    "usage": "analysis",
+    "example": "We redesigned the service with the aim of scaling.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "with the result that",
     "cz": "s výsledkem že",
-    "explanation": "leading to consequence",
-    "usage_context": "analysis",
-    "example_sentence": "Traffic spiked with the result that the service slowed.",
+    "desc": "leading to consequence",
+    "usage": "analysis",
+    "example": "Traffic spiked with the result that the service slowed.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in response to feedback",
     "cz": "v reakci na zpětnou vazbu",
-    "explanation": "reacting to input",
-    "usage_context": "analysis",
-    "example_sentence": "We changed the API in response to feedback.",
+    "desc": "reacting to input",
+    "usage": "analysis",
+    "example": "We changed the API in response to feedback.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in line with expectations",
     "cz": "v souladu s očekáváním",
-    "explanation": "matching predictions",
-    "usage_context": "analysis",
-    "example_sentence": "Performance improved in line with expectations.",
+    "desc": "matching predictions",
+    "usage": "analysis",
+    "example": "Performance improved in line with expectations.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in stark contrast to",
     "cz": "v ostrém kontrastu s",
-    "explanation": "very different from",
-    "usage_context": "analysis",
-    "example_sentence": "This stands in stark contrast to earlier results.",
+    "desc": "very different from",
+    "usage": "analysis",
+    "example": "This stands in stark contrast to earlier results.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in proportion to",
     "cz": "úměrně",
-    "explanation": "relative to amount",
-    "usage_context": "analysis",
-    "example_sentence": "Costs grow in proportion to traffic.",
+    "desc": "relative to amount",
+    "usage": "analysis",
+    "example": "Costs grow in proportion to traffic.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in conjunction with",
     "cz": "ve spojení s",
-    "explanation": "together with",
-    "usage_context": "analysis",
-    "example_sentence": "The system works in conjunction with Redis.",
+    "desc": "together with",
+    "usage": "analysis",
+    "example": "The system works in conjunction with Redis.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the event of failure",
     "cz": "v případě selhání",
-    "explanation": "if failure occurs",
-    "usage_context": "formal",
-    "example_sentence": "In the event of failure restart the node.",
+    "desc": "if failure occurs",
+    "usage": "formal",
+    "example": "In the event of failure restart the node.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "under the assumption that",
     "cz": "za předpokladu že",
-    "explanation": "assuming something",
-    "usage_context": "analysis",
-    "example_sentence": "We scaled under the assumption that traffic doubles.",
+    "desc": "assuming something",
+    "usage": "analysis",
+    "example": "We scaled under the assumption that traffic doubles.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "on the assumption that",
     "cz": "za předpokladu že",
-    "explanation": "assuming something",
-    "usage_context": "analysis",
-    "example_sentence": "The test runs on the assumption that disk is fast.",
+    "desc": "assuming something",
+    "usage": "analysis",
+    "example": "The test runs on the assumption that disk is fast.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in recognition of",
     "cz": "na uznání",
-    "explanation": "acknowledging contribution",
-    "usage_context": "formal",
-    "example_sentence": "The award was given in recognition of innovation.",
+    "desc": "acknowledging contribution",
+    "usage": "formal",
+    "example": "The award was given in recognition of innovation.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in pursuit of",
     "cz": "ve snaze o",
-    "explanation": "trying to achieve",
-    "usage_context": "analysis",
-    "example_sentence": "The team optimized code in pursuit of performance.",
+    "desc": "trying to achieve",
+    "usage": "analysis",
+    "example": "The team optimized code in pursuit of performance.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in support of",
     "cz": "na podporu",
-    "explanation": "supporting argument",
-    "usage_context": "discussion",
-    "example_sentence": "He presented logs in support of his claim.",
+    "desc": "supporting argument",
+    "usage": "discussion",
+    "example": "He presented logs in support of his claim.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in opposition to",
     "cz": "v opozici vůči",
-    "explanation": "against something",
-    "usage_context": "discussion",
-    "example_sentence": "Several engineers argued in opposition to the change.",
+    "desc": "against something",
+    "usage": "discussion",
+    "example": "Several engineers argued in opposition to the change.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in relation to latency",
     "cz": "ve vztahu k latenci",
-    "explanation": "regarding a factor",
-    "usage_context": "analysis",
-    "example_sentence": "In relation to latency caching helps.",
+    "desc": "regarding a factor",
+    "usage": "analysis",
+    "example": "In relation to latency caching helps.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in terms of reliability",
     "cz": "z hlediska spolehlivosti",
-    "explanation": "considering a metric",
-    "usage_context": "analysis",
-    "example_sentence": "In terms of reliability the service improved.",
+    "desc": "considering a metric",
+    "usage": "analysis",
+    "example": "In terms of reliability the service improved.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in terms of scalability",
     "cz": "z hlediska škálování",
-    "explanation": "considering scale",
-    "usage_context": "analysis",
-    "example_sentence": "In terms of scalability the new design wins.",
+    "desc": "considering scale",
+    "usage": "analysis",
+    "example": "In terms of scalability the new design wins.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from an operational standpoint",
     "cz": "z provozního hlediska",
-    "explanation": "operational view",
-    "usage_context": "analysis",
-    "example_sentence": "From an operational standpoint the fix is simple.",
+    "desc": "operational view",
+    "usage": "analysis",
+    "example": "From an operational standpoint the fix is simple.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from a technical standpoint",
     "cz": "z technického hlediska",
-    "explanation": "technical view",
-    "usage_context": "analysis",
-    "example_sentence": "From a technical standpoint the bug is trivial.",
+    "desc": "technical view",
+    "usage": "analysis",
+    "example": "From a technical standpoint the bug is trivial.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "from a strategic perspective",
     "cz": "ze strategické perspektivy",
-    "explanation": "strategy viewpoint",
-    "usage_context": "business",
-    "example_sentence": "From a strategic perspective this investment matters.",
+    "desc": "strategy viewpoint",
+    "usage": "business",
+    "example": "From a strategic perspective this investment matters.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "within the framework of",
     "cz": "v rámci",
-    "explanation": "inside defined structure",
-    "usage_context": "formal",
-    "example_sentence": "The study runs within the framework of the project.",
+    "desc": "inside defined structure",
+    "usage": "formal",
+    "example": "The study runs within the framework of the project.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "within the scope of",
     "cz": "v rámci rozsahu",
-    "explanation": "inside limits",
-    "usage_context": "analysis",
-    "example_sentence": "The change is within the scope of the release.",
+    "desc": "inside limits",
+    "usage": "analysis",
+    "example": "The change is within the scope of the release.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "within reasonable limits",
     "cz": "v rozumných mezích",
-    "explanation": "acceptable bounds",
-    "usage_context": "discussion",
-    "example_sentence": "Latency stayed within reasonable limits.",
+    "desc": "acceptable bounds",
+    "usage": "discussion",
+    "example": "Latency stayed within reasonable limits.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "beyond reasonable doubt",
     "cz": "bez rozumných pochybností",
-    "explanation": "with strong certainty",
-    "usage_context": "analysis",
-    "example_sentence": "The logs prove beyond reasonable doubt the cause.",
+    "desc": "with strong certainty",
+    "usage": "analysis",
+    "example": "The logs prove beyond reasonable doubt the cause.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "to a large degree",
     "cz": "do velké míry",
-    "explanation": "to a strong extent",
-    "usage_context": "analysis",
-    "example_sentence": "The slowdown depends to a large degree on IO.",
+    "desc": "to a strong extent",
+    "usage": "analysis",
+    "example": "The slowdown depends to a large degree on IO.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "to a limited degree",
     "cz": "do omezené míry",
-    "explanation": "only partially",
-    "usage_context": "analysis",
-    "example_sentence": "Caching helps to a limited degree.",
+    "desc": "only partially",
+    "usage": "analysis",
+    "example": "Caching helps to a limited degree.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "to a certain extent",
     "cz": "do určité míry",
-    "explanation": "partially true",
-    "usage_context": "discussion",
-    "example_sentence": "To a certain extent the criticism is fair.",
+    "desc": "partially true",
+    "usage": "discussion",
+    "example": "To a certain extent the criticism is fair.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in measurable terms",
     "cz": "v měřitelných hodnotách",
-    "explanation": "quantifiable impact",
-    "usage_context": "analysis",
-    "example_sentence": "In measurable terms latency dropped 20%.",
+    "desc": "quantifiable impact",
+    "usage": "analysis",
+    "example": "In measurable terms latency dropped 20%.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a meaningful sense",
     "cz": "v reálném smyslu",
-    "explanation": "with real significance",
-    "usage_context": "analysis",
-    "example_sentence": "The optimization matters in a meaningful sense.",
+    "desc": "with real significance",
+    "usage": "analysis",
+    "example": "The optimization matters in a meaningful sense.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a sustainable manner",
     "cz": "udržitelným způsobem",
-    "explanation": "long term viable",
-    "usage_context": "analysis",
-    "example_sentence": "The system scales in a sustainable manner.",
+    "desc": "long term viable",
+    "usage": "analysis",
+    "example": "The system scales in a sustainable manner.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a scalable manner",
     "cz": "škálovatelným způsobem",
-    "explanation": "able to scale",
-    "usage_context": "engineering",
-    "example_sentence": "The service runs in a scalable manner.",
+    "desc": "able to scale",
+    "usage": "engineering",
+    "example": "The service runs in a scalable manner.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a transparent manner",
     "cz": "transparentním způsobem",
-    "explanation": "clearly visible process",
-    "usage_context": "policy",
-    "example_sentence": "The audit was conducted in a transparent manner.",
+    "desc": "clearly visible process",
+    "usage": "policy",
+    "example": "The audit was conducted in a transparent manner.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a systematic way",
     "cz": "systematicky",
-    "explanation": "methodical process",
-    "usage_context": "analysis",
-    "example_sentence": "The investigation proceeded in a systematic way.",
+    "desc": "methodical process",
+    "usage": "analysis",
+    "example": "The investigation proceeded in a systematic way.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a disciplined manner",
     "cz": "disciplinovaně",
-    "explanation": "controlled behavior",
-    "usage_context": "work",
-    "example_sentence": "Engineers debugged the issue in a disciplined manner.",
+    "desc": "controlled behavior",
+    "usage": "work",
+    "example": "Engineers debugged the issue in a disciplined manner.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in an orderly fashion",
     "cz": "uspořádaně",
-    "explanation": "organized process",
-    "usage_context": "discussion",
-    "example_sentence": "Shutdown happened in an orderly fashion.",
+    "desc": "organized process",
+    "usage": "discussion",
+    "example": "Shutdown happened in an orderly fashion.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a decisive manner",
     "cz": "rozhodně",
-    "explanation": "firm decision",
-    "usage_context": "leadership",
-    "example_sentence": "The manager acted in a decisive manner.",
+    "desc": "firm decision",
+    "usage": "leadership",
+    "example": "The manager acted in a decisive manner.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a collaborative way",
     "cz": "spolupracujícím způsobem",
-    "explanation": "working together",
-    "usage_context": "work",
-    "example_sentence": "Teams solved it in a collaborative way.",
+    "desc": "working together",
+    "usage": "work",
+    "example": "Teams solved it in a collaborative way.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a constructive way",
     "cz": "konstruktivně",
-    "explanation": "productive discussion",
-    "usage_context": "discussion",
-    "example_sentence": "Feedback was given in a constructive way.",
+    "desc": "productive discussion",
+    "usage": "discussion",
+    "example": "Feedback was given in a constructive way.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in a detrimental way",
     "cz": "škodlivým způsobem",
-    "explanation": "harmful effect",
-    "usage_context": "analysis",
-    "example_sentence": "The bug affected throughput in a detrimental way.",
+    "desc": "harmful effect",
+    "usage": "analysis",
+    "example": "The bug affected throughput in a detrimental way.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in an unprecedented way",
     "cz": "bezprecedentně",
-    "explanation": "never seen before",
-    "usage_context": "analysis",
-    "example_sentence": "Traffic grew in an unprecedented way.",
+    "desc": "never seen before",
+    "usage": "analysis",
+    "example": "Traffic grew in an unprecedented way.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the immediate aftermath",
     "cz": "bezprostředně poté",
-    "explanation": "right after event",
-    "usage_context": "analysis",
-    "example_sentence": "In the immediate aftermath we restored service.",
+    "desc": "right after event",
+    "usage": "analysis",
+    "example": "In the immediate aftermath we restored service.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the public interest",
     "cz": "ve veřejném zájmu",
-    "explanation": "benefiting society",
-    "usage_context": "policy",
-    "example_sentence": "The decision was taken in the public interest.",
+    "desc": "benefiting society",
+    "usage": "policy",
+    "example": "The decision was taken in the public interest.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the public eye",
     "cz": "na očích veřejnosti",
-    "explanation": "visible to everyone",
-    "usage_context": "media",
-    "example_sentence": "The company acted in the public eye.",
+    "desc": "visible to everyone",
+    "usage": "media",
+    "example": "The company acted in the public eye.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the final analysis",
     "cz": "v konečném důsledku",
-    "explanation": "ultimately judged",
-    "usage_context": "discussion",
-    "example_sentence": "In the final analysis reliability matters.",
+    "desc": "ultimately judged",
+    "usage": "discussion",
+    "example": "In the final analysis reliability matters.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the final reckoning",
     "cz": "v konečném zúčtování",
-    "explanation": "ultimate judgment",
-    "usage_context": "discussion",
-    "example_sentence": "In the final reckoning automation wins.",
+    "desc": "ultimate judgment",
+    "usage": "discussion",
+    "example": "In the final reckoning automation wins.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in point of fact",
     "cz": "ve skutečnosti",
-    "explanation": "actually",
-    "usage_context": "formal",
-    "example_sentence": "In point of fact the issue was trivial.",
+    "desc": "actually",
+    "usage": "formal",
+    "example": "In point of fact the issue was trivial.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in no uncertain terms",
     "cz": "zcela jasně",
-    "explanation": "very clearly",
-    "usage_context": "discussion",
-    "example_sentence": "He rejected the proposal in no uncertain terms.",
+    "desc": "very clearly",
+    "usage": "discussion",
+    "example": "He rejected the proposal in no uncertain terms.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in no small measure",
     "cz": "nemalou měrou",
-    "explanation": "to a notable degree",
-    "usage_context": "analysis",
-    "example_sentence": "Success was due in no small measure to caching.",
+    "desc": "to a notable degree",
+    "usage": "analysis",
+    "example": "Success was due in no small measure to caching.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in large part",
     "cz": "z velké části",
-    "explanation": "mostly",
-    "usage_context": "analysis",
-    "example_sentence": "The slowdown was in large part IO related.",
+    "desc": "mostly",
+    "usage": "analysis",
+    "example": "The slowdown was in large part IO related.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in small part",
     "cz": "z malé části",
-    "explanation": "minor contribution",
-    "usage_context": "analysis",
-    "example_sentence": "The delay was in small part network related.",
+    "desc": "minor contribution",
+    "usage": "analysis",
+    "example": "The delay was in small part network related.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in excess of",
     "cz": "více než",
-    "explanation": "greater than amount",
-    "usage_context": "analysis",
-    "example_sentence": "Traffic rose in excess of 40 percent.",
+    "desc": "greater than amount",
+    "usage": "analysis",
+    "example": "Traffic rose in excess of 40 percent.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "in the vicinity of",
     "cz": "přibližně kolem",
-    "explanation": "around approximate value",
-    "usage_context": "analysis",
-    "example_sentence": "Latency stayed in the vicinity of 60 ms.",
+    "desc": "around approximate value",
+    "usage": "analysis",
+    "example": "Latency stayed in the vicinity of 60 ms.",
     "level": "C1",
-    "inserted": "2026-03-12"
+    "synonyms": []
   },
   {
     "en": "tempted to",
     "cz": "v pokušení",
-    "explanation": "feeling like you want to do something, even if it may not be wise",
-    "usage_context": "daily life, decision making",
-    "example_sentence": "I was tempted to reply immediately, but I waited.",
+    "desc": "feeling like you want to do something, even if it may not be wise",
+    "usage": "daily life, decision making",
+    "example": "I was tempted to reply immediately, but I waited.",
     "level": "B2",
-    "inserted": "2026-03-13"
+    "synonyms": []
   }
 ]

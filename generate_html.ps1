@@ -178,7 +178,7 @@ foreach ($file in $jsonFiles) {
 if ($sortedVocabularyDates.Count -gt 0) {
   $lastDate = $sortedVocabularyDates[-1]
   $groups["Vocabulary"] = ,([pscustomobject]@{
-    Label = "last date"
+    Label = "By date"
     Href = "html/vocabulary/dates/$lastDate.html"
   }) + $groups["Vocabulary"]
 }

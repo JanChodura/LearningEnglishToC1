@@ -1,0 +1,169 @@
+{
+  "grammar": {
+    "name": "past continuous",
+    "level": "B1"
+  },
+  "review_errors": [],
+  "lesson": [
+    {
+      "word": "ability",
+      "type": "noun",
+      "level": "B1",
+      "context": "skills, work, education",
+      "example": "Her ability to solve problems impressed the team.",
+      "new": "n"
+    },
+    {
+      "word": "accept",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in everyday communication, work, and social situations",
+      "example": "She accepted the job offer after thinking about it for a day.",
+      "new": "n"
+    },
+    {
+      "word": "access",
+      "type": "noun",
+      "level": "B1",
+      "context": "technology, services",
+      "example": "Users need access to the database.",
+      "new": "n"
+    },
+    {
+      "word": "account",
+      "type": "noun",
+      "level": "B1",
+      "context": "finance, internet",
+      "example": "I created a new account yesterday.",
+      "new": "n"
+    },
+    {
+      "word": "achieve",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in education, career, and personal goals",
+      "example": "He achieved his goal of running a marathon.",
+      "new": "n"
+    },
+    {
+      "word": "achievement",
+      "type": "noun",
+      "level": "B1",
+      "context": "career, study",
+      "example": "Graduating was a major achievement.",
+      "new": "n"
+    },
+    {
+      "word": "address",
+      "type": "noun",
+      "level": "B1",
+      "context": "communication",
+      "example": "Please write your address here.",
+      "new": "n"
+    },
+    {
+      "word": "act",
+      "type": "verb",
+      "level": "B1",
+      "context": "general everyday and professional contexts",
+      "example": "You should act quickly before the problem gets worse.",
+      "new": "n"
+    },
+    {
+      "word": "activity",
+      "type": "noun",
+      "level": "B1",
+      "context": "daily life",
+      "example": "Outdoor activities are popular here.",
+      "new": "n"
+    },
+    {
+      "word": "add",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in cooking, math, and daily tasks",
+      "example": "Add some salt to the soup.",
+      "new": "n"
+    },
+    {
+      "word": "admit",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in discussions, arguments, and formal contexts",
+      "example": "He admitted that he had made a mistake.",
+      "new": "n"
+    },
+    {
+      "word": "advice",
+      "type": "noun",
+      "level": "B1",
+      "context": "communication",
+      "example": "She gave me useful advice.",
+      "new": "n"
+    },
+    {
+      "word": "advise",
+      "type": "verb",
+      "level": "B1",
+      "context": "common in professional and personal guidance",
+      "example": "The doctor advised him to rest.",
+      "new": "n"
+    },
+    {
+      "word": "ask for",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "daily communication, services",
+      "example": "She asked for help with the task.",
+      "new": "n"
+    },
+    {
+      "word": "allow",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in rules and permissions",
+      "example": "The teacher allowed us to leave early.",
+      "new": "n"
+    },
+    {
+      "word": "apply",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in jobs, education, and instructions",
+      "example": "He applied for a new position.",
+      "new": "n"
+    },
+    {
+      "word": "article",
+      "type": "noun",
+      "level": "B1",
+      "context": "media",
+      "example": "I read an interesting article.",
+      "new": "n"
+    },
+    {
+      "word": "arrive",
+      "type": "verb",
+      "level": "B1",
+      "context": "used in travel and scheduling",
+      "example": "We arrived at the station early.",
+      "new": "n"
+    },
+    {
+      "word": "back up",
+      "type": "phrasal_verb",
+      "level": "B1",
+      "context": "technology, teamwork",
+      "example": "Always back up your files.",
+      "new": "n"
+    },
+    {
+      "word": "big",
+      "type": "adjective",
+      "level": "B1",
+      "context": "general",
+      "example": "They live in a big house.",
+      "new": "n"
+    }
+  ]
+}

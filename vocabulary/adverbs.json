@@ -2,53 +2,73 @@
   {
     "en": "beyond",
     "cz": "za; nad rámec",
-    "explanation": "further away than something or more than a limit",
-    "usage_context": "space, limits, abstract meaning",
-    "example_sentence": "The task was beyond my expectations in the best way.",
+    "desc": "further away than something or more than a limit",
+    "usage": "space, limits, abstract meaning",
+    "example": "The task was beyond my expectations in the best way.",
     "level": "B2",
     "synonyms": [
-      "past",
-      "further than"
-    ],
-    "inserted": "2026-03-13"
+      {
+        "word": "past",
+        "explanation": "nejběžnější podobné slovo"
+      },
+      {
+        "word": "further than",
+        "explanation": "podobné významem, časté v běžné angličtině"
+      }
+    ]
   },
   {
     "en": "judiciously",
     "cz": "uvážlivě",
-    "explanation": "in a careful and sensible way",
-    "usage_context": "decision making, formal writing",
-    "example_sentence": "Resources should be used judiciously during the project.",
+    "desc": "in a careful and sensible way",
+    "usage": "decision making, formal writing",
+    "example": "Resources should be used judiciously during the project.",
     "level": "C1",
     "synonyms": [
-      "wisely",
-      "carefully"
-    ],
-    "inserted": "2026-03-13"
+      {
+        "word": "wisely",
+        "explanation": "nejběžnější podobné slovo"
+      },
+      {
+        "word": "carefully",
+        "explanation": "podobné významem, časté v běžné angličtině"
+      }
+    ]
   },
   {
     "en": "merely",
     "cz": "pouze",
-    "explanation": "only and nothing more",
-    "usage_context": "general, emphasis",
-    "example_sentence": "It was merely a suggestion, not an order.",
+    "desc": "only and nothing more",
+    "usage": "general, emphasis",
+    "example": "It was merely a suggestion, not an order.",
     "level": "B2",
     "synonyms": [
-      "only",
-      "simply"
-    ],
-    "inserted": "2026-03-13"
+      {
+        "word": "only",
+        "explanation": "nejběžnější podobné slovo"
+      },
+      {
+        "word": "simply",
+        "explanation": "podobné významem, časté v běžné angličtině"
+      }
+    ]
   },
   {
     "en": "throughout",
     "cz": "po celou dobu; všude v",
-    "explanation": "during the whole period of time or in every part of a place",
-    "usage_context": "time, place",
-    "example_sentence": "She remained calm throughout the meeting.",
+    "desc": "during the whole period of time or in every part of a place",
+    "usage": "time, place",
+    "example": "She remained calm throughout the meeting.",
     "level": "B2",
     "synonyms": [
-      "all through",
-      "everywhere in"
-    ],
-    "inserted": "2026-03-13"
+      {
+        "word": "all through",
+        "explanation": "nejběžnější podobné slovo"
+      },
+      {
+        "word": "everywhere in",
+        "explanation": "podobné významem, časté v běžné angličtině"
+      }
+    ]
   }
 ]

@@ -2,1585 +2,1409 @@
   {
     "en": "break the ice",
     "cz": "prolomit ledy",
-    "explanation": "to start a conversation in a social situation",
-    "usage_context": "social",
-    "example_sentence": "He told a joke to break the ice.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to start a conversation in a social situation",
+    "usage": "social",
+    "example": "He told a joke to break the ice.",
+    "level": "B1"
   },
   {
     "en": "piece of cake",
     "cz": "hračka, velmi snadné",
-    "explanation": "something very easy",
-    "usage_context": "daily life",
-    "example_sentence": "The exam was a piece of cake.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "something very easy",
+    "usage": "daily life",
+    "example": "The exam was a piece of cake.",
+    "level": "B1"
   },
   {
     "en": "once in a blue moon",
     "cz": "velmi zřídka",
-    "explanation": "something that happens very rarely",
-    "usage_context": "daily life",
-    "example_sentence": "I eat fast food once in a blue moon.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "something that happens very rarely",
+    "usage": "daily life",
+    "example": "I eat fast food once in a blue moon.",
+    "level": "B1"
   },
   {
     "en": "hit the nail on the head",
     "cz": "udeřit hřebík na hlavičku",
-    "explanation": "to describe exactly what is causing a situation",
-    "usage_context": "discussion",
-    "example_sentence": "You hit the nail on the head with that comment.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to describe exactly what is causing a situation",
+    "usage": "discussion",
+    "example": "You hit the nail on the head with that comment.",
+    "level": "B2"
   },
   {
     "en": "cost an arm and a leg",
     "cz": "stát majlant",
-    "explanation": "to be very expensive",
-    "usage_context": "shopping",
-    "example_sentence": "That car costs an arm and a leg.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to be very expensive",
+    "usage": "shopping",
+    "example": "That car costs an arm and a leg.",
+    "level": "B1"
   },
   {
     "en": "under the weather",
     "cz": "cítit se pod psa",
-    "explanation": "to feel ill",
-    "usage_context": "health",
-    "example_sentence": "I'm feeling under the weather today.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to feel ill",
+    "usage": "health",
+    "example": "I'm feeling under the weather today.",
+    "level": "B1"
   },
   {
     "en": "burn the midnight oil",
     "cz": "pracovat dlouho do noci",
-    "explanation": "to work late into the night",
-    "usage_context": "work",
-    "example_sentence": "She burned the midnight oil to finish the report.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to work late into the night",
+    "usage": "work",
+    "example": "She burned the midnight oil to finish the report.",
+    "level": "B2"
   },
   {
     "en": "spill the beans",
     "cz": "vykecat tajemství",
-    "explanation": "to reveal a secret",
-    "usage_context": "social",
-    "example_sentence": "He accidentally spilled the beans.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to reveal a secret",
+    "usage": "social",
+    "example": "He accidentally spilled the beans.",
+    "level": "B1"
   },
   {
     "en": "beat around the bush",
     "cz": "chodit kolem horké kaše",
-    "explanation": "to avoid saying something directly",
-    "usage_context": "communication",
-    "example_sentence": "Stop beating around the bush and tell me.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to avoid saying something directly",
+    "usage": "communication",
+    "example": "Stop beating around the bush and tell me.",
+    "level": "B2"
   },
   {
     "en": "let the cat out of the bag",
     "cz": "prozradit tajemství",
-    "explanation": "to reveal a secret accidentally",
-    "usage_context": "social",
-    "example_sentence": "She let the cat out of the bag about the surprise.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to reveal a secret accidentally",
+    "usage": "social",
+    "example": "She let the cat out of the bag about the surprise.",
+    "level": "B1"
   },
   {
     "en": "on the same page",
     "cz": "být zajedno",
-    "explanation": "to agree on something",
-    "usage_context": "work",
-    "example_sentence": "We need to be on the same page.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to agree on something",
+    "usage": "work",
+    "example": "We need to be on the same page.",
+    "level": "B2"
   },
   {
     "en": "get out of hand",
     "cz": "vymknout se kontrole",
-    "explanation": "to become uncontrollable",
-    "usage_context": "general",
-    "example_sentence": "The situation got out of hand.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to become uncontrollable",
+    "usage": "general",
+    "example": "The situation got out of hand.",
+    "level": "B2"
   },
   {
     "en": "pull someone's leg",
     "cz": "dělat si z někoho legraci",
-    "explanation": "to joke with someone",
-    "usage_context": "social",
-    "example_sentence": "Relax, I'm just pulling your leg.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to joke with someone",
+    "usage": "social",
+    "example": "Relax, I'm just pulling your leg.",
+    "level": "B1"
   },
   {
     "en": "back to square one",
     "cz": "zpět na začátek",
-    "explanation": "to start again",
-    "usage_context": "work",
-    "example_sentence": "The plan failed so we are back to square one.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to start again",
+    "usage": "work",
+    "example": "The plan failed so we are back to square one.",
+    "level": "B2"
   },
   {
     "en": "in hot water",
     "cz": "v průšvihu",
-    "explanation": "in trouble",
-    "usage_context": "work",
-    "example_sentence": "He is in hot water with his boss.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "in trouble",
+    "usage": "work",
+    "example": "He is in hot water with his boss.",
+    "level": "B2"
   },
   {
     "en": "kill two birds with one stone",
     "cz": "zabít dvě mouchy jednou ranou",
-    "explanation": "to achieve two things with one action",
-    "usage_context": "planning",
-    "example_sentence": "Cycling to work kills two birds with one stone.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to achieve two things with one action",
+    "usage": "planning",
+    "example": "Cycling to work kills two birds with one stone.",
+    "level": "B1"
   },
   {
     "en": "barking up the wrong tree",
     "cz": "plést se, být na špatné stopě",
-    "explanation": "to pursue a mistaken idea",
-    "usage_context": "analysis",
-    "example_sentence": "If you think I did it, you're barking up the wrong tree.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to pursue a mistaken idea",
+    "usage": "analysis",
+    "example": "If you think I did it, you're barking up the wrong tree.",
+    "level": "B2"
   },
   {
     "en": "call it a day",
     "cz": "skončit práci",
-    "explanation": "to stop working for the day",
-    "usage_context": "work",
-    "example_sentence": "Let's call it a day.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to stop working for the day",
+    "usage": "work",
+    "example": "Let's call it a day.",
+    "level": "B1"
   },
   {
     "en": "cut corners",
     "cz": "šidit, odbývat",
-    "explanation": "to do something poorly to save time or money",
-    "usage_context": "work",
-    "example_sentence": "Don't cut corners on safety.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to do something poorly to save time or money",
+    "usage": "work",
+    "example": "Don't cut corners on safety.",
+    "level": "B2"
   },
   {
     "en": "get cold feet",
     "cz": "dostat strach",
-    "explanation": "to suddenly become nervous about something",
-    "usage_context": "life",
-    "example_sentence": "He got cold feet before the wedding.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to suddenly become nervous about something",
+    "usage": "life",
+    "example": "He got cold feet before the wedding.",
+    "level": "B1"
   },
   {
     "en": "jump the gun",
     "cz": "jednat příliš brzy",
-    "explanation": "to act too soon",
-    "usage_context": "work",
-    "example_sentence": "They jumped the gun with the announcement.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to act too soon",
+    "usage": "work",
+    "example": "They jumped the gun with the announcement.",
+    "level": "B2"
   },
   {
     "en": "miss the boat",
     "cz": "propásnout příležitost",
-    "explanation": "to miss an opportunity",
-    "usage_context": "career",
-    "example_sentence": "He missed the boat investing early.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to miss an opportunity",
+    "usage": "career",
+    "example": "He missed the boat investing early.",
+    "level": "B2"
   },
   {
     "en": "no pain no gain",
     "cz": "bez práce nejsou koláče",
-    "explanation": "effort is necessary for success",
-    "usage_context": "sport",
-    "example_sentence": "Remember, no pain no gain.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "effort is necessary for success",
+    "usage": "sport",
+    "example": "Remember, no pain no gain.",
+    "level": "B1"
   },
   {
     "en": "put all your eggs in one basket",
     "cz": "vsadit vše na jednu kartu",
-    "explanation": "to risk everything on one plan",
-    "usage_context": "finance",
-    "example_sentence": "Don't put all your eggs in one basket.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to risk everything on one plan",
+    "usage": "finance",
+    "example": "Don't put all your eggs in one basket.",
+    "level": "B2"
   },
   {
     "en": "see eye to eye",
     "cz": "vidět věci stejně",
-    "explanation": "to agree completely",
-    "usage_context": "relationships",
-    "example_sentence": "They finally see eye to eye.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to agree completely",
+    "usage": "relationships",
+    "example": "They finally see eye to eye.",
+    "level": "B2"
   },
   {
     "en": "take it with a grain of salt",
     "cz": "brát s rezervou",
-    "explanation": "to not take something too seriously",
-    "usage_context": "discussion",
-    "example_sentence": "Take his claims with a grain of salt.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to not take something too seriously",
+    "usage": "discussion",
+    "example": "Take his claims with a grain of salt.",
+    "level": "B2"
   },
   {
     "en": "throw in the towel",
     "cz": "hodit ručník do ringu",
-    "explanation": "to give up",
-    "usage_context": "general",
-    "example_sentence": "He threw in the towel after many failures.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to give up",
+    "usage": "general",
+    "example": "He threw in the towel after many failures.",
+    "level": "B2"
   },
   {
     "en": "add fuel to the fire",
     "cz": "přilévat olej do ohně",
-    "explanation": "to make a situation worse",
-    "usage_context": "conflict",
-    "example_sentence": "His comment added fuel to the fire.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to make a situation worse",
+    "usage": "conflict",
+    "example": "His comment added fuel to the fire.",
+    "level": "B2"
   },
   {
     "en": "bite the bullet",
     "cz": "kousnout do kyselého jablka",
-    "explanation": "to accept something difficult",
-    "usage_context": "bravery",
-    "example_sentence": "I had to bite the bullet and pay.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to accept something difficult",
+    "usage": "bravery",
+    "example": "I had to bite the bullet and pay.",
+    "level": "B2"
   },
   {
     "en": "by the skin of your teeth",
     "cz": "jen tak tak",
-    "explanation": "barely succeeding",
-    "usage_context": "life",
-    "example_sentence": "He passed the exam by the skin of his teeth.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "barely succeeding",
+    "usage": "life",
+    "example": "He passed the exam by the skin of his teeth.",
+    "level": "B2"
   },
   {
     "en": "cut to the chase",
     "cz": "jít rovnou k věci",
-    "explanation": "get to the main point",
-    "usage_context": "communication",
-    "example_sentence": "Let's cut to the chase.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "get to the main point",
+    "usage": "communication",
+    "example": "Let's cut to the chase.",
+    "level": "B2"
   },
   {
     "en": "devils advocate",
     "cz": "ďáblův advokát",
-    "explanation": "arguing the opposite view",
-    "usage_context": "discussion",
-    "example_sentence": "I'll play devil's advocate.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "arguing the opposite view",
+    "usage": "discussion",
+    "example": "I'll play devil's advocate.",
+    "level": "C1"
   },
   {
     "en": "on thin ice",
     "cz": "na tenkém ledě",
-    "explanation": "in a risky situation",
-    "usage_context": "work",
-    "example_sentence": "He is on thin ice after that mistake.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "in a risky situation",
+    "usage": "work",
+    "example": "He is on thin ice after that mistake.",
+    "level": "B2"
   },
   {
     "en": "out of the blue",
     "cz": "z ničeho nic",
-    "explanation": "unexpectedly",
-    "usage_context": "life",
-    "example_sentence": "She called me out of the blue.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "unexpectedly",
+    "usage": "life",
+    "example": "She called me out of the blue.",
+    "level": "B1"
   },
   {
     "en": "rise and shine",
     "cz": "vstávat",
-    "explanation": "to wake up and get ready",
-    "usage_context": "daily life",
-    "example_sentence": "Rise and shine, it's morning.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to wake up and get ready",
+    "usage": "daily life",
+    "example": "Rise and shine, it's morning.",
+    "level": "B1"
   },
   {
     "en": "speak of the devil",
     "cz": "o kom se mluví ten se objeví",
-    "explanation": "the person just mentioned appears",
-    "usage_context": "social",
-    "example_sentence": "Speak of the devil, here he is.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "the person just mentioned appears",
+    "usage": "social",
+    "example": "Speak of the devil, here he is.",
+    "level": "B1"
   },
   {
     "en": "steal someone's thunder",
     "cz": "vzít někomu slávu",
-    "explanation": "to take credit for someone's idea",
-    "usage_context": "work",
-    "example_sentence": "He stole my thunder.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to take credit for someone's idea",
+    "usage": "work",
+    "example": "He stole my thunder.",
+    "level": "C1"
   },
   {
     "en": "the ball is in your court",
     "cz": "teď jsi na řadě ty",
-    "explanation": "it's your decision now",
-    "usage_context": "discussion",
-    "example_sentence": "The ball is in your court.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "it's your decision now",
+    "usage": "discussion",
+    "example": "The ball is in your court.",
+    "level": "B2"
   },
   {
     "en": "think outside the box",
     "cz": "myslet nekonvenčně",
-    "explanation": "think creatively",
-    "usage_context": "work",
-    "example_sentence": "We must think outside the box.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "think creatively",
+    "usage": "work",
+    "example": "We must think outside the box.",
+    "level": "B2"
   },
   {
     "en": "throw someone under the bus",
     "cz": "hodit někoho přes palubu",
-    "explanation": "to sacrifice someone else to save yourself",
-    "usage_context": "work",
-    "example_sentence": "He threw his colleague under the bus.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to sacrifice someone else to save yourself",
+    "usage": "work",
+    "example": "He threw his colleague under the bus.",
+    "level": "C1"
   },
   {
     "en": "walk on eggshells",
     "cz": "chodit po špičkách",
-    "explanation": "to be very careful not to offend",
-    "usage_context": "relationships",
-    "example_sentence": "Everyone walks on eggshells around her.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to be very careful not to offend",
+    "usage": "relationships",
+    "example": "Everyone walks on eggshells around her.",
+    "level": "C1"
   },
   {
     "en": "water under the bridge",
     "cz": "minulost je minulost",
-    "explanation": "past events no longer matter",
-    "usage_context": "life",
-    "example_sentence": "That's water under the bridge.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "past events no longer matter",
+    "usage": "life",
+    "example": "That's water under the bridge.",
+    "level": "B2"
   },
   {
     "en": "when pigs fly",
     "cz": "až naprší a uschne",
-    "explanation": "something that will never happen",
-    "usage_context": "life",
-    "example_sentence": "He'll apologize when pigs fly.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "something that will never happen",
+    "usage": "life",
+    "example": "He'll apologize when pigs fly.",
+    "level": "B1"
   },
   {
     "en": "wrap your head around something",
     "cz": "pochopit něco složitého",
-    "explanation": "to understand something complex",
-    "usage_context": "learning",
-    "example_sentence": "I can't wrap my head around this math.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to understand something complex",
+    "usage": "learning",
+    "example": "I can't wrap my head around this math.",
+    "level": "C1"
   },
   {
     "en": "you can't judge a book by its cover",
     "cz": "nesuď knihu podle obalu",
-    "explanation": "appearance can be misleading",
-    "usage_context": "life",
-    "example_sentence": "Remember you can't judge a book by its cover.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "appearance can be misleading",
+    "usage": "life",
+    "example": "Remember you can't judge a book by its cover.",
+    "level": "B1"
   },
   {
     "en": "face the music",
     "cz": "čelit následkům",
-    "explanation": "to accept punishment or consequences",
-    "usage_context": "life",
-    "example_sentence": "He had to face the music after the mistake.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to accept punishment or consequences",
+    "usage": "life",
+    "example": "He had to face the music after the mistake.",
+    "level": "B2"
   },
   {
     "en": "go the extra mile",
     "cz": "udělat něco navíc",
-    "explanation": "to make more effort than expected",
-    "usage_context": "work",
-    "example_sentence": "She always goes the extra mile for clients.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to make more effort than expected",
+    "usage": "work",
+    "example": "She always goes the extra mile for clients.",
+    "level": "B2"
   },
   {
     "en": "keep an eye on",
     "cz": "hlídat",
-    "explanation": "to watch something carefully",
-    "usage_context": "daily life",
-    "example_sentence": "Can you keep an eye on my bag?",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to watch something carefully",
+    "usage": "daily life",
+    "example": "Can you keep an eye on my bag?",
+    "level": "B1"
   },
   {
     "en": "lose track of time",
     "cz": "ztratit pojem o čase",
-    "explanation": "to not notice how much time has passed",
-    "usage_context": "daily life",
-    "example_sentence": "I lost track of time while coding.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to not notice how much time has passed",
+    "usage": "daily life",
+    "example": "I lost track of time while coding.",
+    "level": "B1"
   },
   {
     "en": "make a long story short",
     "cz": "stručně řečeno",
-    "explanation": "to summarize briefly",
-    "usage_context": "conversation",
-    "example_sentence": "To make a long story short, we failed.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to summarize briefly",
+    "usage": "conversation",
+    "example": "To make a long story short, we failed.",
+    "level": "B1"
   },
   {
     "en": "on the ball",
     "cz": "ve střehu, bystrý",
-    "explanation": "quick to understand or react",
-    "usage_context": "work",
-    "example_sentence": "Our new manager is really on the ball.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "quick to understand or react",
+    "usage": "work",
+    "example": "Our new manager is really on the ball.",
+    "level": "B2"
   },
   {
     "en": "play it by ear",
     "cz": "improvizovat",
-    "explanation": "to decide as you go",
-    "usage_context": "planning",
-    "example_sentence": "We will play it by ear.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to decide as you go",
+    "usage": "planning",
+    "example": "We will play it by ear.",
+    "level": "B2"
   },
   {
     "en": "pull the strings",
     "cz": "tahat za nitky",
-    "explanation": "to secretly control something",
-    "usage_context": "politics",
-    "example_sentence": "Someone behind the scenes pulls the strings.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to secretly control something",
+    "usage": "politics",
+    "example": "Someone behind the scenes pulls the strings.",
+    "level": "C1"
   },
   {
     "en": "read between the lines",
     "cz": "číst mezi řádky",
-    "explanation": "to understand hidden meaning",
-    "usage_context": "communication",
-    "example_sentence": "You must read between the lines.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to understand hidden meaning",
+    "usage": "communication",
+    "example": "You must read between the lines.",
+    "level": "B2"
   },
   {
     "en": "rock the boat",
     "cz": "rozkolísat situaci",
-    "explanation": "to disturb a stable situation",
-    "usage_context": "work",
-    "example_sentence": "Don't rock the boat right now.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to disturb a stable situation",
+    "usage": "work",
+    "example": "Don't rock the boat right now.",
+    "level": "B2"
   },
   {
     "en": "run out of steam",
     "cz": "dojít energie",
-    "explanation": "to lose energy or motivation",
-    "usage_context": "work",
-    "example_sentence": "The project ran out of steam.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to lose energy or motivation",
+    "usage": "work",
+    "example": "The project ran out of steam.",
+    "level": "B2"
   },
   {
     "en": "sit on the fence",
     "cz": "váhat",
-    "explanation": "to avoid choosing a side",
-    "usage_context": "discussion",
-    "example_sentence": "Stop sitting on the fence.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to avoid choosing a side",
+    "usage": "discussion",
+    "example": "Stop sitting on the fence.",
+    "level": "C1"
   },
   {
     "en": "skeleton in the closet",
     "cz": "kostlivec ve skříni",
-    "explanation": "an embarrassing secret",
-    "usage_context": "social",
-    "example_sentence": "Every politician has a skeleton in the closet.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "an embarrassing secret",
+    "usage": "social",
+    "example": "Every politician has a skeleton in the closet.",
+    "level": "C1"
   },
   {
     "en": "stick to your guns",
     "cz": "trvat na svém",
-    "explanation": "to refuse to change your opinion",
-    "usage_context": "discussion",
-    "example_sentence": "He stuck to his guns.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to refuse to change your opinion",
+    "usage": "discussion",
+    "example": "He stuck to his guns.",
+    "level": "B2"
   },
   {
     "en": "take the plunge",
     "cz": "odhodlat se",
-    "explanation": "konečně se rozhodnout",
-    "usage_context": "life",
-    "example_sentence": "He took the plunge and started a company.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "konečně se rozhodnout",
+    "usage": "life",
+    "example": "He took the plunge and started a company.",
+    "level": "B2"
   },
   {
     "en": "the tip of the iceberg",
     "cz": "špička ledovce",
-    "explanation": "a small visible part of a bigger problem",
-    "usage_context": "analysis",
-    "example_sentence": "This bug is just the tip of the iceberg.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "a small visible part of a bigger problem",
+    "usage": "analysis",
+    "example": "This bug is just the tip of the iceberg.",
+    "level": "B2"
   },
   {
     "en": "through thick and thin",
     "cz": "v dobrém i zlém",
-    "explanation": "supporting someone in all situations",
-    "usage_context": "relationships",
-    "example_sentence": "They stayed friends through thick and thin.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "supporting someone in all situations",
+    "usage": "relationships",
+    "example": "They stayed friends through thick and thin.",
+    "level": "B1"
   },
   {
     "en": "twist someone's arm",
     "cz": "přemluvit někoho",
-    "explanation": "to persuade someone reluctantly",
-    "usage_context": "social",
-    "example_sentence": "I had to twist his arm to come.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to persuade someone reluctantly",
+    "usage": "social",
+    "example": "I had to twist his arm to come.",
+    "level": "B2"
   },
   {
     "en": "up in the air",
     "cz": "nejistý",
-    "explanation": "not yet decided",
-    "usage_context": "planning",
-    "example_sentence": "Our travel plans are still up in the air.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "not yet decided",
+    "usage": "planning",
+    "example": "Our travel plans are still up in the air.",
+    "level": "B2"
   },
   {
     "en": "wear many hats",
     "cz": "mít mnoho rolí",
-    "explanation": "to perform many different roles",
-    "usage_context": "work",
-    "example_sentence": "In a startup you wear many hats.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to perform many different roles",
+    "usage": "work",
+    "example": "In a startup you wear many hats.",
+    "level": "B2"
   },
   {
     "en": "work against the clock",
     "cz": "bojovat s časem",
-    "explanation": "to hurry because time is limited",
-    "usage_context": "work",
-    "example_sentence": "We are working against the clock.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to hurry because time is limited",
+    "usage": "work",
+    "example": "We are working against the clock.",
+    "level": "B2"
   },
   {
     "en": "zero in on",
     "cz": "zaměřit se přesně",
-    "explanation": "to focus attention precisely",
-    "usage_context": "analysis",
-    "example_sentence": "The team zeroed in on the bug.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to focus attention precisely",
+    "usage": "analysis",
+    "example": "The team zeroed in on the bug.",
+    "level": "C1"
   },
   {
     "en": "bend over backwards",
     "cz": "přetrhnout se pro někoho",
-    "explanation": "try very hard to help",
-    "usage_context": "social",
-    "example_sentence": "He bent over backwards to help.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "try very hard to help",
+    "usage": "social",
+    "example": "He bent over backwards to help.",
+    "level": "B2"
   },
   {
     "en": "bring something to light",
     "cz": "odhalit",
-    "explanation": "to reveal hidden information",
-    "usage_context": "investigation",
-    "example_sentence": "The audit brought the issue to light.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to reveal hidden information",
+    "usage": "investigation",
+    "example": "The audit brought the issue to light.",
+    "level": "C1"
   },
   {
     "en": "call the shots",
     "cz": "rozhodovat",
-    "explanation": "to be the person in control",
-    "usage_context": "work",
-    "example_sentence": "The CTO calls the shots.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to be the person in control",
+    "usage": "work",
+    "example": "The CTO calls the shots.",
+    "level": "B2"
   },
   {
     "en": "cut somebody some slack",
     "cz": "polevit někomu",
-    "explanation": "be less strict",
-    "usage_context": "social",
-    "example_sentence": "Cut him some slack.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "be less strict",
+    "usage": "social",
+    "example": "Cut him some slack.",
+    "level": "B1"
   },
   {
     "en": "draw the line",
     "cz": "stanovit hranici",
-    "explanation": "to set a limit",
-    "usage_context": "ethics",
-    "example_sentence": "We must draw the line somewhere.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to set a limit",
+    "usage": "ethics",
+    "example": "We must draw the line somewhere.",
+    "level": "C1"
   },
   {
     "en": "fall through the cracks",
     "cz": "propadnout systémem",
-    "explanation": "to be overlooked in a system",
-    "usage_context": "work",
-    "example_sentence": "Some tasks fell through the cracks.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to be overlooked in a system",
+    "usage": "work",
+    "example": "Some tasks fell through the cracks.",
+    "level": "C1"
   },
   {
     "en": "get the hang of it",
     "cz": "přijít na to",
-    "explanation": "to learn how something works",
-    "usage_context": "learning",
-    "example_sentence": "You'll get the hang of it.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to learn how something works",
+    "usage": "learning",
+    "example": "You'll get the hang of it.",
+    "level": "B1"
   },
   {
     "en": "get your act together",
     "cz": "dát se dohromady",
-    "explanation": "to organize yourself better",
-    "usage_context": "life",
-    "example_sentence": "You need to get your act together.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to organize yourself better",
+    "usage": "life",
+    "example": "You need to get your act together.",
+    "level": "B2"
   },
   {
     "en": "go down in flames",
     "cz": "selhat katastrofálně",
-    "explanation": "to fail spectacularly",
-    "usage_context": "projects",
-    "example_sentence": "The startup went down in flames.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to fail spectacularly",
+    "usage": "projects",
+    "example": "The startup went down in flames.",
+    "level": "C1"
   },
   {
     "en": "have a chip on your shoulder",
     "cz": "být vztahovačný",
-    "explanation": "to feel easily offended",
-    "usage_context": "psychology",
-    "example_sentence": "He has a chip on his shoulder.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to feel easily offended",
+    "usage": "psychology",
+    "example": "He has a chip on his shoulder.",
+    "level": "C1"
   },
   {
     "en": "in the long run",
     "cz": "z dlouhodobého hlediska",
-    "explanation": "over a long period of time",
-    "usage_context": "analysis",
-    "example_sentence": "It will pay off in the long run.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "over a long period of time",
+    "usage": "analysis",
+    "example": "It will pay off in the long run.",
+    "level": "B1"
   },
   {
     "en": "keep your cool",
     "cz": "zachovat klid",
-    "explanation": "to stay calm under pressure",
-    "usage_context": "life",
-    "example_sentence": "She kept her cool.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "to stay calm under pressure",
+    "usage": "life",
+    "example": "She kept her cool.",
+    "level": "B1"
   },
   {
     "en": "make waves",
     "cz": "vyvolat rozruch",
-    "explanation": "to cause trouble or disturbance",
-    "usage_context": "work",
-    "example_sentence": "He made waves with his proposal.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to cause trouble or disturbance",
+    "usage": "work",
+    "example": "He made waves with his proposal.",
+    "level": "C1"
   },
   {
     "en": "on cloud nine",
     "cz": "v sedmém nebi",
-    "explanation": "extremely happy",
-    "usage_context": "life",
-    "example_sentence": "She was on cloud nine.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "extremely happy",
+    "usage": "life",
+    "example": "She was on cloud nine.",
+    "level": "B1"
   },
   {
     "en": "open a can of worms",
     "cz": "otevřít složitý problém",
-    "explanation": "create many new problems",
-    "usage_context": "discussion",
-    "example_sentence": "That question opened a can of worms.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "create many new problems",
+    "usage": "discussion",
+    "example": "That question opened a can of worms.",
+    "level": "C1"
   },
   {
     "en": "put your foot down",
     "cz": "razantně rozhodnout",
-    "explanation": "to assert authority firmly",
-    "usage_context": "family",
-    "example_sentence": "She put her foot down.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to assert authority firmly",
+    "usage": "family",
+    "example": "She put her foot down.",
+    "level": "B2"
   },
   {
     "en": "see the big picture",
     "cz": "vidět celek",
-    "explanation": "to understand overall context",
-    "usage_context": "analysis",
-    "example_sentence": "Managers must see the big picture.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to understand overall context",
+    "usage": "analysis",
+    "example": "Managers must see the big picture.",
+    "level": "B2"
   },
   {
     "en": "sweep something under the rug",
     "cz": "zamést pod koberec",
-    "explanation": "to hide a problem",
-    "usage_context": "politics",
-    "example_sentence": "They swept the scandal under the rug.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to hide a problem",
+    "usage": "politics",
+    "example": "They swept the scandal under the rug.",
+    "level": "C1"
   },
   {
     "en": "take something for granted",
     "cz": "brát jako samozřejmost",
-    "explanation": "to fail to appreciate something",
-    "usage_context": "life",
-    "example_sentence": "Don't take your health for granted.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "to fail to appreciate something",
+    "usage": "life",
+    "example": "Don't take your health for granted.",
+    "level": "B2"
   },
   {
     "en": "throw caution to the wind",
     "cz": "jednat bez opatrnosti",
-    "explanation": "to take a big risk",
-    "usage_context": "life",
-    "example_sentence": "He threw caution to the wind.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to take a big risk",
+    "usage": "life",
+    "example": "He threw caution to the wind.",
+    "level": "C1"
   },
   {
     "en": "ballpark figure",
     "cz": "hrubý odhad",
-    "explanation": "an approximate number",
-    "usage_context": "work",
-    "example_sentence": "Give me a ballpark figure for the budget.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "an approximate number",
+    "usage": "work",
+    "example": "Give me a ballpark figure for the budget.",
+    "level": "B2"
   },
   {
     "en": "bang for the buck",
     "cz": "hodnota za peníze",
-    "explanation": "value received for money spent",
-    "usage_context": "business",
-    "example_sentence": "This upgrade gives more bang for the buck.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "value received for money spent",
+    "usage": "business",
+    "example": "This upgrade gives more bang for the buck.",
+    "level": "C1"
   },
   {
     "en": "beat the clock",
     "cz": "stihnout něco před termínem",
-    "explanation": "finish before a deadline",
-    "usage_context": "work",
-    "example_sentence": "We beat the clock and delivered early.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "finish before a deadline",
+    "usage": "work",
+    "example": "We beat the clock and delivered early.",
+    "level": "B2"
   },
   {
     "en": "behind the scenes",
     "cz": "v zákulisí",
-    "explanation": "happening privately",
-    "usage_context": "work",
-    "example_sentence": "A lot happens behind the scenes.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "happening privately",
+    "usage": "work",
+    "example": "A lot happens behind the scenes.",
+    "level": "B1"
   },
   {
     "en": "bend the rules",
     "cz": "ohnout pravidla",
-    "explanation": "break rules slightly",
-    "usage_context": "work",
-    "example_sentence": "They bent the rules to help him.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "break rules slightly",
+    "usage": "work",
+    "example": "They bent the rules to help him.",
+    "level": "B2"
   },
   {
     "en": "big picture thinking",
     "cz": "uvažování v širších souvislostech",
-    "explanation": "thinking about overall strategy",
-    "usage_context": "business",
-    "example_sentence": "Leaders need big picture thinking.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "thinking about overall strategy",
+    "usage": "business",
+    "example": "Leaders need big picture thinking.",
+    "level": "C1"
   },
   {
     "en": "blow something out of proportion",
     "cz": "zveličit",
-    "explanation": "exaggerate a problem",
-    "usage_context": "social",
-    "example_sentence": "You blew it out of proportion.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "exaggerate a problem",
+    "usage": "social",
+    "example": "You blew it out of proportion.",
+    "level": "B2"
   },
   {
     "en": "bring to the table",
     "cz": "přinést hodnotu",
-    "explanation": "contribute something useful",
-    "usage_context": "work",
-    "example_sentence": "She brings great skills to the table.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "contribute something useful",
+    "usage": "work",
+    "example": "She brings great skills to the table.",
+    "level": "B2"
   },
   {
     "en": "brush something off",
     "cz": "odmítnout lehce",
-    "explanation": "ignore something trivial",
-    "usage_context": "social",
-    "example_sentence": "He brushed off the criticism.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "ignore something trivial",
+    "usage": "social",
+    "example": "He brushed off the criticism.",
+    "level": "B1"
   },
   {
     "en": "by and large",
     "cz": "celkově vzato",
-    "explanation": "generally speaking",
-    "usage_context": "analysis",
-    "example_sentence": "By and large the system works.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "generally speaking",
+    "usage": "analysis",
+    "example": "By and large the system works.",
+    "level": "C1"
   },
   {
     "en": "call it quits",
     "cz": "skončit",
-    "explanation": "stop doing something",
-    "usage_context": "work",
-    "example_sentence": "Let's call it quits for tonight.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "stop doing something",
+    "usage": "work",
+    "example": "Let's call it quits for tonight.",
+    "level": "B1"
   },
   {
     "en": "carry the day",
     "cz": "zvítězit",
-    "explanation": "to win or succeed",
-    "usage_context": "discussion",
-    "example_sentence": "His argument carried the day.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "to win or succeed",
+    "usage": "discussion",
+    "example": "His argument carried the day.",
+    "level": "C1"
   },
   {
     "en": "clear the air",
     "cz": "vyjasnit situaci",
-    "explanation": "remove tension by discussion",
-    "usage_context": "relationships",
-    "example_sentence": "They met to clear the air.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "remove tension by discussion",
+    "usage": "relationships",
+    "example": "They met to clear the air.",
+    "level": "B2"
   },
   {
     "en": "come to terms with",
     "cz": "smířit se",
-    "explanation": "accept something difficult",
-    "usage_context": "life",
-    "example_sentence": "He came to terms with the loss.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "accept something difficult",
+    "usage": "life",
+    "example": "He came to terms with the loss.",
+    "level": "B2"
   },
   {
     "en": "come up short",
     "cz": "selhat",
-    "explanation": "fail to achieve a goal",
-    "usage_context": "work",
-    "example_sentence": "The team came up short.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "fail to achieve a goal",
+    "usage": "work",
+    "example": "The team came up short.",
+    "level": "B2"
   },
   {
     "en": "cut someone off",
     "cz": "přerušit někoho",
-    "explanation": "interrupt someone speaking",
-    "usage_context": "conversation",
-    "example_sentence": "He cut me off mid‑sentence.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "interrupt someone speaking",
+    "usage": "conversation",
+    "example": "He cut me off mid‑sentence.",
+    "level": "B1"
   },
   {
     "en": "down the road",
     "cz": "v budoucnu",
-    "explanation": "in the future",
-    "usage_context": "planning",
-    "example_sentence": "We may expand down the road.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "in the future",
+    "usage": "planning",
+    "example": "We may expand down the road.",
+    "level": "B1"
   },
   {
     "en": "drive a hard bargain",
     "cz": "tvrdě vyjednávat",
-    "explanation": "negotiate aggressively",
-    "usage_context": "business",
-    "example_sentence": "She drives a hard bargain.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "negotiate aggressively",
+    "usage": "business",
+    "example": "She drives a hard bargain.",
+    "level": "C1"
   },
   {
     "en": "easy does it",
     "cz": "opatrně",
-    "explanation": "slow down and be careful",
-    "usage_context": "life",
-    "example_sentence": "Easy does it with that glass.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "slow down and be careful",
+    "usage": "life",
+    "example": "Easy does it with that glass.",
+    "level": "B1"
   },
   {
     "en": "fall into place",
     "cz": "zapadnout do sebe",
-    "explanation": "things become clear or organized",
-    "usage_context": "work",
-    "example_sentence": "Everything fell into place.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "things become clear or organized",
+    "usage": "work",
+    "example": "Everything fell into place.",
+    "level": "B1"
   },
   {
     "en": "fight an uphill battle",
     "cz": "bojovat s velkou nevýhodou",
-    "explanation": "face strong difficulties",
-    "usage_context": "life",
-    "example_sentence": "We fought an uphill battle.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "face strong difficulties",
+    "usage": "life",
+    "example": "We fought an uphill battle.",
+    "level": "B2"
   },
   {
     "en": "for the time being",
     "cz": "prozatím",
-    "explanation": "temporarily",
-    "usage_context": "planning",
-    "example_sentence": "This solution works for the time being.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "temporarily",
+    "usage": "planning",
+    "example": "This solution works for the time being.",
+    "level": "B2"
   },
   {
     "en": "from the get‑go",
     "cz": "od začátku",
-    "explanation": "from the beginning",
-    "usage_context": "discussion",
-    "example_sentence": "I knew from the get‑go.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "from the beginning",
+    "usage": "discussion",
+    "example": "I knew from the get‑go.",
+    "level": "C1"
   },
   {
     "en": "get a grip",
     "cz": "vzchopit se",
-    "explanation": "regain control of emotions",
-    "usage_context": "life",
-    "example_sentence": "Get a grip and focus.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "regain control of emotions",
+    "usage": "life",
+    "example": "Get a grip and focus.",
+    "level": "B1"
   },
   {
     "en": "get wind of something",
     "cz": "doslechnout se",
-    "explanation": "hear a rumor",
-    "usage_context": "social",
-    "example_sentence": "They got wind of the plan.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "hear a rumor",
+    "usage": "social",
+    "example": "They got wind of the plan.",
+    "level": "C1"
   },
   {
     "en": "give someone the benefit of the doubt",
     "cz": "dát někomu šanci",
-    "explanation": "assume good intentions",
-    "usage_context": "social",
-    "example_sentence": "I'll give him the benefit of the doubt.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "assume good intentions",
+    "usage": "social",
+    "example": "I'll give him the benefit of the doubt.",
+    "level": "B2"
   },
   {
     "en": "go off the rails",
     "cz": "vymknout se kontrole",
-    "explanation": "lose control completely",
-    "usage_context": "life",
-    "example_sentence": "The meeting went off the rails.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "lose control completely",
+    "usage": "life",
+    "example": "The meeting went off the rails.",
+    "level": "C1"
   },
   {
     "en": "go the distance",
     "cz": "vydržet až do konce",
-    "explanation": "finish something difficult",
-    "usage_context": "sport",
-    "example_sentence": "She went the distance.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "finish something difficult",
+    "usage": "sport",
+    "example": "She went the distance.",
+    "level": "B2"
   },
   {
     "en": "gray area",
     "cz": "šedá zóna",
-    "explanation": "uncertain situation",
-    "usage_context": "law",
-    "example_sentence": "This case is a gray area.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "uncertain situation",
+    "usage": "law",
+    "example": "This case is a gray area.",
+    "level": "B2"
   },
   {
     "en": "have the upper hand",
     "cz": "mít navrch",
-    "explanation": "have advantage",
-    "usage_context": "competition",
-    "example_sentence": "Our team has the upper hand.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "have advantage",
+    "usage": "competition",
+    "example": "Our team has the upper hand.",
+    "level": "B2"
   },
   {
     "en": "hold your ground",
     "cz": "stát si za svým",
-    "explanation": "refuse to retreat",
-    "usage_context": "discussion",
-    "example_sentence": "She held her ground.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "refuse to retreat",
+    "usage": "discussion",
+    "example": "She held her ground.",
+    "level": "B2"
   },
   {
     "en": "in the dark",
     "cz": "bez informací",
-    "explanation": "not knowing the facts",
-    "usage_context": "work",
-    "example_sentence": "We were kept in the dark.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "not knowing the facts",
+    "usage": "work",
+    "example": "We were kept in the dark.",
+    "level": "B2"
   },
   {
     "en": "in the same boat",
     "cz": "na stejné lodi",
-    "explanation": "in the same situation",
-    "usage_context": "life",
-    "example_sentence": "We're all in the same boat.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "in the same situation",
+    "usage": "life",
+    "example": "We're all in the same boat.",
+    "level": "B1"
   },
   {
     "en": "keep something at bay",
     "cz": "držet něco na uzdě",
-    "explanation": "prevent something worsening",
-    "usage_context": "health",
-    "example_sentence": "Medicine keeps the disease at bay.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "prevent something worsening",
+    "usage": "health",
+    "example": "Medicine keeps the disease at bay.",
+    "level": "C1"
   },
   {
     "en": "know the ropes",
     "cz": "znát to",
-    "explanation": "be experienced",
-    "usage_context": "work",
-    "example_sentence": "She knows the ropes.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "be experienced",
+    "usage": "work",
+    "example": "She knows the ropes.",
+    "level": "B2"
   },
   {
     "en": "last straw",
     "cz": "poslední kapka",
-    "explanation": "final problem causing reaction",
-    "usage_context": "life",
-    "example_sentence": "That mistake was the last straw.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "final problem causing reaction",
+    "usage": "life",
+    "example": "That mistake was the last straw.",
+    "level": "B1"
   },
   {
     "en": "leave no stone unturned",
     "cz": "nenechat kámen na kameni",
-    "explanation": "try every option",
-    "usage_context": "investigation",
-    "example_sentence": "We left no stone unturned.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "try every option",
+    "usage": "investigation",
+    "example": "We left no stone unturned.",
+    "level": "C1"
   },
   {
     "en": "let off steam",
     "cz": "vybít stres",
-    "explanation": "release strong emotions",
-    "usage_context": "life",
-    "example_sentence": "He went running to let off steam.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "release strong emotions",
+    "usage": "life",
+    "example": "He went running to let off steam.",
+    "level": "B1"
   },
   {
     "en": "live up to expectations",
     "cz": "dostát očekávání",
-    "explanation": "meet expectations",
-    "usage_context": "work",
-    "example_sentence": "The product lived up to expectations.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "meet expectations",
+    "usage": "work",
+    "example": "The product lived up to expectations.",
+    "level": "B2"
   },
   {
     "en": "look down on",
     "cz": "pohrdat",
-    "explanation": "consider inferior",
-    "usage_context": "social",
-    "example_sentence": "He looks down on others.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "consider inferior",
+    "usage": "social",
+    "example": "He looks down on others.",
+    "level": "B2"
   },
   {
     "en": "make ends meet",
     "cz": "vyjít s penězi",
-    "explanation": "have enough money",
-    "usage_context": "life",
-    "example_sentence": "It's hard to make ends meet.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "have enough money",
+    "usage": "life",
+    "example": "It's hard to make ends meet.",
+    "level": "B1"
   },
   {
     "en": "make headway",
     "cz": "dosáhnout pokroku",
-    "explanation": "make progress",
-    "usage_context": "work",
-    "example_sentence": "We finally made headway.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "make progress",
+    "usage": "work",
+    "example": "We finally made headway.",
+    "level": "C1"
   },
   {
     "en": "meet halfway",
     "cz": "ustoupit",
-    "explanation": "compromise",
-    "usage_context": "discussion",
-    "example_sentence": "Let's meet halfway.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "compromise",
+    "usage": "discussion",
+    "example": "Let's meet halfway.",
+    "level": "B1"
   },
   {
     "en": "move the needle",
     "cz": "výrazně něco změnit",
-    "explanation": "make noticeable impact",
-    "usage_context": "business",
-    "example_sentence": "This feature moves the needle.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "make noticeable impact",
+    "usage": "business",
+    "example": "This feature moves the needle.",
+    "level": "C1"
   },
   {
     "en": "neck and neck",
     "cz": "velmi vyrovnaný",
-    "explanation": "very close competition",
-    "usage_context": "sport",
-    "example_sentence": "The teams are neck and neck.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "very close competition",
+    "usage": "sport",
+    "example": "The teams are neck and neck.",
+    "level": "B2"
   },
   {
     "en": "not hold water",
     "cz": "nedává smysl",
-    "explanation": "not be logical",
-    "usage_context": "analysis",
-    "example_sentence": "That argument doesn't hold water.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "not be logical",
+    "usage": "analysis",
+    "example": "That argument doesn't hold water.",
+    "level": "C1"
   },
   {
     "en": "odds are",
     "cz": "pravděpodobně",
-    "explanation": "likely",
-    "usage_context": "discussion",
-    "example_sentence": "Odds are we'll succeed.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "likely",
+    "usage": "discussion",
+    "example": "Odds are we'll succeed.",
+    "level": "B2"
   },
   {
     "en": "off the hook",
     "cz": "z problémů venku",
-    "explanation": "free from responsibility",
-    "usage_context": "life",
-    "example_sentence": "You're off the hook.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "free from responsibility",
+    "usage": "life",
+    "example": "You're off the hook.",
+    "level": "B1"
   },
   {
     "en": "on the brink",
     "cz": "na pokraji",
-    "explanation": "very close to something",
-    "usage_context": "analysis",
-    "example_sentence": "The company was on the brink.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "very close to something",
+    "usage": "analysis",
+    "example": "The company was on the brink.",
+    "level": "C1"
   },
   {
     "en": "on the fly",
     "cz": "za pochodu",
-    "explanation": "without preparation",
-    "usage_context": "work",
-    "example_sentence": "We fixed it on the fly.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "without preparation",
+    "usage": "work",
+    "example": "We fixed it on the fly.",
+    "level": "B2"
   },
   {
     "en": "out of line",
     "cz": "nevhodný",
-    "explanation": "inappropriate",
-    "usage_context": "social",
-    "example_sentence": "His comment was out of line.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "inappropriate",
+    "usage": "social",
+    "example": "His comment was out of line.",
+    "level": "B2"
   },
   {
     "en": "out of the woods",
     "cz": "z nejhoršího venku",
-    "explanation": "past danger",
-    "usage_context": "life",
-    "example_sentence": "We're not out of the woods yet.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "past danger",
+    "usage": "life",
+    "example": "We're not out of the woods yet.",
+    "level": "B2"
   },
   {
     "en": "pay the price",
     "cz": "nést následky",
-    "explanation": "suffer consequences",
-    "usage_context": "life",
-    "example_sentence": "He paid the price.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "suffer consequences",
+    "usage": "life",
+    "example": "He paid the price.",
+    "level": "B1"
   },
   {
     "en": "play hardball",
     "cz": "hrát tvrdě",
-    "explanation": "act aggressively",
-    "usage_context": "business",
-    "example_sentence": "They play hardball in negotiations.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "act aggressively",
+    "usage": "business",
+    "example": "They play hardball in negotiations.",
+    "level": "C1"
   },
   {
     "en": "pull yourself together",
     "cz": "seber se",
-    "explanation": "regain emotional control",
-    "usage_context": "life",
-    "example_sentence": "Pull yourself together.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "regain emotional control",
+    "usage": "life",
+    "example": "Pull yourself together.",
+    "level": "B1"
   },
   {
     "en": "push the envelope",
     "cz": "posouvat hranice",
-    "explanation": "extend limits",
-    "usage_context": "innovation",
-    "example_sentence": "They push the envelope.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "extend limits",
+    "usage": "innovation",
+    "example": "They push the envelope.",
+    "level": "C1"
   },
   {
     "en": "raise the bar",
     "cz": "zvýšit laťku",
-    "explanation": "increase standards",
-    "usage_context": "work",
-    "example_sentence": "This release raises the bar.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "increase standards",
+    "usage": "work",
+    "example": "This release raises the bar.",
+    "level": "B2"
   },
   {
     "en": "red tape",
     "cz": "byrokracie",
-    "explanation": "excessive bureaucracy",
-    "usage_context": "government",
-    "example_sentence": "The project got stuck in red tape.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "excessive bureaucracy",
+    "usage": "government",
+    "example": "The project got stuck in red tape.",
+    "level": "B2"
   },
   {
     "en": "ring a bell",
     "cz": "něco mi to říká",
-    "explanation": "sound familiar",
-    "usage_context": "conversation",
-    "example_sentence": "That name rings a bell.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "sound familiar",
+    "usage": "conversation",
+    "example": "That name rings a bell.",
+    "level": "B1"
   },
   {
     "en": "run the show",
     "cz": "řídit věci",
-    "explanation": "be in charge",
-    "usage_context": "work",
-    "example_sentence": "She runs the show.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "be in charge",
+    "usage": "work",
+    "example": "She runs the show.",
+    "level": "B2"
   },
   {
     "en": "save face",
     "cz": "zachovat si tvář",
-    "explanation": "avoid humiliation",
-    "usage_context": "social",
-    "example_sentence": "They changed plans to save face.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "avoid humiliation",
+    "usage": "social",
+    "example": "They changed plans to save face.",
+    "level": "C1"
   },
   {
     "en": "second to none",
     "cz": "bezkonkurenční",
-    "explanation": "the best possible",
-    "usage_context": "business",
-    "example_sentence": "Their service is second to none.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "the best possible",
+    "usage": "business",
+    "example": "Their service is second to none.",
+    "level": "C1"
   },
   {
     "en": "set the stage",
     "cz": "připravit půdu",
-    "explanation": "prepare conditions",
-    "usage_context": "analysis",
-    "example_sentence": "This discovery set the stage.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "prepare conditions",
+    "usage": "analysis",
+    "example": "This discovery set the stage.",
+    "level": "C1"
   },
   {
     "en": "shake things up",
     "cz": "zatřást věcmi",
-    "explanation": "introduce big changes",
-    "usage_context": "work",
-    "example_sentence": "The CEO shook things up.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "introduce big changes",
+    "usage": "work",
+    "example": "The CEO shook things up.",
+    "level": "C1"
   },
   {
     "en": "shoot yourself in the foot",
     "cz": "podrazit si nohy",
-    "explanation": "harm your own success",
-    "usage_context": "life",
-    "example_sentence": "He shot himself in the foot.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "harm your own success",
+    "usage": "life",
+    "example": "He shot himself in the foot.",
+    "level": "B2"
   },
   {
     "en": "show your true colors",
     "cz": "ukázat pravou tvář",
-    "explanation": "reveal real character",
-    "usage_context": "social",
-    "example_sentence": "He showed his true colors.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "reveal real character",
+    "usage": "social",
+    "example": "He showed his true colors.",
+    "level": "B2"
   },
   {
     "en": "sleep on it",
     "cz": "nechat si to projít hlavou",
-    "explanation": "delay decision overnight",
-    "usage_context": "life",
-    "example_sentence": "I'll sleep on it.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "delay decision overnight",
+    "usage": "life",
+    "example": "I'll sleep on it.",
+    "level": "B1"
   },
   {
     "en": "small talk",
     "cz": "zdvořilostní konverzace",
-    "explanation": "light conversation",
-    "usage_context": "social",
-    "example_sentence": "We made small talk.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "light conversation",
+    "usage": "social",
+    "example": "We made small talk.",
+    "level": "B1"
   },
   {
     "en": "smooth sailing",
     "cz": "bez problémů",
-    "explanation": "easy progress",
-    "usage_context": "work",
-    "example_sentence": "It was smooth sailing.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "easy progress",
+    "usage": "work",
+    "example": "It was smooth sailing.",
+    "level": "B1"
   },
   {
     "en": "snowball effect",
     "cz": "řetězový efekt",
-    "explanation": "growing chain reaction",
-    "usage_context": "analysis",
-    "example_sentence": "The snowball effect spread.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "growing chain reaction",
+    "usage": "analysis",
+    "example": "The snowball effect spread.",
+    "level": "B2"
   },
   {
     "en": "step up your game",
     "cz": "zlepšit výkon",
-    "explanation": "improve performance",
-    "usage_context": "work",
-    "example_sentence": "You must step up your game.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "improve performance",
+    "usage": "work",
+    "example": "You must step up your game.",
+    "level": "B2"
   },
   {
     "en": "stick your neck out",
     "cz": "riskovat",
-    "explanation": "take personal risk",
-    "usage_context": "life",
-    "example_sentence": "He stuck his neck out.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "take personal risk",
+    "usage": "life",
+    "example": "He stuck his neck out.",
+    "level": "C1"
   },
   {
     "en": "strike a balance",
     "cz": "najít rovnováhu",
-    "explanation": "achieve balance",
-    "usage_context": "life",
-    "example_sentence": "We must strike a balance.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "achieve balance",
+    "usage": "life",
+    "example": "We must strike a balance.",
+    "level": "B2"
   },
   {
     "en": "take center stage",
     "cz": "stát se hlavním tématem",
-    "explanation": "become main focus",
-    "usage_context": "discussion",
-    "example_sentence": "Security took center stage.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "become main focus",
+    "usage": "discussion",
+    "example": "Security took center stage.",
+    "level": "C1"
   },
   {
     "en": "take the edge off",
     "cz": "zmírnit",
-    "explanation": "reduce intensity",
-    "usage_context": "life",
-    "example_sentence": "A walk took the edge off.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "reduce intensity",
+    "usage": "life",
+    "example": "A walk took the edge off.",
+    "level": "B2"
   },
   {
     "en": "the writing on the wall",
     "cz": "jasné varování",
-    "explanation": "clear sign of failure",
-    "usage_context": "analysis",
-    "example_sentence": "The writing was on the wall.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "clear sign of failure",
+    "usage": "analysis",
+    "example": "The writing was on the wall.",
+    "level": "C1"
   },
   {
     "en": "think on your feet",
     "cz": "rychle reagovat",
-    "explanation": "respond quickly",
-    "usage_context": "work",
-    "example_sentence": "You must think on your feet.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "respond quickly",
+    "usage": "work",
+    "example": "You must think on your feet.",
+    "level": "C1"
   },
   {
     "en": "tight spot",
     "cz": "obtížná situace",
-    "explanation": "difficult situation",
-    "usage_context": "life",
-    "example_sentence": "We're in a tight spot.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "difficult situation",
+    "usage": "life",
+    "example": "We're in a tight spot.",
+    "level": "B2"
   },
   {
     "en": "to the letter",
     "cz": "doslova",
-    "explanation": "přesně podle pravidel",
-    "usage_context": "work",
-    "example_sentence": "Follow the rules to the letter.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "přesně podle pravidel",
+    "usage": "work",
+    "example": "Follow the rules to the letter.",
+    "level": "C1"
   },
   {
     "en": "turn a blind eye",
     "cz": "přehlížet",
-    "explanation": "ignore deliberately",
-    "usage_context": "politics",
-    "example_sentence": "They turned a blind eye.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "ignore deliberately",
+    "usage": "politics",
+    "example": "They turned a blind eye.",
+    "level": "C1"
   },
   {
     "en": "turn the tide",
     "cz": "zvrátit vývoj",
-    "explanation": "reverse situation",
-    "usage_context": "analysis",
-    "example_sentence": "The decision turned the tide.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "reverse situation",
+    "usage": "analysis",
+    "example": "The decision turned the tide.",
+    "level": "C1"
   },
   {
     "en": "under your nose",
     "cz": "přímo před tebou",
-    "explanation": "obvious but unnoticed",
-    "usage_context": "life",
-    "example_sentence": "It was under your nose.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "obvious but unnoticed",
+    "usage": "life",
+    "example": "It was under your nose.",
+    "level": "B2"
   },
   {
     "en": "up your sleeve",
     "cz": "v záloze",
-    "explanation": "hidden advantage",
-    "usage_context": "discussion",
-    "example_sentence": "He has a trick up his sleeve.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "hidden advantage",
+    "usage": "discussion",
+    "example": "He has a trick up his sleeve.",
+    "level": "B2"
   },
   {
     "en": "walk the talk",
     "cz": "dělat co říkáš",
-    "explanation": "act according to words",
-    "usage_context": "leadership",
-    "example_sentence": "Leaders must walk the talk.",
-    "level": "C1",
-    "inserted": "2026-03-12"
+    "desc": "act according to words",
+    "usage": "leadership",
+    "example": "Leaders must walk the talk.",
+    "level": "C1"
   },
   {
     "en": "win hands down",
     "cz": "vyhrát jasně",
-    "explanation": "win easily",
-    "usage_context": "competition",
-    "example_sentence": "Our team won hands down.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "win easily",
+    "usage": "competition",
+    "example": "Our team won hands down.",
+    "level": "B2"
   },
   {
     "en": "word of mouth",
     "cz": "ústní doporučení",
-    "explanation": "information spread verbally",
-    "usage_context": "business",
-    "example_sentence": "Customers came by word of mouth.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "information spread verbally",
+    "usage": "business",
+    "example": "Customers came by word of mouth.",
+    "level": "B1"
   },
   {
     "en": "work your way up",
     "cz": "vypracovat se",
-    "explanation": "rise gradually",
-    "usage_context": "career",
-    "example_sentence": "She worked her way up.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "rise gradually",
+    "usage": "career",
+    "example": "She worked her way up.",
+    "level": "B1"
   },
   {
     "en": "write someone off",
     "cz": "odepsat někoho",
-    "explanation": "assume failure",
-    "usage_context": "life",
-    "example_sentence": "Don't write him off.",
-    "level": "B2",
-    "inserted": "2026-03-12"
+    "desc": "assume failure",
+    "usage": "life",
+    "example": "Don't write him off.",
+    "level": "B2"
   },
   {
     "en": "your guess is as good as mine",
     "cz": "nevím stejně jako ty",
-    "explanation": "no idea",
-    "usage_context": "conversation",
-    "example_sentence": "Your guess is as good as mine.",
-    "level": "B1",
-    "inserted": "2026-03-12"
+    "desc": "no idea",
+    "usage": "conversation",
+    "example": "Your guess is as good as mine.",
+    "level": "B1"
   }
 ]
