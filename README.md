@@ -137,6 +137,7 @@ This behavior is part of the project rules.
 
 Detailed instructions live in these files:
 
+- [Codex quick start](./codex_start_here.md)
 - [Codex / project workflow instructions](./instructions.md)
 - [ChatGPT browser project instructions](./instructionProject.md)
 
