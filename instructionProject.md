@@ -212,4 +212,7 @@ Codex must read the `errors` array from the result file and merge those records 
 It should increment existing matching records and create new ones when needed.
 Then, when generating the next lesson, Codex should convert those stored records into `review_errors` items for targeted review of the same error type, not verbatim repetition of the same exact sentence.
 
+When Codex works with `vocabulary/*.json`, it must also treat low-quality synonym placeholders as data issues.
+If a synonym explanation is only generic fallback text and does not explain the difference in usage, Codex must rewrite it into a real usage-based explanation and propagate that correction into the matching HTML vocabulary page as well.
+
 So the result file must always be saved correctly and consistently.

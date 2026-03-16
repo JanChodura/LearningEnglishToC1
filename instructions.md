@@ -114,6 +114,8 @@ Select:
 - before Codex writes a new word into the dataset, it must check whether the same word or an obvious variant already exists in the relevant JSON file, so that duplicates are not created
 - before using selected words, phrases, phrasal verbs, or idioms, Codex must verify that their records in `vocabulary/*.json` are correct and usable
 - if Codex finds an obvious issue in a vocabulary record, it must fix it first and print the correction only as an informational message in the console
+- if a vocabulary record contains synonym explanations that are only generic fallback text instead of a real usage distinction, Codex must replace them with a proper explanation of when that synonym is used differently
+- whenever Codex fixes synonym explanations, it must save the improved version into the relevant `vocabulary/*.json` file and also update the corresponding HTML vocabulary page so the better explanation is visible there too
 
 ### For Each New Word
 
