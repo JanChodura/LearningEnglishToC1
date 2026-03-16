@@ -9,15 +9,15 @@
     "synonyms": [
       {
         "word": "skill",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje naučenou dovednost, ne obecnou schopnost"
       },
       {
         "word": "capacity",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "časté, když mluvíš o potenciálu nebo maximální možné schopnosti něco zvládnout"
       },
       {
         "word": "talent",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "spíš o přirozeném nadání než o naučené schopnosti"
       }
     ]
   },
@@ -31,15 +31,15 @@
     "synonyms": [
       {
         "word": "entry",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "hodí se hlavně pro vstup nebo vejití dovnitř, ne obecný přístup k systému či informacím"
       },
       {
         "word": "availability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje, že je něco k dispozici, ne že na to máš oprávnění"
       },
       {
         "word": "permission",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "znamená svolení nebo oprávnění, ne samotnou možnost přístupu"
       }
     ]
   },
@@ -53,11 +53,11 @@
     "synonyms": [
       {
         "word": "profile",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "časté hlavně u online účtu nebo veřejného uživatelského profilu"
       },
       {
         "word": "record",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš záznam nebo evidence než účet, který aktivně používáš"
       }
     ]
   },
@@ -71,11 +71,11 @@
     "synonyms": [
       {
         "word": "success",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecnější než achievement; může označovat i dlouhodobý úspěch, ne jen konkrétní výsledek"
       },
       {
         "word": "accomplishment",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "blízké achievement, ale častěji zdůrazňuje konkrétní dokončený výkon"
       }
     ]
   },
@@ -89,15 +89,15 @@
     "synonyms": [
       {
         "word": "action",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš jednotlivý čin než obecná činnost"
       },
       {
         "word": "task",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "konkrétní úkol, který má být splněn"
       },
       {
         "word": "exercise",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "používá se hlavně pro cvičení nebo procvičovací aktivitu"
       }
     ]
   },
@@ -111,11 +111,11 @@
     "synonyms": [
       {
         "word": "location",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš místo nebo poloha než poštovní adresa"
       },
       {
         "word": "residence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější slovo pro bydliště nebo místo pobytu"
       }
     ]
   },
@@ -129,11 +129,11 @@
     "synonyms": [
       {
         "word": "benefit",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecný užitek nebo výhoda, často i v praktickém smyslu"
       },
       {
         "word": "edge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš konkurenční výhoda oproti ostatním; typicky competitive edge"
       }
     ]
   },
@@ -147,11 +147,11 @@
     "synonyms": [
       {
         "word": "guidance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "pomoc ve směrování nebo rozhodování, ne úplně konkrétní rada"
       },
       {
         "word": "suggestion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "měkčí a méně autoritativní než advice"
       }
     ]
   },
@@ -165,11 +165,11 @@
     "synonyms": [
       {
         "word": "deal",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžné hlavně pro obchodní dohodu nebo výhodné ujednání"
       },
       {
         "word": "contract",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formální a právně závazná dohoda"
       }
     ]
   },
@@ -183,11 +183,11 @@
     "synonyms": [
       {
         "word": "carrier",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "technicky prostředek, který něco přepravuje; ne běžná firma jako airline"
       },
       {
         "word": "flight company",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nepřirozené spojení; v praxi se říká airline"
       }
     ]
   },
@@ -201,7 +201,7 @@
     "synonyms": [
       {
         "word": "air terminal",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější nebo méně běžné než airport"
       }
     ]
   },
@@ -215,11 +215,11 @@
     "synonyms": [
       {
         "word": "examination",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější nebo důkladnější než test; často i oficiální zkouška"
       },
       {
         "word": "study",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často konkrétní výzkum nebo odborné zkoumání"
       }
     ]
   },
@@ -233,11 +233,11 @@
     "synonyms": [
       {
         "word": "reply",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "krátká nebo přímá odpověď na zprávu nebo otázku"
       },
       {
         "word": "response",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "širší než answer; může jít i o reakci systému, trhu nebo těla"
       }
     ]
   },
@@ -251,11 +251,11 @@
     "synonyms": [
       {
         "word": "region",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "větší územní oblast než area"
       },
       {
         "word": "zone",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často uměle vymezená oblast s určitým účelem nebo pravidly"
       }
     ]
   },
@@ -269,11 +269,11 @@
     "synonyms": [
       {
         "word": "dispute",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje konflikt nebo nesouhlas mezi stranami"
       },
       {
         "word": "debate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často veřejnější, ostřejší nebo strukturovanější výměna názorů"
       }
     ]
   },
@@ -287,11 +287,11 @@
     "synonyms": [
       {
         "word": "coming",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš samotný příchod nebo příjezd než širší event či arrival"
       },
       {
         "word": "entry",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "hodí se hlavně pro vstup nebo vejití dovnitř, ne obecný přístup k systému či informacím"
       }
     ]
   },
@@ -305,11 +305,11 @@
     "synonyms": [
       {
         "word": "text",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš samotný napsaný text než článek jako žánr nebo publikace"
       },
       {
         "word": "report",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější a faktický text, ne běžný článek"
       }
     ]
   },
@@ -323,11 +323,11 @@
     "synonyms": [
       {
         "word": "element",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "jednotlivá složka něčeho většího"
       },
       {
         "word": "feature",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "výrazná vlastnost nebo funkce, ne nutně jen část"
       }
     ]
   },
@@ -341,11 +341,11 @@
     "synonyms": [
       {
         "word": "try",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "effort",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -359,11 +359,11 @@
     "synonyms": [
       {
         "word": "focus",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "hlavní bod pozornosti nebo zájmu"
       },
       {
         "word": "notice",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -377,11 +377,11 @@
     "synonyms": [
       {
         "word": "spectators",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "viewers",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -395,11 +395,11 @@
     "synonyms": [
       {
         "word": "history",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "context",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -413,11 +413,11 @@
     "synonyms": [
       {
         "word": "stability",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "stav bez velkých změn nebo výkyvů"
       },
       {
         "word": "equilibrium",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější a odbornější než balance"
       }
     ]
   },
@@ -431,11 +431,11 @@
     "synonyms": [
       {
         "word": "conduct",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš chování nebo způsob vedení v formálnějším tónu"
       },
       {
         "word": "actions",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "konkrétní činy, ne celkové chování"
       }
     ]
   },
@@ -449,11 +449,11 @@
     "synonyms": [
       {
         "word": "advantage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "gain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -467,11 +467,11 @@
     "synonyms": [
       {
         "word": "committee",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "panel",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -485,7 +485,7 @@
     "synonyms": [
       {
         "word": "financial plan",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -499,11 +499,11 @@
     "synonyms": [
       {
         "word": "structure",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádání částí do celku, ne nutně samotná fyzická konstrukce"
       },
       {
         "word": "property",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -517,11 +517,11 @@
     "synonyms": [
       {
         "word": "company",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "trade",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -535,11 +535,11 @@
     "synonyms": [
       {
         "word": "profession",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "occupation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -553,11 +553,11 @@
     "synonyms": [
       {
         "word": "instance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než example; často v psaní nebo přesném popisu"
       },
       {
         "word": "example",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nejběžnější konkrétní ilustrace nebo ukázka"
       }
     ]
   },
@@ -571,11 +571,11 @@
     "synonyms": [
       {
         "word": "difficulty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecnější slovo pro obtíž nebo problémovou stránku něčeho"
       },
       {
         "word": "test",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecné zkoušení nebo prověrka"
       }
     ]
   },
@@ -589,11 +589,11 @@
     "synonyms": [
       {
         "word": "alteration",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "shift",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "změna nebo posun, často v trendu, postoji nebo pracovním režimu"
       }
     ]
   },
@@ -607,11 +607,11 @@
     "synonyms": [
       {
         "word": "option",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "selection",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -625,7 +625,7 @@
     "synonyms": [
       {
         "word": "urban area",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -639,7 +639,7 @@
     "synonyms": [
       {
         "word": "customer",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zákazník v běžném obchodním nebo službovém kontaktu"
       }
     ]
   },
@@ -653,11 +653,11 @@
     "synonyms": [
       {
         "word": "trainer",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "mentor",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -671,11 +671,11 @@
     "synonyms": [
       {
         "word": "set",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "assortment",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -689,11 +689,11 @@
     "synonyms": [
       {
         "word": "society",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "group",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecná skupina bez důrazu na roli nebo strukturu"
       }
     ]
   },
@@ -707,11 +707,11 @@
     "synonyms": [
       {
         "word": "firm",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "corporation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -725,11 +725,11 @@
     "synonyms": [
       {
         "word": "contest",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "rivalry",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -743,11 +743,11 @@
     "synonyms": [
       {
         "word": "machine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "PC",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -761,11 +761,11 @@
     "synonyms": [
       {
         "word": "idea",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější slovo pro myšlenku nebo nápad"
       },
       {
         "word": "notion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často trochu abstraktnější nebo méně pevně formulovaná myšlenka"
       }
     ]
   },
@@ -779,11 +779,11 @@
     "synonyms": [
       {
         "word": "state",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "situation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecný stav věcí nebo okolností v daný moment"
       }
     ]
   },
@@ -797,11 +797,11 @@
     "synonyms": [
       {
         "word": "meeting",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "convention",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -815,7 +815,7 @@
     "synonyms": [
       {
         "word": "self‑belief",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -829,11 +829,11 @@
     "synonyms": [
       {
         "word": "link",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétní propojení mezi dvěma věcmi"
       },
       {
         "word": "relation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější nebo abstraktnější vztah mezi věcmi"
       }
     ]
   },
@@ -847,11 +847,11 @@
     "synonyms": [
       {
         "word": "building",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "samotná fyzická stavba"
       },
       {
         "word": "development",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "postupný růst nebo změna v čase"
       }
     ]
   },
@@ -865,11 +865,11 @@
     "synonyms": [
       {
         "word": "buyer",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje samotný nákup nebo kupující stranu v obchodě"
       },
       {
         "word": "customer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zákazník v běžném obchodním nebo službovém kontaktu"
       }
     ]
   },
@@ -883,11 +883,11 @@
     "synonyms": [
       {
         "word": "material",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "information",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nejběžnější slovo pro data, fakta nebo sdělení"
       }
     ]
   },
@@ -901,11 +901,11 @@
     "synonyms": [
       {
         "word": "authority",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "institucionální moc nebo uznávaná pravomoc"
       },
       {
         "word": "command",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "silnější a časté pro autoritu nebo velmi dobrou znalost; typicky command of English"
       }
     ]
   },
@@ -919,11 +919,11 @@
     "synonyms": [
       {
         "word": "discussion",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecnější a neutrálnější výměna názorů než debate"
       },
       {
         "word": "talk",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "neformální a obecné slovo pro rozhovor nebo mluvení"
       }
     ]
   },
@@ -937,11 +937,11 @@
     "synonyms": [
       {
         "word": "price",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "expense",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -955,11 +955,11 @@
     "synonyms": [
       {
         "word": "tradition",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "civilization",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -973,11 +973,11 @@
     "synonyms": [
       {
         "word": "client",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "časté hlavně u služeb, poradenství nebo profesionálních vztahů"
       },
       {
         "word": "buyer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje samotný nákup nebo kupující stranu v obchodě"
       }
     ]
   },
@@ -991,11 +991,11 @@
     "synonyms": [
       {
         "word": "information",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější slovo pro data, fakta nebo sdělení"
       },
       {
         "word": "statistics",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1009,11 +1009,11 @@
     "synonyms": [
       {
         "word": "choice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "judgment",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1027,11 +1027,11 @@
     "synonyms": [
       {
         "word": "shipment",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "distribution",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1045,11 +1045,11 @@
     "synonyms": [
       {
         "word": "division",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "section",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1063,11 +1063,11 @@
     "synonyms": [
       {
         "word": "plan",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétní plán kroků, ne jen obecný směr"
       },
       {
         "word": "layout",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1081,11 +1081,11 @@
     "synonyms": [
       {
         "word": "progress",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "expansion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje zvětšování rozsahu, trhu nebo prostoru"
       }
     ]
   },
@@ -1099,11 +1099,11 @@
     "synonyms": [
       {
         "word": "tool",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "gadget",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1117,11 +1117,11 @@
     "synonyms": [
       {
         "word": "distinction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "contrast",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "jasné srovnání ukazující rozdíl"
       }
     ]
   },
@@ -1135,11 +1135,11 @@
     "synonyms": [
       {
         "word": "problem",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro problém, který je třeba řešit"
       },
       {
         "word": "challenge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často zní konstruktivněji než problem; něco náročného, ale řešitelného"
       }
     ]
   },
@@ -1153,11 +1153,11 @@
     "synonyms": [
       {
         "word": "route",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "way",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1171,11 +1171,11 @@
     "synonyms": [
       {
         "word": "debate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často veřejnější, ostřejší nebo strukturovanější výměna názorů"
       },
       {
         "word": "talk",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "neformální a obecné slovo pro rozhovor nebo mluvení"
       }
     ]
   },
@@ -1189,11 +1189,11 @@
     "synonyms": [
       {
         "word": "file",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "record",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš záznam nebo evidence než účet, který aktivně používáš"
       }
     ]
   },
@@ -1207,11 +1207,11 @@
     "synonyms": [
       {
         "word": "learning",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "schooling",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1225,11 +1225,11 @@
     "synonyms": [
       {
         "word": "result",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro výsledek procesu nebo činnosti"
       },
       {
         "word": "impact",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1243,11 +1243,11 @@
     "synonyms": [
       {
         "word": "attempt",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "work",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecné slovo pro práci nebo dílo; méně přesné než job nebo task"
       }
     ]
   },
@@ -1261,11 +1261,11 @@
     "synonyms": [
       {
         "word": "worker",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "staff",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1279,11 +1279,11 @@
     "synonyms": [
       {
         "word": "power",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš síla nebo schopnost ovlivňovat, ne vždy formální autorita"
       },
       {
         "word": "force",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1297,11 +1297,11 @@
     "synonyms": [
       {
         "word": "surroundings",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "nature",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "povaha nebo přirozený charakter něčeho"
       }
     ]
   },
@@ -1315,11 +1315,11 @@
     "synonyms": [
       {
         "word": "occasion",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "happening",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1333,11 +1333,11 @@
     "synonyms": [
       {
         "word": "instance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než example; často v psaní nebo přesném popisu"
       },
       {
         "word": "sample",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1351,11 +1351,11 @@
     "synonyms": [
       {
         "word": "practice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "opakování nebo běžný způsob dělání věcí"
       },
       {
         "word": "knowledge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "to, co člověk ví a rozumí tomu, ne jen jednotlivé informace"
       }
     ]
   },
@@ -1369,11 +1369,11 @@
     "synonyms": [
       {
         "word": "element",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "jednotlivá složka něčeho většího"
       },
       {
         "word": "cause",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "to, co něco vyvolalo"
       }
     ]
   },
@@ -1387,11 +1387,11 @@
     "synonyms": [
       {
         "word": "collapse",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "defeat",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1405,11 +1405,11 @@
     "synonyms": [
       {
         "word": "relatives",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "household",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1423,11 +1423,11 @@
     "synonyms": [
       {
         "word": "function",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "trait",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1441,11 +1441,11 @@
     "synonyms": [
       {
         "word": "response",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "širší než answer; může jít i o reakci systému, trhu nebo těla"
       },
       {
         "word": "evaluation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formální posouzení výkonu, kvality nebo hodnoty"
       }
     ]
   },
@@ -1459,11 +1459,11 @@
     "synonyms": [
       {
         "word": "domain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "discipline",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1477,11 +1477,11 @@
     "synonyms": [
       {
         "word": "trip",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "journey",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1495,11 +1495,11 @@
     "synonyms": [
       {
         "word": "attention",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "samotná pozornost věnovaná něčemu"
       },
       {
         "word": "concentration",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "silně soustředěná pozornost bez rozptýlení"
       }
     ]
   },
@@ -1513,11 +1513,11 @@
     "synonyms": [
       {
         "word": "aim",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "objective",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1531,11 +1531,11 @@
     "synonyms": [
       {
         "word": "increase",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "používá se pro růst množství, ceny nebo počtu"
       },
       {
         "word": "expansion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje zvětšování rozsahu, trhu nebo prostoru"
       }
     ]
   },
@@ -1549,11 +1549,11 @@
     "synonyms": [
       {
         "word": "routine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "practice",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "opakování nebo běžný způsob dělání věcí"
       }
     ]
   },
@@ -1567,7 +1567,7 @@
     "synonyms": [
       {
         "word": "wellbeing",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1581,11 +1581,11 @@
     "synonyms": [
       {
         "word": "concept",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "strukturovanější a abstraktnější myšlenka než idea"
       },
       {
         "word": "notion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často trochu abstraktnější nebo méně pevně formulovaná myšlenka"
       }
     ]
   },
@@ -1599,7 +1599,7 @@
     "synonyms": [
       {
         "word": "sector",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1613,11 +1613,11 @@
     "synonyms": [
       {
         "word": "data",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "častěji technické nebo odborné než information"
       },
       {
         "word": "knowledge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "to, co člověk ví a rozumí tomu, ne jen jednotlivé informace"
       }
     ]
   },
@@ -1631,11 +1631,11 @@
     "synonyms": [
       {
         "word": "problem",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro problém, který je třeba řešit"
       },
       {
         "word": "matter",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1649,11 +1649,11 @@
     "synonyms": [
       {
         "word": "understanding",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "expertise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1667,11 +1667,11 @@
     "synonyms": [
       {
         "word": "speech",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "tongue",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1685,11 +1685,11 @@
     "synonyms": [
       {
         "word": "standard",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "měřítko kvality nebo normální úrovně"
       },
       {
         "word": "stage",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1703,11 +1703,11 @@
     "synonyms": [
       {
         "word": "trade",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "marketplace",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1721,11 +1721,11 @@
     "synonyms": [
       {
         "word": "note",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "communication",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "širší proces předávání informací mezi lidmi nebo systémy"
       }
     ]
   },
@@ -1739,11 +1739,11 @@
     "synonyms": [
       {
         "word": "approach",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "způsob řešení nebo styl jednání, ne hotový plán"
       },
       {
         "word": "technique",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1757,7 +1757,7 @@
     "synonyms": [
       {
         "word": "representation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1771,7 +1771,7 @@
     "synonyms": [
       {
         "word": "instant",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1785,11 +1785,11 @@
     "synonyms": [
       {
         "word": "system",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "soubor propojených částí fungujících dohromady"
       },
       {
         "word": "grid",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1803,11 +1803,11 @@
     "synonyms": [
       {
         "word": "view",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "belief",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "osobní přesvědčení, ne jen pracovní předpoklad"
       }
     ]
   },
@@ -1821,11 +1821,11 @@
     "synonyms": [
       {
         "word": "chance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžná možnost nebo pravděpodobnost v mluvené angličtině"
       },
       {
         "word": "possibility",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nejneutrálnější slovo pro to, že něco může nastat"
       }
     ]
   },
@@ -1839,11 +1839,11 @@
     "synonyms": [
       {
         "word": "request",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdvořilá nebo oficiální žádost"
       },
       {
         "word": "arrangement",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1857,11 +1857,11 @@
     "synonyms": [
       {
         "word": "institution",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "group",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecná skupina bez důrazu na roli nebo strukturu"
       }
     ]
   },
@@ -1875,11 +1875,11 @@
     "synonyms": [
       {
         "word": "result",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro výsledek procesu nebo činnosti"
       },
       {
         "word": "consequence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "následek, často s vážnějším nebo negativním tónem"
       }
     ]
   },
@@ -1893,11 +1893,11 @@
     "synonyms": [
       {
         "word": "efficiency",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "result",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nejběžnější obecné slovo pro výsledek procesu nebo činnosti"
       }
     ]
   },
@@ -1911,11 +1911,11 @@
     "synonyms": [
       {
         "word": "strategy",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš širší plán pro dosažení cíle, ne jednotlivý postup"
       },
       {
         "word": "scheme",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1929,11 +1929,11 @@
     "synonyms": [
       {
         "word": "rule",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "guideline",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1947,11 +1947,11 @@
     "synonyms": [
       {
         "word": "role",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "post",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1965,7 +1965,7 @@
     "synonyms": [
       {
         "word": "training",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -1979,7 +1979,7 @@
     "synonyms": [
       {
         "word": "procedure",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formální a konkrétní sled kroků"
       }
     ]
   },
@@ -1993,11 +1993,11 @@
     "synonyms": [
       {
         "word": "item",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "good",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2011,11 +2011,11 @@
     "synonyms": [
       {
         "word": "assignment",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "initiative",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2029,11 +2029,11 @@
     "synonyms": [
       {
         "word": "standard",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "měřítko kvality nebo normální úrovně"
       },
       {
         "word": "excellence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2047,7 +2047,7 @@
     "synonyms": [
       {
         "word": "query",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2061,11 +2061,11 @@
     "synonyms": [
       {
         "word": "cause",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "to, co něco vyvolalo"
       },
       {
         "word": "motive",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2079,11 +2079,11 @@
     "synonyms": [
       {
         "word": "bond",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "connection",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "běžné slovo pro spojení nebo souvislost"
       }
     ]
   },
@@ -2097,11 +2097,11 @@
     "synonyms": [
       {
         "word": "study",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často konkrétní výzkum nebo odborné zkoumání"
       },
       {
         "word": "investigation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje podrobné zkoumání příčiny nebo problému"
       }
     ]
   },
@@ -2115,11 +2115,11 @@
     "synonyms": [
       {
         "word": "outcome",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "neutrální konečný výsledek procesu nebo situace"
       },
       {
         "word": "consequence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "následek, často s vážnějším nebo negativním tónem"
       }
     ]
   },
@@ -2133,11 +2133,11 @@
     "synonyms": [
       {
         "word": "danger",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "hazard",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2151,11 +2151,11 @@
     "synonyms": [
       {
         "word": "position",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "duty",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "konkrétní povinnosti spojené s rolí nebo prací"
       }
     ]
   },
@@ -2169,7 +2169,7 @@
     "synonyms": [
       {
         "word": "assistance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než help; pomoc v pracovním nebo oficiálním kontextu"
       }
     ]
   },
@@ -2183,11 +2183,11 @@
     "synonyms": [
       {
         "word": "answer",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "fix",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2201,11 +2201,11 @@
     "synonyms": [
       {
         "word": "plan",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétní plán kroků, ne jen obecný směr"
       },
       {
         "word": "approach",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "způsob řešení nebo styl jednání, ne hotový plán"
       }
     ]
   },
@@ -2219,7 +2219,7 @@
     "synonyms": [
       {
         "word": "structure",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádání částí do celku, ne nutně samotná fyzická konstrukce"
       }
     ]
   },
@@ -2233,11 +2233,11 @@
     "synonyms": [
       {
         "word": "group",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecná skupina bez důrazu na roli nebo strukturu"
       },
       {
         "word": "crew",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2251,7 +2251,7 @@
     "synonyms": [
       {
         "word": "tech",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2265,7 +2265,7 @@
     "synonyms": [
       {
         "word": "period",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2279,7 +2279,7 @@
     "synonyms": [
       {
         "word": "instrument",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2293,7 +2293,7 @@
     "synonyms": [
       {
         "word": "practice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "opakování nebo běžný způsob dělání věcí"
       }
     ]
   },
@@ -2307,7 +2307,7 @@
     "synonyms": [
       {
         "word": "tendency",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2321,11 +2321,11 @@
     "synonyms": [
       {
         "word": "worth",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "hodnota nebo užitečnost z pohledu ceny, kvality nebo významu"
       },
       {
         "word": "importance",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2339,11 +2339,11 @@
     "synonyms": [
       {
         "word": "opinion",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "perspective",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "úhel pohledu nebo způsob, jak něco vnímáš"
       }
     ]
   },
@@ -2357,11 +2357,11 @@
     "synonyms": [
       {
         "word": "dream",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "outlook",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často celkový pohled nebo očekávání do budoucna"
       }
     ]
   },
@@ -2375,11 +2375,11 @@
     "synonyms": [
       {
         "word": "labor",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "job",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "konkrétní zaměstnání nebo úkolová role"
       }
     ]
   },
@@ -2393,11 +2393,11 @@
     "synonyms": [
       {
         "word": "availability",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje, že je něco k dispozici, ne že na to máš oprávnění"
       },
       {
         "word": "reachability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2411,11 +2411,11 @@
     "synonyms": [
       {
         "word": "lodging",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "housing",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2429,11 +2429,11 @@
     "synonyms": [
       {
         "word": "responsibility",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "odpovědnost za něco, ne jen konkrétní úkol"
       },
       {
         "word": "liability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formální, často právní odpovědnost nebo závazek"
       }
     ]
   },
@@ -2447,11 +2447,11 @@
     "synonyms": [
       {
         "word": "precision",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje vysokou přesnost a detailnost"
       },
       {
         "word": "exactness",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2465,11 +2465,11 @@
     "synonyms": [
       {
         "word": "adjustment",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "modification",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2483,11 +2483,11 @@
     "synonyms": [
       {
         "word": "management",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "governance",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2501,11 +2501,11 @@
     "synonyms": [
       {
         "word": "farming",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "cultivation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2519,11 +2519,11 @@
     "synonyms": [
       {
         "word": "aspiration",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš dlouhodobá ambice nebo idealistická touha"
       },
       {
         "word": "drive",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vnitřní energie a tah na cíl, ne jen obecná ambice"
       }
     ]
   },
@@ -2537,11 +2537,11 @@
     "synonyms": [
       {
         "word": "examination",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější nebo důkladnější než test; často i oficiální zkouška"
       },
       {
         "word": "study",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často konkrétní výzkum nebo odborné zkoumání"
       }
     ]
   },
@@ -2555,7 +2555,7 @@
     "synonyms": [
       {
         "word": "expectation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "to, co se předpokládá nebo očekává"
       }
     ]
   },
@@ -2569,11 +2569,11 @@
     "synonyms": [
       {
         "word": "worry",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "stress",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2587,11 +2587,11 @@
     "synonyms": [
       {
         "word": "attraction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "charm",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2605,11 +2605,11 @@
     "synonyms": [
       {
         "word": "request",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdvořilá nebo oficiální žádost"
       },
       {
         "word": "submission",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2623,11 +2623,11 @@
     "synonyms": [
       {
         "word": "design",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "structure",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "uspořádání částí do celku, ne nutně samotná fyzická konstrukce"
       }
     ]
   },
@@ -2641,11 +2641,11 @@
     "synonyms": [
       {
         "word": "evaluation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formální posouzení výkonu, kvality nebo hodnoty"
       },
       {
         "word": "appraisal",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2659,11 +2659,11 @@
     "synonyms": [
       {
         "word": "organization",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "může být struktura i samotná instituce; širší než company"
       },
       {
         "word": "union",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2677,11 +2677,11 @@
     "synonyms": [
       {
         "word": "mood",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "environment",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2695,11 +2695,11 @@
     "synonyms": [
       {
         "word": "power",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš síla nebo schopnost ovlivňovat, ne vždy formální autorita"
       },
       {
         "word": "control",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "řízení nebo držení situace pod kontrolou"
       }
     ]
   },
@@ -2713,7 +2713,7 @@
     "synonyms": [
       {
         "word": "mechanization",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2727,7 +2727,7 @@
     "synonyms": [
       {
         "word": "accessibility",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2741,7 +2741,7 @@
     "synonyms": [
       {
         "word": "consciousness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2755,11 +2755,11 @@
     "synonyms": [
       {
         "word": "obstacle",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "hurdle",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2773,11 +2773,11 @@
     "synonyms": [
       {
         "word": "conduct",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš chování nebo způsob vedení v formálnějším tónu"
       },
       {
         "word": "actions",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "konkrétní činy, ne celkové chování"
       }
     ]
   },
@@ -2791,7 +2791,7 @@
     "synonyms": [
       {
         "word": "recipient",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2805,7 +2805,7 @@
     "synonyms": [
       {
         "word": "life science",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2819,11 +2819,11 @@
     "synonyms": [
       {
         "word": "border",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "limit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2837,11 +2837,11 @@
     "synonyms": [
       {
         "word": "advance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "discovery",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2855,11 +2855,11 @@
     "synonyms": [
       {
         "word": "ability",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "volume",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2873,11 +2873,11 @@
     "synonyms": [
       {
         "word": "class",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "type",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2891,11 +2891,11 @@
     "synonyms": [
       {
         "word": "festivity",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "party",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2909,7 +2909,7 @@
     "synonyms": [
       {
         "word": "assurance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš ujištění nebo pocit jistoty než záruka ve smyslu warranty"
       }
     ]
   },
@@ -2923,11 +2923,11 @@
     "synonyms": [
       {
         "word": "difficulty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecnější slovo pro obtíž nebo problémovou stránku něčeho"
       },
       {
         "word": "test",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecné zkoušení nebo prověrka"
       }
     ]
   },
@@ -2941,11 +2941,11 @@
     "synonyms": [
       {
         "word": "situation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecný stav věcí nebo okolností v daný moment"
       },
       {
         "word": "condition",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš konkrétní stav, kvalita nebo podmínky"
       }
     ]
   },
@@ -2959,11 +2959,11 @@
     "synonyms": [
       {
         "word": "precision",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje vysokou přesnost a detailnost"
       },
       {
         "word": "clearness",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2977,7 +2977,7 @@
     "synonyms": [
       {
         "word": "weather pattern",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -2991,11 +2991,11 @@
     "synonyms": [
       {
         "word": "cooperation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "partnership",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3009,11 +3009,11 @@
     "synonyms": [
       {
         "word": "dedication",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "obligation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější a silněji závazná povinnost než duty"
       }
     ]
   },
@@ -3027,7 +3027,7 @@
     "synonyms": [
       {
         "word": "interaction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vzájemné působení mezi lidmi, skupinami nebo systémy"
       }
     ]
   },
@@ -3041,11 +3041,11 @@
     "synonyms": [
       {
         "word": "contrast",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "jasné srovnání ukazující rozdíl"
       },
       {
         "word": "evaluation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formální posouzení výkonu, kvality nebo hodnoty"
       }
     ]
   },
@@ -3059,7 +3059,7 @@
     "synonyms": [
       {
         "word": "complication",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "další problém, který situaci ztěžuje"
       }
     ]
   },
@@ -3073,11 +3073,11 @@
     "synonyms": [
       {
         "word": "element",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "jednotlivá složka něčeho většího"
       },
       {
         "word": "part",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3091,11 +3091,11 @@
     "synonyms": [
       {
         "word": "focus",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "hlavní bod pozornosti nebo zájmu"
       },
       {
         "word": "attention",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "samotná pozornost věnovaná něčemu"
       }
     ]
   },
@@ -3109,11 +3109,11 @@
     "synonyms": [
       {
         "word": "idea",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější slovo pro myšlenku nebo nápad"
       },
       {
         "word": "notion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často trochu abstraktnější nebo méně pevně formulovaná myšlenka"
       }
     ]
   },
@@ -3127,11 +3127,11 @@
     "synonyms": [
       {
         "word": "result",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro výsledek procesu nebo činnosti"
       },
       {
         "word": "finding",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "výsledek zjištění nebo výzkumu, ne jen obecný výsledek"
       }
     ]
   },
@@ -3145,11 +3145,11 @@
     "synonyms": [
       {
         "word": "self-belief",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "assurance",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš ujištění nebo pocit jistoty než záruka ve smyslu warranty"
       }
     ]
   },
@@ -3163,11 +3163,11 @@
     "synonyms": [
       {
         "word": "link",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétní propojení mezi dvěma věcmi"
       },
       {
         "word": "relation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější nebo abstraktnější vztah mezi věcmi"
       }
     ]
   },
@@ -3181,11 +3181,11 @@
     "synonyms": [
       {
         "word": "result",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro výsledek procesu nebo činnosti"
       },
       {
         "word": "outcome",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "neutrální konečný výsledek procesu nebo situace"
       }
     ]
   },
@@ -3199,7 +3199,7 @@
     "synonyms": [
       {
         "word": "reflection",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3213,11 +3213,11 @@
     "synonyms": [
       {
         "word": "building",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "samotná fyzická stavba"
       },
       {
         "word": "development",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "postupný růst nebo změna v čase"
       }
     ]
   },
@@ -3231,11 +3231,11 @@
     "synonyms": [
       {
         "word": "buyer",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje samotný nákup nebo kupující stranu v obchodě"
       },
       {
         "word": "customer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zákazník v běžném obchodním nebo službovém kontaktu"
       }
     ]
   },
@@ -3249,7 +3249,7 @@
     "synonyms": [
       {
         "word": "background",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3263,11 +3263,11 @@
     "synonyms": [
       {
         "word": "donation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "input",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3281,11 +3281,11 @@
     "synonyms": [
       {
         "word": "debate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často veřejnější, ostřejší nebo strukturovanější výměna názorů"
       },
       {
         "word": "dispute",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje konflikt nebo nesouhlas mezi stranami"
       }
     ]
   },
@@ -3299,11 +3299,11 @@
     "synonyms": [
       {
         "word": "comfort",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "ease",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3317,7 +3317,7 @@
     "synonyms": [
       {
         "word": "collaboration",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3331,7 +3331,7 @@
     "synonyms": [
       {
         "word": "organization",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "může být struktura i samotná instituce; širší než company"
       }
     ]
   },
@@ -3345,11 +3345,11 @@
     "synonyms": [
       {
         "word": "imagination",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "originality",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje novost a vlastní nápaditost"
       }
     ]
   },
@@ -3363,11 +3363,11 @@
     "synonyms": [
       {
         "word": "disapproval",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "review",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "posouzení nebo zpětný pohled; podle kontextu i recenze"
       }
     ]
   },
@@ -3381,11 +3381,11 @@
     "synonyms": [
       {
         "word": "interest",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "inquisitiveness",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3399,7 +3399,7 @@
     "synonyms": [
       {
         "word": "data system",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3413,7 +3413,7 @@
     "synonyms": [
       {
         "word": "self-government",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3427,7 +3427,7 @@
     "synonyms": [
       {
         "word": "concentration",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "silně soustředěná pozornost bez rozptýlení"
       }
     ]
   },
@@ -3441,11 +3441,11 @@
     "synonyms": [
       {
         "word": "exit",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "leaving",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3459,7 +3459,7 @@
     "synonyms": [
       {
         "word": "reliance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3473,7 +3473,7 @@
     "synonyms": [
       {
         "word": "identification",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3487,7 +3487,7 @@
     "synonyms": [
       {
         "word": "catastrophe",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3501,11 +3501,11 @@
     "synonyms": [
       {
         "word": "field",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "control",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "řízení nebo držení situace pod kontrolou"
       }
     ]
   },
@@ -3519,11 +3519,11 @@
     "synonyms": [
       {
         "word": "finding",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "výsledek zjištění nebo výzkumu, ne jen obecný výsledek"
       },
       {
         "word": "breakthrough",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3537,11 +3537,11 @@
     "synonyms": [
       {
         "word": "delivery",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "allocation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3555,11 +3555,11 @@
     "synonyms": [
       {
         "word": "variety",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "difference",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nejběžnější obecné slovo pro rozdíl"
       }
     ]
   },
@@ -3573,11 +3573,11 @@
     "synonyms": [
       {
         "word": "records",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "files",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3591,7 +3591,7 @@
     "synonyms": [
       {
         "word": "market system",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3605,7 +3605,7 @@
     "synonyms": [
       {
         "word": "productivity",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3619,7 +3619,7 @@
     "synonyms": [
       {
         "word": "feeling",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3633,11 +3633,11 @@
     "synonyms": [
       {
         "word": "jobs",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "work",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecné slovo pro práci nebo dílo; méně přesné než job nebo task"
       }
     ]
   },
@@ -3651,11 +3651,11 @@
     "synonyms": [
       {
         "word": "support",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "pomoc, podpora nebo opora podle kontextu"
       },
       {
         "word": "motivation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vnitřní důvod nebo energie něco dělat"
       }
     ]
   },
@@ -3669,7 +3669,7 @@
     "synonyms": [
       {
         "word": "technical science",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3683,11 +3683,11 @@
     "synonyms": [
       {
         "word": "nature",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "povaha nebo přirozený charakter něčeho"
       },
       {
         "word": "ecosystem",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3701,11 +3701,11 @@
     "synonyms": [
       {
         "word": "gear",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "apparatus",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3719,11 +3719,11 @@
     "synonyms": [
       {
         "word": "proof",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "indication",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3737,11 +3737,11 @@
     "synonyms": [
       {
         "word": "development",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "postupný růst nebo změna v čase"
       },
       {
         "word": "progression",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3755,7 +3755,7 @@
     "synonyms": [
       {
         "word": "assessment",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "velmi blízké evaluation; časté ve vzdělávání a práci"
       }
     ]
   },
@@ -3769,7 +3769,7 @@
     "synonyms": [
       {
         "word": "investigation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje podrobné zkoumání příčiny nebo problému"
       }
     ]
   },
@@ -3783,11 +3783,11 @@
     "synonyms": [
       {
         "word": "base",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "basis",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "to, z čeho něco vychází nebo na čem je to postavené"
       }
     ]
   },
@@ -3801,11 +3801,11 @@
     "synonyms": [
       {
         "word": "structure",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádání částí do celku, ne nutně samotná fyzická konstrukce"
       },
       {
         "word": "system",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "soubor propojených částí fungujících dohromady"
       }
     ]
   },
@@ -3819,7 +3819,7 @@
     "synonyms": [
       {
         "word": "liberty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3833,7 +3833,7 @@
     "synonyms": [
       {
         "word": "age group",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3847,11 +3847,11 @@
     "synonyms": [
       {
         "word": "increase",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "používá se pro růst množství, ceny nebo počtu"
       },
       {
         "word": "expansion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje zvětšování rozsahu, trhu nebo prostoru"
       }
     ]
   },
@@ -3865,11 +3865,11 @@
     "synonyms": [
       {
         "word": "advice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "jednotlivá rada nebo soubor doporučení"
       },
       {
         "word": "direction",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3883,7 +3883,7 @@
     "synonyms": [
       {
         "word": "legacy",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3897,11 +3897,11 @@
     "synonyms": [
       {
         "word": "self",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "individuality",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3915,11 +3915,11 @@
     "synonyms": [
       {
         "word": "effect",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "influence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3933,7 +3933,7 @@
     "synonyms": [
       {
         "word": "imbalance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3947,11 +3947,11 @@
     "synonyms": [
       {
         "word": "novelty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "invention",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3965,11 +3965,11 @@
     "synonyms": [
       {
         "word": "check",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "review",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "posouzení nebo zpětný pohled; podle kontextu i recenze"
       }
     ]
   },
@@ -3983,7 +3983,7 @@
     "synonyms": [
       {
         "word": "unification",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -3997,7 +3997,7 @@
     "synonyms": [
       {
         "word": "communication",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "širší proces předávání informací mezi lidmi nebo systémy"
       }
     ]
   },
@@ -4011,7 +4011,7 @@
     "synonyms": [
       {
         "word": "explanation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4025,11 +4025,11 @@
     "synonyms": [
       {
         "word": "funding",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "capital",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4043,11 +4043,11 @@
     "synonyms": [
       {
         "word": "guidance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "pomoc ve směrování nebo rozhodování, ne úplně konkrétní rada"
       },
       {
         "word": "authority",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "institucionální moc nebo uznávaná pravomoc"
       }
     ]
   },
@@ -4061,11 +4061,11 @@
     "synonyms": [
       {
         "word": "restriction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "omezení dané pravidly, podmínkami nebo hranicemi"
       },
       {
         "word": "constraint",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4079,7 +4079,7 @@
     "synonyms": [
       {
         "word": "production",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4093,7 +4093,7 @@
     "synonyms": [
       {
         "word": "calculation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4107,7 +4107,7 @@
     "synonyms": [
       {
         "word": "movement",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "pohyb, ale i širší společenské hnutí podle kontextu"
       }
     ]
   },
@@ -4121,11 +4121,11 @@
     "synonyms": [
       {
         "word": "drive",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vnitřní energie a tah na cíl, ne jen obecná ambice"
       },
       {
         "word": "incentive",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4139,7 +4139,7 @@
     "synonyms": [
       {
         "word": "bargaining",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4153,7 +4153,7 @@
     "synonyms": [
       {
         "word": "monitoring",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4167,7 +4167,7 @@
     "synonyms": [
       {
         "word": "involvement",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "aktivní účast nebo zapojení do něčeho"
       }
     ]
   },
@@ -4181,7 +4181,7 @@
     "synonyms": [
       {
         "word": "viewpoint",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4195,7 +4195,7 @@
     "synonyms": [
       {
         "word": "chance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžná možnost nebo pravděpodobnost v mluvené angličtině"
       }
     ]
   },
@@ -4209,7 +4209,7 @@
     "synonyms": [
       {
         "word": "suggestion",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "měkčí a méně autoritativní než advice"
       }
     ]
   },
@@ -4223,7 +4223,7 @@
     "synonyms": [
       {
         "word": "restoration",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4237,11 +4237,11 @@
     "synonyms": [
       {
         "word": "prestige",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "status",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4255,7 +4255,7 @@
     "synonyms": [
       {
         "word": "condition",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš konkrétní stav, kvalita nebo podmínky"
       }
     ]
   },
@@ -4269,7 +4269,7 @@
     "synonyms": [
       {
         "word": "solution",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4283,11 +4283,11 @@
     "synonyms": [
       {
         "word": "duty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétní povinnosti spojené s rolí nebo prací"
       },
       {
         "word": "obligation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější a silněji závazná povinnost než duty"
       }
     ]
   },
@@ -4301,11 +4301,11 @@
     "synonyms": [
       {
         "word": "plan",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétní plán kroků, ne jen obecný směr"
       },
       {
         "word": "approach",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "způsob řešení nebo styl jednání, ne hotový plán"
       }
     ]
   },
@@ -4319,11 +4319,11 @@
     "synonyms": [
       {
         "word": "shift",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "změna nebo posun, často v trendu, postoji nebo pracovním režimu"
       },
       {
         "word": "transformation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4337,7 +4337,7 @@
     "synonyms": [
       {
         "word": "difference",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro rozdíl"
       }
     ]
   },
@@ -4351,11 +4351,11 @@
     "synonyms": [
       {
         "word": "outlook",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často celkový pohled nebo očekávání do budoucna"
       },
       {
         "word": "aspiration",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš dlouhodobá ambice nebo idealistická touha"
       }
     ]
   },
@@ -4369,11 +4369,11 @@
     "synonyms": [
       {
         "word": "responsibility",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "odpovědnost za něco, ne jen konkrétní úkol"
       },
       {
         "word": "liability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formální, často právní odpovědnost nebo závazek"
       }
     ]
   },
@@ -4387,11 +4387,11 @@
     "synonyms": [
       {
         "word": "flexibility",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "resilience",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4405,11 +4405,11 @@
     "synonyms": [
       {
         "word": "uncertainty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "širší pocit nebo stav nejistoty"
       },
       {
         "word": "vagueness",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4423,11 +4423,11 @@
     "synonyms": [
       {
         "word": "comparison",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "parallel",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4441,11 +4441,11 @@
     "synonyms": [
       {
         "word": "irregularity",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "deviation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "odchylka od normy, plánu nebo průměru"
       }
     ]
   },
@@ -4459,11 +4459,11 @@
     "synonyms": [
       {
         "word": "expectation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "to, co se předpokládá nebo očekává"
       },
       {
         "word": "prediction",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4477,11 +4477,11 @@
     "synonyms": [
       {
         "word": "randomness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "unpredictability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "stav, kdy se něco těžko předvídá"
       }
     ]
   },
@@ -4495,11 +4495,11 @@
     "synonyms": [
       {
         "word": "presumption",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "hypothesis",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4513,11 +4513,11 @@
     "synonyms": [
       {
         "word": "genuineness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "originality",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje novost a vlastní nápaditost"
       }
     ]
   },
@@ -4531,11 +4531,11 @@
     "synonyms": [
       {
         "word": "independence",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "self-rule",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4549,11 +4549,11 @@
     "synonyms": [
       {
         "word": "prejudice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "partiality",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4567,11 +4567,11 @@
     "synonyms": [
       {
         "word": "consistency",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "unity",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4585,11 +4585,11 @@
     "synonyms": [
       {
         "word": "complication",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "další problém, který situaci ztěžuje"
       },
       {
         "word": "intricacy",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4603,11 +4603,11 @@
     "synonyms": [
       {
         "word": "conformity",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "adherence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4621,11 +4621,11 @@
     "synonyms": [
       {
         "word": "agreement",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "shoda nebo dohoda mezi stranami"
       },
       {
         "word": "compliance",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4639,11 +4639,11 @@
     "synonyms": [
       {
         "word": "agreement",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "shoda nebo dohoda mezi stranami"
       },
       {
         "word": "unanimity",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4657,11 +4657,11 @@
     "synonyms": [
       {
         "word": "restriction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "omezení dané pravidly, podmínkami nebo hranicemi"
       },
       {
         "word": "limitation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecná hranice možností nebo schopností"
       }
     ]
   },
@@ -4675,11 +4675,11 @@
     "synonyms": [
       {
         "word": "debate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často veřejnější, ostřejší nebo strukturovanější výměna názorů"
       },
       {
         "word": "dispute",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje konflikt nebo nesouhlas mezi stranami"
       }
     ]
   },
@@ -4693,11 +4693,11 @@
     "synonyms": [
       {
         "word": "trustworthiness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "reliability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4711,11 +4711,11 @@
     "synonyms": [
       {
         "word": "standard",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "měřítko kvality nebo normální úrovně"
       },
       {
         "word": "measure",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4729,11 +4729,11 @@
     "synonyms": [
       {
         "word": "variance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "odbornější než deviation; časté ve statistice a analýze"
       },
       {
         "word": "divergence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4747,11 +4747,11 @@
     "synonyms": [
       {
         "word": "predicament",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "difficulty",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecnější slovo pro obtíž nebo problémovou stránku něčeho"
       }
     ]
   },
@@ -4765,11 +4765,11 @@
     "synonyms": [
       {
         "word": "discussion",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecnější a neutrálnější výměna názorů než debate"
       },
       {
         "word": "debate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často veřejnější, ostřejší nebo strukturovanější výměna názorů"
       }
     ]
   },
@@ -4783,11 +4783,11 @@
     "synonyms": [
       {
         "word": "difference",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné slovo pro rozdíl"
       },
       {
         "word": "contrast",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "jasné srovnání ukazující rozdíl"
       }
     ]
   },
@@ -4801,11 +4801,11 @@
     "synonyms": [
       {
         "word": "separation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "deviation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "odchylka od normy, plánu nebo průměru"
       }
     ]
   },
@@ -4819,11 +4819,11 @@
     "synonyms": [
       {
         "word": "supremacy",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "control",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "řízení nebo držení situace pod kontrolou"
       }
     ]
   },
@@ -4837,11 +4837,11 @@
     "synonyms": [
       {
         "word": "movement",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "pohyb, ale i širší společenské hnutí podle kontextu"
       },
       {
         "word": "interaction",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vzájemné působení mezi lidmi, skupinami nebo systémy"
       }
     ]
   },
@@ -4855,11 +4855,11 @@
     "synonyms": [
       {
         "word": "appearance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "rise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často přirozený nebo postupný vzestup, hlavně u čísel a trendů"
       }
     ]
   },
@@ -4873,11 +4873,11 @@
     "synonyms": [
       {
         "word": "observational",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "experimental",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4891,11 +4891,11 @@
     "synonyms": [
       {
         "word": "balance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rovnováha mezi dvěma stranami nebo vlivy"
       },
       {
         "word": "stability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "stav bez velkých změn nebo výkyvů"
       }
     ]
   },
@@ -4909,11 +4909,11 @@
     "synonyms": [
       {
         "word": "morality",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "obecný systém toho, co je správné a špatné"
       },
       {
         "word": "principles",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4927,7 +4927,7 @@
     "synonyms": [
       {
         "word": "overstatement",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4941,11 +4941,11 @@
     "synonyms": [
       {
         "word": "assistance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než help; pomoc v pracovním nebo oficiálním kontextu"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "pomoc, podpora nebo opora podle kontextu"
       }
     ]
   },
@@ -4959,11 +4959,11 @@
     "synonyms": [
       {
         "word": "variation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "instability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4977,11 +4977,11 @@
     "synonyms": [
       {
         "word": "structure",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádání částí do celku, ne nutně samotná fyzická konstrukce"
       },
       {
         "word": "model",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -4995,11 +4995,11 @@
     "synonyms": [
       {
         "word": "theory",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "assumption",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "něco, co bereš jako pravdivé bez úplného důkazu"
       }
     ]
   },
@@ -5013,11 +5013,11 @@
     "synonyms": [
       {
         "word": "doctrine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "belief system",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5031,11 +5031,11 @@
     "synonyms": [
       {
         "word": "consequence",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "následek, často s vážnějším nebo negativním tónem"
       },
       {
         "word": "inference",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5049,11 +5049,11 @@
     "synonyms": [
       {
         "word": "motivation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vnitřní důvod nebo energie něco dělat"
       },
       {
         "word": "stimulus",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5067,11 +5067,11 @@
     "synonyms": [
       {
         "word": "certainty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "necessity",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5085,11 +5085,11 @@
     "synonyms": [
       {
         "word": "deduction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "conclusion",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5103,11 +5103,11 @@
     "synonyms": [
       {
         "word": "foundation",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "konkrétnější nebo obraznější základ než basis"
       },
       {
         "word": "framework",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5121,11 +5121,11 @@
     "synonyms": [
       {
         "word": "honesty",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "morality",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecný systém toho, co je správné a špatné"
       }
     ]
   },
@@ -5139,11 +5139,11 @@
     "synonyms": [
       {
         "word": "interference",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "involvement",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "aktivní účast nebo zapojení do něčeho"
       }
     ]
   },
@@ -5157,11 +5157,11 @@
     "synonyms": [
       {
         "word": "instinct",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "insight",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5175,11 +5175,11 @@
     "synonyms": [
       {
         "word": "reason",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "častěji odpovídá na otázku proč, ne nutně hlubší příčina v procesu"
       },
       {
         "word": "rationale",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5193,11 +5193,11 @@
     "synonyms": [
       {
         "word": "validity",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "authority",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "institucionální moc nebo uznávaná pravomoc"
       }
     ]
   },
@@ -5211,11 +5211,11 @@
     "synonyms": [
       {
         "word": "approach",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "způsob řešení nebo styl jednání, ne hotový plán"
       },
       {
         "word": "procedure",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formální a konkrétní sled kroků"
       }
     ]
   },
@@ -5229,11 +5229,11 @@
     "synonyms": [
       {
         "word": "balance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rovnováha mezi dvěma stranami nebo vlivy"
       },
       {
         "word": "restraint",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5247,11 +5247,11 @@
     "synonyms": [
       {
         "word": "storyline",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "account",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5265,11 +5265,11 @@
     "synonyms": [
       {
         "word": "subtlety",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "shade",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5283,11 +5283,11 @@
     "synonyms": [
       {
         "word": "contradiction",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "puzzle",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5301,11 +5301,11 @@
     "synonyms": [
       {
         "word": "awareness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "interpretation",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5319,11 +5319,11 @@
     "synonyms": [
       {
         "word": "occurrence",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "event",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5337,11 +5337,11 @@
     "synonyms": [
       {
         "word": "example",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější konkrétní ilustrace nebo ukázka"
       },
       {
         "word": "case",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5355,11 +5355,11 @@
     "synonyms": [
       {
         "word": "assumption",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "něco, co bereš jako pravdivé bez úplného důkazu"
       },
       {
         "word": "basis",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "to, z čeho něco vychází nebo na čem je to postavené"
       }
     ]
   },
@@ -5373,11 +5373,11 @@
     "synonyms": [
       {
         "word": "chance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžná možnost nebo pravděpodobnost v mluvené angličtině"
       },
       {
         "word": "likelihood",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5391,11 +5391,11 @@
     "synonyms": [
       {
         "word": "justification",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "reasoning",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5409,11 +5409,11 @@
     "synonyms": [
       {
         "word": "strength",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "endurance",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5427,11 +5427,11 @@
     "synonyms": [
       {
         "word": "shortage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "deficit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5445,11 +5445,11 @@
     "synonyms": [
       {
         "word": "complexity",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "refinement",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5463,11 +5463,11 @@
     "synonyms": [
       {
         "word": "guess",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "conjecture",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5481,11 +5481,11 @@
     "synonyms": [
       {
         "word": "balance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rovnováha mezi dvěma stranami nebo vlivy"
       },
       {
         "word": "security",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5499,11 +5499,11 @@
     "synonyms": [
       {
         "word": "combination",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "integration",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5517,11 +5517,11 @@
     "synonyms": [
       {
         "word": "openness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "clarity",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5535,11 +5535,11 @@
     "synonyms": [
       {
         "word": "doubt",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "unpredictability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "stav, kdy se něco těžko předvídá"
       }
     ]
   },
@@ -5553,11 +5553,11 @@
     "synonyms": [
       {
         "word": "accuracy",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "správnost a bezchybnost údajů nebo měření"
       },
       {
         "word": "soundness",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5571,11 +5571,11 @@
     "synonyms": [
       {
         "word": "feasibility",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "sustainability",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5589,11 +5589,11 @@
     "synonyms": [
       {
         "word": "weakness",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "exposure",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   },
@@ -5607,15 +5607,15 @@
     "synonyms": [
       {
         "word": "value",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "širší než worth; může znamenat cenu, hodnotu i princip"
       },
       {
         "word": "virtue",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "worth",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "hodnota nebo užitečnost z pohledu ceny, kvality nebo významu"
       }
     ]
   },
@@ -5629,15 +5629,15 @@
     "synonyms": [
       {
         "word": "care",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "therapy",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       },
       {
         "word": "handling",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale hodí se do trochu jiných spojení podle kontextu"
       }
     ]
   }

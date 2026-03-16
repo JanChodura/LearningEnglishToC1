@@ -9,19 +9,19 @@
     "synonyms": [
       {
         "word": "receive",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená něco dostat, ne nutně to vědomě přijmout nebo s tím souhlasit"
       },
       {
         "word": "take",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecnější a fyzičtější než accept; často jde prostě o vzít něco do ruky nebo na sebe"
       },
       {
         "word": "approve",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "znamená schválit, ne jen přijmout nabídku nebo věc"
       },
       {
         "word": "agree",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "zdůrazňuje souhlas s názorem, plánem nebo podmínkami"
       }
     ]
   },
@@ -35,19 +35,19 @@
     "synonyms": [
       {
         "word": "accomplish",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdůrazňuje dokončení úkolu nebo cíle po úsilí"
       },
       {
         "word": "attain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než achieve; časté u cílů, úrovní nebo standardů"
       },
       {
         "word": "reach",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "běžné, když mluvíš o dosažení cíle, čísla nebo místa"
       },
       {
         "word": "realize",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "často znamená uskutečnit plán nebo potenciál; ne vždy totéž co achieve"
       }
     ]
   },
@@ -61,19 +61,19 @@
     "synonyms": [
       {
         "word": "behave",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš o chování než o aktivním jednání nebo konání"
       },
       {
         "word": "perform",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "časté pro vykonání úkolu, funkce nebo vystoupení"
       },
       {
         "word": "react",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zdůrazňuje odpověď na podnět nebo situaci, ne samostatné jednání"
       },
       {
         "word": "operate",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "fungovat nebo řídit provoz zařízení či systému"
       }
     ]
   },
@@ -87,19 +87,19 @@
     "synonyms": [
       {
         "word": "include",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená, že je něco součástí celku, ne nutně že to aktivně přidáš"
       },
       {
         "word": "attach",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "hlavně fyzicky nebo technicky připojit k něčemu"
       },
       {
         "word": "combine",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "spojit prvky dohromady bez nutného důrazu na strukturu"
       },
       {
         "word": "insert",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "vložit něco dovnitř konkrétního místa nebo systému"
       }
     ]
   },
@@ -113,19 +113,19 @@
     "synonyms": [
       {
         "word": "acknowledge",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "připustit nebo uznat, často formálněji než admit"
       },
       {
         "word": "confess",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "silnější než admit; často u chyby, viny nebo něčeho citlivého"
       },
       {
         "word": "allow",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "většinou znamená dovolit, ne přiznat"
       },
       {
         "word": "recognize",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "rozpoznat nebo uznat něco jako platné či známé"
       }
     ]
   },
@@ -139,19 +139,19 @@
     "synonyms": [
       {
         "word": "recommend",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "doporučit jako vhodnou volbu"
       },
       {
         "word": "suggest",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "navrhnout nebo jemně naznačit"
       },
       {
         "word": "counsel",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "guide",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "spíš dlouhodobě vést nebo směrovat než dát jednu radu"
       }
     ]
   },
@@ -165,19 +165,19 @@
     "synonyms": [
       {
         "word": "influence",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "impact",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "alter",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "často menší nebo dílčí změna než change"
       },
       {
         "word": "change",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -191,19 +191,19 @@
     "synonyms": [
       {
         "word": "accept",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "approve",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "znamená schválit, ne jen přijmout nabídku nebo věc"
       },
       {
         "word": "support",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       },
       {
         "word": "consent",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -217,19 +217,19 @@
     "synonyms": [
       {
         "word": "permit",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než allow; znamená oficiálně dovolit"
       },
       {
         "word": "authorize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "enable",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "let",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "běžné mluvené slovo pro dovolit něco udělat"
       }
     ]
   },
@@ -243,15 +243,15 @@
     "synonyms": [
       {
         "word": "reply",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "respond",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "react",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zdůrazňuje odpověď na podnět nebo situaci, ne samostatné jednání"
       }
     ]
   },
@@ -265,19 +265,19 @@
     "synonyms": [
       {
         "word": "emerge",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "show",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "ukázat vizuálně nebo důkazem"
       },
       {
         "word": "seem",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "arise",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "formálnější než happen; často o problému nebo situaci, která se objeví"
       }
     ]
   },
@@ -291,19 +291,19 @@
     "synonyms": [
       {
         "word": "request",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdvořile nebo formálně požádat"
       },
       {
         "word": "use",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "nejběžnější obecné sloveso pro použití"
       },
       {
         "word": "employ",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "utilize",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "formálnější než use; často zní technicky nebo byznysově"
       }
     ]
   },
@@ -317,19 +317,19 @@
     "synonyms": [
       {
         "word": "debate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená otevřeně diskutovat sporné téma, často formálněji než discuss"
       },
       {
         "word": "dispute",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdůrazňuje konflikt nebo nesouhlas, ne neutrální diskusi"
       },
       {
         "word": "quarrel",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "discuss",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "mluvit o tématu společně s ostatními"
       }
     ]
   },
@@ -343,15 +343,15 @@
     "synonyms": [
       {
         "word": "reach",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžné, když mluvíš o dosažení cíle, čísla nebo místa"
       },
       {
         "word": "come",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "appear",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "znamená objevit se nebo působit dojmem, ne vzniknout jako arise"
       }
     ]
   },
@@ -365,15 +365,15 @@
     "synonyms": [
       {
         "word": "question",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "inquire",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "request",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zdvořile nebo formálně požádat"
       }
     ]
   },
@@ -387,19 +387,19 @@
     "synonyms": [
       {
         "word": "prevent",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "evade",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "escape",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "dodge",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -413,19 +413,19 @@
     "synonyms": [
       {
         "word": "turn",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "grow",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "růst přirozeně nebo postupně"
       },
       {
         "word": "develop",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vyvíjet něco aktivně nebo se rozvíjet"
       },
       {
         "word": "transform",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "silnější než change; znamená výrazně proměnit podobu nebo stav"
       }
     ]
   },
@@ -439,15 +439,15 @@
     "synonyms": [
       {
         "word": "start",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžnější v mluvě a často i pro stroje, procesy nebo akce"
       },
       {
         "word": "initiate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než start; znamená něco oficiálně zahájit"
       },
       {
         "word": "commence",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "velmi formální varianta begin nebo start"
       }
     ]
   },
@@ -461,19 +461,19 @@
     "synonyms": [
       {
         "word": "trust",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená věřit někomu nebo něčemu, ne jen spoléhat se prakticky"
       },
       {
         "word": "accept",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "suppose",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "spíš odhadovat nebo předpokládat bez jistoty"
       },
       {
         "word": "assume",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "vzít něco jako pravdu bez ověření"
       }
     ]
   },
@@ -487,15 +487,15 @@
     "synonyms": [
       {
         "word": "fit",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "relate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "correspond",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -509,15 +509,15 @@
     "synonyms": [
       {
         "word": "carry",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nést něco fyzicky s sebou"
       },
       {
         "word": "deliver",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "doručit nebo předat, někdy i podat výkon či projev"
       },
       {
         "word": "fetch",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -531,15 +531,15 @@
     "synonyms": [
       {
         "word": "construct",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "create",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vytvořit něco nového, často s důrazem na vznik nápadu nebo díla"
       },
       {
         "word": "develop",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vyvíjet něco aktivně nebo se rozvíjet"
       }
     ]
   },
@@ -553,15 +553,15 @@
     "synonyms": [
       {
         "word": "purchase",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "acquire",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často formálnější a delší proces získání znalosti, majetku nebo firmy"
       },
       {
         "word": "obtain",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       }
     ]
   },
@@ -575,15 +575,15 @@
     "synonyms": [
       {
         "word": "phone",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "contact",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "name",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -597,15 +597,15 @@
     "synonyms": [
       {
         "word": "mind",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "protect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "aktivně chránit před nebezpečím nebo škodou"
       },
       {
         "word": "look after",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -619,15 +619,15 @@
     "synonyms": [
       {
         "word": "transport",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než move nebo carry; přepravit z místa na místo"
       },
       {
         "word": "bear",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "move",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "obecné sloveso pro přesun"
       }
     ]
   },
@@ -641,15 +641,15 @@
     "synonyms": [
       {
         "word": "grab",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rychle nebo neformálně něco popadnout"
       },
       {
         "word": "capture",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zachytit, získat nebo obsadit; často silnější než take"
       },
       {
         "word": "seize",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "náhlé a silné uchopení nebo převzetí kontroly"
       }
     ]
   },
@@ -663,15 +663,15 @@
     "synonyms": [
       {
         "word": "alter",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často menší nebo dílčí změna než change"
       },
       {
         "word": "modify",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "přizpůsobit nebo upravit něco konkrétním způsobem, často technicky"
       },
       {
         "word": "adjust",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "upravit lehce nebo postupně tak, aby něco lépe fungovalo"
       }
     ]
   },
@@ -685,15 +685,15 @@
     "synonyms": [
       {
         "word": "select",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "pick",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "decide",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "rozhodnout se po zvážení možností"
       }
     ]
   },
@@ -707,15 +707,15 @@
     "synonyms": [
       {
         "word": "wash",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "tidy",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "clear",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -729,15 +729,15 @@
     "synonyms": [
       {
         "word": "ascend",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "mount",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "scale",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -751,15 +751,15 @@
     "synonyms": [
       {
         "word": "shut",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "seal",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "finish",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "běžné obecné sloveso pro dokončení"
       }
     ]
   },
@@ -773,15 +773,15 @@
     "synonyms": [
       {
         "word": "gather",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "shromáždit lidi, věci nebo informace na jedno místo"
       },
       {
         "word": "accumulate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "assemble",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "dát části dohromady do jednoho celku nebo svolat lidi"
       }
     ]
   },
@@ -795,11 +795,11 @@
     "synonyms": [
       {
         "word": "arrive",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "přijet nebo dorazit na místo"
       },
       {
         "word": "approach",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -813,15 +813,15 @@
     "synonyms": [
       {
         "word": "contrast",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "evaluate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "systematicky posoudit kvalitu, hodnotu nebo výkon"
       },
       {
         "word": "analyze",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "rozebrat něco na části a vyhodnotit to"
       }
     ]
   },
@@ -835,15 +835,15 @@
     "synonyms": [
       {
         "word": "protest",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "object",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "grumble",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -857,15 +857,15 @@
     "synonyms": [
       {
         "word": "finish",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžné obecné sloveso pro dokončení"
       },
       {
         "word": "finalize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "accomplish",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zdůrazňuje dokončení úkolu nebo cíle po úsilí"
       }
     ]
   },
@@ -879,15 +879,15 @@
     "synonyms": [
       {
         "word": "evaluate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "systematicky posoudit kvalitu, hodnotu nebo výkon"
       },
       {
         "word": "reflect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "přemýšlet hlouběji nebo něco odrážet podle kontextu"
       },
       {
         "word": "examine",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zkoumat podrobněji než look at"
       }
     ]
   },
@@ -901,15 +901,15 @@
     "synonyms": [
       {
         "word": "proceed",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "persist",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "carry on",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -923,15 +923,15 @@
     "synonyms": [
       {
         "word": "prepare",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "bake",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "fry",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -945,15 +945,15 @@
     "synonyms": [
       {
         "word": "fix",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžné mluvené slovo pro opravit nebo vyřešit konkrétní problém"
       },
       {
         "word": "amend",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "revise",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -967,15 +967,15 @@
     "synonyms": [
       {
         "word": "make",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "produce",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyrobit, vytvořit nebo způsobit jako výsledek"
       },
       {
         "word": "generate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -989,15 +989,15 @@
     "synonyms": [
       {
         "word": "slice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "chop",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "divide",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1011,15 +1011,15 @@
     "synonyms": [
       {
         "word": "choose",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "determine",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "určit přesně nebo rozhodnout výsledek"
       },
       {
         "word": "resolve",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vyřešit problém nebo spor, často formálněji než fix"
       }
     ]
   },
@@ -1033,15 +1033,15 @@
     "synonyms": [
       {
         "word": "transport",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než move nebo carry; přepravit z místa na místo"
       },
       {
         "word": "bring",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "supply",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "poskytnout něco potřebného ve větším nebo systematickém měřítku"
       }
     ]
   },
@@ -1055,15 +1055,15 @@
     "synonyms": [
       {
         "word": "explain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "objasnit význam nebo důvod tak, aby tomu někdo rozuměl"
       },
       {
         "word": "portray",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vykreslit nebo znázornit, často v médiích nebo umění"
       },
       {
         "word": "outline",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "stručně nastínit hlavní body"
       }
     ]
   },
@@ -1077,15 +1077,15 @@
     "synonyms": [
       {
         "word": "grow",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "růst přirozeně nebo postupně"
       },
       {
         "word": "expand",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "rozšířit rozsah, velikost nebo nabídku"
       },
       {
         "word": "evolve",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "postupně se vyvíjet v čase"
       }
     ]
   },
@@ -1099,15 +1099,15 @@
     "synonyms": [
       {
         "word": "find",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "detect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "odhalit něco, co nebylo hned vidět"
       },
       {
         "word": "uncover",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "odhalit něco skrytého"
       }
     ]
   },
@@ -1121,15 +1121,15 @@
     "synonyms": [
       {
         "word": "debate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená otevřeně diskutovat sporné téma, často formálněji než discuss"
       },
       {
         "word": "examine",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zkoumat podrobněji než look at"
       },
       {
         "word": "talk",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "neformální obecné sloveso pro mluvení"
       }
     ]
   },
@@ -1143,11 +1143,11 @@
     "synonyms": [
       {
         "word": "operate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "fungovat nebo řídit provoz zařízení či systému"
       },
       {
         "word": "steer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "řídit směr doslova nebo obrazně"
       }
     ]
   },
@@ -1161,15 +1161,15 @@
     "synonyms": [
       {
         "word": "release",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "fall",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "spill",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1183,15 +1183,15 @@
     "synonyms": [
       {
         "word": "gain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "získat něco hodnotného, často výsledkem úsilí nebo procesu"
       },
       {
         "word": "receive",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "znamená něco dostat, ne nutně to vědomě přijmout nebo s tím souhlasit"
       },
       {
         "word": "make",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1205,11 +1205,11 @@
     "synonyms": [
       {
         "word": "consume",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "devour",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1223,15 +1223,15 @@
     "synonyms": [
       {
         "word": "motivate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "inspire",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "support",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       }
     ]
   },
@@ -1245,15 +1245,15 @@
     "synonyms": [
       {
         "word": "like",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "appreciate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "může znamenat ocenit nebo plně chápat hodnotu něčeho"
       },
       {
         "word": "relish",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1267,15 +1267,15 @@
     "synonyms": [
       {
         "word": "go in",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "access",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "join",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "připojit se ke skupině nebo aktivitě"
       }
     ]
   },
@@ -1289,15 +1289,15 @@
     "synonyms": [
       {
         "word": "clarify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "objasnit něco, co bylo nejasné"
       },
       {
         "word": "describe",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "popsat vlastnosti, vzhled nebo průběh"
       },
       {
         "word": "illustrate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vysvětlit nebo ukázat na příkladu"
       }
     ]
   },
@@ -1311,15 +1311,15 @@
     "synonyms": [
       {
         "word": "confront",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "encounter",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "address",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1333,11 +1333,11 @@
     "synonyms": [
       {
         "word": "collapse",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "fall short",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1351,11 +1351,11 @@
     "synonyms": [
       {
         "word": "drop",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "descend",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1369,15 +1369,15 @@
     "synonyms": [
       {
         "word": "sense",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "experience",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "perceive",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1391,15 +1391,15 @@
     "synonyms": [
       {
         "word": "battle",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "struggle",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "resist",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1413,15 +1413,15 @@
     "synonyms": [
       {
         "word": "load",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "occupy",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "pack",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1435,15 +1435,15 @@
     "synonyms": [
       {
         "word": "locate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "discover",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "identify",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "rozpoznat přesně, co nebo kdo to je"
       }
     ]
   },
@@ -1457,15 +1457,15 @@
     "synonyms": [
       {
         "word": "complete",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "o něco formálnější a zdůrazňuje úplné dokončení"
       },
       {
         "word": "conclude",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "end",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "ukončit nebo dojít ke konci, ne vždy s důrazem na splnění"
       }
     ]
   },
@@ -1479,15 +1479,15 @@
     "synonyms": [
       {
         "word": "pursue",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "track",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "observe",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       }
     ]
   },
@@ -1501,11 +1501,11 @@
     "synonyms": [
       {
         "word": "overlook",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "lose memory",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1519,11 +1519,11 @@
     "synonyms": [
       {
         "word": "pardon",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "excuse",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1537,15 +1537,15 @@
     "synonyms": [
       {
         "word": "acquire",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často formálnější a delší proces získání znalosti, majetku nebo firmy"
       },
       {
         "word": "earn",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "obtain",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       }
     ]
   },
@@ -1559,11 +1559,11 @@
     "synonyms": [
       {
         "word": "receive",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená něco dostat, ne nutně to vědomě přijmout nebo s tím souhlasit"
       },
       {
         "word": "obtain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       }
     ]
   },
@@ -1577,15 +1577,15 @@
     "synonyms": [
       {
         "word": "provide",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zajistit nebo dát někomu to, co potřebuje"
       },
       {
         "word": "offer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "deliver",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "doručit nebo předat, někdy i podat výkon či projev"
       }
     ]
   },
@@ -1599,11 +1599,11 @@
     "synonyms": [
       {
         "word": "travel",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "move",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "obecné sloveso pro přesun"
       }
     ]
   },
@@ -1617,11 +1617,11 @@
     "synonyms": [
       {
         "word": "expand",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozšířit rozsah, velikost nebo nabídku"
       },
       {
         "word": "develop",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyvíjet něco aktivně nebo se rozvíjet"
       }
     ]
   },
@@ -1635,11 +1635,11 @@
     "synonyms": [
       {
         "word": "estimate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "suppose",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš odhadovat nebo předpokládat bez jistoty"
       }
     ]
   },
@@ -1653,15 +1653,15 @@
     "synonyms": [
       {
         "word": "manage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zvládat nebo řídit lidi, čas, proces nebo situaci"
       },
       {
         "word": "control",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "mít něco pod kontrolou nebo přímo řídit výsledek"
       },
       {
         "word": "deal with",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1675,15 +1675,15 @@
     "synonyms": [
       {
         "word": "occur",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější a neutrálnější než happen"
       },
       {
         "word": "arise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než happen; často o problému nebo situaci, která se objeví"
       },
       {
         "word": "take place",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1697,11 +1697,11 @@
     "synonyms": [
       {
         "word": "detest",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "dislike",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1715,11 +1715,11 @@
     "synonyms": [
       {
         "word": "own",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "possess",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než have; znamená vlastnit nebo mít určitou vlastnost"
       }
     ]
   },
@@ -1733,11 +1733,11 @@
     "synonyms": [
       {
         "word": "listen",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "perceive",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1751,15 +1751,15 @@
     "synonyms": [
       {
         "word": "assist",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než help; pomoci s konkrétní činností"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       },
       {
         "word": "aid",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1773,15 +1773,15 @@
     "synonyms": [
       {
         "word": "grip",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "grasp",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "keep",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "běžnější a širší než maintain"
       }
     ]
   },
@@ -1795,11 +1795,11 @@
     "synonyms": [
       {
         "word": "wish",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "expect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "očekávat jako pravděpodobné nebo normální"
       }
     ]
   },
@@ -1813,15 +1813,15 @@
     "synonyms": [
       {
         "word": "enhance",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než improve; často znamená vylepšit kvalitu nebo účinek"
       },
       {
         "word": "upgrade",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "develop",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vyvíjet něco aktivně nebo se rozvíjet"
       }
     ]
   },
@@ -1835,15 +1835,15 @@
     "synonyms": [
       {
         "word": "contain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "involve",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "incorporate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1857,15 +1857,15 @@
     "synonyms": [
       {
         "word": "raise",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "grow",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "růst přirozeně nebo postupně"
       },
       {
         "word": "expand",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "rozšířit rozsah, velikost nebo nabídku"
       }
     ]
   },
@@ -1879,15 +1879,15 @@
     "synonyms": [
       {
         "word": "notify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "tell",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "report",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1901,15 +1901,15 @@
     "synonyms": [
       {
         "word": "ask",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné sloveso pro zeptat se nebo požádat"
       },
       {
         "word": "request",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zdvořile nebo formálně požádat"
       },
       {
         "word": "welcome",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1923,11 +1923,11 @@
     "synonyms": [
       {
         "word": "enter",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "participate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1941,11 +1941,11 @@
     "synonyms": [
       {
         "word": "maintain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "udržovat stav, úroveň nebo systém dlouhodobě"
       },
       {
         "word": "retain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -1959,11 +1959,11 @@
     "synonyms": [
       {
         "word": "understand",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "recognize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "rozpoznat nebo uznat něco jako platné či známé"
       }
     ]
   },
@@ -1977,11 +1977,11 @@
     "synonyms": [
       {
         "word": "study",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "učit se nebo systematicky zkoumat delší dobu"
       },
       {
         "word": "acquire",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často formálnější a delší proces získání znalosti, majetku nebo firmy"
       }
     ]
   },
@@ -1995,11 +1995,11 @@
     "synonyms": [
       {
         "word": "depart",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "exit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2013,11 +2013,11 @@
     "synonyms": [
       {
         "word": "enjoy",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "appreciate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "může znamenat ocenit nebo plně chápat hodnotu něčeho"
       }
     ]
   },
@@ -2031,11 +2031,11 @@
     "synonyms": [
       {
         "word": "hear",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "attend",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2049,11 +2049,11 @@
     "synonyms": [
       {
         "word": "exist",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "reside",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2067,11 +2067,11 @@
     "synonyms": [
       {
         "word": "watch",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "observe",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       }
     ]
   },
@@ -2085,11 +2085,11 @@
     "synonyms": [
       {
         "word": "misplace",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "drop",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2103,11 +2103,11 @@
     "synonyms": [
       {
         "word": "adore",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "cherish",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2121,11 +2121,11 @@
     "synonyms": [
       {
         "word": "create",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vytvořit něco nového, často s důrazem na vznik nápadu nebo díla"
       },
       {
         "word": "produce",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyrobit, vytvořit nebo způsobit jako výsledek"
       }
     ]
   },
@@ -2139,11 +2139,11 @@
     "synonyms": [
       {
         "word": "handle",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "direct",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2157,11 +2157,11 @@
     "synonyms": [
       {
         "word": "encounter",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "gather",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "shromáždit lidi, věci nebo informace na jedno místo"
       }
     ]
   },
@@ -2175,11 +2175,11 @@
     "synonyms": [
       {
         "word": "shift",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "relocate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2193,11 +2193,11 @@
     "synonyms": [
       {
         "word": "require",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "demand",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2211,11 +2211,11 @@
     "synonyms": [
       {
         "word": "observe",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       },
       {
         "word": "detect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "odhalit něco, co nebylo hned vidět"
       }
     ]
   },
@@ -2229,11 +2229,11 @@
     "synonyms": [
       {
         "word": "unlock",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "uncover",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "odhalit něco skrytého"
       }
     ]
   },
@@ -2247,11 +2247,11 @@
     "synonyms": [
       {
         "word": "request",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zdvořile nebo formálně požádat"
       },
       {
         "word": "command",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2265,11 +2265,11 @@
     "synonyms": [
       {
         "word": "possess",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než have; znamená vlastnit nebo mít určitou vlastnost"
       },
       {
         "word": "have",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2283,11 +2283,11 @@
     "synonyms": [
       {
         "word": "cross",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "go by",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2301,11 +2301,11 @@
     "synonyms": [
       {
         "word": "spend",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "settle",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2319,11 +2319,11 @@
     "synonyms": [
       {
         "word": "perform",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "časté pro vykonání úkolu, funkce nebo vystoupení"
       },
       {
         "word": "participate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2337,11 +2337,11 @@
     "synonyms": [
       {
         "word": "organize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádat nebo zorganizovat věci, lidi nebo informace"
       },
       {
         "word": "arrange",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často konkrétněji uspořádat nebo domluvit něco praktického"
       }
     ]
   },
@@ -2355,11 +2355,11 @@
     "synonyms": [
       {
         "word": "show",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ukázat vizuálně nebo důkazem"
       },
       {
         "word": "demonstrate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "ukázat jasně v praxi nebo důkazem"
       }
     ]
   },
@@ -2373,11 +2373,11 @@
     "synonyms": [
       {
         "word": "defend",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "chránit proti útoku, kritice nebo obvinění"
       },
       {
         "word": "guard",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2391,11 +2391,11 @@
     "synonyms": [
       {
         "word": "demonstrate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ukázat jasně v praxi nebo důkazem"
       },
       {
         "word": "confirm",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "potvrdit, že je něco pravda nebo správně"
       }
     ]
   },
@@ -2409,11 +2409,11 @@
     "synonyms": [
       {
         "word": "supply",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "poskytnout něco potřebného ve větším nebo systematickém měřítku"
       },
       {
         "word": "give",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2427,11 +2427,11 @@
     "synonyms": [
       {
         "word": "arrive",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "přijet nebo dorazit na místo"
       },
       {
         "word": "attain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než achieve; časté u cílů, úrovní nebo standardů"
       }
     ]
   },
@@ -2445,11 +2445,11 @@
     "synonyms": [
       {
         "word": "study",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "učit se nebo systematicky zkoumat delší dobu"
       },
       {
         "word": "review",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2463,11 +2463,11 @@
     "synonyms": [
       {
         "word": "get",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžnější a obecnější sloveso, často vhodné do mluvené angličtiny"
       },
       {
         "word": "obtain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       }
     ]
   },
@@ -2481,11 +2481,11 @@
     "synonyms": [
       {
         "word": "identify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozpoznat přesně, co nebo kdo to je"
       },
       {
         "word": "recall",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2499,11 +2499,11 @@
     "synonyms": [
       {
         "word": "document",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "capture",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zachytit, získat nebo obsadit; často silnější než take"
       }
     ]
   },
@@ -2517,11 +2517,11 @@
     "synonyms": [
       {
         "word": "decrease",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "lower",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2535,11 +2535,11 @@
     "synonyms": [
       {
         "word": "recall",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "retain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2553,11 +2553,11 @@
     "synonyms": [
       {
         "word": "delete",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "eliminate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2571,11 +2571,11 @@
     "synonyms": [
       {
         "word": "redo",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "restate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2589,11 +2589,11 @@
     "synonyms": [
       {
         "word": "substitute",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "change",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2607,11 +2607,11 @@
     "synonyms": [
       {
         "word": "inform",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "notify",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2625,11 +2625,11 @@
     "synonyms": [
       {
         "word": "need",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "demand",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2643,11 +2643,11 @@
     "synonyms": [
       {
         "word": "relax",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "pause",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2661,11 +2661,11 @@
     "synonyms": [
       {
         "word": "come back",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "restore",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2679,11 +2679,11 @@
     "synonyms": [
       {
         "word": "operate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "fungovat nebo řídit provoz zařízení či systému"
       },
       {
         "word": "manage",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zvládat nebo řídit lidi, čas, proces nebo situaci"
       }
     ]
   },
@@ -2697,11 +2697,11 @@
     "synonyms": [
       {
         "word": "store",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "protect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "aktivně chránit před nebezpečím nebo škodou"
       }
     ]
   },
@@ -2715,11 +2715,11 @@
     "synonyms": [
       {
         "word": "state",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vyjádřit něco jasně a přímo, často formálněji než say"
       },
       {
         "word": "tell",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2733,11 +2733,11 @@
     "synonyms": [
       {
         "word": "seek",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "explore",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2751,11 +2751,11 @@
     "synonyms": [
       {
         "word": "observe",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       },
       {
         "word": "notice",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2769,11 +2769,11 @@
     "synonyms": [
       {
         "word": "trade",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "market",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2787,11 +2787,11 @@
     "synonyms": [
       {
         "word": "dispatch",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "transmit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2805,11 +2805,11 @@
     "synonyms": [
       {
         "word": "provide",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zajistit nebo dát někomu to, co potřebuje"
       },
       {
         "word": "deliver",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "doručit nebo předat, někdy i podat výkon či projev"
       }
     ]
   },
@@ -2823,11 +2823,11 @@
     "synonyms": [
       {
         "word": "adjust",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "upravit lehce nebo postupně tak, aby něco lépe fungovalo"
       },
       {
         "word": "arrange",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často konkrétněji uspořádat nebo domluvit něco praktického"
       }
     ]
   },
@@ -2841,11 +2841,11 @@
     "synonyms": [
       {
         "word": "display",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "present",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2859,11 +2859,11 @@
     "synonyms": [
       {
         "word": "fix",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžné mluvené slovo pro opravit nebo vyřešit konkrétní problém"
       },
       {
         "word": "resolve",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyřešit problém nebo spor, často formálněji než fix"
       }
     ]
   },
@@ -2877,11 +2877,11 @@
     "synonyms": [
       {
         "word": "talk",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "neformální obecné sloveso pro mluvení"
       },
       {
         "word": "communicate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2895,11 +2895,11 @@
     "synonyms": [
       {
         "word": "use",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "nejběžnější obecné sloveso pro použití"
       },
       {
         "word": "invest",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2913,11 +2913,11 @@
     "synonyms": [
       {
         "word": "begin",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "neutrální obecné sloveso pro začít"
       },
       {
         "word": "launch",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často o projektu, produktu nebo kampani; naznačuje veřejné spuštění"
       }
     ]
   },
@@ -2931,11 +2931,11 @@
     "synonyms": [
       {
         "word": "remain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "continue",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -2949,11 +2949,11 @@
     "synonyms": [
       {
         "word": "halt",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "end",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "ukončit nebo dojít ke konci, ne vždy s důrazem na splnění"
       }
     ]
   },
@@ -2967,11 +2967,11 @@
     "synonyms": [
       {
         "word": "learn",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "analyze",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "rozebrat něco na části a vyhodnotit to"
       }
     ]
   },
@@ -2985,11 +2985,11 @@
     "synonyms": [
       {
         "word": "recommend",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "doporučit jako vhodnou volbu"
       },
       {
         "word": "propose",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3003,11 +3003,11 @@
     "synonyms": [
       {
         "word": "assist",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než help; pomoci s konkrétní činností"
       },
       {
         "word": "back",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3021,11 +3021,11 @@
     "synonyms": [
       {
         "word": "grab",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rychle nebo neformálně něco popadnout"
       },
       {
         "word": "obtain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       }
     ]
   },
@@ -3039,11 +3039,11 @@
     "synonyms": [
       {
         "word": "speak",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "discuss",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "mluvit o tématu společně s ostatními"
       }
     ]
   },
@@ -3057,11 +3057,11 @@
     "synonyms": [
       {
         "word": "instruct",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "train",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3075,11 +3075,11 @@
     "synonyms": [
       {
         "word": "inform",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "explain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "objasnit význam nebo důvod tak, aby tomu někdo rozuměl"
       }
     ]
   },
@@ -3093,11 +3093,11 @@
     "synonyms": [
       {
         "word": "consider",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zvážit nebo brát v úvahu"
       },
       {
         "word": "reflect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "přemýšlet hlouběji nebo něco odrážet podle kontextu"
       }
     ]
   },
@@ -3111,11 +3111,11 @@
     "synonyms": [
       {
         "word": "attempt",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "test",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3129,11 +3129,11 @@
     "synonyms": [
       {
         "word": "grasp",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "comprehend",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3147,11 +3147,11 @@
     "synonyms": [
       {
         "word": "apply",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "použít něco na konkrétní účel nebo situaci; časté u pravidel, metod a znalostí"
       },
       {
         "word": "utilize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než use; často zní technicky nebo byznysově"
       }
     ]
   },
@@ -3165,11 +3165,11 @@
     "synonyms": [
       {
         "word": "pause",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "remain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3183,11 +3183,11 @@
     "synonyms": [
       {
         "word": "stroll",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "travel",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3201,11 +3201,11 @@
     "synonyms": [
       {
         "word": "desire",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "wish",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3219,11 +3219,11 @@
     "synonyms": [
       {
         "word": "observe",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       },
       {
         "word": "view",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3237,11 +3237,11 @@
     "synonyms": [
       {
         "word": "succeed",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "triumph",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3255,11 +3255,11 @@
     "synonyms": [
       {
         "word": "labor",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "operate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "fungovat nebo řídit provoz zařízení či systému"
       }
     ]
   },
@@ -3273,11 +3273,11 @@
     "synonyms": [
       {
         "word": "record",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "compose",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3291,19 +3291,19 @@
     "synonyms": [
       {
         "word": "examine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zkoumat podrobněji než look at"
       },
       {
         "word": "evaluate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "systematicky posoudit kvalitu, hodnotu nebo výkon"
       },
       {
         "word": "study",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "učit se nebo systematicky zkoumat delší dobu"
       },
       {
         "word": "inspect",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3317,19 +3317,19 @@
     "synonyms": [
       {
         "word": "suppose",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spíš odhadovat nebo předpokládat bez jistoty"
       },
       {
         "word": "presume",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "expect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "očekávat jako pravděpodobné nebo normální"
       },
       {
         "word": "infer",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "vyvodit závěr nepřímo z důkazů nebo informací"
       }
     ]
   },
@@ -3343,19 +3343,19 @@
     "synonyms": [
       {
         "word": "try",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "endeavor",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "strive",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "undertake",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3369,15 +3369,15 @@
     "synonyms": [
       {
         "word": "assign",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "credit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "ascribe",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3391,15 +3391,15 @@
     "synonyms": [
       {
         "word": "stabilize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "equalize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "adjust",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "upravit lehce nebo postupně tak, aby něco lépe fungovalo"
       }
     ]
   },
@@ -3413,15 +3413,15 @@
     "synonyms": [
       {
         "word": "gain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "získat něco hodnotného, často výsledkem úsilí nebo procesu"
       },
       {
         "word": "profit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "advantage",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3435,15 +3435,15 @@
     "synonyms": [
       {
         "word": "record",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "seize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "náhlé a silné uchopení nebo převzetí kontroly"
       },
       {
         "word": "collect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "sbírat věci dohromady z různých míst"
       }
     ]
   },
@@ -3457,15 +3457,15 @@
     "synonyms": [
       {
         "word": "explain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "objasnit význam nebo důvod tak, aby tomu někdo rozuměl"
       },
       {
         "word": "specify",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "illuminate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3479,15 +3479,15 @@
     "synonyms": [
       {
         "word": "merge",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "sloučit dvě věci nebo organizace dohromady"
       },
       {
         "word": "unite",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "integrate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "začlenit něco do většího systému tak, aby to spolu fungovalo"
       }
     ]
   },
@@ -3501,15 +3501,15 @@
     "synonyms": [
       {
         "word": "pledge",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "dedicate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "promise",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3523,15 +3523,15 @@
     "synonyms": [
       {
         "word": "offset",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "repay",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "reimburse",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3545,15 +3545,15 @@
     "synonyms": [
       {
         "word": "assemble",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "dát části dohromady do jednoho celku nebo svolat lidi"
       },
       {
         "word": "collect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "sbírat věci dohromady z různých míst"
       },
       {
         "word": "gather",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "shromáždit lidi, věci nebo informace na jedno místo"
       }
     ]
   },
@@ -3567,15 +3567,15 @@
     "synonyms": [
       {
         "word": "decide",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozhodnout se po zvážení možností"
       },
       {
         "word": "infer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyvodit závěr nepřímo z důkazů nebo informací"
       },
       {
         "word": "determine",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "určit přesně nebo rozhodnout výsledek"
       }
     ]
   },
@@ -3589,15 +3589,15 @@
     "synonyms": [
       {
         "word": "perform",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "časté pro vykonání úkolu, funkce nebo vystoupení"
       },
       {
         "word": "carry out",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "execute",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "formálně provést plán, příkaz nebo úkol"
       }
     ]
   },
@@ -3611,15 +3611,15 @@
     "synonyms": [
       {
         "word": "verify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ověřit správnost nebo pravdivost kontrolou"
       },
       {
         "word": "validate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "affirm",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3633,15 +3633,15 @@
     "synonyms": [
       {
         "word": "evaluate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "systematicky posoudit kvalitu, hodnotu nebo výkon"
       },
       {
         "word": "examine",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zkoumat podrobněji než look at"
       },
       {
         "word": "reflect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "přemýšlet hlouběji nebo něco odrážet podle kontextu"
       }
     ]
   },
@@ -3655,15 +3655,15 @@
     "synonyms": [
       {
         "word": "build",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "assemble",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "dát části dohromady do jednoho celku nebo svolat lidi"
       },
       {
         "word": "create",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vytvořit něco nového, často s důrazem na vznik nápadu nebo díla"
       }
     ]
   },
@@ -3677,15 +3677,15 @@
     "synonyms": [
       {
         "word": "add",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "donate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "provide",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zajistit nebo dát někomu to, co potřebuje"
       }
     ]
   },
@@ -3699,15 +3699,15 @@
     "synonyms": [
       {
         "word": "transform",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "silnější než change; znamená výrazně proměnit podobu nebo stav"
       },
       {
         "word": "change",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "adapt",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3721,15 +3721,15 @@
     "synonyms": [
       {
         "word": "persuade",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "influence",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "assure",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3743,15 +3743,15 @@
     "synonyms": [
       {
         "word": "collaborate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "assist",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než help; pomoci s konkrétní činností"
       },
       {
         "word": "coordinate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3765,15 +3765,15 @@
     "synonyms": [
       {
         "word": "organize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádat nebo zorganizovat věci, lidi nebo informace"
       },
       {
         "word": "align",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "manage",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zvládat nebo řídit lidi, čas, proces nebo situaci"
       }
     ]
   },
@@ -3787,15 +3787,15 @@
     "synonyms": [
       {
         "word": "judge",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "posoudit nebo vytvořit názor, často subjektivněji než evaluate"
       },
       {
         "word": "condemn",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "evaluate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "systematicky posoudit kvalitu, hodnotu nebo výkon"
       }
     ]
   },
@@ -3809,15 +3809,15 @@
     "synonyms": [
       {
         "word": "illustrate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vysvětlit nebo ukázat na příkladu"
       },
       {
         "word": "display",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "present",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3831,15 +3831,15 @@
     "synonyms": [
       {
         "word": "obtain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       },
       {
         "word": "infer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyvodit závěr nepřímo z důkazů nebo informací"
       },
       {
         "word": "extract",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3853,15 +3853,15 @@
     "synonyms": [
       {
         "word": "identify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozpoznat přesně, co nebo kdo to je"
       },
       {
         "word": "establish",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "decide",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "rozhodnout se po zvážení možností"
       }
     ]
   },
@@ -3875,15 +3875,15 @@
     "synonyms": [
       {
         "word": "differentiate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "separate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "identify",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "rozpoznat přesně, co nebo kdo to je"
       }
     ]
   },
@@ -3897,15 +3897,15 @@
     "synonyms": [
       {
         "word": "control",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "mít něco pod kontrolou nebo přímo řídit výsledek"
       },
       {
         "word": "lead",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "prevail",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3919,15 +3919,15 @@
     "synonyms": [
       {
         "word": "stress",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "highlight",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "underline",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3941,15 +3941,15 @@
     "synonyms": [
       {
         "word": "meet",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "face",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "experience",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3963,15 +3963,15 @@
     "synonyms": [
       {
         "word": "improve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zlepšit něco nebo stát se lepším"
       },
       {
         "word": "boost",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "upgrade",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -3985,15 +3985,15 @@
     "synonyms": [
       {
         "word": "guarantee",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "secure",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "confirm",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "potvrdit, že je něco pravda nebo správně"
       }
     ]
   },
@@ -4007,15 +4007,15 @@
     "synonyms": [
       {
         "word": "create",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vytvořit něco nového, často s důrazem na vznik nápadu nebo díla"
       },
       {
         "word": "found",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "institute",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4029,15 +4029,15 @@
     "synonyms": [
       {
         "word": "assess",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "judge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "posoudit nebo vytvořit názor, často subjektivněji než evaluate"
       },
       {
         "word": "review",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4051,15 +4051,15 @@
     "synonyms": [
       {
         "word": "grow",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "růst přirozeně nebo postupně"
       },
       {
         "word": "enlarge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "extend",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4073,15 +4073,15 @@
     "synonyms": [
       {
         "word": "utilize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než use; často zní technicky nebo byznysově"
       },
       {
         "word": "leverage",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "use",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "nejběžnější obecné sloveso pro použití"
       }
     ]
   },
@@ -4095,15 +4095,15 @@
     "synonyms": [
       {
         "word": "ease",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "assist",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než help; pomoci s konkrétní činností"
       },
       {
         "word": "simplify",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4117,15 +4117,15 @@
     "synonyms": [
       {
         "word": "produce",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vyrobit, vytvořit nebo způsobit jako výsledek"
       },
       {
         "word": "create",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vytvořit něco nového, často s důrazem na vznik nápadu nebo díla"
       },
       {
         "word": "yield",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4139,15 +4139,15 @@
     "synonyms": [
       {
         "word": "recognize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozpoznat nebo uznat něco jako platné či známé"
       },
       {
         "word": "detect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "odhalit něco, co nebylo hned vidět"
       },
       {
         "word": "determine",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "určit přesně nebo rozhodnout výsledek"
       }
     ]
   },
@@ -4161,15 +4161,15 @@
     "synonyms": [
       {
         "word": "explain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "objasnit význam nebo důvod tak, aby tomu někdo rozuměl"
       },
       {
         "word": "demonstrate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "ukázat jasně v praxi nebo důkazem"
       },
       {
         "word": "depict",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4183,15 +4183,15 @@
     "synonyms": [
       {
         "word": "execute",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálně provést plán, příkaz nebo úkol"
       },
       {
         "word": "apply",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "použít něco na konkrétní účel nebo situaci; časté u pravidel, metod a znalostí"
       },
       {
         "word": "enforce",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4205,15 +4205,15 @@
     "synonyms": [
       {
         "word": "show",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ukázat vizuálně nebo důkazem"
       },
       {
         "word": "suggest",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "navrhnout nebo jemně naznačit"
       },
       {
         "word": "reveal",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "ukázat nebo zveřejnit něco, co předtím nebylo známé"
       }
     ]
   },
@@ -4227,15 +4227,15 @@
     "synonyms": [
       {
         "word": "affect",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "shape",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "impact",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4249,15 +4249,15 @@
     "synonyms": [
       {
         "word": "start",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžnější v mluvě a často i pro stroje, procesy nebo akce"
       },
       {
         "word": "launch",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často o projektu, produktu nebo kampani; naznačuje veřejné spuštění"
       },
       {
         "word": "commence",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "velmi formální varianta begin nebo start"
       }
     ]
   },
@@ -4271,15 +4271,15 @@
     "synonyms": [
       {
         "word": "combine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spojit prvky dohromady bez nutného důrazu na strukturu"
       },
       {
         "word": "merge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "sloučit dvě věci nebo organizace dohromady"
       },
       {
         "word": "unify",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4293,15 +4293,15 @@
     "synonyms": [
       {
         "word": "explain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "objasnit význam nebo důvod tak, aby tomu někdo rozuměl"
       },
       {
         "word": "analyze",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "rozebrat něco na části a vyhodnotit to"
       },
       {
         "word": "understand",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4315,15 +4315,15 @@
     "synonyms": [
       {
         "word": "preserve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "sustain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "support",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       }
     ]
   },
@@ -4337,15 +4337,15 @@
     "synonyms": [
       {
         "word": "observe",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       },
       {
         "word": "track",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "supervise",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4359,15 +4359,15 @@
     "synonyms": [
       {
         "word": "discuss",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "mluvit o tématu společně s ostatními"
       },
       {
         "word": "bargain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "settle",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4381,15 +4381,15 @@
     "synonyms": [
       {
         "word": "improve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zlepšit něco nebo stát se lepším"
       },
       {
         "word": "refine",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "enhance",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "formálnější než improve; často znamená vylepšit kvalitu nebo účinek"
       }
     ]
   },
@@ -4403,15 +4403,15 @@
     "synonyms": [
       {
         "word": "summarize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "sketch",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "describe",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "popsat vlastnosti, vzhled nebo průběh"
       }
     ]
   },
@@ -4425,15 +4425,15 @@
     "synonyms": [
       {
         "word": "defeat",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "conquer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "surpass",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4447,15 +4447,15 @@
     "synonyms": [
       {
         "word": "join",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "připojit se ke skupině nebo aktivitě"
       },
       {
         "word": "engage",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "attend",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4469,15 +4469,15 @@
     "synonyms": [
       {
         "word": "sense",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "notice",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "observe",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       }
     ]
   },
@@ -4491,15 +4491,15 @@
     "synonyms": [
       {
         "word": "forecast",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "anticipate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "expect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "očekávat jako pravděpodobné nebo normální"
       }
     ]
   },
@@ -4513,15 +4513,15 @@
     "synonyms": [
       {
         "word": "rank",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "organize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "uspořádat nebo zorganizovat věci, lidi nebo informace"
       },
       {
         "word": "focus",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4535,15 +4535,15 @@
     "synonyms": [
       {
         "word": "encourage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "povzbudit nebo podpořit, aby někdo něco udělal"
       },
       {
         "word": "advertise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "advance",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4557,15 +4557,15 @@
     "synonyms": [
       {
         "word": "suggest",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "navrhnout nebo jemně naznačit"
       },
       {
         "word": "recommend",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "doporučit jako vhodnou volbu"
       },
       {
         "word": "offer",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4579,15 +4579,15 @@
     "synonyms": [
       {
         "word": "seek",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "chase",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "follow",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4601,15 +4601,15 @@
     "synonyms": [
       {
         "word": "identify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozpoznat přesně, co nebo kdo to je"
       },
       {
         "word": "acknowledge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "připustit nebo uznat, často formálněji než admit"
       },
       {
         "word": "detect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "odhalit něco, co nebylo hned vidět"
       }
     ]
   },
@@ -4623,15 +4623,15 @@
     "synonyms": [
       {
         "word": "suggest",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "navrhnout nebo jemně naznačit"
       },
       {
         "word": "advise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "endorse",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4645,15 +4645,15 @@
     "synonyms": [
       {
         "word": "consider",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zvážit nebo brát v úvahu"
       },
       {
         "word": "mirror",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "represent",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4667,15 +4667,15 @@
     "synonyms": [
       {
         "word": "strengthen",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zesílit nebo upevnit něco konkrétního"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       },
       {
         "word": "boost",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4689,15 +4689,15 @@
     "synonyms": [
       {
         "word": "refuse",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "decline",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "dismiss",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4711,15 +4711,15 @@
     "synonyms": [
       {
         "word": "depend",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "trust",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "znamená věřit někomu nebo něčemu, ne jen spoléhat se prakticky"
       },
       {
         "word": "count",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4733,15 +4733,15 @@
     "synonyms": [
       {
         "word": "solve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "settle",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "fix",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "běžné mluvené slovo pro opravit nebo vyřešit konkrétní problém"
       }
     ]
   },
@@ -4755,15 +4755,15 @@
     "synonyms": [
       {
         "word": "keep",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "běžnější a širší než maintain"
       },
       {
         "word": "preserve",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "maintain",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "udržovat stav, úroveň nebo systém dlouhodobě"
       }
     ]
   },
@@ -4777,15 +4777,15 @@
     "synonyms": [
       {
         "word": "expose",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "disclose",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "uncover",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "odhalit něco skrytého"
       }
     ]
   },
@@ -4799,15 +4799,15 @@
     "synonyms": [
       {
         "word": "imitate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "model",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "replicate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4821,15 +4821,15 @@
     "synonyms": [
       {
         "word": "define",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "state",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyjádřit něco jasně a přímo, často formálněji než say"
       },
       {
         "word": "clarify",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "objasnit něco, co bylo nejasné"
       }
     ]
   },
@@ -4843,15 +4843,15 @@
     "synonyms": [
       {
         "word": "secure",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "steady",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "balance",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4865,15 +4865,15 @@
     "synonyms": [
       {
         "word": "reinforce",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "fortify",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "improve",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zlepšit něco nebo stát se lepším"
       }
     ]
   },
@@ -4887,15 +4887,15 @@
     "synonyms": [
       {
         "word": "outline",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "stručně nastínit hlavní body"
       },
       {
         "word": "condense",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "recap",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4909,15 +4909,15 @@
     "synonyms": [
       {
         "word": "maintain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "udržovat stav, úroveň nebo systém dlouhodobě"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       },
       {
         "word": "continue",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4931,15 +4931,15 @@
     "synonyms": [
       {
         "word": "convert",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "change",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "evolve",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "postupně se vyvíjet v čase"
       }
     ]
   },
@@ -4953,15 +4953,15 @@
     "synonyms": [
       {
         "word": "activate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "start",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "běžnější v mluvě a často i pro stroje, procesy nebo akce"
       },
       {
         "word": "initiate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "formálnější než start; znamená něco oficiálně zahájit"
       }
     ]
   },
@@ -4975,15 +4975,15 @@
     "synonyms": [
       {
         "word": "verify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ověřit správnost nebo pravdivost kontrolou"
       },
       {
         "word": "confirm",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "potvrdit, že je něco pravda nebo správně"
       },
       {
         "word": "prove",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -4997,19 +4997,19 @@
     "synonyms": [
       {
         "word": "desert",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "leave",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "relinquish",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "discard",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5023,15 +5023,15 @@
     "synonyms": [
       {
         "word": "speed up",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "hasten",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "advance",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5045,19 +5045,19 @@
     "synonyms": [
       {
         "word": "adapt",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "adjust",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "upravit lehce nebo postupně tak, aby něco lépe fungovalo"
       },
       {
         "word": "host",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "house",
-        "explanation": "spíš formálnější nebo silnější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5071,15 +5071,15 @@
     "synonyms": [
       {
         "word": "gather",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "shromáždit lidi, věci nebo informace na jedno místo"
       },
       {
         "word": "collect",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "sbírat věci dohromady z různých míst"
       },
       {
         "word": "build up",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5093,15 +5093,15 @@
     "synonyms": [
       {
         "word": "recognize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "rozpoznat nebo uznat něco jako platné či známé"
       },
       {
         "word": "admit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "accept",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5115,15 +5115,15 @@
     "synonyms": [
       {
         "word": "adjust",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "upravit lehce nebo postupně tak, aby něco lépe fungovalo"
       },
       {
         "word": "modify",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "přizpůsobit nebo upravit něco konkrétním způsobem, často technicky"
       },
       {
         "word": "alter",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "často menší nebo dílčí změna než change"
       }
     ]
   },
@@ -5137,15 +5137,15 @@
     "synonyms": [
       {
         "word": "manage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zvládat nebo řídit lidi, čas, proces nebo situaci"
       },
       {
         "word": "govern",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "supervise",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5159,15 +5159,15 @@
     "synonyms": [
       {
         "word": "support",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       },
       {
         "word": "promote",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "endorse",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5181,15 +5181,15 @@
     "synonyms": [
       {
         "word": "assign",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "distribute",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "allot",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5203,15 +5203,15 @@
     "synonyms": [
       {
         "word": "predict",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "foresee",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "expect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "očekávat jako pravděpodobné nebo normální"
       }
     ]
   },
@@ -5225,15 +5225,15 @@
     "synonyms": [
       {
         "word": "express",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "formulate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "convey",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5247,15 +5247,15 @@
     "synonyms": [
       {
         "word": "declare",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "claim",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "state",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "vyjádřit něco jasně a přímo, často formálněji než say"
       }
     ]
   },
@@ -5269,15 +5269,15 @@
     "synonyms": [
       {
         "word": "evaluate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "systematicky posoudit kvalitu, hodnotu nebo výkon"
       },
       {
         "word": "judge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "posoudit nebo vytvořit názor, často subjektivněji než evaluate"
       },
       {
         "word": "estimate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5291,15 +5291,15 @@
     "synonyms": [
       {
         "word": "achieve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "reach",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "běžné, když mluvíš o dosažení cíle, čísla nebo místa"
       },
       {
         "word": "accomplish",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zdůrazňuje dokončení úkolu nebo cíle po úsilí"
       }
     ]
   },
@@ -5313,15 +5313,15 @@
     "synonyms": [
       {
         "word": "permit",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než allow; znamená oficiálně dovolit"
       },
       {
         "word": "approve",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "znamená schválit, ne jen přijmout nabídku nebo věc"
       },
       {
         "word": "sanction",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5335,15 +5335,15 @@
     "synonyms": [
       {
         "word": "strengthen",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zesílit nebo upevnit něco konkrétního"
       },
       {
         "word": "reinforce",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "support",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       }
     ]
   },
@@ -5357,15 +5357,15 @@
     "synonyms": [
       {
         "word": "stop",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "halt",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "discontinue",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5379,15 +5379,15 @@
     "synonyms": [
       {
         "word": "spread",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "distribute",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "flow",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5401,15 +5401,15 @@
     "synonyms": [
       {
         "word": "cooperate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "partner",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "coordinate",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5423,15 +5423,15 @@
     "synonyms": [
       {
         "word": "force",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "oblige",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "pressure",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5445,15 +5445,15 @@
     "synonyms": [
       {
         "word": "include",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená, že je něco součástí celku, ne nutně že to aktivně přidáš"
       },
       {
         "word": "contain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "consist of",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5467,15 +5467,15 @@
     "synonyms": [
       {
         "word": "imagine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "envision",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "devise",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5489,15 +5489,15 @@
     "synonyms": [
       {
         "word": "restrict",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "limit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "confine",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5511,11 +5511,11 @@
     "synonyms": [
       {
         "word": "seek advice",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "discuss",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "mluvit o tématu společně s ostatními"
       }
     ]
   },
@@ -5529,15 +5529,15 @@
     "synonyms": [
       {
         "word": "consider",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zvážit nebo brát v úvahu"
       },
       {
         "word": "ponder",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "reflect",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "přemýšlet hlouběji nebo něco odrážet podle kontextu"
       }
     ]
   },
@@ -5551,15 +5551,15 @@
     "synonyms": [
       {
         "word": "oppose",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "deny",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "dispute",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "zdůrazňuje konflikt nebo nesouhlas, ne neutrální diskusi"
       }
     ]
   },
@@ -5573,11 +5573,11 @@
     "synonyms": [
       {
         "word": "communicate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "transmit",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5591,15 +5591,15 @@
     "synonyms": [
       {
         "word": "develop",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vyvíjet něco aktivně nebo se rozvíjet"
       },
       {
         "word": "foster",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "grow",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "růst přirozeně nebo postupně"
       }
     ]
   },
@@ -5613,11 +5613,11 @@
     "synonyms": [
       {
         "word": "postpone",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "delay",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5631,11 +5631,11 @@
     "synonyms": [
       {
         "word": "portray",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vykreslit nebo znázornit, často v médiích nebo umění"
       },
       {
         "word": "illustrate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vysvětlit nebo ukázat na příkladu"
       }
     ]
   },
@@ -5649,11 +5649,11 @@
     "synonyms": [
       {
         "word": "obtain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       },
       {
         "word": "infer",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "vyvodit závěr nepřímo z důkazů nebo informací"
       }
     ]
   },
@@ -5667,11 +5667,11 @@
     "synonyms": [
       {
         "word": "assign",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "appoint",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5685,11 +5685,11 @@
     "synonyms": [
       {
         "word": "decrease",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "reduce",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5703,11 +5703,11 @@
     "synonyms": [
       {
         "word": "reveal",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ukázat nebo zveřejnit něco, co předtím nebylo známé"
       },
       {
         "word": "expose",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5721,11 +5721,11 @@
     "synonyms": [
       {
         "word": "disturb",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "interrupt",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5739,11 +5739,11 @@
     "synonyms": [
       {
         "word": "redirect",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "shift",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5757,11 +5757,11 @@
     "synonyms": [
       {
         "word": "remove",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "eradicate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5775,11 +5775,11 @@
     "synonyms": [
       {
         "word": "represent",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "express",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5793,11 +5793,11 @@
     "synonyms": [
       {
         "word": "apply",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "použít něco na konkrétní účel nebo situaci; časté u pravidel, metod a znalostí"
       },
       {
         "word": "impose",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5811,11 +5811,11 @@
     "synonyms": [
       {
         "word": "improve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zlepšit něco nebo stát se lepším"
       },
       {
         "word": "strengthen",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "zesílit nebo upevnit něco konkrétního"
       }
     ]
   },
@@ -5829,11 +5829,11 @@
     "synonyms": [
       {
         "word": "involve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "require",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5847,11 +5847,11 @@
     "synonyms": [
       {
         "word": "trigger",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spustit reakci, proces nebo událost"
       },
       {
         "word": "provoke",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5865,11 +5865,11 @@
     "synonyms": [
       {
         "word": "apply",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "použít něco na konkrétní účel nebo situaci; časté u pravidel, metod a znalostí"
       },
       {
         "word": "exercise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5883,11 +5883,11 @@
     "synonyms": [
       {
         "word": "ease",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "assist",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než help; pomoci s konkrétní činností"
       }
     ]
   },
@@ -5901,11 +5901,11 @@
     "synonyms": [
       {
         "word": "develop",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "vyvíjet něco aktivně nebo se rozvíjet"
       },
       {
         "word": "devise",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5919,11 +5919,11 @@
     "synonyms": [
       {
         "word": "encourage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "povzbudit nebo podpořit, aby někdo něco udělal"
       },
       {
         "word": "promote",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5937,11 +5937,11 @@
     "synonyms": [
       {
         "word": "obstruct",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "impede",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -5955,11 +5955,11 @@
     "synonyms": [
       {
         "word": "execute",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "formálně provést plán, příkaz nebo úkol"
       },
       {
         "word": "apply",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "použít něco na konkrétní účel nebo situaci; časté u pravidel, metod a znalostí"
       }
     ]
   },
@@ -5973,11 +5973,11 @@
     "synonyms": [
       {
         "word": "include",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "znamená, že je něco součástí celku, ne nutně že to aktivně přidáš"
       },
       {
         "word": "integrate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "začlenit něco do většího systému tak, aby to spolu fungovalo"
       }
     ]
   },
@@ -5991,11 +5991,11 @@
     "synonyms": [
       {
         "word": "cause",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "způsobit jako příčinu"
       },
       {
         "word": "trigger",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spustit reakci, proces nebo událost"
       }
     ]
   },
@@ -6009,11 +6009,11 @@
     "synonyms": [
       {
         "word": "restrict",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "suppress",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6027,11 +6027,11 @@
     "synonyms": [
       {
         "word": "launch",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často o projektu, produktu nebo kampani; naznačuje veřejné spuštění"
       },
       {
         "word": "start",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "běžnější v mluvě a často i pro stroje, procesy nebo akce"
       }
     ]
   },
@@ -6045,11 +6045,11 @@
     "synonyms": [
       {
         "word": "combine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spojit prvky dohromady bez nutného důrazu na strukturu"
       },
       {
         "word": "merge",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "sloučit dvě věci nebo organizace dohromady"
       }
     ]
   },
@@ -6063,11 +6063,11 @@
     "synonyms": [
       {
         "word": "negotiate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "arbitrate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6081,11 +6081,11 @@
     "synonyms": [
       {
         "word": "alleviate",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "reduce",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6099,11 +6099,11 @@
     "synonyms": [
       {
         "word": "organize",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "uspořádat nebo zorganizovat věci, lidi nebo informace"
       },
       {
         "word": "rally",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6117,11 +6117,11 @@
     "synonyms": [
       {
         "word": "adjust",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "upravit lehce nebo postupně tak, aby něco lépe fungovalo"
       },
       {
         "word": "alter",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "často menší nebo dílčí změna než change"
       }
     ]
   },
@@ -6135,11 +6135,11 @@
     "synonyms": [
       {
         "word": "steer",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "řídit směr doslova nebo obrazně"
       },
       {
         "word": "guide",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spíš dlouhodobě vést nebo směrovat než dát jednu radu"
       }
     ]
   },
@@ -6153,11 +6153,11 @@
     "synonyms": [
       {
         "word": "improve",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zlepšit něco nebo stát se lepším"
       },
       {
         "word": "refine",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6171,11 +6171,11 @@
     "synonyms": [
       {
         "word": "maintain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "udržovat stav, úroveň nebo systém dlouhodobě"
       },
       {
         "word": "sustain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6189,11 +6189,11 @@
     "synonyms": [
       {
         "word": "rank",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "organize",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "uspořádat nebo zorganizovat věci, lidi nebo informace"
       }
     ]
   },
@@ -6207,11 +6207,11 @@
     "synonyms": [
       {
         "word": "acquire",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "často formálnější a delší proces získání znalosti, majetku nebo firmy"
       },
       {
         "word": "obtain",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "formálnější než get nebo gain; znamená získat něco konkrétního"
       }
     ]
   },
@@ -6225,11 +6225,11 @@
     "synonyms": [
       {
         "word": "strengthen",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "zesílit nebo upevnit něco konkrétního"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       }
     ]
   },
@@ -6243,11 +6243,11 @@
     "synonyms": [
       {
         "word": "surrender",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "abandon",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6261,11 +6261,11 @@
     "synonyms": [
       {
         "word": "inspect",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "analyze",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "rozebrat něco na části a vyhodnotit to"
       }
     ]
   },
@@ -6279,11 +6279,11 @@
     "synonyms": [
       {
         "word": "encourage",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "povzbudit nebo podpořit, aby někdo něco udělal"
       },
       {
         "word": "trigger",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "spustit reakci, proces nebo událost"
       }
     ]
   },
@@ -6297,11 +6297,11 @@
     "synonyms": [
       {
         "word": "confirm",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "potvrdit, že je něco pravda nebo správně"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       }
     ]
   },
@@ -6315,11 +6315,11 @@
     "synonyms": [
       {
         "word": "maintain",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "udržovat stav, úroveň nebo systém dlouhodobě"
       },
       {
         "word": "support",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "podporovat prakticky, emocionálně nebo argumentačně"
       }
     ]
   },
@@ -6333,11 +6333,11 @@
     "synonyms": [
       {
         "word": "combine",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "spojit prvky dohromady bez nutného důrazu na strukturu"
       },
       {
         "word": "integrate",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "začlenit něco do většího systému tak, aby to spolu fungovalo"
       }
     ]
   },
@@ -6351,11 +6351,11 @@
     "synonyms": [
       {
         "word": "weaken",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "erode",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   },
@@ -6369,11 +6369,11 @@
     "synonyms": [
       {
         "word": "verify",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "ověřit správnost nebo pravdivost kontrolou"
       },
       {
         "word": "confirm",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "potvrdit, že je něco pravda nebo správně"
       }
     ]
   },
@@ -6387,15 +6387,15 @@
     "synonyms": [
       {
         "word": "follow",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "comply with",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "observe",
-        "explanation": "o něco přesnější nebo stylově výraznější varianta"
+        "explanation": "všímat si nebo sledovat pozorně, často bez zásahu"
       }
     ]
   },
@@ -6409,11 +6409,11 @@
     "synonyms": [
       {
         "word": "fail",
-        "explanation": "nejběžnější podobné slovo"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       },
       {
         "word": "not pass",
-        "explanation": "podobné významem, časté v běžné angličtině"
+        "explanation": "významově blízké, ale používá se v trochu jiných situacích podle kontextu"
       }
     ]
   }

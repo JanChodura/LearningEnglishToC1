@@ -13,44 +13,17 @@
       --text: #201d19;
       --muted: #736c62;
       --rule: #e7e0d3;
-      --accent: #0f766e;
       --side: #f7f1e6;
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      padding: 20px;
-      background: linear-gradient(180deg, #f2ede3 0%, #f8f6f0 100%);
-      color: var(--text);
-      font-family: Tahoma, sans-serif;
-      font-size: 12pt;
-      line-height: 1.24;
-    }
-    .wrap {
-      max-width: 1650px;
-      margin: 0 auto;
-      background: var(--panel);
-      border: 1px solid var(--rule);
-      border-radius: 14px;
-      padding: 16px 18px 18px;
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
-    }
+    body { margin: 0; padding: 20px; background: linear-gradient(180deg, #f2ede3 0%, #f8f6f0 100%); color: var(--text); font-family: Tahoma, sans-serif; font-size: 12pt; line-height: 1.24; }
+    .wrap { max-width: 1650px; margin: 0 auto; background: var(--panel); border: 1px solid var(--rule); border-radius: 14px; padding: 16px 18px 18px; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05); }
     h1 { margin: 0 0 4px; font-size: 16pt; line-height: 1.1; }
     .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; color: var(--muted); font-size: 16pt; line-height: 1.1; flex-wrap: wrap; }
     .toolbar a { color: #0645ad; text-decoration: none; }
     .toolbar a:hover { text-decoration: underline; }
     .grid { display: grid; gap: 14px; }
-    .card {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr);
-      gap: 14px;
-      align-items: stretch;
-      background: var(--card);
-      border: 1px solid var(--rule);
-      border-radius: 12px;
-      padding: 12px 14px;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
-    }
+    .card { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-items: stretch; background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 12px 14px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03); }
     .card.with-synonyms { grid-template-columns: minmax(0, 1fr) 435px; }
     .main { min-width: 0; }
     .head { font-size: 14pt; line-height: 1.22; margin-bottom: 6px; }
@@ -62,23 +35,9 @@
     .usage { font-size: 13pt; line-height: 1.24; color: #3e3a34; }
     .examples { font-size: 13pt; line-height: 1.24; font-style: italic; color: #423d37; margin-top: 6px; }
     .sentence { display: block; }
-    .syn-box {
-      align-self: stretch;
-      justify-self: end;
-      width: 100%;
-      background: var(--side);
-      border: 1px solid var(--rule);
-      border-radius: 10px;
-      padding: 10px 12px;
-    }
+    .syn-box { align-self: stretch; justify-self: end; width: 100%; background: var(--side); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; }
     .syn-item + .syn-item { margin-top: 6px; }
-    .syn-item {
-      font-size: 10.5pt;
-      line-height: 1.25;
-      color: #4b453d;
-      white-space: normal;
-      overflow: visible;
-    }
+    .syn-item { font-size: 10.5pt; line-height: 1.25; color: #4b453d; white-space: normal; overflow: visible; }
     .syn-word { font-weight: 700; }
     .syn-exp { color: #4b453d; }
   </style>
@@ -101,9 +60,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">large</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">huge</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">enormous</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">large</span> <span class="syn-exp">časté v neutrální a formálnější angličtině, hlavně u spojení jako large amount nebo large company</span></div>
+        <div class="syn-item"><span class="syn-word">huge</span> <span class="syn-exp">silnější než běžné big nebo large; používá se pro opravdu velkou velikost nebo dopad</span></div>
+        <div class="syn-item"><span class="syn-word">enormous</span> <span class="syn-exp">ještě důraznější a formálnější než big; hodí se pro opravdu velké rozměry, čísla nebo rozdíly</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -116,8 +75,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">tiny</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">little</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">tiny</span> <span class="syn-exp">používá se, když chceš zdůraznit opravdu velmi malou velikost; typicky tiny detail nebo tiny room</span></div>
+        <div class="syn-item"><span class="syn-word">little</span> <span class="syn-exp">běžné v mluvě, často zní osobněji nebo citověji než small; časté v ustálených spojeních</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -130,8 +89,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">big</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">huge</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">big</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">huge</span> <span class="syn-exp">silnější než běžné big nebo large; používá se pro opravdu velkou velikost nebo dopad</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -144,8 +103,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">enormous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">massive</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">enormous</span> <span class="syn-exp">ještě důraznější a formálnější než big; hodí se pro opravdu velké rozměry, čísla nebo rozdíly</span></div>
+        <div class="syn-item"><span class="syn-word">massive</span> <span class="syn-exp">zdůrazňuje velký objem nebo sílu; časté u objektů, problémů nebo dopadu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -158,8 +117,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">small</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">tiny</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">small</span> <span class="syn-exp">nejběžnější neutrální slovo pro malou velikost; hodí se skoro všude</span></div>
+        <div class="syn-item"><span class="syn-word">tiny</span> <span class="syn-exp">používá se, když chceš zdůraznit opravdu velmi malou velikost; typicky tiny detail nebo tiny room</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -172,8 +131,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">častější ve formálnější angličtině, hlavně u změn, rozdílů nebo dopadu; typicky significant change</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -186,8 +145,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">vital</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">silné slovo pro něco naprosto klíčového v rozhodnutí, procesu nebo výsledku</span></div>
+        <div class="syn-item"><span class="syn-word">vital</span> <span class="syn-exp">znamená zásadní pro fungování nebo přežití; časté v odbornějších a vážnějších kontextech</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -200,8 +159,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">simple</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">fundamental</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">simple</span> <span class="syn-exp">zdůrazňuje, že je něco snadno pochopitelné nebo nekomplikované</span></div>
+        <div class="syn-item"><span class="syn-word">fundamental</span> <span class="syn-exp">používá se pro základní principy nebo části, na kterých něco stojí</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -214,8 +173,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">easy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">easy</span> <span class="syn-exp">nejběžnější obecné slovo pro něco nenáročného</span></div>
+        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">spíš pro jednoduchou nebo základní verzi bez pokročilosti</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -228,8 +187,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">complicated</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">intricate</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">complicated</span> <span class="syn-exp">běžné slovo pro něco složitého s mnoha částmi nebo problémy</span></div>
+        <div class="syn-item"><span class="syn-word">intricate</span> <span class="syn-exp">zdůrazňuje jemnou nebo detailní složitost, často u designu, systému nebo práce</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -242,8 +201,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">complex</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">difficult</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">complex</span> <span class="syn-exp">častější v neutrální a formálnější angličtině; znamená promyšleně složitý, ne chaotický</span></div>
+        <div class="syn-item"><span class="syn-word">difficult</span> <span class="syn-exp">neutrální a o něco formálnější než hard; hodí se do psaní i mluvy</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -256,8 +215,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">obvious</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">understandable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">obvious</span> <span class="syn-exp">říká, že je něco snadno vidět nebo pochopit bez pochyb</span></div>
+        <div class="syn-item"><span class="syn-word">understandable</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -270,8 +229,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
+        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">hodí se, když je něco zjevné z faktů nebo pozorování</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -284,8 +243,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">hard</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">challenging</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">hard</span> <span class="syn-exp">běžné mluvené slovo pro něco obtížného nebo náročného</span></div>
+        <div class="syn-item"><span class="syn-word">challenging</span> <span class="syn-exp">často pozitivnější než difficult; znamená náročný, ale zvládnutelný</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -298,8 +257,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">difficult</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">tough</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">difficult</span> <span class="syn-exp">neutrální a o něco formálnější než hard; hodí se do psaní i mluvy</span></div>
+        <div class="syn-item"><span class="syn-word">tough</span> <span class="syn-exp">mluvenější a často emocionálně silnější než difficult</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -312,8 +271,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">difficult</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">demanding</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">difficult</span> <span class="syn-exp">neutrální a o něco formálnější než hard; hodí se do psaní i mluvy</span></div>
+        <div class="syn-item"><span class="syn-word">demanding</span> <span class="syn-exp">zdůrazňuje, že něco vyžaduje hodně času, energie nebo schopností</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -326,8 +285,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">simple</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">effortless</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">simple</span> <span class="syn-exp">zdůrazňuje, že je něco snadno pochopitelné nebo nekomplikované</span></div>
+        <div class="syn-item"><span class="syn-word">effortless</span> <span class="syn-exp">znamená, že něco působí lehce a bez viditelné námahy</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -340,8 +299,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">fast</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">rapid</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">fast</span> <span class="syn-exp">nejběžnější obecné slovo pro rychlost</span></div>
+        <div class="syn-item"><span class="syn-word">rapid</span> <span class="syn-exp">formálnější než fast; časté u růstu, změn nebo vývoje</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -354,8 +313,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">quick</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">rapid</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">quick</span> <span class="syn-exp">časté pro krátkou dobu nebo rychlou reakci; typicky quick answer nebo quick look</span></div>
+        <div class="syn-item"><span class="syn-word">rapid</span> <span class="syn-exp">formálnější než fast; časté u růstu, změn nebo vývoje</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -368,8 +327,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">fast</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">swift</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">fast</span> <span class="syn-exp">nejběžnější obecné slovo pro rychlost</span></div>
+        <div class="syn-item"><span class="syn-word">swift</span> <span class="syn-exp">spíš literárnější nebo formálnější; často vyjadřuje plynlou rychlost reakce nebo pohybu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -382,7 +341,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">gradual</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">gradual</span> <span class="syn-exp">zdůrazňuje, že změna probíhá pomalu po krocích</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -395,8 +354,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">pleasant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">cozy</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">pleasant</span> <span class="syn-exp">pro příjemný pocit, zkušenost nebo chování bez velkého nadšení</span></div>
+        <div class="syn-item"><span class="syn-word">cozy</span> <span class="syn-exp">používá se hlavně pro pohodlné, útulné místo nebo atmosféru</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -409,8 +368,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">nice</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">enjoyable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">nice</span> <span class="syn-exp">velmi běžné a obecné, ale méně přesné než pleasant nebo enjoyable</span></div>
+        <div class="syn-item"><span class="syn-word">enjoyable</span> <span class="syn-exp">hodí se, když chceš říct, že si něco člověk opravdu užívá</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -423,8 +382,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">pleasant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">friendly</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">pleasant</span> <span class="syn-exp">pro příjemný pocit, zkušenost nebo chování bez velkého nadšení</span></div>
+        <div class="syn-item"><span class="syn-word">friendly</span> <span class="syn-exp">běžné pro milé a otevřené lidi, tón nebo prostředí</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -437,8 +396,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">kind</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">welcoming</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">kind</span> <span class="syn-exp">zdůrazňuje laskavost a ohleduplnost vůči lidem</span></div>
+        <div class="syn-item"><span class="syn-word">welcoming</span> <span class="syn-exp">často o místě nebo chování, které dává druhým pocit, že jsou vítáni</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -451,8 +410,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">friendly</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">caring</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">friendly</span> <span class="syn-exp">běžné pro milé a otevřené lidi, tón nebo prostředí</span></div>
+        <div class="syn-item"><span class="syn-word">caring</span> <span class="syn-exp">zdůrazňuje starostlivost a osobní péči o druhé</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -465,8 +424,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">mad</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">furious</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">mad</span> <span class="syn-exp">hlavně v americké angličtině běžné pro angry; v britské může znamenat i šílený</span></div>
+        <div class="syn-item"><span class="syn-word">furious</span> <span class="syn-exp">silnější než angry; pro opravdu velkou zlost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -479,8 +438,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">angry</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">enraged</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">angry</span> <span class="syn-exp">nejběžnější neutrální slovo pro zlost</span></div>
+        <div class="syn-item"><span class="syn-word">enraged</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -493,8 +452,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">glad</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">cheerful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">glad</span> <span class="syn-exp">běžné, když jsi rád kvůli konkrétní věci</span></div>
+        <div class="syn-item"><span class="syn-word">cheerful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -507,8 +466,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">pleased</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější obecné slovo pro pozitivní pocit</span></div>
+        <div class="syn-item"><span class="syn-word">pleased</span> <span class="syn-exp">často pro konkrétní spokojenost s výsledkem nebo situací</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -521,8 +480,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">joyful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější obecné slovo pro pozitivní pocit</span></div>
+        <div class="syn-item"><span class="syn-word">joyful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -535,8 +494,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">delighted</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější obecné slovo pro pozitivní pocit</span></div>
+        <div class="syn-item"><span class="syn-word">delighted</span> <span class="syn-exp">silnější a radostnější než pleased; často o velmi pozitivní reakci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -549,8 +508,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">pleased</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">happy</span> <span class="syn-exp">nejběžnější obecné slovo pro pozitivní pocit</span></div>
+        <div class="syn-item"><span class="syn-word">pleased</span> <span class="syn-exp">často pro konkrétní spokojenost s výsledkem nebo situací</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -563,8 +522,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">thrilled</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">enthusiastic</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">thrilled</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">enthusiastic</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -577,8 +536,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">excited</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">delighted</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">excited</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">delighted</span> <span class="syn-exp">silnější a radostnější než pleased; často o velmi pozitivní reakci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -591,8 +550,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">fascinating</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">engaging</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">fascinating</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">engaging</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -605,8 +564,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">interesting</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">captivating</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">interesting</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">captivating</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -619,8 +578,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">dull</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">tedious</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">dull</span> <span class="syn-exp">může znamenat nudný, ale i mdlý nebo nevýrazný podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">tedious</span> <span class="syn-exp">spíš pro něco únavně monotónního a zdlouhavého</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -633,8 +592,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">boring</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">tedious</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">boring</span> <span class="syn-exp">běžné obecné slovo pro něco nezajímavého</span></div>
+        <div class="syn-item"><span class="syn-word">tedious</span> <span class="syn-exp">spíš pro něco únavně monotónního a zdlouhavého</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -647,8 +606,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">awful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">horrible</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">awful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">horrible</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -661,8 +620,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">poor</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">terrible</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">poor</span> <span class="syn-exp">může znamenat chudý, slabý nebo nekvalitní podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">terrible</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -675,8 +634,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">weak</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">bad</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">weak</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">bad</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -689,8 +648,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">great</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">great</span> <span class="syn-exp">běžné mluvené pozitivní slovo, ale méně přesné než excellent</span></div>
+        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">silnější a hodnotící slovo pro velmi vysokou kvalitu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -703,8 +662,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">wonderful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">silnější a hodnotící slovo pro velmi vysokou kvalitu</span></div>
+        <div class="syn-item"><span class="syn-word">wonderful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -717,8 +676,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">outstanding</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">superb</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">outstanding</span> <span class="syn-exp">silnější a často formálnější než excellent; pro výjimečnou kvalitu</span></div>
+        <div class="syn-item"><span class="syn-word">superb</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -731,8 +690,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">chilly</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">freezing</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">chilly</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">freezing</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -745,8 +704,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">cold</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">cool</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">cold</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">cool</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -759,8 +718,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">icy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">cold</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">icy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">cold</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -773,8 +732,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">pleasant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">hot</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">pleasant</span> <span class="syn-exp">pro příjemný pocit, zkušenost nebo chování bez velkého nadšení</span></div>
+        <div class="syn-item"><span class="syn-word">hot</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -787,8 +746,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">warm</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">boiling</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">warm</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">boiling</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -801,7 +760,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">very hot</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">very hot</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -814,8 +773,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">wealthy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">affluent</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">wealthy</span> <span class="syn-exp">formálnější a jednoznačněji o penězích než rich</span></div>
+        <div class="syn-item"><span class="syn-word">affluent</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -828,8 +787,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rich</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">prosperous</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">rich</span> <span class="syn-exp">může znamenat bohatý finančně, chuťově nebo obsahem; rozhoduje kontext</span></div>
+        <div class="syn-item"><span class="syn-word">prosperous</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -842,8 +801,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">needy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">impoverished</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">needy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">impoverished</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -856,8 +815,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inexpensive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">low-cost</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">inexpensive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">low-cost</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -870,8 +829,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">costly</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">pricey</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">costly</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">pricey</span> <span class="syn-exp">neformální slovo pro něco docela drahého</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -884,8 +843,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">expensive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">pricey</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">expensive</span> <span class="syn-exp">nejběžnější neutrální slovo pro vysokou cenu</span></div>
+        <div class="syn-item"><span class="syn-word">pricey</span> <span class="syn-exp">neformální slovo pro něco docela drahého</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -898,8 +857,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">contemporary</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">new</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">contemporary</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">new</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -912,8 +871,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">recent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">modern</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">recent</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">modern</span> <span class="syn-exp">nejběžnější pro současný styl nebo přístup</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -926,8 +885,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">ancient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">aged</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">ancient</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">aged</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -940,8 +899,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">historic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">old</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">historic</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">old</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -954,8 +913,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">tidy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">spotless</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">tidy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">spotless</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -968,8 +927,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clean</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">immaculate</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">clean</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">immaculate</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -982,8 +941,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">untidy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">cluttered</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">untidy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">cluttered</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -996,7 +955,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">messy</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">messy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1009,8 +968,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">packed</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">busy</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">packed</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">busy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1023,7 +982,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">crowded</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">crowded</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1036,7 +995,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">vacant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">vacant</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1049,7 +1008,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">empty</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">empty</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1062,8 +1021,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">well-known</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">famous</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">well-known</span> <span class="syn-exp">běžné pro známé jméno, fakt nebo místo</span></div>
+        <div class="syn-item"><span class="syn-word">famous</span> <span class="syn-exp">silnější než well-known; znamená široce známý u veřejnosti</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1076,8 +1035,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">well-known</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">celebrated</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">well-known</span> <span class="syn-exp">běžné pro známé jméno, fakt nebo místo</span></div>
+        <div class="syn-item"><span class="syn-word">celebrated</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1090,7 +1049,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">famous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">famous</span> <span class="syn-exp">silnější než well-known; znamená široce známý u veřejnosti</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1103,7 +1062,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">uncommon</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">uncommon</span> <span class="syn-exp">často v psaní nebo popisu výskytu; znamená málo častý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1116,8 +1075,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">typical</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">usual</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">typical</span> <span class="syn-exp">znamená běžný pro danou skupinu nebo situaci</span></div>
+        <div class="syn-item"><span class="syn-word">usual</span> <span class="syn-exp">nejběžnější pro něco obvyklého v konkrétní rutině nebo situaci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1130,8 +1089,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">normal</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">typical</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">normal</span> <span class="syn-exp">spíš to, co se očekává jako standardní</span></div>
+        <div class="syn-item"><span class="syn-word">typical</span> <span class="syn-exp">znamená běžný pro danou skupinu nebo situaci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1144,8 +1103,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">standard</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">usual</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">standard</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">usual</span> <span class="syn-exp">nejběžnější pro něco obvyklého v konkrétní rutině nebo situaci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1158,8 +1117,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">odd</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">unusual</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">odd</span> <span class="syn-exp">často lehčí a mluvenější než strange; může znít spíš jako podivný detail</span></div>
+        <div class="syn-item"><span class="syn-word">unusual</span> <span class="syn-exp">neutrálnější než strange; znamená prostě neobvyklý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1172,7 +1131,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">strange</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">strange</span> <span class="syn-exp">běžné obecné slovo pro něco neobvyklého nebo zvláštního</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1185,8 +1144,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rare</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">strange</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">rare</span> <span class="syn-exp">silnější než uncommon; zdůrazňuje, že se něco objevuje opravdu zřídka</span></div>
+        <div class="syn-item"><span class="syn-word">strange</span> <span class="syn-exp">běžné obecné slovo pro něco neobvyklého nebo zvláštního</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1199,8 +1158,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">pretty</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">lovely</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">pretty</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">lovely</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1213,8 +1172,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">beautiful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">attractive</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">beautiful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">attractive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1227,8 +1186,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unattractive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">hideous</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">unattractive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">hideous</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1241,8 +1200,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">ugly</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">horrible</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">ugly</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">horrible</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1255,8 +1214,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">powerful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">sturdy</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">powerful</span> <span class="syn-exp">silnější než strong; často o velkém účinku, vlivu nebo energii</span></div>
+        <div class="syn-item"><span class="syn-word">sturdy</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1269,8 +1228,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">strong</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">influential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">strong</span> <span class="syn-exp">obecné slovo pro fyzickou, psychickou nebo argumentační sílu</span></div>
+        <div class="syn-item"><span class="syn-word">influential</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1283,7 +1242,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">fragile</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">fragile</span> <span class="syn-exp">silně zdůrazňuje křehkost a snadné poškození</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1296,7 +1255,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">delicate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">delicate</span> <span class="syn-exp">používá se pro něco křehkého, citlivého nebo vyžadujícího opatrnost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1309,7 +1268,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">secure</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">secure</span> <span class="syn-exp">často o ochraně, systémech, datech nebo pocitu bezpečí</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1322,8 +1281,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">safe</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">protected</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">safe</span> <span class="syn-exp">nejběžnější obecné slovo pro bez nebezpečí</span></div>
+        <div class="syn-item"><span class="syn-word">protected</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1336,8 +1295,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">risky</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">hazardous</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">risky</span> <span class="syn-exp">zdůrazňuje možnost negativního výsledku, ne nutně přímé fyzické nebezpečí</span></div>
+        <div class="syn-item"><span class="syn-word">hazardous</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1350,7 +1309,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">dangerous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">dangerous</span> <span class="syn-exp">běžné silné slovo pro něco, co může způsobit škodu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1363,8 +1322,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clever</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">intelligent</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">clever</span> <span class="syn-exp">často pro rychlý důvtip nebo chytré řešení; někdy může znít i lehce vychytrale</span></div>
+        <div class="syn-item"><span class="syn-word">intelligent</span> <span class="syn-exp">přímější a neutrálnější slovo pro vysokou inteligenci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1377,8 +1336,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">smart</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">bright</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">smart</span> <span class="syn-exp">běžné mluvené slovo pro inteligentní nebo chytrý v řešení</span></div>
+        <div class="syn-item"><span class="syn-word">bright</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1391,8 +1350,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">smart</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">genius</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">smart</span> <span class="syn-exp">běžné mluvené slovo pro inteligentní nebo chytrý v řešení</span></div>
+        <div class="syn-item"><span class="syn-word">genius</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1405,7 +1364,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">idle</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">idle</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1418,7 +1377,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">energetic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">energetic</span> <span class="syn-exp">hlavně o lidech nebo přístupu plném energie</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1431,8 +1390,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">active</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">active</span> <span class="syn-exp">obecnější než energetic; může jít o fyzickou i pracovní aktivitu</span></div>
+        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">zdůrazňuje energii a aktivitu u lidí, místa nebo stylu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1445,8 +1404,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">energetic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">vibrant</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">energetic</span> <span class="syn-exp">hlavně o lidech nebo přístupu plném energie</span></div>
+        <div class="syn-item"><span class="syn-word">vibrant</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1459,8 +1418,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">dynamic</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">zdůrazňuje energii a aktivitu u lidí, místa nebo stylu</span></div>
+        <div class="syn-item"><span class="syn-word">dynamic</span> <span class="syn-exp">časté v práci a byznysu pro něco energického a stále se vyvíjejícího</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1473,8 +1432,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">sufficient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">acceptable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">sufficient</span> <span class="syn-exp">znamená dostatečný pro konkrétní potřebu</span></div>
+        <div class="syn-item"><span class="syn-word">acceptable</span> <span class="syn-exp">znamená přijatelné minimum, ne nutně dobré</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1487,8 +1446,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">adequate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">enough</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">adequate</span> <span class="syn-exp">spíš neutrálně dostačující, ale ne výjimečně dobrý</span></div>
+        <div class="syn-item"><span class="syn-word">enough</span> <span class="syn-exp">nejběžnější mluvené slovo pro dostačující množství nebo míru</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1501,8 +1460,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">abundant</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">znamená, že je něčeho hodně a je to snadno dostupné</span></div>
+        <div class="syn-item"><span class="syn-word">abundant</span> <span class="syn-exp">o něco formálnější než plentiful; časté u zdrojů, dat nebo přírody</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1515,8 +1474,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">rich</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">znamená, že je něčeho hodně a je to snadno dostupné</span></div>
+        <div class="syn-item"><span class="syn-word">rich</span> <span class="syn-exp">může znamenat bohatý finančně, chuťově nebo obsahem; rozhoduje kontext</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1529,8 +1488,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">slight</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">minor</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">slight</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">minor</span> <span class="syn-exp">používá se pro malý význam, dopad nebo rozsah, ne jen velikost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1543,8 +1502,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">average</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">medium</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">average</span> <span class="syn-exp">spíš neutrální střed bez zvláštních kvalit</span></div>
+        <div class="syn-item"><span class="syn-word">medium</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1557,8 +1516,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">substantial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">substantial</span> <span class="syn-exp">znamená poměrně velký nebo významný v množství, rozsahu nebo dopadu</span></div>
+        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">častější ve formálnější angličtině, hlavně u změn, rozdílů nebo dopadu; typicky significant change</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1571,8 +1530,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">considerable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">considerable</span> <span class="syn-exp">formálnější než big; hodí se pro množství, čas nebo vliv</span></div>
+        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">častější ve formálnější angličtině, hlavně u změn, rozdílů nebo dopadu; typicky significant change</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1585,8 +1544,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">pertinent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">related</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">pertinent</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">related</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1599,7 +1558,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">relevant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">relevant</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1612,7 +1571,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unrelated</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unrelated</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1625,8 +1584,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">precise</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">exact</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">precise</span> <span class="syn-exp">zdůrazňuje přesnost a pečlivé vyjádření; typicky precise measurement nebo precise wording</span></div>
+        <div class="syn-item"><span class="syn-word">exact</span> <span class="syn-exp">hodí se pro čísla, míru a úplnou shodu; typicky exact number nebo exact time</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1639,8 +1598,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">accurate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">exact</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">accurate</span> <span class="syn-exp">používá se, když je informace nebo měření správné a bez chyby</span></div>
+        <div class="syn-item"><span class="syn-word">exact</span> <span class="syn-exp">hodí se pro čísla, míru a úplnou shodu; typicky exact number nebo exact time</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1653,8 +1612,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rough</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">estimated</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">rough</span> <span class="syn-exp">u povrchu znamená drsný; u odhadu zase přibližný, podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">estimated</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1667,7 +1626,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">approximate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">approximate</span> <span class="syn-exp">formálnější slovo pro přibližný, hlavně u čísel a odhadů</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1680,8 +1639,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
+        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">hodí se, když je něco zjevné z faktů nebo pozorování</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1694,8 +1653,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">obvious</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">apparent</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">obvious</span> <span class="syn-exp">říká, že je něco snadno vidět nebo pochopit bez pochyb</span></div>
+        <div class="syn-item"><span class="syn-word">apparent</span> <span class="syn-exp">často znamená zdánlivě nebo zřejmě podle toho, co je vidět; o něco opatrnější než obvious</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1708,7 +1667,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">hodí se, když je něco zjevné z faktů nebo pozorování</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1721,7 +1680,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">concealed</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">concealed</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1734,7 +1693,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">hidden</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">hidden</span> <span class="syn-exp">používá se, když něco není vidět nebo je záměrně skryté</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1747,8 +1706,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">important</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">meaningful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">important</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">meaningful</span> <span class="syn-exp">hodí se, když má něco skutečný význam nebo hodnotu, ne jen formu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1761,8 +1720,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">vital</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">vital</span> <span class="syn-exp">znamená zásadní pro fungování nebo přežití; časté v odbornějších a vážnějších kontextech</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1775,8 +1734,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">silné slovo pro něco naprosto klíčového v rozhodnutí, procesu nebo výsledku</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1789,7 +1748,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">voluntary</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">voluntary</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1802,8 +1761,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">required</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">compulsory</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">required</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">compulsory</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1816,7 +1775,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">mandatory</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">mandatory</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1829,7 +1788,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">optional</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">optional</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1842,8 +1801,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">common</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">regular</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">common</span> <span class="syn-exp">nejběžnější pro něco častého nebo rozšířeného</span></div>
+        <div class="syn-item"><span class="syn-word">regular</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1856,7 +1815,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">routine</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">routine</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1869,7 +1828,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">sporadic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">sporadic</span> <span class="syn-exp">silnější než irregular; naznačuje občasný a nepředvídatelný výskyt</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1882,7 +1841,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">occasional</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">occasional</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1895,7 +1854,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">continuous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">continuous</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1908,7 +1867,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">constant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">constant</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1921,7 +1880,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">sporadic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">sporadic</span> <span class="syn-exp">silnější než irregular; naznačuje občasný a nepředvídatelný výskyt</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1934,8 +1893,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">effective</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">productive</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">effective</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">productive</span> <span class="syn-exp">hodí se, když je výsledkem hodně užitečné práce nebo výstupu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1948,7 +1907,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">successful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">successful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1961,7 +1920,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">efficient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">efficient</span> <span class="syn-exp">zdůrazňuje dobrý výkon bez zbytečné ztráty času nebo energie</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1974,7 +1933,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">wasteful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">wasteful</span> <span class="syn-exp">používá se, když se zbytečně plýtvá časem, penězi nebo zdroji</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -1987,7 +1946,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inefficient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">inefficient</span> <span class="syn-exp">znamená, že něco funguje se zbytečnými ztrátami nebo pomalu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2000,7 +1959,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">competent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">competent</span> <span class="syn-exp">časté v práci; znamená dost schopný a spolehlivý pro daný úkol</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2013,8 +1972,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">capable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">skilled</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">capable</span> <span class="syn-exp">když chceš zdůraznit schopnost zvládnout úkol, ne obecnou inteligenci</span></div>
+        <div class="syn-item"><span class="syn-word">skilled</span> <span class="syn-exp">používá se hlavně pro naučenou dovednost nebo praxi</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2027,8 +1986,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">expert</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">capable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">expert</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">capable</span> <span class="syn-exp">když chceš zdůraznit schopnost zvládnout úkol, ne obecnou inteligenci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2041,7 +2000,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">specialist</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">specialist</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2054,7 +2013,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">novice</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">novice</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2067,7 +2026,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">beginner</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">beginner</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2080,7 +2039,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">complicated</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">complicated</span> <span class="syn-exp">běžné slovo pro něco složitého s mnoha částmi nebo problémy</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2093,7 +2052,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">complex</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">complex</span> <span class="syn-exp">častější v neutrální a formálnější angličtině; znamená promyšleně složitý, ne chaotický</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2106,7 +2065,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">spíš pro jednoduchou nebo základní verzi bez pokročilosti</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2119,7 +2078,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">simple</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">simple</span> <span class="syn-exp">zdůrazňuje, že je něco snadno pochopitelné nebo nekomplikované</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2132,8 +2091,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">spíš pro jednoduchou nebo základní verzi bez pokročilosti</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2146,8 +2105,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">broad</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">wide</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">broad</span> <span class="syn-exp">často o rozsahu, tématu nebo obecně větším záběru; typicky broad knowledge</span></div>
+        <div class="syn-item"><span class="syn-word">wide</span> <span class="syn-exp">nejčastěji pro šířku nebo rozsah; typicky wide road nebo wide range</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2160,7 +2119,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">wide</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">wide</span> <span class="syn-exp">nejčastěji pro šířku nebo rozsah; typicky wide road nebo wide range</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2173,7 +2132,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">limited</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">limited</span> <span class="syn-exp">zdůrazňuje omezený počet, čas nebo možnosti</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2186,7 +2145,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">restricted</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">restricted</span> <span class="syn-exp">často o přístupu, pohybu nebo volbě omezené pravidly</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2199,7 +2158,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">limited</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">limited</span> <span class="syn-exp">zdůrazňuje omezený počet, čas nebo možnosti</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2212,7 +2171,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">adaptable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">adaptable</span> <span class="syn-exp">hodí se pro někoho nebo něco, co se umí přizpůsobit změnám</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2225,7 +2184,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">flexible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">flexible</span> <span class="syn-exp">často o plánech, přístupu nebo systému, který se dá snadno upravit</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2238,7 +2197,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inflexible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">inflexible</span> <span class="syn-exp">používá se, když se někdo nebo něco nechce nebo neumí přizpůsobit</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2251,7 +2210,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rigid</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">rigid</span> <span class="syn-exp">silnější než inflexible; může znít kritičtěji a tvrději</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2264,7 +2223,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">zdůrazňuje stabilitu bez velkých výkyvů</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2277,7 +2236,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">stable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">stable</span> <span class="syn-exp">časté pro stav, systém, ceny nebo emoce, které se moc nemění</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2290,7 +2249,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">volatile</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">volatile</span> <span class="syn-exp">časté v ekonomii a technice; znamená rychle se měnící a těžko předvídatelný</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2303,7 +2262,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unstable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unstable</span> <span class="syn-exp">používá se, když něco není pevné, spolehlivé nebo se rychle mění</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2316,7 +2275,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">noticeable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">noticeable</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2329,7 +2288,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">visible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">visible</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2342,7 +2301,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">hidden</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">hidden</span> <span class="syn-exp">používá se, když něco není vidět nebo je záměrně skryté</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2355,7 +2314,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">open</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">open</span> <span class="syn-exp">často o postoji nebo komunikaci bez uzavřenosti a tajení</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2368,7 +2327,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unclear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unclear</span> <span class="syn-exp">nejběžnější pro něco nejasného nebo těžko pochopitelného</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2381,7 +2340,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">dobré pro člověka, službu nebo systém, na který je spoleh</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2394,7 +2353,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">dependable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">dependable</span> <span class="syn-exp">velmi blízké reliable, často trochu osobnější a méně formální</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2407,7 +2366,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">dobré pro člověka, službu nebo systém, na který je spoleh</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2420,7 +2379,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unstable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unstable</span> <span class="syn-exp">používá se, když něco není pevné, spolehlivé nebo se rychle mění</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2433,7 +2392,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">sound</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">sound</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2446,7 +2405,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">void</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">void</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2459,7 +2418,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rational</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">rational</span> <span class="syn-exp">častější v analýze a diskusi; znamená založený na rozumu, ne na emocích</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2472,7 +2431,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">logical</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">logical</span> <span class="syn-exp">zdůrazňuje dobré odůvodnění a návaznost myšlenek</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2485,7 +2444,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">illogical</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">illogical</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2498,7 +2457,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">driven</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">driven</span> <span class="syn-exp">používá se pro člověka silně motivovaného cílem nebo výkonem</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2511,7 +2470,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">driven</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">driven</span> <span class="syn-exp">používá se pro člověka silně motivovaného cílem nebo výkonem</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2524,7 +2483,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">ambitious</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">ambitious</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2537,7 +2496,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inactive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">inactive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2550,7 +2509,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">energetic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">energetic</span> <span class="syn-exp">hlavně o lidech nebo přístupu plném energie</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2563,7 +2522,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">zdůrazňuje energii a aktivitu u lidí, místa nebo stylu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2576,7 +2535,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">lively</span> <span class="syn-exp">zdůrazňuje energii a aktivitu u lidí, místa nebo stylu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2589,7 +2548,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">splendid</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">splendid</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2602,7 +2561,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">silnější a hodnotící slovo pro velmi vysokou kvalitu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2615,7 +2574,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">excellent</span> <span class="syn-exp">silnější a hodnotící slovo pro velmi vysokou kvalitu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2628,7 +2587,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">normal</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">normal</span> <span class="syn-exp">spíš to, co se očekává jako standardní</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2641,7 +2600,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">notable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">notable</span> <span class="syn-exp">spíš formálnější pro něco, co stojí za pozornost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2654,7 +2613,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">remarkable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">remarkable</span> <span class="syn-exp">když něco opravdu vyčnívá a stojí za pozornost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2667,7 +2626,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">uncommon</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">uncommon</span> <span class="syn-exp">často v psaní nebo popisu výskytu; znamená málo častý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2680,7 +2639,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rare</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">rare</span> <span class="syn-exp">silnější než uncommon; zdůrazňuje, že se něco objevuje opravdu zřídka</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2693,7 +2652,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">distinct</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">distinct</span> <span class="syn-exp">když chceš říct, že je rozdíl jasně rozeznatelný</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2706,7 +2665,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">alike</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">alike</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2719,7 +2678,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">distinct</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">distinct</span> <span class="syn-exp">když chceš říct, že je rozdíl jasně rozeznatelný</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2732,7 +2691,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2745,7 +2704,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">same</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">same</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2758,7 +2717,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">zdůrazňuje stabilitu bez velkých výkyvů</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2771,7 +2730,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">irregular</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">irregular</span> <span class="syn-exp">znamená, že něco neprobíhá pravidelně nebo nemá pravidelný tvar</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2784,8 +2743,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">sufficient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">acceptable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">sufficient</span> <span class="syn-exp">znamená dostatečný pro konkrétní potřebu</span></div>
+        <div class="syn-item"><span class="syn-word">acceptable</span> <span class="syn-exp">znamená přijatelné minimum, ne nutně dobré</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2798,8 +2757,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">adequate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">enough</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">adequate</span> <span class="syn-exp">spíš neutrálně dostačující, ale ne výjimečně dobrý</span></div>
+        <div class="syn-item"><span class="syn-word">enough</span> <span class="syn-exp">nejběžnější mluvené slovo pro dostačující množství nebo míru</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2812,8 +2771,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">abundant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">abundant</span> <span class="syn-exp">o něco formálnější než plentiful; časté u zdrojů, dat nebo přírody</span></div>
+        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">znamená, že je něčeho hodně a je to snadno dostupné</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2826,8 +2785,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">rich</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">plentiful</span> <span class="syn-exp">znamená, že je něčeho hodně a je to snadno dostupné</span></div>
+        <div class="syn-item"><span class="syn-word">rich</span> <span class="syn-exp">může znamenat bohatý finančně, chuťově nebo obsahem; rozhoduje kontext</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2840,8 +2799,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">insignificant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">trivial</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">insignificant</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">trivial</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2854,8 +2813,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">average</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">medium</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">average</span> <span class="syn-exp">spíš neutrální střed bez zvláštních kvalit</span></div>
+        <div class="syn-item"><span class="syn-word">medium</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2868,8 +2827,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">considerable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">considerable</span> <span class="syn-exp">formálnější než big; hodí se pro množství, čas nebo vliv</span></div>
+        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">častější ve formálnější angličtině, hlavně u změn, rozdílů nebo dopadu; typicky significant change</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2882,8 +2841,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">substantial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">substantial</span> <span class="syn-exp">znamená poměrně velký nebo významný v množství, rozsahu nebo dopadu</span></div>
+        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">častější ve formálnější angličtině, hlavně u změn, rozdílů nebo dopadu; typicky significant change</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2896,8 +2855,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">notable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">meaningful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">notable</span> <span class="syn-exp">spíš formálnější pro něco, co stojí za pozornost</span></div>
+        <div class="syn-item"><span class="syn-word">meaningful</span> <span class="syn-exp">hodí se, když má něco skutečný význam nebo hodnotu, ne jen formu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2910,8 +2869,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">vital</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">vital</span> <span class="syn-exp">znamená zásadní pro fungování nebo přežití; časté v odbornějších a vážnějších kontextech</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2924,8 +2883,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">silné slovo pro něco naprosto klíčového v rozhodnutí, procesu nebo výsledku</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2938,8 +2897,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">basic</span> <span class="syn-exp">spíš pro jednoduchou nebo základní verzi bez pokročilosti</span></div>
+        <div class="syn-item"><span class="syn-word">essential</span> <span class="syn-exp">silnější než important; znamená nezbytný, ne jen důležitý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2952,7 +2911,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">shallow</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">shallow</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2965,8 +2924,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">comprehensive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">detailed</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">comprehensive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">detailed</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2979,8 +2938,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">extensive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">complete</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">extensive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">complete</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -2993,8 +2952,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">wide</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">broad</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">wide</span> <span class="syn-exp">nejčastěji pro šířku nebo rozsah; typicky wide road nebo wide range</span></div>
+        <div class="syn-item"><span class="syn-word">broad</span> <span class="syn-exp">často o rozsahu, tématu nebo obecně větším záběru; typicky broad knowledge</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3007,7 +2966,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">restricted</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">restricted</span> <span class="syn-exp">často o přístupu, pohybu nebo volbě omezené pravidly</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3020,7 +2979,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">limiting</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">limiting</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3033,7 +2992,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">adaptable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">adaptable</span> <span class="syn-exp">hodí se pro někoho nebo něco, co se umí přizpůsobit změnám</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3046,7 +3005,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">flexible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">flexible</span> <span class="syn-exp">často o plánech, přístupu nebo systému, který se dá snadno upravit</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3059,7 +3018,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inflexible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">inflexible</span> <span class="syn-exp">používá se, když se někdo nebo něco nechce nebo neumí přizpůsobit</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3072,7 +3031,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rigid</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">rigid</span> <span class="syn-exp">silnější než inflexible; může znít kritičtěji a tvrději</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3085,7 +3044,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">zdůrazňuje stabilitu bez velkých výkyvů</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3098,7 +3057,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unstable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unstable</span> <span class="syn-exp">používá se, když něco není pevné, spolehlivé nebo se rychle mění</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3111,7 +3070,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">volatile</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">volatile</span> <span class="syn-exp">časté v ekonomii a technice; znamená rychle se měnící a těžko předvídatelný</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3124,8 +3083,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">consistent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">logical</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">consistent</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">logical</span> <span class="syn-exp">zdůrazňuje dobré odůvodnění a návaznost myšlenek</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3138,7 +3097,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">confused</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">confused</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3151,8 +3110,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">steady</span> <span class="syn-exp">zdůrazňuje stabilitu bez velkých výkyvů</span></div>
+        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">dobré pro člověka, službu nebo systém, na který je spoleh</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3165,7 +3124,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">irregular</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">irregular</span> <span class="syn-exp">znamená, že něco neprobíhá pravidelně nebo nemá pravidelný tvar</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3178,8 +3137,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">plausible</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">reliable</span> <span class="syn-exp">dobré pro člověka, službu nebo systém, na který je spoleh</span></div>
+        <div class="syn-item"><span class="syn-word">plausible</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3192,7 +3151,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">credible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">credible</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3205,7 +3164,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unlikely</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unlikely</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3218,8 +3177,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">open</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">open</span> <span class="syn-exp">často o postoji nebo komunikaci bez uzavřenosti a tajení</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3232,7 +3191,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unclear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unclear</span> <span class="syn-exp">nejběžnější pro něco nejasného nebo těžko pochopitelného</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3245,7 +3204,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">evident</span> <span class="syn-exp">hodí se, když je něco zjevné z faktů nebo pozorování</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3258,7 +3217,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3271,8 +3230,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">delicate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">nuanced</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">delicate</span> <span class="syn-exp">používá se pro něco křehkého, citlivého nebo vyžadujícího opatrnost</span></div>
+        <div class="syn-item"><span class="syn-word">nuanced</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3285,7 +3244,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">subtle</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">subtle</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3298,8 +3257,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">direct</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
+        <div class="syn-item"><span class="syn-word">direct</span> <span class="syn-exp">říká, že někdo mluví nebo jedná bez obcházení a změkčování</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3312,7 +3271,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">implied</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">implied</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3325,7 +3284,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unclear</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unclear</span> <span class="syn-exp">nejběžnější pro něco nejasného nebo těžko pochopitelného</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3338,7 +3297,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">accurate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">accurate</span> <span class="syn-exp">používá se, když je informace nebo měření správné a bez chyby</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3351,7 +3310,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">precise</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">precise</span> <span class="syn-exp">zdůrazňuje přesnost a pečlivé vyjádření; typicky precise measurement nebo precise wording</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3364,7 +3323,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rough</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">rough</span> <span class="syn-exp">u povrchu znamená drsný; u odhadu zase přibližný, podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3377,7 +3336,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">approximate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">approximate</span> <span class="syn-exp">formálnější slovo pro přibližný, hlavně u čísel a odhadů</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3390,7 +3349,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">forward-looking</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">forward-looking</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3403,7 +3362,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">traditional</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">traditional</span> <span class="syn-exp">používá se pro něco spojeného s tradicí nebo starším obvyklým stylem</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3416,7 +3375,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">creative</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">creative</span> <span class="syn-exp">zdůrazňuje schopnost přicházet s novými nápady</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3429,7 +3388,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inventive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">inventive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3442,7 +3401,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">creative</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">creative</span> <span class="syn-exp">zdůrazňuje schopnost přicházet s novými nápady</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3455,7 +3414,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">traditional</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">traditional</span> <span class="syn-exp">používá se pro něco spojeného s tradicí nebo starším obvyklým stylem</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3468,7 +3427,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">original</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">original</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3481,7 +3440,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unique</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">unique</span> <span class="syn-exp">říká, že je něco jedinečné, ne jen jiné</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3494,7 +3453,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">distinct</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">distinct</span> <span class="syn-exp">když chceš říct, že je rozdíl jasně rozeznatelný</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3507,7 +3466,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">uncommon</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">uncommon</span> <span class="syn-exp">často v psaní nebo popisu výskytu; znamená málo častý</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3520,7 +3479,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">typical</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">typical</span> <span class="syn-exp">znamená běžný pro danou skupinu nebo situaci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3533,7 +3492,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">normal</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">normal</span> <span class="syn-exp">spíš to, co se očekává jako standardní</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3546,7 +3505,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">remarkable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">remarkable</span> <span class="syn-exp">když něco opravdu vyčnívá a stojí za pozornost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3559,7 +3518,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">notable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">notable</span> <span class="syn-exp">spíš formálnější pro něco, co stojí za pozornost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3572,7 +3531,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">remarkable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">remarkable</span> <span class="syn-exp">když něco opravdu vyčnívá a stojí za pozornost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3585,7 +3544,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">insignificant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">insignificant</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3598,7 +3557,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">minor</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">minor</span> <span class="syn-exp">používá se pro malý význam, dopad nebo rozsah, ne jen velikost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3611,7 +3570,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">small</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">small</span> <span class="syn-exp">nejběžnější neutrální slovo pro malou velikost; hodí se skoro všude</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3624,7 +3583,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">significant</span> <span class="syn-exp">častější ve formálnější angličtině, hlavně u změn, rozdílů nebo dopadu; typicky significant change</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3637,7 +3596,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">crucial</span> <span class="syn-exp">silné slovo pro něco naprosto klíčového v rozhodnutí, procesu nebo výsledku</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3650,7 +3609,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">resilient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">resilient</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3663,7 +3622,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">delicate</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">delicate</span> <span class="syn-exp">používá se pro něco křehkého, citlivého nebo vyžadujícího opatrnost</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3676,7 +3635,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">strong</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">strong</span> <span class="syn-exp">obecné slovo pro fyzickou, psychickou nebo argumentační sílu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3689,7 +3648,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">exposed</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">exposed</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3702,7 +3661,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">safe</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">safe</span> <span class="syn-exp">nejběžnější obecné slovo pro bez nebezpečí</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3715,7 +3674,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">dangerous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">dangerous</span> <span class="syn-exp">běžné silné slovo pro něco, co může způsobit škodu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3728,7 +3687,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">dangerous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">dangerous</span> <span class="syn-exp">běžné silné slovo pro něco, co může způsobit škodu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3741,7 +3700,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">helpful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">helpful</span> <span class="syn-exp">běžné pro něco nebo někoho, kdo opravdu pomáhá v praxi</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3754,7 +3713,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">damaging</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">damaging</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3767,7 +3726,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">efficient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">efficient</span> <span class="syn-exp">zdůrazňuje dobrý výkon bez zbytečné ztráty času nebo energie</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3780,7 +3739,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">productive</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">productive</span> <span class="syn-exp">hodí se, když je výsledkem hodně užitečné práce nebo výstupu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3793,7 +3752,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">wasteful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">wasteful</span> <span class="syn-exp">používá se, když se zbytečně plýtvá časem, penězi nebo zdroji</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3806,7 +3765,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">inefficient</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">inefficient</span> <span class="syn-exp">znamená, že něco funguje se zbytečnými ztrátami nebo pomalu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3819,7 +3778,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">rivalrous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">rivalrous</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3832,7 +3791,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">collaborative</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">collaborative</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3845,7 +3804,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">cooperative</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">cooperative</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3858,7 +3817,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">autonomous</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">autonomous</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3871,7 +3830,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">independent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">independent</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3884,7 +3843,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">neutral</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">neutral</span> <span class="syn-exp">hodí se, když něco není ani na jedné straně nebo nevyvolává silnou reakci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3897,7 +3856,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">personal</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">personal</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3910,7 +3869,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">impartial</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">impartial</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3923,7 +3882,7 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">neutral</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
+        <div class="syn-item"><span class="syn-word">neutral</span> <span class="syn-exp">hodí se, když něco není ani na jedné straně nebo nevyvolává silnou reakci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3936,9 +3895,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">random</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">capricious</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">unreasoned</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">random</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">capricious</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">unreasoned</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3951,9 +3910,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">careful</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">thorough</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">precise</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">careful</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">thorough</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">precise</span> <span class="syn-exp">zdůrazňuje přesnost a pečlivé vyjádření; typicky precise measurement nebo precise wording</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3966,9 +3925,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">flexible</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">adaptable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">multitalented</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">flexible</span> <span class="syn-exp">často o plánech, přístupu nebo systému, který se dá snadno upravit</span></div>
+        <div class="syn-item"><span class="syn-word">adaptable</span> <span class="syn-exp">hodí se pro někoho nebo něco, co se umí přizpůsobit změnám</span></div>
+        <div class="syn-item"><span class="syn-word">multitalented</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3981,8 +3940,8 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">unavoidable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">certain</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
+        <div class="syn-item"><span class="syn-word">unavoidable</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">certain</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -3995,9 +3954,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">eloquent</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">expressive</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">eloquent</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">clear</span> <span class="syn-exp">nejlepší, když je něco snadno pochopitelné nebo dobře viditelné; typicky clear explanation</span></div>
+        <div class="syn-item"><span class="syn-word">expressive</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4010,9 +3969,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">serious</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">harsh</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">intense</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">serious</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">harsh</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">intense</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4025,9 +3984,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">skilled</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">competent</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">capable</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">skilled</span> <span class="syn-exp">používá se hlavně pro naučenou dovednost nebo praxi</span></div>
+        <div class="syn-item"><span class="syn-word">competent</span> <span class="syn-exp">časté v práci; znamená dost schopný a spolehlivý pro daný úkol</span></div>
+        <div class="syn-item"><span class="syn-word">capable</span> <span class="syn-exp">když chceš zdůraznit schopnost zvládnout úkol, ne obecnou inteligenci</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4040,9 +3999,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">average</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">ordinary</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">inferior</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">average</span> <span class="syn-exp">spíš neutrální střed bez zvláštních kvalit</span></div>
+        <div class="syn-item"><span class="syn-word">ordinary</span> <span class="syn-exp">často o něčem nevýrazném nebo úplně běžném</span></div>
+        <div class="syn-item"><span class="syn-word">inferior</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4055,9 +4014,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">brief</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">succinct</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">compact</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">brief</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">succinct</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">compact</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4070,9 +4029,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">favorable</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">helpful</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">beneficial</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">favorable</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">helpful</span> <span class="syn-exp">běžné pro něco nebo někoho, kdo opravdu pomáhá v praxi</span></div>
+        <div class="syn-item"><span class="syn-word">beneficial</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4085,9 +4044,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">perfect</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">impeccable</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">faultless</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">perfect</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">impeccable</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">faultless</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     <article class="card with-synonyms">
@@ -4100,9 +4059,9 @@
       </div>
       </div>
       <aside class="syn-box">
-        <div class="syn-item"><span class="syn-word">slim</span> <span class="syn-exp">nejběžnější podobné slovo</span></div>
-        <div class="syn-item"><span class="syn-word">efficient</span> <span class="syn-exp">podobné významem, časté v běžné angličtině</span></div>
-        <div class="syn-item"><span class="syn-word">streamlined</span> <span class="syn-exp">o něco přesnější nebo stylově výraznější varianta</span></div>
+        <div class="syn-item"><span class="syn-word">slim</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
+        <div class="syn-item"><span class="syn-word">efficient</span> <span class="syn-exp">zdůrazňuje dobrý výkon bez zbytečné ztráty času nebo energie</span></div>
+        <div class="syn-item"><span class="syn-word">streamlined</span> <span class="syn-exp">významově blízké, ale používá se v trochu jiných spojeních podle kontextu</span></div>
       </aside>
     </article>
     </section>
