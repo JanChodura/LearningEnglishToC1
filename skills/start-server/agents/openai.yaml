@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start Server"
+  short_description: "Start this repo's local preview server."
+  default_prompt: "Use $start-server to start the local HTML preview server for this repository."
