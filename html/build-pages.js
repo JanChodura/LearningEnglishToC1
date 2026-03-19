@@ -6,17 +6,17 @@ const htmlRoot = path.join(root, "html");
 const assetsDir = path.join(htmlRoot, "assets");
 
 const jsonFiles = [
-  "errors.json",
-  "grammar.json",
-  "learning.json",
-  "lessons/lesson_2026-03-13.json",
-  "results/results_2026_03_13.json",
-  "vocabulary/adjectives.json",
-  "vocabulary/idioms.json",
-  "vocabulary/nouns.json",
-  "vocabulary/phrasal_verbs.json",
-  "vocabulary/phrases.json",
-  "vocabulary/verbs.json",
+  "data/errors.json",
+  "data/grammar.json",
+  "data/learning.json",
+  "data/lessons/lesson_2026-03-13.json",
+  "data/results/result_2026-03-13.json",
+  "data/vocabulary/adjectives.json",
+  "data/vocabulary/idioms.json",
+  "data/vocabulary/nouns.json",
+  "data/vocabulary/phrasal_verbs.json",
+  "data/vocabulary/phrases.json",
+  "data/vocabulary/verbs.json",
 ];
 
 function ensureDir(dirPath) {
@@ -49,7 +49,7 @@ function renderPage(relativeJsonPath) {
   const title = pageTitleFromJson(relativeJsonPath);
   const cssPath = relativeAssetPath(htmlPath, "assets/styles.css");
   const jsPath = relativeAssetPath(htmlPath, "assets/json-renderer.js");
-  const homePath = path.relative(path.dirname(htmlPath), path.join(root, "index.html")).replace(/\\/g, "/");
+  const homePath = path.relative(path.dirname(htmlPath), path.join(htmlRoot, "index.html")).replace(/\\/g, "/");
 
   ensureDir(path.dirname(htmlPath));
 
@@ -86,16 +86,21 @@ ${escapeHtml(rawJson)}
 
 function renderIndex() {
   const groups = {
-    root: [],
+    learning: [],
     lessons: [],
     results: [],
     vocabulary: [],
   };
 
   for (const relativePath of jsonFiles) {
-    const target = relativePath.includes("/")
-      ? relativePath.split("/")[0]
-      : "root";
+    let target = "learning";
+    if (relativePath.startsWith("data/lessons/")) {
+      target = "lessons";
+    } else if (relativePath.startsWith("data/results/")) {
+      target = "results";
+    } else if (relativePath.startsWith("data/vocabulary/")) {
+      target = "vocabulary";
+    }
     const htmlPath = path.relative(root, htmlPathFromJson(relativePath)).replace(/\\/g, "/");
     groups[target].push({
       json: relativePath,
@@ -105,7 +110,7 @@ function renderIndex() {
   }
 
   const sections = [
-    ["root", "Root JSON"],
+    ["learning", "Learning"],
     ["vocabulary", "Vocabulary"],
     ["lessons", "Lessons"],
     ["results", "Results"],
@@ -127,7 +132,7 @@ ${links}
     })
     .join("\n");
 
-  const cssPath = "html/assets/styles.css";
+  const cssPath = "assets/styles.css";
   const output = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -139,8 +144,7 @@ ${links}
 <body>
   <main class="page">
     <header class="hero">
-      <p class="eyebrow">Project Index</p>
-      <h1>English JSON Views</h1>
+      <h1>Lean Learn English</h1>
       <p class="source">Open any generated HTML page to inspect the matching JSON file.</p>
     </header>
 ${cards}
@@ -149,7 +153,7 @@ ${cards}
 </html>
 `;
 
-  fs.writeFileSync(path.join(root, "index.html"), output);
+  fs.writeFileSync(path.join(htmlRoot, "index.html"), output);
 }
 
 ensureDir(assetsDir);

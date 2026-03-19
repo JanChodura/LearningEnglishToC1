@@ -1,0 +1,1204 @@
+{
+  "sentences": [
+    {
+      "id": 1,
+      "sentence": "I woke up earlier than usual."
+    },
+    {
+      "id": 2,
+      "sentence": "I really need a few more minutes."
+    },
+    {
+      "id": 3,
+      "sentence": "I'm trying to start my day positively."
+    },
+    {
+      "id": 4,
+      "sentence": "I haven't had breakfast yet."
+    },
+    {
+      "id": 5,
+      "sentence": "I'm still getting ready."
+    },
+    {
+      "id": 6,
+      "sentence": "Do you have any plans for today?"
+    },
+    {
+      "id": 7,
+      "sentence": "I'm trying to be more organized."
+    },
+    {
+      "id": 8,
+      "sentence": "I'll leave in a few minutes."
+    },
+    {
+      "id": 9,
+      "sentence": "Don't forget to bring your keys."
+    },
+    {
+      "id": 10,
+      "sentence": "I'll text you when I arrive."
+    },
+    {
+      "id": 11,
+      "sentence": "Can we talk about this later?"
+    },
+    {
+      "id": 12,
+      "sentence": "I appreciate your patience."
+    },
+    {
+      "id": 13,
+      "sentence": "That's completely understandable."
+    },
+    {
+      "id": 14,
+      "sentence": "Let me know if you need help."
+    },
+    {
+      "id": 15,
+      "sentence": "I'll try my best."
+    },
+    {
+      "id": 16,
+      "sentence": "I didn't mean to interrupt."
+    },
+    {
+      "id": 17,
+      "sentence": "Thanks for letting me know."
+    },
+    {
+      "id": 18,
+      "sentence": "I'll get back to you soon."
+    },
+    {
+      "id": 19,
+      "sentence": "Do you want to grab something to eat?"
+    },
+    {
+      "id": 20,
+      "sentence": "I'm still thinking about it."
+    },
+    {
+      "id": 21,
+      "sentence": "That sounds like a great idea."
+    },
+    {
+      "id": 22,
+      "sentence": "I'm on my way."
+    },
+    {
+      "id": 23,
+      "sentence": "I'm working on it."
+    },
+    {
+      "id": 24,
+      "sentence": "I need a little more time."
+    },
+    {
+      "id": 25,
+      "sentence": "I completely understand your point."
+    },
+    {
+      "id": 26,
+      "sentence": "I didn't mean to leave you on read."
+    },
+    {
+      "id": 27,
+      "sentence": "Let's figure this out together."
+    },
+    {
+      "id": 28,
+      "sentence": "I think the file didn't upload."
+    },
+    {
+      "id": 29,
+      "sentence": "What exactly do you mean?"
+    },
+    {
+      "id": 30,
+      "sentence": "I'm not sure if I understood correctly."
+    },
+    {
+      "id": 31,
+      "sentence": "Could you speak a little slower, please?"
+    },
+    {
+      "id": 32,
+      "sentence": "I'll try to explain it more clearly."
+    },
+    {
+      "id": 33,
+      "sentence": "I didn't catch that."
+    },
+    {
+      "id": 34,
+      "sentence": "That makes a lot of sense now."
+    },
+    {
+      "id": 35,
+      "sentence": "Do you mind if I ask a question?"
+    },
+    {
+      "id": 36,
+      "sentence": "I think we should consider other options."
+    },
+    {
+      "id": 37,
+      "sentence": "Let's take a short break."
+    },
+    {
+      "id": 38,
+      "sentence": "I'm open to suggestions."
+    },
+    {
+      "id": 39,
+      "sentence": "I've been thinking about it lately."
+    },
+    {
+      "id": 40,
+      "sentence": "I'm still deciding."
+    },
+    {
+      "id": 41,
+      "sentence": "Let me know what you think."
+    },
+    {
+      "id": 42,
+      "sentence": "Let me know what you think."
+    },
+    {
+      "id": 43,
+      "sentence": "I didn't expect that to happen."
+    },
+    {
+      "id": 44,
+      "sentence": "I'm trying to stay focused."
+    },
+    {
+      "id": 45,
+      "sentence": "That's not what I meant."
+    },
+    {
+      "id": 46,
+      "sentence": "I need to check my schedule."
+    },
+    {
+      "id": 47,
+      "sentence": "I'll let you know as soon as possible."
+    },
+    {
+      "id": 48,
+      "sentence": "I didn't have time to finish it."
+    },
+    {
+      "id": 49,
+      "sentence": "I'll try to make it."
+    },
+    {
+      "id": 50,
+      "sentence": "I appreciate your understanding."
+    },
+    {
+      "id": 51,
+      "sentence": "That's a fair point."
+    },
+    {
+      "id": 52,
+      "sentence": "I'm looking for something better."
+    },
+    {
+      "id": 53,
+      "sentence": "I'm happy to help."
+    },
+    {
+      "id": 54,
+      "sentence": "I really needed that."
+    },
+    {
+      "id": 55,
+      "sentence": "I'll think about it more."
+    },
+    {
+      "id": 56,
+      "sentence": "I'm not totally convinced."
+    },
+    {
+      "id": 57,
+      "sentence": "Let's talk about it tomorrow."
+    },
+    {
+      "id": 58,
+      "sentence": "I should have planned better."
+    },
+    {
+      "id": 59,
+      "sentence": "That was very thoughtful of you."
+    },
+    {
+      "id": 60,
+      "sentence": "I'll handle it when I have time."
+    },
+    {
+      "id": 61,
+      "sentence": "Do you want to hang out later?"
+    },
+    {
+      "id": 62,
+      "sentence": "I've been really busy lately."
+    },
+    {
+      "id": 63,
+      "sentence": "It was nice talking to you."
+    },
+    {
+      "id": 64,
+      "sentence": "I'm glad you mentioned that."
+    },
+    {
+      "id": 65,
+      "sentence": "I didn't expect to see you here."
+    },
+    {
+      "id": 66,
+      "sentence": "Sorry, I completely forgot."
+    },
+    {
+      "id": 67,
+      "sentence": "I'll try to be there on time."
+    },
+    {
+      "id": 68,
+      "sentence": "Let's keep in touch."
+    },
+    {
+      "id": 69,
+      "sentence": "Do you want to join us?"
+    },
+    {
+      "id": 70,
+      "sentence": "I haven't seen you in a while."
+    },
+    {
+      "id": 71,
+      "sentence": "I really appreciate your support."
+    },
+    {
+      "id": 72,
+      "sentence": "I'm not in the mood right now."
+    },
+    {
+      "id": 73,
+      "sentence": "That took me by surprise."
+    },
+    {
+      "id": 74,
+      "sentence": "I'm trying to stay positive."
+    },
+    {
+      "id": 75,
+      "sentence": "I'm a little stressed at the moment."
+    },
+    {
+      "id": 76,
+      "sentence": "I'm proud of you."
+    },
+    {
+      "id": 77,
+      "sentence": "That's not what I was expecting."
+    },
+    {
+      "id": 78,
+      "sentence": "I'm happy with the results."
+    },
+    {
+      "id": 79,
+      "sentence": "I'm still processing what happened."
+    },
+    {
+      "id": 80,
+      "sentence": "I need some time to think."
+    },
+    {
+      "id": 81,
+      "sentence": "I'm doing my best to stay calm."
+    },
+    {
+      "id": 82,
+      "sentence": "I just need a short break."
+    },
+    {
+      "id": 83,
+      "sentence": "Thank you for being patient with me."
+    },
+    {
+      "id": 84,
+      "sentence": "I'm feeling much better now."
+    },
+    {
+      "id": 85,
+      "sentence": "That explains everything."
+    },
+    {
+      "id": 86,
+      "sentence": "I'll try to stay flexible."
+    },
+    {
+      "id": 87,
+      "sentence": "I really value your opinion."
+    },
+    {
+      "id": 88,
+      "sentence": "That sounds like a reasonable plan."
+    },
+    {
+      "id": 89,
+      "sentence": "I'm willing to give it a try."
+    },
+    {
+      "id": 90,
+      "sentence": "Let's see how it goes."
+    },
+    {
+      "id": 91,
+      "sentence": "I'm trying to build better habits."
+    },
+    {
+      "id": 92,
+      "sentence": "I'll try to be more consistent."
+    },
+    {
+      "id": 93,
+      "sentence": "I finally finished everything."
+    },
+    {
+      "id": 94,
+      "sentence": "I need to stay focused on my goals."
+    },
+    {
+      "id": 95,
+      "sentence": "I should take better care of myself."
+    },
+    {
+      "id": 96,
+      "sentence": "I want to learn something new."
+    },
+    {
+      "id": 97,
+      "sentence": "I'm slowly getting better at this."
+    },
+    {
+      "id": 98,
+      "sentence": "I'm still figuring things out."
+    },
+    {
+      "id": 99,
+      "sentence": "That's very helpful."
+    },
+    {
+      "id": 100,
+      "sentence": "I'm proud of my progress."
+    },
+    {
+      "id": 101,
+      "sentence": "I was just about to call you."
+    },
+    {
+      "id": 102,
+      "sentence": "I didn't realize it was so late."
+    },
+    {
+      "id": 103,
+      "sentence": "I've heard a lot about this place."
+    },
+    {
+      "id": 104,
+      "sentence": "That reminds me of something."
+    },
+    {
+      "id": 105,
+      "sentence": "I haven't thought about that before."
+    },
+    {
+      "id": 106,
+      "sentence": "Do you want to hear my opinion?"
+    },
+    {
+      "id": 107,
+      "sentence": "I didn't mean to make things complicated."
+    },
+    {
+      "id": 108,
+      "sentence": "I'll explain everything later."
+    },
+    {
+      "id": 109,
+      "sentence": "Thanks for checking on me."
+    },
+    {
+      "id": 110,
+      "sentence": "I'm glad everything worked out."
+    },
+    {
+      "id": 111,
+      "sentence": "I'm in the middle of something."
+    },
+    {
+      "id": 112,
+      "sentence": "I'll take care of it later."
+    },
+    {
+      "id": 113,
+      "sentence": "Can you help me with this for a second?"
+    },
+    {
+      "id": 114,
+      "sentence": "I forgot where I put it."
+    },
+    {
+      "id": 115,
+      "sentence": "I need to clean up a little."
+    },
+    {
+      "id": 116,
+      "sentence": "I'll grab something to drink."
+    },
+    {
+      "id": 117,
+      "sentence": "Do you want anything from the kitchen?"
+    },
+    {
+      "id": 118,
+      "sentence": "I'll be right there."
+    },
+    {
+      "id": 119,
+      "sentence": "Can we continue this later?"
+    },
+    {
+      "id": 120,
+      "sentence": "I'm almost finished."
+    },
+    {
+      "id": 121,
+      "sentence": "I totally forgot about that."
+    },
+    {
+      "id": 122,
+      "sentence": "I didn't see that coming."
+    },
+    {
+      "id": 123,
+      "sentence": "That could be a problem."
+    },
+    {
+      "id": 124,
+      "sentence": "I'm trying not to overthink it."
+    },
+    {
+      "id": 125,
+      "sentence": "I just need some fresh air."
+    },
+    {
+      "id": 126,
+      "sentence": "I'm honestly impressed."
+    },
+    {
+      "id": 127,
+      "sentence": "I'm a bit confused right now."
+    },
+    {
+      "id": 128,
+      "sentence": "That really motivated me."
+    },
+    {
+      "id": 129,
+      "sentence": "I didn't expect it to be that good."
+    },
+    {
+      "id": 130,
+      "sentence": "I'm glad you told me."
+    },
+    {
+      "id": 131,
+      "sentence": "Let's make a plan for tomorrow."
+    },
+    {
+      "id": 132,
+      "sentence": "I'm free after lunch."
+    },
+    {
+      "id": 133,
+      "sentence": "We should do this more often."
+    },
+    {
+      "id": 134,
+      "sentence": "Let me check the weather first."
+    },
+    {
+      "id": 135,
+      "sentence": "I might be a little late."
+    },
+    {
+      "id": 136,
+      "sentence": "That depends on the situation."
+    },
+    {
+      "id": 137,
+      "sentence": "I'll remind you later."
+    },
+    {
+      "id": 138,
+      "sentence": "I'm trying to be more productive."
+    },
+    {
+      "id": 139,
+      "sentence": "Let me double check."
+    },
+    {
+      "id": 140,
+      "sentence": "I'll send it to you soon."
+    },
+    {
+      "id": 141,
+      "sentence": "I need directions to get there."
+    },
+    {
+      "id": 142,
+      "sentence": "How far is it from here?"
+    },
+    {
+      "id": 143,
+      "sentence": "Could you please repeat the address?"
+    },
+    {
+      "id": 144,
+      "sentence": "I think we missed the turn."
+    },
+    {
+      "id": 145,
+      "sentence": "Let's take the next exit."
+    },
+    {
+      "id": 146,
+      "sentence": "I'm waiting for my ride."
+    },
+    {
+      "id": 147,
+      "sentence": "The traffic is really slow today."
+    },
+    {
+      "id": 148,
+      "sentence": "Can you check the schedule for me?"
+    },
+    {
+      "id": 149,
+      "sentence": "I'll send you my location."
+    },
+    {
+      "id": 150,
+      "sentence": "Please let me know when you arrive."
+    },
+    {
+      "id": 151,
+      "sentence": "Can we get a table for two, please?"
+    },
+    {
+      "id": 152,
+      "sentence": "Do you have any recommendations?"
+    },
+    {
+      "id": 153,
+      "sentence": "Could we have the menu, please?"
+    },
+    {
+      "id": 154,
+      "sentence": "I'd like to order the same thing."
+    },
+    {
+      "id": 155,
+      "sentence": "Can I have a glass of water, please?"
+    },
+    {
+      "id": 156,
+      "sentence": "Does this come with a side dish?"
+    },
+    {
+      "id": 157,
+      "sentence": "Could you please check the bill?"
+    },
+    {
+      "id": 158,
+      "sentence": "Do you accept mobile payments?"
+    },
+    {
+      "id": 159,
+      "sentence": "Everything looks delicious."
+    },
+    {
+      "id": 160,
+      "sentence": "Thank you."
+    },
+    {
+      "id": 161,
+      "sentence": "I haven't been sleeping well lately."
+    },
+    {
+      "id": 162,
+      "sentence": "I think I need to rest for a bit."
+    },
+    {
+      "id": 163,
+      "sentence": "I'm trying to drink more water."
+    },
+    {
+      "id": 164,
+      "sentence": "I feel a little tired today."
+    },
+    {
+      "id": 165,
+      "sentence": "I'll be okay."
+    },
+    {
+      "id": 166,
+      "sentence": "I just need some time to relax."
+    },
+    {
+      "id": 167,
+      "sentence": "I'm trying to stay healthy."
+    },
+    {
+      "id": 168,
+      "sentence": "I think fresh air will help."
+    },
+    {
+      "id": 169,
+      "sentence": "Thanks for checking on me."
+    },
+    {
+      "id": 170,
+      "sentence": "I appreciate your concern."
+    },
+    {
+      "id": 171,
+      "sentence": "Ou won't believe what happened."
+    },
+    {
+      "id": 172,
+      "sentence": "Let me tell you something interesting."
+    },
+    {
+      "id": 173,
+      "sentence": "I wasn't expecting that outcome."
+    },
+    {
+      "id": 174,
+      "sentence": "It all happened so quickly."
+    },
+    {
+      "id": 175,
+      "sentence": "I should have seen that coming."
+    },
+    {
+      "id": 176,
+      "sentence": "It turned out better than expected."
+    },
+    {
+      "id": 177,
+      "sentence": "Let me think for a moment."
+    },
+    {
+      "id": 178,
+      "sentence": "I'll tell you the whole story later."
+    },
+    {
+      "id": 179,
+      "sentence": "That's exactly what I was thinking."
+    },
+    {
+      "id": 180,
+      "sentence": "I still don't know how to feel about it."
+    },
+    {
+      "id": 181,
+      "sentence": "I need help as soon as possible."
+    },
+    {
+      "id": 182,
+      "sentence": "Is everything okay over there?"
+    },
+    {
+      "id": 183,
+      "sentence": "Stay calm, we'll figure it out."
+    },
+    {
+      "id": 184,
+      "sentence": "Can you please call someone for me?"
+    },
+    {
+      "id": 185,
+      "sentence": "Something doesn't feel right."
+    },
+    {
+      "id": 186,
+      "sentence": "I think we should leave immediately."
+    },
+    {
+      "id": 187,
+      "sentence": "Do you know where the exit is?"
+    },
+    {
+      "id": 188,
+      "sentence": "Let's stay together."
+    },
+    {
+      "id": 189,
+      "sentence": "Please slow down and explain."
+    },
+    {
+      "id": 190,
+      "sentence": "Everything will be fine."
+    },
+    {
+      "id": 191,
+      "sentence": "I'd like to schedule an appointment."
+    },
+    {
+      "id": 192,
+      "sentence": "Could you check that for me, please?"
+    },
+    {
+      "id": 193,
+      "sentence": "Is there anything else I should bring?"
+    },
+    {
+      "id": 194,
+      "sentence": "I'd like to confirm my reservation."
+    },
+    {
+      "id": 195,
+      "sentence": "Thank you for your assistance."
+    },
+    {
+      "id": 196,
+      "sentence": "I really appreciate your time."
+    },
+    {
+      "id": 197,
+      "sentence": "Could you send me the details, please?"
+    },
+    {
+      "id": 198,
+      "sentence": "I'll contact you if anything changes."
+    },
+    {
+      "id": 199,
+      "sentence": "That's very helpful. Thank you."
+    },
+    {
+      "id": 200,
+      "sentence": "Have a great rest of your day."
+    },
+    {
+      "id": 201,
+      "sentence": "I'll send you the link in a minute."
+    },
+    {
+      "id": 202,
+      "sentence": "Can you check your messages?"
+    },
+    {
+      "id": 203,
+      "sentence": "Sorry, my internet connection dropped."
+    },
+    {
+      "id": 204,
+      "sentence": "I'll reply as soon as I can."
+    },
+    {
+      "id": 205,
+      "sentence": "Let's continue this later."
+    },
+    {
+      "id": 206,
+      "sentence": "I didn't mean to leave you on read."
+    },
+    {
+      "id": 207,
+      "sentence": "Can we switch to a voice call?"
+    },
+    {
+      "id": 208,
+      "sentence": "I think the file didn't upload."
+    },
+    {
+      "id": 209,
+      "sentence": "Let me restart my device."
+    },
+    {
+      "id": 210,
+      "sentence": "Thanks for sending that so quickly."
+    },
+    {
+      "id": 211,
+      "sentence": "You're doing better than you think."
+    },
+    {
+      "id": 212,
+      "sentence": "Take it one step at a time."
+    },
+    {
+      "id": 213,
+      "sentence": "I'm here if you need anything."
+    },
+    {
+      "id": 214,
+      "sentence": "Don't be too hard on yourself."
+    },
+    {
+      "id": 215,
+      "sentence": "Ou handled that really well."
+    },
+    {
+      "id": 216,
+      "sentence": "It's okay to take a break."
+    },
+    {
+      "id": 217,
+      "sentence": "I believe in your potential."
+    },
+    {
+      "id": 218,
+      "sentence": "Keep going."
+    },
+    {
+      "id": 219,
+      "sentence": "You deserve good things."
+    },
+    {
+      "id": 220,
+      "sentence": "Never stop learning."
+    },
+    {
+      "id": 221,
+      "sentence": "I remember that very clearly."
+    },
+    {
+      "id": 222,
+      "sentence": "It happened a long time ago."
+    },
+    {
+      "id": 223,
+      "sentence": "I didn't realize how important it was."
+    },
+    {
+      "id": 224,
+      "sentence": "Let me start from the beginning."
+    },
+    {
+      "id": 225,
+      "sentence": "I'm trying to explain it properly."
+    },
+    {
+      "id": 226,
+      "sentence": "That was one of the best days ever."
+    },
+    {
+      "id": 227,
+      "sentence": "I still laugh when I think about it."
+    },
+    {
+      "id": 228,
+      "sentence": "I didn't know what to say."
+    },
+    {
+      "id": 229,
+      "sentence": "Everything happened so fast."
+    },
+    {
+      "id": 230,
+      "sentence": "I wish you were there."
+    },
+    {
+      "id": 231,
+      "sentence": "We need to think this through."
+    },
+    {
+      "id": 232,
+      "sentence": "Let's list our options."
+    },
+    {
+      "id": 233,
+      "sentence": "There must be another solution."
+    },
+    {
+      "id": 234,
+      "sentence": "I'm willing to compromise."
+    },
+    {
+      "id": 235,
+      "sentence": "Let's focus on what we can control."
+    },
+    {
+      "id": 236,
+      "sentence": "We should ask for a second opinion."
+    },
+    {
+      "id": 237,
+      "sentence": "That might actually work."
+    },
+    {
+      "id": 238,
+      "sentence": "I'll handle the rest."
+    },
+    {
+      "id": 239,
+      "sentence": "Let's try a different approach."
+    },
+    {
+      "id": 240,
+      "sentence": "That's worth considering."
+    },
+    {
+      "id": 241,
+      "sentence": "I'm trying to spend less this month."
+    },
+    {
+      "id": 242,
+      "sentence": "Do you think it's worth the price?"
+    },
+    {
+      "id": 243,
+      "sentence": "I'm still comparing options."
+    },
+    {
+      "id": 244,
+      "sentence": "Can I return it if it doesn't fit?"
+    },
+    {
+      "id": 245,
+      "sentence": "I'll wait for a discount."
+    },
+    {
+      "id": 246,
+      "sentence": "Do you have something similar?"
+    },
+    {
+      "id": 247,
+      "sentence": "I'm just checking the prices."
+    },
+    {
+      "id": 248,
+      "sentence": "Could you please hold this for me?"
+    },
+    {
+      "id": 249,
+      "sentence": "Do you have it in stock?"
+    },
+    {
+      "id": 250,
+      "sentence": "I'll think about it and come back."
+    },
+    {
+      "id": 251,
+      "sentence": "My phone battery is almost dead."
+    },
+    {
+      "id": 252,
+      "sentence": "I need to update my software."
+    },
+    {
+      "id": 253,
+      "sentence": "The app isn't working properly."
+    },
+    {
+      "id": 254,
+      "sentence": "Can you send me the screenshot?"
+    },
+    {
+      "id": 255,
+      "sentence": "I accidentally deleted it."
+    },
+    {
+      "id": 256,
+      "sentence": "Do you know the Wi-Fi password?"
+    },
+    {
+      "id": 257,
+      "sentence": "My storage is almost full."
+    },
+    {
+      "id": 258,
+      "sentence": "Let me restart the app."
+    },
+    {
+      "id": 259,
+      "sentence": "I'll send you the file right now."
+    },
+    {
+      "id": 260,
+      "sentence": "Thanks for helping me fix it."
+    },
+    {
+      "id": 261,
+      "sentence": "Have you watched anything good lately?"
+    },
+    {
+      "id": 262,
+      "sentence": "I've been listening to this song all day."
+    },
+    {
+      "id": 263,
+      "sentence": "I really enjoy learning new skills."
+    },
+    {
+      "id": 264,
+      "sentence": "That's one of my favorite hobbies."
+    },
+    {
+      "id": 265,
+      "sentence": "I want to get better at it."
+    },
+    {
+      "id": 266,
+      "sentence": "Do you have any recommendations?"
+    },
+    {
+      "id": 267,
+      "sentence": "I haven't tried that before."
+    },
+    {
+      "id": 268,
+      "sentence": "It sounds interesting actually."
+    },
+    {
+      "id": 269,
+      "sentence": "Maybe I'll try it someday."
+    },
+    {
+      "id": 270,
+      "sentence": "Let's do it together."
+    },
+    {
+      "id": 271,
+      "sentence": "Let's stay focused on the main point."
+    },
+    {
+      "id": 272,
+      "sentence": "Do you have any updates for us?"
+    },
+    {
+      "id": 273,
+      "sentence": "I'll send you the final version."
+    },
+    {
+      "id": 274,
+      "sentence": "Can we schedule a quick meeting?"
+    },
+    {
+      "id": 275,
+      "sentence": "I'll doublech checkck the information."
+    },
+    {
+      "id": 276,
+      "sentence": "Let's review this together."
+    },
+    {
+      "id": 277,
+      "sentence": "I really appreciate your feedback."
+    },
+    {
+      "id": 278,
+      "sentence": "I'll try to finish it by tomorrow."
+    },
+    {
+      "id": 279,
+      "sentence": "Could you clarify that part, please?"
+    },
+    {
+      "id": 280,
+      "sentence": "Let's keep each other updated."
+    },
+    {
+      "id": 281,
+      "sentence": "I'm trying to stay consistent with my studies."
+    },
+    {
+      "id": 282,
+      "sentence": "Can you recommend helpful resources?"
+    },
+    {
+      "id": 283,
+      "sentence": "I still have a lot to learn."
+    },
+    {
+      "id": 284,
+      "sentence": "I need more time to practice."
+    },
+    {
+      "id": 285,
+      "sentence": "I understand it better now."
+    },
+    {
+      "id": 286,
+      "sentence": "I'll review it again later."
+    },
+    {
+      "id": 287,
+      "sentence": "That explanation really helped."
+    },
+    {
+      "id": 288,
+      "sentence": "Can you check my answer, please?"
+    },
+    {
+      "id": 289,
+      "sentence": "I'm trying to improve every day."
+    },
+    {
+      "id": 290,
+      "sentence": "Learning takes time and that's okay."
+    },
+    {
+      "id": 291,
+      "sentence": "I haven't seen you around lately."
+    },
+    {
+      "id": 292,
+      "sentence": "The neighborhood feels quieter today."
+    },
+    {
+      "id": 293,
+      "sentence": "Do you know who lives next door?"
+    },
+    {
+      "id": 294,
+      "sentence": "I think they just moved in."
+    },
+    {
+      "id": 295,
+      "sentence": "Let's go for a walk later."
+    },
+    {
+      "id": 296,
+      "sentence": "The weather is perfect today."
+    },
+    {
+      "id": 297,
+      "sentence": "I love this quiet atmosphere."
+    },
+    {
+      "id": 298,
+      "sentence": "Do you need help carrying that?"
+    },
+    {
+      "id": 299,
+      "sentence": "Thanks for stopping by."
+    },
+    {
+      "id": 300,
+      "sentence": "See you around."
+    }
+  ]
+}

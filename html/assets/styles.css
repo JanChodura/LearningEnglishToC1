@@ -106,6 +106,10 @@ h2 {
   gap: 10px;
 }
 
+.link-list + .link-list {
+  margin-top: 10px;
+}
+
 .link-list li {
   display: flex;
   align-items: center;

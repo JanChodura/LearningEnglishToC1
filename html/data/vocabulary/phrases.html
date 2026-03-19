@@ -1,0 +1,2610 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phrases</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --card: #fffaf1;
+      --text: #201d19;
+      --muted: #736c62;
+      --rule: #e7e0d3;
+      --accent: #0f766e;
+      --side: #f7f1e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(180deg, #f2ede3 0%, #f8f6f0 100%);
+      color: var(--text);
+      font-family: Tahoma, sans-serif;
+      font-size: 12pt;
+      line-height: 1.24;
+    }
+    .wrap {
+      max-width: 1650px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 14px;
+      padding: 16px 18px 18px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    }
+    h1 { margin: 0 0 4px; font-size: 16pt; line-height: 1.1; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; color: var(--muted); font-size: 16pt; line-height: 1.1; flex-wrap: wrap; }
+    .toolbar a { color: #0645ad; text-decoration: none; }
+    .toolbar a:hover { text-decoration: underline; }
+    .toolbar-actions { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .shuffle-btn {
+      appearance: none;
+      border: 1px solid var(--rule);
+      background: #f6f1e7;
+      color: #0645ad;
+      border-radius: 999px;
+      padding: 4px 12px;
+      font: inherit;
+      font-size: 11pt;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+    .shuffle-btn:hover { text-decoration: underline; }
+    .shuffle-btn.is-active {
+      background: #e7dcc7;
+      border-color: #c8b999;
+      color: #1f1a15;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .grid { display: grid; gap: 14px; }
+    .card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 14px;
+      align-items: stretch;
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 12px 14px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+    }
+    .card.with-synonyms { grid-template-columns: minmax(0, 1fr) 435px; }
+    .main { min-width: 0; }
+    .head { font-size: 14pt; line-height: 1.22; margin-bottom: 6px; }
+    .word { font-weight: 700; }
+    .level, .cz { font-weight: 400; }
+    .pronunciation-link { color: #0645ad; text-decoration: none; margin: 0 8px; font-size: 11pt; font-weight: 400; }
+    .pronunciation-link:hover { text-decoration: underline; }
+    .desc { font-size: 13pt; line-height: 1.24; margin-bottom: 6px; }
+    .usage { font-size: 13pt; line-height: 1.24; color: #3e3a34; }
+    .examples { font-size: 13pt; line-height: 1.24; font-style: italic; color: #423d37; margin-top: 6px; }
+    .sentence { display: block; }
+    .syn-box {
+      align-self: stretch;
+      justify-self: end;
+      width: 100%;
+      background: var(--side);
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+    .syn-item + .syn-item { margin-top: 6px; }
+    .syn-item {
+      font-size: 10.5pt;
+      line-height: 1.25;
+      color: #4b453d;
+      white-space: normal;
+      overflow: visible;
+    }
+    .syn-word { font-weight: 700; }
+    .syn-exp { color: #4b453d; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Phrases</h1>
+    <div class="toolbar">
+      <span><a href="../../index.html">Back to index</a></span>
+      <span>243 polozek</span>
+      <span>
+        <button type="button" class="shuffle-btn" id="shuffle-toggle" aria-pressed="false">Shuffle</button>
+        <a href="../../../data/vocabulary/phrases.json">JSON</a>
+      </span>
+    </div>
+    <section class="grid">
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the moment</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-moment" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v tuto chvíli</span></div>
+        <div class="desc">right now</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;m busy at the moment.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the end</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-end" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nakonec</span></div>
+        <div class="desc">finally after some time</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">In the end we decided to stay.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for a while</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-a-while" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na chvíli</span></div>
+        <div class="desc">for a short time</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">Sit here for a while.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">all the time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/all-the-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pořád</span></div>
+        <div class="desc">continuously</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">He talks all the time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from time to time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-time-to-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">čas od času</span></div>
+        <div class="desc">occasionally</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I go hiking from time to time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the future</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-future" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v budoucnu</span></div>
+        <div class="desc">time after now</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">I want to travel more in the future.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the past</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-past" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v minulosti</span></div>
+        <div class="desc">time before now</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">People lived differently in the past.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by mistake</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-mistake" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">omylem</span></div>
+        <div class="desc">accidentally</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I deleted the file by mistake.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on purpose</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-purpose" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">schválně</span></div>
+        <div class="desc">intentionally</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He broke it on purpose.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in general</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-general" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">obecně</span></div>
+        <div class="desc">generally speaking</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In general this method works.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in particular</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-particular" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zejména</span></div>
+        <div class="desc">especially</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">I like fruit, in particular apples.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for example</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-example" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">například</span></div>
+        <div class="desc">introducing an example</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">For example we could try Java.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">as a result</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/as-a-result" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v důsledku toho</span></div>
+        <div class="desc">because of something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">As a result sales increased.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in addition</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-addition" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">navíc</span></div>
+        <div class="desc">adding information</div>
+        <div class="usage">writing</div>
+      <div class="examples">
+        <span class="sentence">In addition we improved performance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at first</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-first" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nejprve</span></div>
+        <div class="desc">in the beginning</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">At first it was difficult.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at least</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-least" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">alespoň</span></div>
+        <div class="desc">minimum amount</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Call me at least once.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at most</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-most" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">maximálně</span></div>
+        <div class="desc">maximum amount</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">It will take two hours at most.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the same time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-same-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zároveň</span></div>
+        <div class="desc">simultaneously</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">He works and studies at the same time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the other hand</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-other-hand" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na druhou stranu</span></div>
+        <div class="desc">contrast</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">It&#x27;s cheap, but on the other hand slow.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in other words</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-other-words" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jinými slovy</span></div>
+        <div class="desc">restating</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In other words we must start again.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">as usual</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/as-usual" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jako obvykle</span></div>
+        <div class="desc">normally</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">He arrived late as usual.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for sure</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-sure" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">určitě</span></div>
+        <div class="desc">definitely</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;ll come tomorrow for sure.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">of course</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/of-course" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">samozřejmě</span></div>
+        <div class="desc">obviously</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">Of course I remember.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">no problem</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/no-problem" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">žádný problém</span></div>
+        <div class="desc">something is easy</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">No problem, I can help.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">right away</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/right-away" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hned</span></div>
+        <div class="desc">immediately</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;ll do it right away.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">so far</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/so-far" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zatím</span></div>
+        <div class="desc">until now</div>
+        <div class="usage">time</div>
+      <div class="examples">
+        <span class="sentence">So far everything works.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by the way</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-the-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mimochodem</span></div>
+        <div class="desc">introducing new topic</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">By the way have you seen John?</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">as soon as possible</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/as-soon-as-possible" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">co nejdříve</span></div>
+        <div class="desc">very quickly</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Send the report as soon as possible.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for a long time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-a-long-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dlouho</span></div>
+        <div class="desc">long duration</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I waited for a long time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a hurry</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-hurry" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve spěchu</span></div>
+        <div class="desc">very quickly</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I left in a hurry.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a moment</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-moment" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za chvíli</span></div>
+        <div class="desc">very soon</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;ll be there in a moment.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at home</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-home" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">doma</span></div>
+        <div class="desc">in one&#x27;s house</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">She is at home.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at work</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-work" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v práci</span></div>
+        <div class="desc">in workplace</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;m at work.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the way</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na cestě</span></div>
+        <div class="desc">moving somewhere</div>
+        <div class="usage">travel</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;m on the way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the middle</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-middle" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">uprostřed</span></div>
+        <div class="desc">center position</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The shop is in the middle.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the top</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-top" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nahoře</span></div>
+        <div class="desc">highest place</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The flag is at the top.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the bottom</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-bottom" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dole</span></div>
+        <div class="desc">lowest place</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The key is at the bottom.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the corner</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-corner" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v rohu</span></div>
+        <div class="desc">corner location</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The table is in the corner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">next to</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/next-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vedle</span></div>
+        <div class="desc">very close</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">Sit next to me.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">far away</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/far-away" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">daleko</span></div>
+        <div class="desc">large distance</div>
+        <div class="usage">travel</div>
+      <div class="examples">
+        <span class="sentence">The village is far away.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">close to</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/close-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">blízko</span></div>
+        <div class="desc">short distance</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The station is close to the hotel.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in front of</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-front-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">před</span></div>
+        <div class="desc">before something spatially</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The car is in front of the house.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">behind the scenes</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/behind-the-scenes" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v zákulisí</span></div>
+        <div class="desc">hidden actions</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">A lot happens behind the scenes.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">all of a sudden</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/all-of-a-sudden" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">najednou</span></div>
+        <div class="desc">unexpectedly</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">All of a sudden it started raining.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the last minute</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-last-minute" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na poslední chvíli</span></div>
+        <div class="desc">just before deadline</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He canceled at the last minute.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the first time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-first-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">poprvé</span></div>
+        <div class="desc">initial experience</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I visited Paris for the first time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the last time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-last-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">naposledy</span></div>
+        <div class="desc">final occurrence</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I saw him for the last time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the meantime</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-meantime" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mezitím</span></div>
+        <div class="desc">during the same time</div>
+        <div class="usage">time</div>
+      <div class="examples">
+        <span class="sentence">In the meantime we prepared dinner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the morning</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-morning" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ráno</span></div>
+        <div class="desc">time of day</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I run in the morning.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the evening</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-evening" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">večer</span></div>
+        <div class="desc">time of day</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We meet in the evening.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at night</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-night" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v noci</span></div>
+        <div class="desc">night time</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">It gets cold at night.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from now on</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-now-on" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">odteď</span></div>
+        <div class="desc">starting now</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">From now on I will study daily.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">up to now</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/up-to-now" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">doposud</span></div>
+        <div class="desc">until this moment</div>
+        <div class="usage">time</div>
+      <div class="examples">
+        <span class="sentence">Up to now we had no problems.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">one more time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/one-more-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ještě jednou</span></div>
+        <div class="desc">repeat action</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">Please say it one more time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the beginning</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-beginning" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na začátku</span></div>
+        <div class="desc">initial stage</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">At the beginning it was confusing.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the end</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-end" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na konci</span></div>
+        <div class="desc">final stage</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">At the end we succeeded.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">little by little</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/little-by-little" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">postupně</span></div>
+        <div class="desc">gradually</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Little by little things improved.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">more or less</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/more-or-less" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">víceméně</span></div>
+        <div class="desc">approximately</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">It&#x27;s more or less correct.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">once again</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/once-again" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">znovu</span></div>
+        <div class="desc">repetition</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">Let me explain once again.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">all over the world</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/all-over-the-world" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">po celém světě</span></div>
+        <div class="desc">globally</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">People use smartphones all over the world.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in many ways</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-many-ways" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v mnoha ohledech</span></div>
+        <div class="desc">in several aspects</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In many ways the system improved.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in real life</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-real-life" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve skutečném životě</span></div>
+        <div class="desc">outside theory</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In real life things are harder.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the same place</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-same-place" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na stejném místě</span></div>
+        <div class="desc">same location</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">Meet me at the same place.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the most part</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-most-part" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">většinou</span></div>
+        <div class="desc">mainly</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">For the most part it works.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on a daily basis</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-a-daily-basis" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">denně</span></div>
+        <div class="desc">every day</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We monitor servers on a daily basis.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">včas</span></div>
+        <div class="desc">not late</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The train arrived on time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">včas aby se něco stalo</span></div>
+        <div class="desc">before it is too late</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We arrived just in time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">without a doubt</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/without-a-doubt" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bezpochyby</span></div>
+        <div class="desc">certainly</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">This is without a doubt correct.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with a smile</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-a-smile" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s úsměvem</span></div>
+        <div class="desc">positive emotion</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">She greeted us with a smile.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with great care</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-great-care" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s velkou péčí</span></div>
+        <div class="desc">carefully</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Handle the device with great care.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in great detail</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-great-detail" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">do velkého detailu</span></div>
+        <div class="desc">very precisely</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">He explained it in great detail.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a different way</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-different-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jiným způsobem</span></div>
+        <div class="desc">alternative method</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Try to solve it in a different way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for this reason</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-this-reason" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z tohoto důvodu</span></div>
+        <div class="desc">because of this</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">For this reason we changed the plan.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under pressure</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-pressure" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pod tlakem</span></div>
+        <div class="desc">in stressful situation</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He works well under pressure.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in private</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-private" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">soukromě</span></div>
+        <div class="desc">not publicly</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">They talked in private.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in public</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-public" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">veřejně</span></div>
+        <div class="desc">openly in front of others</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">She apologized in public.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at short notice</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-short-notice" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na poslední chvíli</span></div>
+        <div class="desc">little warning</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We had to travel at short notice.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by chance</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-chance" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">náhodou</span></div>
+        <div class="desc">accidentally</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We met by chance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on average</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-average" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v průměru</span></div>
+        <div class="desc">statistical mean</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">On average people sleep 7 hours.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in theory</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-theory" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">teoreticky</span></div>
+        <div class="desc">according to theory</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In theory the code should work.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in practice</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-practice" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v praxi</span></div>
+        <div class="desc">in real situation</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In practice it fails sometimes.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under control</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-control" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pod kontrolou</span></div>
+        <div class="desc">managed situation</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Everything is under control.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">out of control</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/out-of-control" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mimo kontrolu</span></div>
+        <div class="desc">unmanageable</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">The fire spread out of control.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on your own</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-your-own" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">sám</span></div>
+        <div class="desc">alone</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He solved it on his own.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for yourself</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-yourself" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">sám pro sebe</span></div>
+        <div class="desc">personally</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">See it for yourself.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by yourself</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-yourself" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">sám</span></div>
+        <div class="desc">without help</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Can you do it by yourself?</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the right time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-right-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve správný čas</span></div>
+        <div class="desc">appropriate moment</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He arrived at the right time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the wrong time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-wrong-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve špatný čas</span></div>
+        <div class="desc">bad moment</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">It happened at the wrong time.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the long term</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-long-term" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dlouhodobě</span></div>
+        <div class="desc">over long time</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the long term this helps.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the short term</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-short-term" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">krátkodobě</span></div>
+        <div class="desc">over short time</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the short term costs rise.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">step by step</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/step-by-step" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">krok za krokem</span></div>
+        <div class="desc">gradually</div>
+        <div class="usage">learning</div>
+      <div class="examples">
+        <span class="sentence">We solved it step by step.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">side by side</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/side-by-side" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vedle sebe</span></div>
+        <div class="desc">together</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The houses stand side by side.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bit by bit</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bit-by-bit" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">kousek po kousku</span></div>
+        <div class="desc">slowly piece by piece</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Bit by bit he improved.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">as far as I know</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/as-far-as-i-know" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pokud vím</span></div>
+        <div class="desc">based on current knowledge</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">As far as I know the server is stable.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">as a matter of fact</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/as-a-matter-of-fact" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve skutečnosti</span></div>
+        <div class="desc">emphasizing truth</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">As a matter of fact we already tested it.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the end of the day</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-end-of-the-day" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nakonec</span></div>
+        <div class="desc">when everything is considered</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">At the end of the day results matter.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at this stage</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-this-stage" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v této fázi</span></div>
+        <div class="desc">current stage</div>
+        <div class="usage">project</div>
+      <div class="examples">
+        <span class="sentence">At this stage we need more data.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">be in charge of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/be-in-charge-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít na starosti</span></div>
+        <div class="desc">have responsibility</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">She is in charge of the backend.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">be likely to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/be-likely-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">je pravděpodobné</span></div>
+        <div class="desc">probability expression</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">This change is likely to improve performance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">be supposed to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/be-supposed-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít něco dělat</span></div>
+        <div class="desc">expected duty</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">You are supposed to review the code.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by all means</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-all-means" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">rozhodně</span></div>
+        <div class="desc">strong agreement</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">By all means contact me.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by the time</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-the-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">když už</span></div>
+        <div class="desc">time relation</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">By the time we arrived it was dark.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">come into play</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/come-into-play" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">začít hrát roli</span></div>
+        <div class="desc">become relevant</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Several factors come into play.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">come to a conclusion</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/come-to-a-conclusion" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dojít k závěru</span></div>
+        <div class="desc">reach decision</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">We came to a conclusion.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">come to an agreement</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/come-to-an-agreement" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dohodnout se</span></div>
+        <div class="desc">reach agreement</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">Both sides came to an agreement.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">deal with the issue</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/deal-with-the-issue" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">řešit problém</span></div>
+        <div class="desc">handle problem</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We must deal with the issue quickly.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">draw attention to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/draw-attention-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">upozornit na</span></div>
+        <div class="desc">highlight something</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">The report draws attention to risks.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the sake of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-sake-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">kvůli</span></div>
+        <div class="desc">for benefit of something</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">For the sake of clarity we simplified it.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from my point of view</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-my-point-of-view" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z mého pohledu</span></div>
+        <div class="desc">personal opinion</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">From my point of view this is risky.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get the impression</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-the-impression" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">získat dojem</span></div>
+        <div class="desc">form opinion</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">I got the impression he was tired.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">give rise to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/give-rise-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyvolat</span></div>
+        <div class="desc">cause something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">This change may give rise to errors.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">have a tendency to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/have-a-tendency-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít tendenci</span></div>
+        <div class="desc">often do something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The system has a tendency to slow down.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in accordance with</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-accordance-with" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v souladu s</span></div>
+        <div class="desc">following rules</div>
+        <div class="usage">law</div>
+      <div class="examples">
+        <span class="sentence">The process runs in accordance with policy.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in advance</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-advance" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">předem</span></div>
+        <div class="desc">before something</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">Please send the agenda in advance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in case of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-case-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v případě</span></div>
+        <div class="desc">conditional situation</div>
+        <div class="usage">instructions</div>
+      <div class="examples">
+        <span class="sentence">Call support in case of failure.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in comparison with</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-comparison-with" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve srovnání s</span></div>
+        <div class="desc">comparing</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In comparison with last year profits grew.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in contrast to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-contrast-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na rozdíl od</span></div>
+        <div class="desc">show difference</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In contrast to Java, Kotlin is concise.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in favour of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-favour-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve prospěch</span></div>
+        <div class="desc">supporting</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Most people voted in favour of change.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in terms of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-terms-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z hlediska</span></div>
+        <div class="desc">regarding aspect</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In terms of speed it&#x27;s better.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the absence of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-absence-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">při absenci</span></div>
+        <div class="desc">when something missing</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the absence of data we guessed.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the context of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-context-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v kontextu</span></div>
+        <div class="desc">within situation</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the context of security this matters.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the course of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-course-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">během</span></div>
+        <div class="desc">during process</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the course of testing we found bugs.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the light of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-light-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve světle</span></div>
+        <div class="desc">considering new facts</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the light of results we changed plan.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the long run</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-long-run" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z dlouhodobého hlediska</span></div>
+        <div class="desc">over long period</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the long run automation helps.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the meantime</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-meantime" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mezitím</span></div>
+        <div class="desc">during interval</div>
+        <div class="usage">time</div>
+      <div class="examples">
+        <span class="sentence">In the meantime we prepared logs.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the process of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-process-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">při procesu</span></div>
+        <div class="desc">while doing</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The system is in the process of migration.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the same way</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-same-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stejným způsobem</span></div>
+        <div class="desc">similar method</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Apply the fix in the same way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the short term</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-short-term" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">krátkodobě</span></div>
+        <div class="desc">short period</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the short term costs increase.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">it turns out that</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/it-turns-out-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ukáže se že</span></div>
+        <div class="desc">unexpected result</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">It turns out that the bug was trivial.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">keep in mind</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/keep-in-mind" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít na paměti</span></div>
+        <div class="desc">remember</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Keep in mind performance limits.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make a decision</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-a-decision" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">učinit rozhodnutí</span></div>
+        <div class="desc">decide</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We must make a decision.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make a difference</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-a-difference" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít vliv</span></div>
+        <div class="desc">have impact</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Caching makes a difference.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make an effort</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-an-effort" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyvinout úsilí</span></div>
+        <div class="desc">try harder</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">You should make an effort.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make progress</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-progress" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dělat pokrok</span></div>
+        <div class="desc">advance</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We finally made progress.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on a regular basis</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-a-regular-basis" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pravidelně</span></div>
+        <div class="desc">regular frequency</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We deploy on a regular basis.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on behalf of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-behalf-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jménem</span></div>
+        <div class="desc">representing</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">She spoke on behalf of the team.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the basis of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-basis-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na základě</span></div>
+        <div class="desc">based on</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The decision was on the basis of data.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the condition that</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-condition-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za podmínky že</span></div>
+        <div class="desc">conditional phrase</div>
+        <div class="usage">agreement</div>
+      <div class="examples">
+        <span class="sentence">We&#x27;ll agree on the condition that it works.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the grounds that</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-grounds-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z důvodu že</span></div>
+        <div class="desc">justification</div>
+        <div class="usage">argument</div>
+      <div class="examples">
+        <span class="sentence">They rejected it on the grounds that it failed.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the whole</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-whole" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">celkově</span></div>
+        <div class="desc">generally</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">On the whole results look good.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">out of curiosity</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/out-of-curiosity" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ze zvědavosti</span></div>
+        <div class="desc">motivated by curiosity</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Out of curiosity I checked logs.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">play a role</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/play-a-role" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hrát roli</span></div>
+        <div class="desc">have influence</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Latency plays a role.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">put pressure on</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/put-pressure-on" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyvíjet tlak</span></div>
+        <div class="desc">force someone</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Managers put pressure on deadlines.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">reach a decision</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/reach-a-decision" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dospět k rozhodnutí</span></div>
+        <div class="desc">decide</div>
+        <div class="usage">meeting</div>
+      <div class="examples">
+        <span class="sentence">They reached a decision.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">refer to as</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/refer-to-as" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">označovat jako</span></div>
+        <div class="desc">name something</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">This pattern is referred to as observer.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">result in</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/result-in" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyústit v</span></div>
+        <div class="desc">cause result</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The bug resulted in outage.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">serve as</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/serve-as" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">sloužit jako</span></div>
+        <div class="desc">function as</div>
+        <div class="usage">design</div>
+      <div class="examples">
+        <span class="sentence">This class serves as adapter.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">set a goal</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/set-a-goal" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stanovit cíl</span></div>
+        <div class="desc">define objective</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">We set a goal for the quarter.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">set an example</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/set-an-example" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dát příklad</span></div>
+        <div class="desc">demonstrate behavior</div>
+        <div class="usage">leadership</div>
+      <div class="examples">
+        <span class="sentence">Leaders should set an example.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">so as to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/so-as-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">aby</span></div>
+        <div class="desc">purpose expression</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">We logged data so as to debug.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take into account</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-into-account" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">brát v úvahu</span></div>
+        <div class="desc">consider</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Take latency into account.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take part in</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-part-in" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">účastnit se</span></div>
+        <div class="desc">participate</div>
+        <div class="usage">event</div>
+      <div class="examples">
+        <span class="sentence">Many developers took part in conference.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take responsibility</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-responsibility" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">převzít odpovědnost</span></div>
+        <div class="desc">accept blame</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He took responsibility.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take steps</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-steps" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">učinit kroky</span></div>
+        <div class="desc">act toward goal</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We took steps to fix security.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">the fact that</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/the-fact-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">skutečnost že</span></div>
+        <div class="desc">introducing fact</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">The fact that it works surprised us.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with regard to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-regard-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s ohledem na</span></div>
+        <div class="desc">about topic</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">With regard to security we updated code.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with respect to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-respect-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s ohledem na</span></div>
+        <div class="desc">in relation to</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">With respect to latency results improved.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with the aim of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-the-aim-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s cílem</span></div>
+        <div class="desc">purpose</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">We tested with the aim of scaling.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">within reach</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/within-reach" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na dosah</span></div>
+        <div class="desc">almost achievable</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Success is within reach.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">without hesitation</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/without-hesitation" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bez váhání</span></div>
+        <div class="desc">immediately decide</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">She agreed without hesitation.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under the circumstances</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-the-circumstances" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za daných okolností</span></div>
+        <div class="desc">given situation</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Under the circumstances we stopped.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under the assumption</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-the-assumption" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">při předpokladu</span></div>
+        <div class="desc">assuming something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Under the assumption traffic grows.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">beyond expectations</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/beyond-expectations" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nad očekávání</span></div>
+        <div class="desc">better than expected</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Results were beyond expectations.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the time being</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-time-being" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">prozatím</span></div>
+        <div class="desc">temporary</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">For the time being we keep this solution.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at your disposal</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-your-disposal" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">k dispozici</span></div>
+        <div class="desc">available for use</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">Resources are at your disposal.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the verge of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-verge-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na pokraji</span></div>
+        <div class="desc">almost happening</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The system was on the verge of collapse.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from scratch</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-scratch" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">od nuly</span></div>
+        <div class="desc">starting completely new</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We rewrote the module from scratch.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the middle of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-middle-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">uprostřed něčeho</span></div>
+        <div class="desc">during something</div>
+        <div class="usage">story</div>
+      <div class="examples">
+        <span class="sentence">We were in the middle of deployment.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">at the heart of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/at-the-heart-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v jádru</span></div>
+        <div class="desc">central element</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Concurrency is at the heart of the issue.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the vicinity of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-vicinity-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v blízkosti</span></div>
+        <div class="desc">near location</div>
+        <div class="usage">description</div>
+      <div class="examples">
+        <span class="sentence">The office is in the vicinity of station.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under the impression</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-the-impression" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v domnění</span></div>
+        <div class="desc">believing something</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">I was under the impression it worked.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the purpose of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-purpose-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za účelem</span></div>
+        <div class="desc">goal of action</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">Logs exist for the purpose of debugging.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in relation to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-relation-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve vztahu k</span></div>
+        <div class="desc">connected with</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In relation to cost it&#x27;s efficient.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">as opposed to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/as-opposed-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na rozdíl od</span></div>
+        <div class="desc">contrast</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Kotlin uses val as opposed to var.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with the exception of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-the-exception-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s výjimkou</span></div>
+        <div class="desc">excluding</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">All passed with the exception of one.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in exchange for</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-exchange-for" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">výměnou za</span></div>
+        <div class="desc">trade</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">They offered equity in exchange for work.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the verge of</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-verge-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na pokraji</span></div>
+        <div class="desc">almost happening</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The company was on the verge of failure.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in light of recent developments</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-light-of-recent-developments" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve světle nedávných událostí</span></div>
+        <div class="desc">considering new information</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In light of recent developments we changed the architecture.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from a broader perspective</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-a-broader-perspective" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z širší perspektivy</span></div>
+        <div class="desc">looking at the bigger picture</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">From a broader perspective the change makes sense.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">to a considerable extent</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/to-a-considerable-extent" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">do značné míry</span></div>
+        <div class="desc">to a large degree</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Latency depends to a considerable extent on network load.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the broader context</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-broader-context" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v širším kontextu</span></div>
+        <div class="desc">considering the larger situation</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the broader context the failure was minor.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with regard to the matter</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-regard-to-the-matter" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s ohledem na danou věc</span></div>
+        <div class="desc">concerning a topic</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">With regard to the matter we scheduled a review.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the absence of evidence</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-absence-of-evidence" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">při absenci důkazů</span></div>
+        <div class="desc">without proof</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the absence of evidence we postponed the decision.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the long term perspective</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-long-term-perspective" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z dlouhodobé perspektivy</span></div>
+        <div class="desc">considering future impact</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the long term perspective automation wins.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in practical terms</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-practical-terms" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">prakticky řečeno</span></div>
+        <div class="desc">considering real effects</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In practical terms the patch reduces load.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in theoretical terms</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-theoretical-terms" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">teoreticky řečeno</span></div>
+        <div class="desc">considering theory</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In theoretical terms the algorithm is optimal.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in retrospect</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-retrospect" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">při zpětném pohledu</span></div>
+        <div class="desc">looking back</div>
+        <div class="usage">reflection</div>
+      <div class="examples">
+        <span class="sentence">In retrospect the bug was obvious.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the grand scheme of things</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-grand-scheme-of-things" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v širším měřítku věcí</span></div>
+        <div class="desc">considering overall importance</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In the grand scheme of things the delay was small.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in view of the situation</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-view-of-the-situation" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vzhledem k situaci</span></div>
+        <div class="desc">considering circumstances</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">In view of the situation we delayed deployment.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with the intention of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-the-intention-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s úmyslem</span></div>
+        <div class="desc">with a specific goal</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">He spoke with the intention of clarifying the issue.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with the aim of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-the-aim-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s cílem</span></div>
+        <div class="desc">with a purpose</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">We redesigned the service with the aim of scaling.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">with the result that</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/with-the-result-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">s výsledkem že</span></div>
+        <div class="desc">leading to consequence</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Traffic spiked with the result that the service slowed.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in response to feedback</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-response-to-feedback" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v reakci na zpětnou vazbu</span></div>
+        <div class="desc">reacting to input</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">We changed the API in response to feedback.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in line with expectations</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-line-with-expectations" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v souladu s očekáváním</span></div>
+        <div class="desc">matching predictions</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Performance improved in line with expectations.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in stark contrast to</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-stark-contrast-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v ostrém kontrastu s</span></div>
+        <div class="desc">very different from</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">This stands in stark contrast to earlier results.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in proportion to</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-proportion-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">úměrně</span></div>
+        <div class="desc">relative to amount</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Costs grow in proportion to traffic.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in conjunction with</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-conjunction-with" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve spojení s</span></div>
+        <div class="desc">together with</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The system works in conjunction with Redis.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the event of failure</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-event-of-failure" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v případě selhání</span></div>
+        <div class="desc">if failure occurs</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">In the event of failure restart the node.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under the assumption that</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-the-assumption-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za předpokladu že</span></div>
+        <div class="desc">assuming something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">We scaled under the assumption that traffic doubles.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the assumption that</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-assumption-that" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za předpokladu že</span></div>
+        <div class="desc">assuming something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The test runs on the assumption that disk is fast.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in recognition of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-recognition-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na uznání</span></div>
+        <div class="desc">acknowledging contribution</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">The award was given in recognition of innovation.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in pursuit of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-pursuit-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve snaze o</span></div>
+        <div class="desc">trying to achieve</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The team optimized code in pursuit of performance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in support of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-support-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na podporu</span></div>
+        <div class="desc">supporting argument</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">He presented logs in support of his claim.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in opposition to</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-opposition-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v opozici vůči</span></div>
+        <div class="desc">against something</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Several engineers argued in opposition to the change.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in relation to latency</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-relation-to-latency" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve vztahu k latenci</span></div>
+        <div class="desc">regarding a factor</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In relation to latency caching helps.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in terms of reliability</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-terms-of-reliability" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z hlediska spolehlivosti</span></div>
+        <div class="desc">considering a metric</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In terms of reliability the service improved.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in terms of scalability</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-terms-of-scalability" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z hlediska škálování</span></div>
+        <div class="desc">considering scale</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In terms of scalability the new design wins.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from an operational standpoint</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-an-operational-standpoint" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z provozního hlediska</span></div>
+        <div class="desc">operational view</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">From an operational standpoint the fix is simple.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from a technical standpoint</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-a-technical-standpoint" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z technického hlediska</span></div>
+        <div class="desc">technical view</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">From a technical standpoint the bug is trivial.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from a strategic perspective</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-a-strategic-perspective" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ze strategické perspektivy</span></div>
+        <div class="desc">strategy viewpoint</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">From a strategic perspective this investment matters.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">within the framework of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/within-the-framework-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v rámci</span></div>
+        <div class="desc">inside defined structure</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">The study runs within the framework of the project.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">within the scope of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/within-the-scope-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v rámci rozsahu</span></div>
+        <div class="desc">inside limits</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The change is within the scope of the release.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">within reasonable limits</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/within-reasonable-limits" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v rozumných mezích</span></div>
+        <div class="desc">acceptable bounds</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Latency stayed within reasonable limits.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">beyond reasonable doubt</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/beyond-reasonable-doubt" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bez rozumných pochybností</span></div>
+        <div class="desc">with strong certainty</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The logs prove beyond reasonable doubt the cause.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">to a large degree</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/to-a-large-degree" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">do velké míry</span></div>
+        <div class="desc">to a strong extent</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The slowdown depends to a large degree on IO.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">to a limited degree</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/to-a-limited-degree" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">do omezené míry</span></div>
+        <div class="desc">only partially</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Caching helps to a limited degree.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">to a certain extent</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/to-a-certain-extent" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">do určité míry</span></div>
+        <div class="desc">partially true</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">To a certain extent the criticism is fair.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in measurable terms</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-measurable-terms" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v měřitelných hodnotách</span></div>
+        <div class="desc">quantifiable impact</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In measurable terms latency dropped 20%.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a meaningful sense</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-meaningful-sense" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v reálném smyslu</span></div>
+        <div class="desc">with real significance</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The optimization matters in a meaningful sense.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a sustainable manner</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-sustainable-manner" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">udržitelným způsobem</span></div>
+        <div class="desc">long term viable</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The system scales in a sustainable manner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a scalable manner</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-scalable-manner" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">škálovatelným způsobem</span></div>
+        <div class="desc">able to scale</div>
+        <div class="usage">engineering</div>
+      <div class="examples">
+        <span class="sentence">The service runs in a scalable manner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a transparent manner</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-transparent-manner" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">transparentním způsobem</span></div>
+        <div class="desc">clearly visible process</div>
+        <div class="usage">policy</div>
+      <div class="examples">
+        <span class="sentence">The audit was conducted in a transparent manner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a systematic way</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-systematic-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">systematicky</span></div>
+        <div class="desc">methodical process</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The investigation proceeded in a systematic way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a disciplined manner</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-disciplined-manner" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">disciplinovaně</span></div>
+        <div class="desc">controlled behavior</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Engineers debugged the issue in a disciplined manner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in an orderly fashion</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-an-orderly-fashion" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">uspořádaně</span></div>
+        <div class="desc">organized process</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Shutdown happened in an orderly fashion.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a decisive manner</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-decisive-manner" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">rozhodně</span></div>
+        <div class="desc">firm decision</div>
+        <div class="usage">leadership</div>
+      <div class="examples">
+        <span class="sentence">The manager acted in a decisive manner.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a collaborative way</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-collaborative-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">spolupracujícím způsobem</span></div>
+        <div class="desc">working together</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Teams solved it in a collaborative way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a constructive way</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-constructive-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">konstruktivně</span></div>
+        <div class="desc">productive discussion</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Feedback was given in a constructive way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in a detrimental way</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-a-detrimental-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">škodlivým způsobem</span></div>
+        <div class="desc">harmful effect</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The bug affected throughput in a detrimental way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in an unprecedented way</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-an-unprecedented-way" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bezprecedentně</span></div>
+        <div class="desc">never seen before</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Traffic grew in an unprecedented way.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the immediate aftermath</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-immediate-aftermath" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bezprostředně poté</span></div>
+        <div class="desc">right after event</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">In the immediate aftermath we restored service.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the public interest</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-public-interest" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve veřejném zájmu</span></div>
+        <div class="desc">benefiting society</div>
+        <div class="usage">policy</div>
+      <div class="examples">
+        <span class="sentence">The decision was taken in the public interest.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the public eye</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-public-eye" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na očích veřejnosti</span></div>
+        <div class="desc">visible to everyone</div>
+        <div class="usage">media</div>
+      <div class="examples">
+        <span class="sentence">The company acted in the public eye.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the final analysis</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-final-analysis" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v konečném důsledku</span></div>
+        <div class="desc">ultimately judged</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In the final analysis reliability matters.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the final reckoning</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-final-reckoning" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v konečném zúčtování</span></div>
+        <div class="desc">ultimate judgment</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">In the final reckoning automation wins.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in point of fact</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-point-of-fact" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve skutečnosti</span></div>
+        <div class="desc">actually</div>
+        <div class="usage">formal</div>
+      <div class="examples">
+        <span class="sentence">In point of fact the issue was trivial.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in no uncertain terms</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-no-uncertain-terms" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zcela jasně</span></div>
+        <div class="desc">very clearly</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">He rejected the proposal in no uncertain terms.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in no small measure</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-no-small-measure" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nemalou měrou</span></div>
+        <div class="desc">to a notable degree</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Success was due in no small measure to caching.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in large part</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-large-part" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z velké části</span></div>
+        <div class="desc">mostly</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The slowdown was in large part IO related.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in small part</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-small-part" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z malé části</span></div>
+        <div class="desc">minor contribution</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The delay was in small part network related.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in excess of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-excess-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">více než</span></div>
+        <div class="desc">greater than amount</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Traffic rose in excess of 40 percent.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the vicinity of</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-vicinity-of" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přibližně kolem</span></div>
+        <div class="desc">around approximate value</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Latency stayed in the vicinity of 60 ms.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">tempted to</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/tempted-to" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v pokušení</span></div>
+        <div class="desc">feeling like you want to do something, even if it may not be wise</div>
+        <div class="usage">daily life, decision making</div>
+      <div class="examples">
+        <span class="sentence">I was tempted to reply immediately, but I waited.</span>
+      </div>
+      </div>
+    </article>
+    </section>
+  </main>
+<script>
+(function () {
+  function shuffleInPlace(items) {
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = items[i];
+      items[i] = items[j];
+      items[j] = temp;
+    }
+    return items;
+  }
+
+  function initShuffle() {
+    const grid = document.querySelector('.grid');
+    const button = document.getElementById('shuffle-toggle');
+    if (!grid || !button) {
+      return;
+    }
+
+    const cards = Array.from(grid.children);
+    if (!cards.length) {
+      return;
+    }
+
+    cards.forEach((card, index) => {
+      card.dataset.originalIndex = String(index);
+    });
+
+    const originalOrder = cards.slice();
+    let shuffled = false;
+
+    button.addEventListener('click', function () {
+      let nextOrder;
+      if (!shuffled) {
+        nextOrder = shuffleInPlace(cards.slice());
+        shuffled = true;
+        button.classList.add('is-active');
+        button.setAttribute('aria-pressed', 'true');
+      } else {
+        nextOrder = originalOrder.slice().sort((a, b) => Number(a.dataset.originalIndex) - Number(b.dataset.originalIndex));
+        shuffled = false;
+        button.classList.remove('is-active');
+        button.setAttribute('aria-pressed', 'false');
+      }
+
+      nextOrder.forEach((card) => grid.appendChild(card));
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initShuffle);
+  } else {
+    initShuffle();
+  }
+})();
+</script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,1940 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idioms</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --card: #fffaf1;
+      --text: #201d19;
+      --muted: #736c62;
+      --rule: #e7e0d3;
+      --accent: #0f766e;
+      --side: #f7f1e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(180deg, #f2ede3 0%, #f8f6f0 100%);
+      color: var(--text);
+      font-family: Tahoma, sans-serif;
+      font-size: 12pt;
+      line-height: 1.24;
+    }
+    .wrap {
+      max-width: 1650px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 14px;
+      padding: 16px 18px 18px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    }
+    h1 { margin: 0 0 4px; font-size: 16pt; line-height: 1.1; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; color: var(--muted); font-size: 16pt; line-height: 1.1; flex-wrap: wrap; }
+    .toolbar a { color: #0645ad; text-decoration: none; }
+    .toolbar a:hover { text-decoration: underline; }
+    .toolbar-actions { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .shuffle-btn {
+      appearance: none;
+      border: 1px solid var(--rule);
+      background: #f6f1e7;
+      color: #0645ad;
+      border-radius: 999px;
+      padding: 4px 12px;
+      font: inherit;
+      font-size: 11pt;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+    .shuffle-btn:hover { text-decoration: underline; }
+    .shuffle-btn.is-active {
+      background: #e7dcc7;
+      border-color: #c8b999;
+      color: #1f1a15;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .grid { display: grid; gap: 14px; }
+    .card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 14px;
+      align-items: stretch;
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 12px 14px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+    }
+    .card.with-synonyms { grid-template-columns: minmax(0, 1fr) 435px; }
+    .main { min-width: 0; }
+    .head { font-size: 14pt; line-height: 1.22; margin-bottom: 6px; }
+    .word { font-weight: 700; }
+    .level, .cz { font-weight: 400; }
+    .pronunciation-link { color: #0645ad; text-decoration: none; margin: 0 8px; font-size: 11pt; font-weight: 400; }
+    .pronunciation-link:hover { text-decoration: underline; }
+    .desc { font-size: 13pt; line-height: 1.24; margin-bottom: 6px; }
+    .usage { font-size: 13pt; line-height: 1.24; color: #3e3a34; }
+    .examples { font-size: 13pt; line-height: 1.24; font-style: italic; color: #423d37; margin-top: 6px; }
+    .sentence { display: block; }
+    .syn-box {
+      align-self: stretch;
+      justify-self: end;
+      width: 100%;
+      background: var(--side);
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+    .syn-item + .syn-item { margin-top: 6px; }
+    .syn-item {
+      font-size: 10.5pt;
+      line-height: 1.25;
+      color: #4b453d;
+      white-space: normal;
+      overflow: visible;
+    }
+    .syn-word { font-weight: 700; }
+    .syn-exp { color: #4b453d; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Idioms</h1>
+    <div class="toolbar">
+      <span><a href="../../index.html">Back to index</a></span>
+      <span>176 polozek</span>
+      <span>
+        <button type="button" class="shuffle-btn" id="shuffle-toggle" aria-pressed="false">Shuffle</button>
+        <a href="../../../data/vocabulary/idioms.json">JSON</a>
+      </span>
+    </div>
+    <section class="grid">
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">break the ice</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/break-the-ice" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">prolomit ledy</span></div>
+        <div class="desc">to start a conversation in a social situation</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He told a joke to break the ice.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">piece of cake</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/piece-of-cake" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hračka, velmi snadné</span></div>
+        <div class="desc">something very easy</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">The exam was a piece of cake.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">once in a blue moon</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/once-in-a-blue-moon" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">velmi zřídka</span></div>
+        <div class="desc">something that happens very rarely</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I eat fast food once in a blue moon.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">hit the nail on the head</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/hit-the-nail-on-the-head" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">udeřit hřebík na hlavičku</span></div>
+        <div class="desc">to describe exactly what is causing a situation</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">You hit the nail on the head with that comment.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">cost an arm and a leg</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/cost-an-arm-and-a-leg" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stát majlant</span></div>
+        <div class="desc">to be very expensive</div>
+        <div class="usage">shopping</div>
+      <div class="examples">
+        <span class="sentence">That car costs an arm and a leg.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under the weather</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-the-weather" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">cítit se pod psa</span></div>
+        <div class="desc">to feel ill</div>
+        <div class="usage">health</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;m feeling under the weather today.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">burn the midnight oil</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/burn-the-midnight-oil" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pracovat dlouho do noci</span></div>
+        <div class="desc">to work late into the night</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">She burned the midnight oil to finish the report.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">spill the beans</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/spill-the-beans" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vykecat tajemství</span></div>
+        <div class="desc">to reveal a secret</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He accidentally spilled the beans.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">beat around the bush</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/beat-around-the-bush" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">chodit kolem horké kaše</span></div>
+        <div class="desc">to avoid saying something directly</div>
+        <div class="usage">communication</div>
+      <div class="examples">
+        <span class="sentence">Stop beating around the bush and tell me.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">let the cat out of the bag</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/let-the-cat-out-of-the-bag" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">prozradit tajemství</span></div>
+        <div class="desc">to reveal a secret accidentally</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">She let the cat out of the bag about the surprise.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the same page</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-same-page" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">být zajedno</span></div>
+        <div class="desc">to agree on something</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We need to be on the same page.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get out of hand</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-out-of-hand" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vymknout se kontrole</span></div>
+        <div class="desc">to become uncontrollable</div>
+        <div class="usage">general</div>
+      <div class="examples">
+        <span class="sentence">The situation got out of hand.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">pull someone&#x27;s leg</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/pull-someone%27s-leg" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dělat si z někoho legraci</span></div>
+        <div class="desc">to joke with someone</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">Relax, I&#x27;m just pulling your leg.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">back to square one</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/back-to-square-one" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zpět na začátek</span></div>
+        <div class="desc">to start again</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The plan failed so we are back to square one.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in hot water</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-hot-water" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v průšvihu</span></div>
+        <div class="desc">in trouble</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He is in hot water with his boss.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">kill two birds with one stone</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/kill-two-birds-with-one-stone" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zabít dvě mouchy jednou ranou</span></div>
+        <div class="desc">to achieve two things with one action</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">Cycling to work kills two birds with one stone.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">barking up the wrong tree</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/barking-up-the-wrong-tree" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">plést se, být na špatné stopě</span></div>
+        <div class="desc">to pursue a mistaken idea</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">If you think I did it, you&#x27;re barking up the wrong tree.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">call it a day</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/call-it-a-day" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">skončit práci</span></div>
+        <div class="desc">to stop working for the day</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Let&#x27;s call it a day.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">cut corners</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/cut-corners" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">šidit, odbývat</span></div>
+        <div class="desc">to do something poorly to save time or money</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Don&#x27;t cut corners on safety.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get cold feet</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-cold-feet" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dostat strach</span></div>
+        <div class="desc">to suddenly become nervous about something</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He got cold feet before the wedding.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">jump the gun</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/jump-the-gun" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jednat příliš brzy</span></div>
+        <div class="desc">to act too soon</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">They jumped the gun with the announcement.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">miss the boat</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/miss-the-boat" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">propásnout příležitost</span></div>
+        <div class="desc">to miss an opportunity</div>
+        <div class="usage">career</div>
+      <div class="examples">
+        <span class="sentence">He missed the boat investing early.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">no pain no gain</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/no-pain-no-gain" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bez práce nejsou koláče</span></div>
+        <div class="desc">effort is necessary for success</div>
+        <div class="usage">sport</div>
+      <div class="examples">
+        <span class="sentence">Remember, no pain no gain.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">put all your eggs in one basket</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/put-all-your-eggs-in-one-basket" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vsadit vše na jednu kartu</span></div>
+        <div class="desc">to risk everything on one plan</div>
+        <div class="usage">finance</div>
+      <div class="examples">
+        <span class="sentence">Don&#x27;t put all your eggs in one basket.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">see eye to eye</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/see-eye-to-eye" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vidět věci stejně</span></div>
+        <div class="desc">to agree completely</div>
+        <div class="usage">relationships</div>
+      <div class="examples">
+        <span class="sentence">They finally see eye to eye.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take it with a grain of salt</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-it-with-a-grain-of-salt" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">brát s rezervou</span></div>
+        <div class="desc">to not take something too seriously</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Take his claims with a grain of salt.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">throw in the towel</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/throw-in-the-towel" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hodit ručník do ringu</span></div>
+        <div class="desc">to give up</div>
+        <div class="usage">general</div>
+      <div class="examples">
+        <span class="sentence">He threw in the towel after many failures.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">add fuel to the fire</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/add-fuel-to-the-fire" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přilévat olej do ohně</span></div>
+        <div class="desc">to make a situation worse</div>
+        <div class="usage">conflict</div>
+      <div class="examples">
+        <span class="sentence">His comment added fuel to the fire.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bite the bullet</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bite-the-bullet" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">kousnout do kyselého jablka</span></div>
+        <div class="desc">to accept something difficult</div>
+        <div class="usage">bravery</div>
+      <div class="examples">
+        <span class="sentence">I had to bite the bullet and pay.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by the skin of your teeth</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-the-skin-of-your-teeth" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jen tak tak</span></div>
+        <div class="desc">barely succeeding</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He passed the exam by the skin of his teeth.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">cut to the chase</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/cut-to-the-chase" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jít rovnou k věci</span></div>
+        <div class="desc">get to the main point</div>
+        <div class="usage">communication</div>
+      <div class="examples">
+        <span class="sentence">Let&#x27;s cut to the chase.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">devils advocate</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/devils-advocate" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ďáblův advokát</span></div>
+        <div class="desc">arguing the opposite view</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;ll play devil&#x27;s advocate.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on thin ice</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-thin-ice" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na tenkém ledě</span></div>
+        <div class="desc">in a risky situation</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He is on thin ice after that mistake.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">out of the blue</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/out-of-the-blue" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z ničeho nic</span></div>
+        <div class="desc">unexpectedly</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">She called me out of the blue.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">rise and shine</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/rise-and-shine" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vstávat</span></div>
+        <div class="desc">to wake up and get ready</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">Rise and shine, it&#x27;s morning.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">speak of the devil</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/speak-of-the-devil" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">o kom se mluví ten se objeví</span></div>
+        <div class="desc">the person just mentioned appears</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">Speak of the devil, here he is.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">steal someone&#x27;s thunder</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/steal-someone%27s-thunder" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vzít někomu slávu</span></div>
+        <div class="desc">to take credit for someone&#x27;s idea</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He stole my thunder.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">the ball is in your court</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/the-ball-is-in-your-court" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">teď jsi na řadě ty</span></div>
+        <div class="desc">it&#x27;s your decision now</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">The ball is in your court.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">think outside the box</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/think-outside-the-box" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">myslet nekonvenčně</span></div>
+        <div class="desc">think creatively</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We must think outside the box.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">throw someone under the bus</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/throw-someone-under-the-bus" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hodit někoho přes palubu</span></div>
+        <div class="desc">to sacrifice someone else to save yourself</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He threw his colleague under the bus.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">walk on eggshells</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/walk-on-eggshells" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">chodit po špičkách</span></div>
+        <div class="desc">to be very careful not to offend</div>
+        <div class="usage">relationships</div>
+      <div class="examples">
+        <span class="sentence">Everyone walks on eggshells around her.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">water under the bridge</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/water-under-the-bridge" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">minulost je minulost</span></div>
+        <div class="desc">past events no longer matter</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">That&#x27;s water under the bridge.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">when pigs fly</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/when-pigs-fly" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">až naprší a uschne</span></div>
+        <div class="desc">something that will never happen</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He&#x27;ll apologize when pigs fly.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">wrap your head around something</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/wrap-your-head-around-something" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pochopit něco složitého</span></div>
+        <div class="desc">to understand something complex</div>
+        <div class="usage">learning</div>
+      <div class="examples">
+        <span class="sentence">I can&#x27;t wrap my head around this math.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">you can&#x27;t judge a book by its cover</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/you-can%27t-judge-a-book-by-its-cover" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nesuď knihu podle obalu</span></div>
+        <div class="desc">appearance can be misleading</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Remember you can&#x27;t judge a book by its cover.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">face the music</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/face-the-music" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">čelit následkům</span></div>
+        <div class="desc">to accept punishment or consequences</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He had to face the music after the mistake.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">go the extra mile</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/go-the-extra-mile" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">udělat něco navíc</span></div>
+        <div class="desc">to make more effort than expected</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">She always goes the extra mile for clients.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">keep an eye on</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/keep-an-eye-on" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hlídat</span></div>
+        <div class="desc">to watch something carefully</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">Can you keep an eye on my bag?</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">lose track of time</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/lose-track-of-time" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ztratit pojem o čase</span></div>
+        <div class="desc">to not notice how much time has passed</div>
+        <div class="usage">daily life</div>
+      <div class="examples">
+        <span class="sentence">I lost track of time while coding.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make a long story short</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-a-long-story-short" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stručně řečeno</span></div>
+        <div class="desc">to summarize briefly</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">To make a long story short, we failed.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the ball</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-ball" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ve střehu, bystrý</span></div>
+        <div class="desc">quick to understand or react</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Our new manager is really on the ball.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">play it by ear</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/play-it-by-ear" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">improvizovat</span></div>
+        <div class="desc">to decide as you go</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">We will play it by ear.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">pull the strings</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/pull-the-strings" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">tahat za nitky</span></div>
+        <div class="desc">to secretly control something</div>
+        <div class="usage">politics</div>
+      <div class="examples">
+        <span class="sentence">Someone behind the scenes pulls the strings.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">read between the lines</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/read-between-the-lines" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">číst mezi řádky</span></div>
+        <div class="desc">to understand hidden meaning</div>
+        <div class="usage">communication</div>
+      <div class="examples">
+        <span class="sentence">You must read between the lines.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">rock the boat</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/rock-the-boat" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">rozkolísat situaci</span></div>
+        <div class="desc">to disturb a stable situation</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Don&#x27;t rock the boat right now.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">run out of steam</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/run-out-of-steam" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dojít energie</span></div>
+        <div class="desc">to lose energy or motivation</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The project ran out of steam.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">sit on the fence</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/sit-on-the-fence" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">váhat</span></div>
+        <div class="desc">to avoid choosing a side</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Stop sitting on the fence.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">skeleton in the closet</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/skeleton-in-the-closet" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">kostlivec ve skříni</span></div>
+        <div class="desc">an embarrassing secret</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">Every politician has a skeleton in the closet.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">stick to your guns</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/stick-to-your-guns" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">trvat na svém</span></div>
+        <div class="desc">to refuse to change your opinion</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">He stuck to his guns.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take the plunge</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-the-plunge" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">odhodlat se</span></div>
+        <div class="desc">konečně se rozhodnout</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He took the plunge and started a company.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">the tip of the iceberg</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/the-tip-of-the-iceberg" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">špička ledovce</span></div>
+        <div class="desc">a small visible part of a bigger problem</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">This bug is just the tip of the iceberg.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">through thick and thin</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/through-thick-and-thin" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v dobrém i zlém</span></div>
+        <div class="desc">supporting someone in all situations</div>
+        <div class="usage">relationships</div>
+      <div class="examples">
+        <span class="sentence">They stayed friends through thick and thin.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">twist someone&#x27;s arm</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/twist-someone%27s-arm" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přemluvit někoho</span></div>
+        <div class="desc">to persuade someone reluctantly</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">I had to twist his arm to come.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">up in the air</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/up-in-the-air" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nejistý</span></div>
+        <div class="desc">not yet decided</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">Our travel plans are still up in the air.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">wear many hats</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/wear-many-hats" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít mnoho rolí</span></div>
+        <div class="desc">to perform many different roles</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">In a startup you wear many hats.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">work against the clock</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/work-against-the-clock" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bojovat s časem</span></div>
+        <div class="desc">to hurry because time is limited</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We are working against the clock.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">zero in on</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/zero-in-on" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zaměřit se přesně</span></div>
+        <div class="desc">to focus attention precisely</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The team zeroed in on the bug.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bend over backwards</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bend-over-backwards" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přetrhnout se pro někoho</span></div>
+        <div class="desc">try very hard to help</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He bent over backwards to help.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bring something to light</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bring-something-to-light" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">odhalit</span></div>
+        <div class="desc">to reveal hidden information</div>
+        <div class="usage">investigation</div>
+      <div class="examples">
+        <span class="sentence">The audit brought the issue to light.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">call the shots</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/call-the-shots" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">rozhodovat</span></div>
+        <div class="desc">to be the person in control</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The CTO calls the shots.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">cut somebody some slack</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/cut-somebody-some-slack" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">polevit někomu</span></div>
+        <div class="desc">be less strict</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">Cut him some slack.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">draw the line</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/draw-the-line" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stanovit hranici</span></div>
+        <div class="desc">to set a limit</div>
+        <div class="usage">ethics</div>
+      <div class="examples">
+        <span class="sentence">We must draw the line somewhere.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">fall through the cracks</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/fall-through-the-cracks" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">propadnout systémem</span></div>
+        <div class="desc">to be overlooked in a system</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Some tasks fell through the cracks.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get the hang of it</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-the-hang-of-it" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přijít na to</span></div>
+        <div class="desc">to learn how something works</div>
+        <div class="usage">learning</div>
+      <div class="examples">
+        <span class="sentence">You&#x27;ll get the hang of it.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get your act together</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-your-act-together" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dát se dohromady</span></div>
+        <div class="desc">to organize yourself better</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">You need to get your act together.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">go down in flames</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/go-down-in-flames" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">selhat katastrofálně</span></div>
+        <div class="desc">to fail spectacularly</div>
+        <div class="usage">projects</div>
+      <div class="examples">
+        <span class="sentence">The startup went down in flames.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">have a chip on your shoulder</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/have-a-chip-on-your-shoulder" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">být vztahovačný</span></div>
+        <div class="desc">to feel easily offended</div>
+        <div class="usage">psychology</div>
+      <div class="examples">
+        <span class="sentence">He has a chip on his shoulder.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the long run</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-long-run" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z dlouhodobého hlediska</span></div>
+        <div class="desc">over a long period of time</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">It will pay off in the long run.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">keep your cool</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/keep-your-cool" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zachovat klid</span></div>
+        <div class="desc">to stay calm under pressure</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">She kept her cool.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make waves</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-waves" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyvolat rozruch</span></div>
+        <div class="desc">to cause trouble or disturbance</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">He made waves with his proposal.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on cloud nine</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-cloud-nine" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v sedmém nebi</span></div>
+        <div class="desc">extremely happy</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">She was on cloud nine.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">open a can of worms</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/open-a-can-of-worms" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">otevřít složitý problém</span></div>
+        <div class="desc">create many new problems</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">That question opened a can of worms.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">put your foot down</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/put-your-foot-down" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">razantně rozhodnout</span></div>
+        <div class="desc">to assert authority firmly</div>
+        <div class="usage">family</div>
+      <div class="examples">
+        <span class="sentence">She put her foot down.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">see the big picture</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/see-the-big-picture" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vidět celek</span></div>
+        <div class="desc">to understand overall context</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">Managers must see the big picture.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">sweep something under the rug</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/sweep-something-under-the-rug" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zamést pod koberec</span></div>
+        <div class="desc">to hide a problem</div>
+        <div class="usage">politics</div>
+      <div class="examples">
+        <span class="sentence">They swept the scandal under the rug.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take something for granted</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-something-for-granted" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">brát jako samozřejmost</span></div>
+        <div class="desc">to fail to appreciate something</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Don&#x27;t take your health for granted.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">throw caution to the wind</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/throw-caution-to-the-wind" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jednat bez opatrnosti</span></div>
+        <div class="desc">to take a big risk</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He threw caution to the wind.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">ballpark figure</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/ballpark-figure" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hrubý odhad</span></div>
+        <div class="desc">an approximate number</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Give me a ballpark figure for the budget.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bang for the buck</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bang-for-the-buck" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hodnota za peníze</span></div>
+        <div class="desc">value received for money spent</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">This upgrade gives more bang for the buck.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">beat the clock</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/beat-the-clock" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stihnout něco před termínem</span></div>
+        <div class="desc">finish before a deadline</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We beat the clock and delivered early.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">behind the scenes</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/behind-the-scenes" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v zákulisí</span></div>
+        <div class="desc">happening privately</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">A lot happens behind the scenes.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bend the rules</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bend-the-rules" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ohnout pravidla</span></div>
+        <div class="desc">break rules slightly</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">They bent the rules to help him.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">big picture thinking</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/big-picture-thinking" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">uvažování v širších souvislostech</span></div>
+        <div class="desc">thinking about overall strategy</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">Leaders need big picture thinking.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">blow something out of proportion</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/blow-something-out-of-proportion" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zveličit</span></div>
+        <div class="desc">exaggerate a problem</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">You blew it out of proportion.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">bring to the table</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/bring-to-the-table" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přinést hodnotu</span></div>
+        <div class="desc">contribute something useful</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">She brings great skills to the table.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">brush something off</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/brush-something-off" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">odmítnout lehce</span></div>
+        <div class="desc">ignore something trivial</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He brushed off the criticism.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">by and large</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/by-and-large" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">celkově vzato</span></div>
+        <div class="desc">generally speaking</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">By and large the system works.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">call it quits</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/call-it-quits" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">skončit</span></div>
+        <div class="desc">stop doing something</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Let&#x27;s call it quits for tonight.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">carry the day</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/carry-the-day" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zvítězit</span></div>
+        <div class="desc">to win or succeed</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">His argument carried the day.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">clear the air</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/clear-the-air" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyjasnit situaci</span></div>
+        <div class="desc">remove tension by discussion</div>
+        <div class="usage">relationships</div>
+      <div class="examples">
+        <span class="sentence">They met to clear the air.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">come to terms with</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/come-to-terms-with" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">smířit se</span></div>
+        <div class="desc">accept something difficult</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He came to terms with the loss.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">come up short</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/come-up-short" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">selhat</span></div>
+        <div class="desc">fail to achieve a goal</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The team came up short.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">cut someone off</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/cut-someone-off" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přerušit někoho</span></div>
+        <div class="desc">interrupt someone speaking</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">He cut me off mid‑sentence.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">down the road</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/down-the-road" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v budoucnu</span></div>
+        <div class="desc">in the future</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">We may expand down the road.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">drive a hard bargain</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/drive-a-hard-bargain" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">tvrdě vyjednávat</span></div>
+        <div class="desc">negotiate aggressively</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">She drives a hard bargain.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">easy does it</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/easy-does-it" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">opatrně</span></div>
+        <div class="desc">slow down and be careful</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Easy does it with that glass.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">fall into place</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/fall-into-place" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zapadnout do sebe</span></div>
+        <div class="desc">things become clear or organized</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Everything fell into place.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">fight an uphill battle</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/fight-an-uphill-battle" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bojovat s velkou nevýhodou</span></div>
+        <div class="desc">face strong difficulties</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We fought an uphill battle.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">for the time being</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/for-the-time-being" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">prozatím</span></div>
+        <div class="desc">temporarily</div>
+        <div class="usage">planning</div>
+      <div class="examples">
+        <span class="sentence">This solution works for the time being.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">from the get‑go</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/from-the-get%E2%80%91go" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">od začátku</span></div>
+        <div class="desc">from the beginning</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">I knew from the get‑go.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get a grip</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-a-grip" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vzchopit se</span></div>
+        <div class="desc">regain control of emotions</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Get a grip and focus.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">get wind of something</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/get-wind-of-something" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">doslechnout se</span></div>
+        <div class="desc">hear a rumor</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">They got wind of the plan.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">give someone the benefit of the doubt</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/give-someone-the-benefit-of-the-doubt" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dát někomu šanci</span></div>
+        <div class="desc">assume good intentions</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;ll give him the benefit of the doubt.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">go off the rails</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/go-off-the-rails" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vymknout se kontrole</span></div>
+        <div class="desc">lose control completely</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">The meeting went off the rails.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">go the distance</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/go-the-distance" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vydržet až do konce</span></div>
+        <div class="desc">finish something difficult</div>
+        <div class="usage">sport</div>
+      <div class="examples">
+        <span class="sentence">She went the distance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">gray area</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/gray-area" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">šedá zóna</span></div>
+        <div class="desc">uncertain situation</div>
+        <div class="usage">law</div>
+      <div class="examples">
+        <span class="sentence">This case is a gray area.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">have the upper hand</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/have-the-upper-hand" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">mít navrch</span></div>
+        <div class="desc">have advantage</div>
+        <div class="usage">competition</div>
+      <div class="examples">
+        <span class="sentence">Our team has the upper hand.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">hold your ground</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/hold-your-ground" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stát si za svým</span></div>
+        <div class="desc">refuse to retreat</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">She held her ground.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the dark</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-dark" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bez informací</span></div>
+        <div class="desc">not knowing the facts</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We were kept in the dark.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">in the same boat</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/in-the-same-boat" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na stejné lodi</span></div>
+        <div class="desc">in the same situation</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We&#x27;re all in the same boat.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">keep something at bay</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/keep-something-at-bay" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">držet něco na uzdě</span></div>
+        <div class="desc">prevent something worsening</div>
+        <div class="usage">health</div>
+      <div class="examples">
+        <span class="sentence">Medicine keeps the disease at bay.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">know the ropes</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/know-the-ropes" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">znát to</span></div>
+        <div class="desc">be experienced</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">She knows the ropes.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">last straw</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/last-straw" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">poslední kapka</span></div>
+        <div class="desc">final problem causing reaction</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">That mistake was the last straw.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">leave no stone unturned</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/leave-no-stone-unturned" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nenechat kámen na kameni</span></div>
+        <div class="desc">try every option</div>
+        <div class="usage">investigation</div>
+      <div class="examples">
+        <span class="sentence">We left no stone unturned.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">let off steam</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/let-off-steam" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vybít stres</span></div>
+        <div class="desc">release strong emotions</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He went running to let off steam.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">live up to expectations</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/live-up-to-expectations" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dostát očekávání</span></div>
+        <div class="desc">meet expectations</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The product lived up to expectations.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">look down on</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/look-down-on" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pohrdat</span></div>
+        <div class="desc">consider inferior</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He looks down on others.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make ends meet</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-ends-meet" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyjít s penězi</span></div>
+        <div class="desc">have enough money</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">It&#x27;s hard to make ends meet.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">make headway</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/make-headway" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dosáhnout pokroku</span></div>
+        <div class="desc">make progress</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We finally made headway.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">meet halfway</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/meet-halfway" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ustoupit</span></div>
+        <div class="desc">compromise</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Let&#x27;s meet halfway.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">move the needle</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/move-the-needle" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">výrazně něco změnit</span></div>
+        <div class="desc">make noticeable impact</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">This feature moves the needle.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">neck and neck</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/neck-and-neck" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">velmi vyrovnaný</span></div>
+        <div class="desc">very close competition</div>
+        <div class="usage">sport</div>
+      <div class="examples">
+        <span class="sentence">The teams are neck and neck.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">not hold water</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/not-hold-water" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nedává smysl</span></div>
+        <div class="desc">not be logical</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">That argument doesn&#x27;t hold water.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">odds are</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/odds-are" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">pravděpodobně</span></div>
+        <div class="desc">likely</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Odds are we&#x27;ll succeed.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">off the hook</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/off-the-hook" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z problémů venku</span></div>
+        <div class="desc">free from responsibility</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">You&#x27;re off the hook.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the brink</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-brink" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">na pokraji</span></div>
+        <div class="desc">very close to something</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The company was on the brink.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">on the fly</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/on-the-fly" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">za pochodu</span></div>
+        <div class="desc">without preparation</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">We fixed it on the fly.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">out of line</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/out-of-line" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nevhodný</span></div>
+        <div class="desc">inappropriate</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">His comment was out of line.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">out of the woods</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/out-of-the-woods" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">z nejhoršího venku</span></div>
+        <div class="desc">past danger</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We&#x27;re not out of the woods yet.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">pay the price</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/pay-the-price" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nést následky</span></div>
+        <div class="desc">suffer consequences</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He paid the price.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">play hardball</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/play-hardball" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">hrát tvrdě</span></div>
+        <div class="desc">act aggressively</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">They play hardball in negotiations.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">pull yourself together</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/pull-yourself-together" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">seber se</span></div>
+        <div class="desc">regain emotional control</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Pull yourself together.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">push the envelope</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/push-the-envelope" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">posouvat hranice</span></div>
+        <div class="desc">extend limits</div>
+        <div class="usage">innovation</div>
+      <div class="examples">
+        <span class="sentence">They push the envelope.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">raise the bar</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/raise-the-bar" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zvýšit laťku</span></div>
+        <div class="desc">increase standards</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">This release raises the bar.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">red tape</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/red-tape" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">byrokracie</span></div>
+        <div class="desc">excessive bureaucracy</div>
+        <div class="usage">government</div>
+      <div class="examples">
+        <span class="sentence">The project got stuck in red tape.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">ring a bell</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/ring-a-bell" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">něco mi to říká</span></div>
+        <div class="desc">sound familiar</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">That name rings a bell.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">run the show</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/run-the-show" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">řídit věci</span></div>
+        <div class="desc">be in charge</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">She runs the show.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">save face</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/save-face" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zachovat si tvář</span></div>
+        <div class="desc">avoid humiliation</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">They changed plans to save face.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">second to none</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/second-to-none" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bezkonkurenční</span></div>
+        <div class="desc">the best possible</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">Their service is second to none.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">set the stage</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/set-the-stage" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">připravit půdu</span></div>
+        <div class="desc">prepare conditions</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">This discovery set the stage.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">shake things up</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/shake-things-up" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zatřást věcmi</span></div>
+        <div class="desc">introduce big changes</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">The CEO shook things up.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">shoot yourself in the foot</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/shoot-yourself-in-the-foot" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">podrazit si nohy</span></div>
+        <div class="desc">harm your own success</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He shot himself in the foot.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">show your true colors</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/show-your-true-colors" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ukázat pravou tvář</span></div>
+        <div class="desc">reveal real character</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">He showed his true colors.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">sleep on it</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/sleep-on-it" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nechat si to projít hlavou</span></div>
+        <div class="desc">delay decision overnight</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">I&#x27;ll sleep on it.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">small talk</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/small-talk" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zdvořilostní konverzace</span></div>
+        <div class="desc">light conversation</div>
+        <div class="usage">social</div>
+      <div class="examples">
+        <span class="sentence">We made small talk.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">smooth sailing</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/smooth-sailing" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">bez problémů</span></div>
+        <div class="desc">easy progress</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">It was smooth sailing.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">snowball effect</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/snowball-effect" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">řetězový efekt</span></div>
+        <div class="desc">growing chain reaction</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The snowball effect spread.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">step up your game</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/step-up-your-game" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zlepšit výkon</span></div>
+        <div class="desc">improve performance</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">You must step up your game.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">stick your neck out</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/stick-your-neck-out" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">riskovat</span></div>
+        <div class="desc">take personal risk</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">He stuck his neck out.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">strike a balance</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/strike-a-balance" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">najít rovnováhu</span></div>
+        <div class="desc">achieve balance</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We must strike a balance.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take center stage</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-center-stage" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">stát se hlavním tématem</span></div>
+        <div class="desc">become main focus</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">Security took center stage.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">take the edge off</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/take-the-edge-off" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zmírnit</span></div>
+        <div class="desc">reduce intensity</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">A walk took the edge off.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">the writing on the wall</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/the-writing-on-the-wall" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">jasné varování</span></div>
+        <div class="desc">clear sign of failure</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The writing was on the wall.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">think on your feet</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/think-on-your-feet" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">rychle reagovat</span></div>
+        <div class="desc">respond quickly</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">You must think on your feet.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">tight spot</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/tight-spot" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">obtížná situace</span></div>
+        <div class="desc">difficult situation</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">We&#x27;re in a tight spot.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">to the letter</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/to-the-letter" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">doslova</span></div>
+        <div class="desc">přesně podle pravidel</div>
+        <div class="usage">work</div>
+      <div class="examples">
+        <span class="sentence">Follow the rules to the letter.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">turn a blind eye</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/turn-a-blind-eye" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přehlížet</span></div>
+        <div class="desc">ignore deliberately</div>
+        <div class="usage">politics</div>
+      <div class="examples">
+        <span class="sentence">They turned a blind eye.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">turn the tide</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/turn-the-tide" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">zvrátit vývoj</span></div>
+        <div class="desc">reverse situation</div>
+        <div class="usage">analysis</div>
+      <div class="examples">
+        <span class="sentence">The decision turned the tide.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">under your nose</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/under-your-nose" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">přímo před tebou</span></div>
+        <div class="desc">obvious but unnoticed</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">It was under your nose.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">up your sleeve</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/up-your-sleeve" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">v záloze</span></div>
+        <div class="desc">hidden advantage</div>
+        <div class="usage">discussion</div>
+      <div class="examples">
+        <span class="sentence">He has a trick up his sleeve.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">walk the talk</span> <span class="level">(C1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/walk-the-talk" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">dělat co říkáš</span></div>
+        <div class="desc">act according to words</div>
+        <div class="usage">leadership</div>
+      <div class="examples">
+        <span class="sentence">Leaders must walk the talk.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">win hands down</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/win-hands-down" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vyhrát jasně</span></div>
+        <div class="desc">win easily</div>
+        <div class="usage">competition</div>
+      <div class="examples">
+        <span class="sentence">Our team won hands down.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">word of mouth</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/word-of-mouth" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">ústní doporučení</span></div>
+        <div class="desc">information spread verbally</div>
+        <div class="usage">business</div>
+      <div class="examples">
+        <span class="sentence">Customers came by word of mouth.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">work your way up</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/work-your-way-up" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">vypracovat se</span></div>
+        <div class="desc">rise gradually</div>
+        <div class="usage">career</div>
+      <div class="examples">
+        <span class="sentence">She worked her way up.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">write someone off</span> <span class="level">(B2)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/write-someone-off" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">odepsat někoho</span></div>
+        <div class="desc">assume failure</div>
+        <div class="usage">life</div>
+      <div class="examples">
+        <span class="sentence">Don&#x27;t write him off.</span>
+      </div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="main">
+        <div class="head"><span class="word">your guess is as good as mine</span> <span class="level">(B1)</span> <a class="pronunciation-link" href="https://dictionary.cambridge.org/dictionary/english/your-guess-is-as-good-as-mine" target="_blank" rel="noopener noreferrer">🔊</a> - <span class="cz">nevím stejně jako ty</span></div>
+        <div class="desc">no idea</div>
+        <div class="usage">conversation</div>
+      <div class="examples">
+        <span class="sentence">Your guess is as good as mine.</span>
+      </div>
+      </div>
+    </article>
+    </section>
+  </main>
+<script>
+(function () {
+  function shuffleInPlace(items) {
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = items[i];
+      items[i] = items[j];
+      items[j] = temp;
+    }
+    return items;
+  }
+
+  function initShuffle() {
+    const grid = document.querySelector('.grid');
+    const button = document.getElementById('shuffle-toggle');
+    if (!grid || !button) {
+      return;
+    }
+
+    const cards = Array.from(grid.children);
+    if (!cards.length) {
+      return;
+    }
+
+    cards.forEach((card, index) => {
+      card.dataset.originalIndex = String(index);
+    });
+
+    const originalOrder = cards.slice();
+    let shuffled = false;
+
+    button.addEventListener('click', function () {
+      let nextOrder;
+      if (!shuffled) {
+        nextOrder = shuffleInPlace(cards.slice());
+        shuffled = true;
+        button.classList.add('is-active');
+        button.setAttribute('aria-pressed', 'true');
+      } else {
+        nextOrder = originalOrder.slice().sort((a, b) => Number(a.dataset.originalIndex) - Number(b.dataset.originalIndex));
+        shuffled = false;
+        button.classList.remove('is-active');
+        button.setAttribute('aria-pressed', 'false');
+      }
+
+      nextOrder.forEach((card) => grid.appendChild(card));
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initShuffle);
+  } else {
+    initShuffle();
+  }
+})();
+</script>
+</body>
+</html>
+
+
+

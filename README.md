@@ -1,4 +1,4 @@
-# English Learning Workflow
+﻿# English Learning Workflow
 
 ## Why I Built This
 
@@ -33,8 +33,8 @@ The goal is to improve the student's English step by step from `B1` up to `C1`, 
 
 The workflow has three stages:
 
-1. Codex creates a lesson JSON in `lessons/`
-2. ChatGPT teaches the lesson and writes a result JSON in `results/`
+1. Codex creates a lesson JSON in `data/lessons/`
+2. ChatGPT teaches the lesson and writes a result JSON in `data/results/`
 3. Codex automatically processes that result and updates the learning state
 
 This means the project is not just a set of word lists. It is a stateful learning loop.
@@ -43,50 +43,50 @@ This means the project is not just a set of word lists. It is a stateful learnin
 
 Core files:
 
-- `learning.json`  
+- `data/learning.json`  
   Stores learning progress, review history, and next repetition dates.
 
-- `errors.json`  
+- `data/errors.json`  
   Stores recurring mistake patterns such as wrong phrase -> correct phrase.
 
-- `grammar.json`  
+- `data/grammar.json`  
   Grammar topics ordered by difficulty level.
 
-- `profile.md`  
+- `docs/profile.md`  
   Basic learner profile such as current level, target level, and focus areas.
 
 Vocabulary datasets:
 
-- `vocabulary/nouns.json`
-- `vocabulary/verbs.json`
-- `vocabulary/adjectives.json`
-- `vocabulary/adverbs.json`
-- `vocabulary/phrases.json`
-- `vocabulary/phrasal_verbs.json`
-- `vocabulary/idioms.json`
+- `data/vocabulary/nouns.json`
+- `data/vocabulary/verbs.json`
+- `data/vocabulary/adjectives.json`
+- `data/vocabulary/adverbs.json`
+- `data/vocabulary/phrases.json`
+- `data/vocabulary/phrasal_verbs.json`
+- `data/vocabulary/idioms.json`
 
 The vocabulary files currently include Czech equivalents.
 If a user wants to use the project with another native language, he needs to translate those equivalents for himself or ask for the dataset to be adapted.
 
 Generated lesson and result data:
 
-- `lessons/lesson_YYYY-MM-DD.json`
-- `results/result_YYYY-MM-DD.json`
+- `data/lessons/lesson_YYYY-MM-DD.json`
+- `data/results/result_YYYY-MM-DD.json`
 
 HTML preview system:
 
-- `generate_html.ps1`
+- `html/script/generate_html.ps1`
 - `html/`
-- `index.html`
+- `html/index.html`
 
 ## Lesson Model
 
 Each lesson combines:
 
 - one grammar topic
-- review of selected mistake types from `errors.json`
+- review of selected mistake types from `data/errors.json`
 - new vocabulary
-- review vocabulary from `learning.json`
+- review vocabulary from `data/learning.json`
 
 Lessons can also be built around newly captured vocabulary from the same day, if the user wants to prioritize those items.
 
@@ -103,7 +103,7 @@ After a lesson, ChatGPT writes a result file containing:
 - lesson notes
 - concrete error records in an `errors` array
 
-Those concrete errors are later merged by Codex into `errors.json`.
+Those concrete errors are later merged by Codex into `data/errors.json`.
 
 ## Error Review Philosophy
 
@@ -112,7 +112,7 @@ The system does not test the student by repeating the exact same wrong sentence 
 Instead:
 
 - ChatGPT records the original wrong form and the correct form
-- Codex stores that error pattern in `errors.json`
+- Codex stores that error pattern in `data/errors.json`
 - future lessons include review items based on the same mistake type
 - ChatGPT then tests the learner on a fresh example of the same pattern
 
@@ -126,8 +126,8 @@ Example:
 When a new result file appears, Codex should automatically:
 
 - find the matching lesson file
-- update `learning.json`
-- merge concrete errors into `errors.json`
+- update `data/learning.json`
+- merge concrete errors into `data/errors.json`
 - recalculate spaced repetition
 - regenerate HTML previews
 
@@ -137,9 +137,9 @@ This behavior is part of the project rules.
 
 Detailed instructions live in these files:
 
-- [Codex quick start](./codex_start_here.md)
-- [Codex / project workflow instructions](./instructions.md)
-- [ChatGPT browser project instructions](./instructionProject.md)
+- [Codex quick start](./docs/codex_start_here.md)
+- [Codex / project workflow instructions](./docs/instructions.md)
+- [ChatGPT browser project instructions](./docs/instructionProject.md)
 
 Use them as the source of truth for behavior, file formats, and workflow rules.
 
@@ -147,11 +147,11 @@ For the browser teaching side, create a separate ChatGPT Project and paste the b
 
 ## Typical Workflow
 
-1. Generate a lesson in `lessons/`
+1. Generate a lesson in `data/lessons/`
 2. Open the dedicated ChatGPT Project in the browser
 3. Load or open the lesson with ChatGPT
 4. Complete the lesson
-5. Save the result to `results/`
+5. Save the result to `data/results/`
 6. Let Codex process the result automatically
 7. Regenerate and inspect the HTML views
 
@@ -162,3 +162,5 @@ For the browser teaching side, create a separate ChatGPT Project and paste the b
 - The HTML layer is only a viewer; JSON files are the source of truth.
 - If the user wants to add new words or phrases, they can simply type them in the console and Codex will handle updating the project files.
 - If the user adds fresh vocabulary from something they just read or heard that day, Codex can offer a priority lesson focused on exactly those items.
+- If the user drops a new `.txt` file with expressions into the project root or `data/`, a dedicated ingest skill can be used to convert those items into the existing `data/vocabulary/*.json` files, refresh HTML, and prepare a commit.
+

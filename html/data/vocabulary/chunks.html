@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chunks</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --card: #fffaf1;
+      --text: #201d19;
+      --muted: #736c62;
+      --rule: #e7e0d3;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(180deg, #f2ede3 0%, #f8f6f0 100%);
+      color: var(--text);
+      font-family: Tahoma, sans-serif;
+      font-size: 12pt;
+      line-height: 1.24;
+    }
+    .wrap {
+      max-width: 1500px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 14px;
+      padding: 16px 18px 18px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    }
+    h1 { margin: 0 0 4px; font-size: 16pt; line-height: 1.1; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; color: var(--muted); font-size: 16pt; line-height: 1.1; }
+    .toolbar a { color: #0645ad; text-decoration: none; }
+    .toolbar a:hover { text-decoration: underline; }
+    .toolbar-actions { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .shuffle-btn {
+      appearance: none;
+      border: 1px solid var(--rule);
+      background: #f6f1e7;
+      color: #0645ad;
+      border-radius: 999px;
+      padding: 4px 12px;
+      font: inherit;
+      font-size: 11pt;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+    .shuffle-btn:hover { text-decoration: underline; }
+    .shuffle-btn.is-active {
+      background: #e7dcc7;
+      border-color: #c8b999;
+      color: #1f1a15;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .grid { display: grid; gap: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 12px 14px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+    }
+    .head { font-size: 14pt; line-height: 1.22; margin-bottom: 6px; }
+    .chunk { font-weight: 700; }
+    .level { font-weight: 400; }
+    .cz { font-weight: 400; }
+    .desc { font-size: 13pt; line-height: 1.24; margin-bottom: 6px; }
+    .usage { font-size: 13pt; line-height: 1.24; color: #3e3a34; }
+    .examples { font-size: 13pt; line-height: 1.24; font-style: italic; color: #423d37; margin-top: 6px; }
+    .sentence { display: block; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Useful Chunks</h1>
+    <div class="toolbar">
+      <span><a href="../../index.html">Back to index</a></span>
+      <span id="count">Nacitam...</span>
+      <span>
+        <button type="button" class="shuffle-btn" id="shuffle-toggle" aria-pressed="false">Shuffle</button>
+        <a href="../../../data/vocabulary/chunks_50.json">JSON</a>
+      </span>
+    </div>
+    <section id="grid" class="grid"></section>
+  </main>
+  <script id="json-data" type="application/json">
+[
+  {
+    "chunk": "I think the main point is",
+    "cz": "Myslím, že hlavní pointa je",
+    "desc": "A natural opener for stating your core idea clearly.",
+    "usage": "Useful in discussions, explanations, and spoken answers when you want to get to the point quickly.",
+    "example": "I think the main point is that consistency matters more than intensity.",
+    "level": "B2"
+  },
+  {
+    "chunk": "To be honest",
+    "cz": "Upřímně řečeno",
+    "desc": "A common chunk for introducing a sincere or slightly personal opinion.",
+    "usage": "Useful in everyday conversation when you want to sound direct but natural.",
+    "example": "To be honest, I was expecting it to be much harder.",
+    "level": "B2"
+  },
+  {
+    "chunk": "At the same time",
+    "cz": "Zároveň; současně",
+    "desc": "A linking chunk for adding a second point that balances the first one.",
+    "usage": "Useful in arguments and explanations when two ideas are both true.",
+    "example": "It was challenging. At the same time, it was really rewarding.",
+    "level": "B2"
+  },
+  {
+    "chunk": "That said",
+    "cz": "To znamená; zároveň ale",
+    "desc": "A compact transition used before a contrasting or qualifying point.",
+    "usage": "Useful in more polished speaking and writing when you want to sound balanced.",
+    "example": "It is expensive. That said, the quality is excellent.",
+    "level": "C1"
+  },
+  {
+    "chunk": "The thing is",
+    "cz": "Jde o to, že",
+    "desc": "A very common spoken chunk for introducing the real issue.",
+    "usage": "Useful in informal conversation when you want to explain what really matters.",
+    "example": "The thing is, I do not have enough time to do it properly.",
+    "level": "B2"
+  },
+  {
+    "chunk": "What I mean is",
+    "cz": "Tím myslím; chci říct",
+    "desc": "A repair chunk for clarifying what you just said.",
+    "usage": "Useful in live speaking when you want to rephrase or make your meaning clearer.",
+    "example": "It was not bad. What I mean is, it could have been more practical.",
+    "level": "B2"
+  },
+  {
+    "chunk": "In other words",
+    "cz": "Jinými slovy",
+    "desc": "A classic chunk for restating an idea more simply.",
+    "usage": "Useful in explanations, teaching, and structured speaking.",
+    "example": "We need a better system. In other words, we need something more reliable.",
+    "level": "B2"
+  },
+  {
+    "chunk": "It depends on",
+    "cz": "Záleží na",
+    "desc": "A basic but essential chunk for giving a conditional answer.",
+    "usage": "Useful when the answer is not absolute and varies by situation.",
+    "example": "It depends on how much time you have.",
+    "level": "B2"
+  },
+  {
+    "chunk": "From my perspective",
+    "cz": "Z mého pohledu",
+    "desc": "A more polished way to introduce your opinion.",
+    "usage": "Useful in formal discussion, meetings, and thoughtful answers.",
+    "example": "From my perspective, the long-term benefits are worth it.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As far as I know",
+    "cz": "Pokud vím",
+    "desc": "A natural chunk for giving information without sounding too certain.",
+    "usage": "Useful when you want to sound accurate and cautious at the same time.",
+    "example": "As far as I know, the deadline has not changed.",
+    "level": "B2"
+  },
+  {
+    "chunk": "To some extent",
+    "cz": "Do určité míry",
+    "desc": "A softening chunk used to avoid making overly absolute statements.",
+    "usage": "Useful in nuanced answers when you partly agree or partly accept something.",
+    "example": "To some extent, I agree with that argument.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For the most part",
+    "cz": "Z větší části; většinou",
+    "desc": "A natural chunk meaning in general, with minor exceptions.",
+    "usage": "Useful for summaries and balanced evaluations.",
+    "example": "For the most part, the project went smoothly.",
+    "level": "C1"
+  },
+  {
+    "chunk": "There is a big difference between",
+    "cz": "Je velký rozdíl mezi",
+    "desc": "A practical chunk for comparing two things clearly.",
+    "usage": "Useful in explanations, teaching, and contrastive speaking.",
+    "example": "There is a big difference between understanding a word and using it naturally.",
+    "level": "B2"
+  },
+  {
+    "chunk": "The reason is that",
+    "cz": "Důvod je ten, že",
+    "desc": "A clear chunk for introducing an explanation.",
+    "usage": "Useful when you want to justify a view or explain a result.",
+    "example": "The reason is that we did not prepare for the worst-case scenario.",
+    "level": "B2"
+  },
+  {
+    "chunk": "It turns out that",
+    "cz": "Ukáže se, že",
+    "desc": "A natural chunk for introducing a surprising or discovered fact.",
+    "usage": "Useful in storytelling and reflection.",
+    "example": "It turns out that the simpler method was actually better.",
+    "level": "B2"
+  },
+  {
+    "chunk": "I ended up",
+    "cz": "Nakonec jsem",
+    "desc": "A common spoken chunk for describing an unexpected final result.",
+    "usage": "Useful in everyday stories and personal experience.",
+    "example": "I ended up spending the whole evening working on it.",
+    "level": "B2"
+  },
+  {
+    "chunk": "It is not just about",
+    "cz": "Není to jen o",
+    "desc": "A useful chunk for broadening a discussion beyond one simple factor.",
+    "usage": "Useful in arguments and explanations when you want to deepen the point.",
+    "example": "It is not just about vocabulary. It is also about timing and confidence.",
+    "level": "B2"
+  },
+  {
+    "chunk": "What matters most is",
+    "cz": "Nejdůležitější je",
+    "desc": "A strong chunk for highlighting the key priority.",
+    "usage": "Useful in summaries and advice.",
+    "example": "What matters most is that you keep using the language every day.",
+    "level": "B2"
+  },
+  {
+    "chunk": "So overall, I would say",
+    "cz": "Takže celkově bych řekl",
+    "desc": "A closing chunk for wrapping up your answer in a natural way.",
+    "usage": "Useful at the end of longer spoken responses.",
+    "example": "So overall, I would say it was a very useful experience.",
+    "level": "B2"
+  },
+  {
+    "chunk": "That is true, but",
+    "cz": "To je pravda, ale",
+    "desc": "A very practical chunk for partial agreement followed by contrast.",
+    "usage": "Useful in debates, discussions, and nuanced conversation.",
+    "example": "That is true, but we still need a more realistic plan.",
+    "level": "B2"
+  },
+  {
+    "chunk": "If you ask me",
+    "cz": "Jestli se ptáš mě",
+    "desc": "A conversational way to introduce your opinion.",
+    "usage": "Useful in informal discussion when you want to sound natural and direct.",
+    "example": "If you ask me, the simpler version works better.",
+    "level": "B2"
+  },
+  {
+    "chunk": "At the end of the day",
+    "cz": "Nakonec; ve výsledku",
+    "desc": "A common chunk for returning to the most important conclusion.",
+    "usage": "Useful in spoken English when summarizing the bottom line.",
+    "example": "At the end of the day, results matter more than promises.",
+    "level": "C1"
+  },
+  {
+    "chunk": "The way I see it",
+    "cz": "Jak to vidím já",
+    "desc": "A natural opinion chunk with a slightly more reflective tone.",
+    "usage": "Useful when you want to present your perspective without sounding too rigid.",
+    "example": "The way I see it, we need more practice, not more theory.",
+    "level": "C1"
+  },
+  {
+    "chunk": "I am not entirely sure, but",
+    "cz": "Nejsem si úplně jistý, ale",
+    "desc": "A very useful chunk for sounding careful and honest when uncertain.",
+    "usage": "Useful in conversation, meetings, and any answer where total certainty would be risky.",
+    "example": "I am not entirely sure, but I think the issue started last week.",
+    "level": "B2"
+  },
+  {
+    "chunk": "Let me think",
+    "cz": "Nech mě přemýšlet",
+    "desc": "A time-buying chunk that sounds natural in live conversation.",
+    "usage": "Useful when you need a moment before answering.",
+    "example": "Let me think. I would probably start with the easiest option.",
+    "level": "B2"
+  },
+  {
+    "chunk": "How can I put it",
+    "cz": "Jak to říct",
+    "desc": "A natural hesitation chunk used before a careful or nuanced point.",
+    "usage": "Useful when you want time to phrase something well.",
+    "example": "How can I put it, the idea is interesting but not fully practical.",
+    "level": "C1"
+  },
+  {
+    "chunk": "To put it simply",
+    "cz": "Jednoduše řečeno",
+    "desc": "A chunk for simplifying a more complex explanation.",
+    "usage": "Useful in teaching, explaining, and structured speaking.",
+    "example": "To put it simply, we need a system that people can actually use.",
+    "level": "B2"
+  },
+  {
+    "chunk": "As a result",
+    "cz": "V důsledku toho",
+    "desc": "A clear linking chunk for showing consequence.",
+    "usage": "Useful in explanations, presentations, and formal writing.",
+    "example": "We ignored the warning signs. As a result, the problem got worse.",
+    "level": "B2"
+  },
+  {
+    "chunk": "In that sense",
+    "cz": "V tom smyslu",
+    "desc": "A linking chunk that narrows the interpretation of what you just said.",
+    "usage": "Useful when connecting an idea to a specific perspective.",
+    "example": "It is risky. In that sense, caution is completely justified.",
+    "level": "C1"
+  },
+  {
+    "chunk": "To be fair",
+    "cz": "Abych byl fér",
+    "desc": "A balancing chunk used before a more sympathetic or balanced point.",
+    "usage": "Useful in discussion when you do not want to sound one-sided.",
+    "example": "To be fair, they did not have much time to prepare.",
+    "level": "B2"
+  },
+  {
+    "chunk": "In the first place",
+    "cz": "V první řadě; vůbec",
+    "desc": "A chunk used to refer back to the original reason or basis.",
+    "usage": "Useful in argumentation and reflective speaking.",
+    "example": "We should ask why the problem appeared in the first place.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For example",
+    "cz": "Například",
+    "desc": "The most practical chunk for introducing an example.",
+    "usage": "Useful in almost every speaking or writing task.",
+    "example": "For example, you could repeat the phrase out loud three times.",
+    "level": "B2"
+  },
+  {
+    "chunk": "If anything",
+    "cz": "Spíš naopak; když už něco",
+    "desc": "A compact chunk used to reverse or sharpen the point you just made.",
+    "usage": "Useful in nuanced speaking when the reality is stronger than expected.",
+    "example": "It did not make things easier. If anything, it made them more complicated.",
+    "level": "C1"
+  },
+  {
+    "chunk": "The point is",
+    "cz": "Pointa je",
+    "desc": "A direct chunk for focusing attention on the key idea.",
+    "usage": "Useful in spoken explanations and when bringing the discussion back on track.",
+    "example": "The point is, we need something people can use immediately.",
+    "level": "B2"
+  },
+  {
+    "chunk": "Now that I think about it",
+    "cz": "Když o tom teď přemýšlím",
+    "desc": "A natural reflective chunk used when your thought develops while speaking.",
+    "usage": "Useful in spontaneous conversation and storytelling.",
+    "example": "Now that I think about it, that was probably the turning point.",
+    "level": "C1"
+  },
+  {
+    "chunk": "At first",
+    "cz": "Nejdřív; zpočátku",
+    "desc": "A common chunk for starting a story or showing early stages of a process.",
+    "usage": "Useful in personal stories and progress descriptions.",
+    "example": "At first, I found it confusing, but then it started to make sense.",
+    "level": "B2"
+  },
+  {
+    "chunk": "In the long run",
+    "cz": "Z dlouhodobého hlediska",
+    "desc": "A chunk for talking about long-term consequences rather than immediate results.",
+    "usage": "Useful in planning, advice, and evaluation.",
+    "example": "In the long run, small daily habits are more effective than occasional effort.",
+    "level": "C1"
+  },
+  {
+    "chunk": "More often than not",
+    "cz": "Ve většině případů",
+    "desc": "A polished chunk meaning usually, though not always.",
+    "usage": "Useful when describing patterns or tendencies.",
+    "example": "More often than not, simple explanations work best.",
+    "level": "C1"
+  },
+  {
+    "chunk": "Even though",
+    "cz": "I když",
+    "desc": "A high-frequency chunk for contrast and concession.",
+    "usage": "Useful in both spoken and written English when two ideas seem to conflict.",
+    "example": "Even though I was tired, I kept going.",
+    "level": "B2"
+  },
+  {
+    "chunk": "It is worth noting that",
+    "cz": "Stojí za zmínku, že",
+    "desc": "A formal chunk used to highlight an important detail.",
+    "usage": "Useful in presentations, analysis, and more advanced spoken English.",
+    "example": "It is worth noting that the second option is much cheaper.",
+    "level": "C1"
+  },
+  {
+    "chunk": "Chances are",
+    "cz": "Je dost pravděpodobné, že",
+    "desc": "A natural chunk for making a likely prediction.",
+    "usage": "Useful in informal and semi-formal conversation when expressing probability.",
+    "example": "Chances are, they will ask the same question again.",
+    "level": "C1"
+  },
+  {
+    "chunk": "I would not say that",
+    "cz": "To bych neřekl",
+    "desc": "A polite chunk for disagreeing without sounding too harsh.",
+    "usage": "Useful in discussions and debates when rejecting a claim softly.",
+    "example": "I would not say that it was a failure. It was more of a useful lesson.",
+    "level": "B2"
+  },
+  {
+    "chunk": "I would not go that far",
+    "cz": "Až tak daleko bych nezašel",
+    "desc": "A nuanced chunk for partial disagreement.",
+    "usage": "Useful when you want to sound diplomatic but still disagree.",
+    "example": "I agree it was risky, but I would not go that far.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As far as I am concerned",
+    "cz": "Co se mě týče",
+    "desc": "A strong personal-opinion chunk with a slightly formal tone.",
+    "usage": "Useful when clearly stating your own position.",
+    "example": "As far as I am concerned, the decision was the right one.",
+    "level": "C1"
+  },
+  {
+    "chunk": "When it comes to",
+    "cz": "Když jde o",
+    "desc": "A very common chunk for narrowing the topic to one area.",
+    "usage": "Useful in comparisons, preferences, and focused discussion.",
+    "example": "When it comes to speaking, confidence matters a lot.",
+    "level": "B2"
+  },
+  {
+    "chunk": "The problem is that",
+    "cz": "Problém je v tom, že",
+    "desc": "A natural chunk for naming the main obstacle directly.",
+    "usage": "Useful in problem-solving and honest explanation.",
+    "example": "The problem is that we are trying to do too much at once.",
+    "level": "B2"
+  },
+  {
+    "chunk": "The good thing is",
+    "cz": "Dobrá věc je, že",
+    "desc": "A simple positive chunk for highlighting the upside.",
+    "usage": "Useful in balanced conversation when looking for advantages.",
+    "example": "The good thing is, we still have enough time to fix it.",
+    "level": "B2"
+  },
+  {
+    "chunk": "The tricky part is",
+    "cz": "Záludná část je, že",
+    "desc": "A useful chunk for introducing the difficult or subtle aspect of something.",
+    "usage": "Useful in explanation, coaching, and analysis.",
+    "example": "The tricky part is getting the timing right.",
+    "level": "C1"
+  },
+  {
+    "chunk": "One way or another",
+    "cz": "Tak či onak",
+    "desc": "A natural chunk meaning somehow, regardless of the exact route.",
+    "usage": "Useful when the exact method is uncertain but the result will happen.",
+    "example": "One way or another, we will find a solution.",
+    "level": "C1"
+  },
+  {
+    "chunk": "Whether we like it or not",
+    "cz": "Ať se nám to líbí nebo ne",
+    "desc": "A chunk for stating that something is true regardless of preference.",
+    "usage": "Useful in strong statements about reality or necessity.",
+    "example": "Whether we like it or not, change is coming.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As a matter of fact",
+    "cz": "Ve skutečnosti",
+    "desc": "A natural chunk for correcting or sharpening what was just said.",
+    "usage": "Useful when adding a surprising fact or clarifying a mistaken assumption.",
+    "example": "As a matter of fact, the simpler option turned out to be better.",
+    "level": "C1"
+  },
+  {
+    "chunk": "To a certain extent",
+    "cz": "Do jisté míry",
+    "desc": "A balanced chunk for partial agreement or limited truth.",
+    "usage": "Useful when you want to avoid sounding too absolute.",
+    "example": "To a certain extent, both sides are right.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As opposed to",
+    "cz": "Na rozdíl od",
+    "desc": "A contrast chunk used to compare one thing with another.",
+    "usage": "Useful in explanations and more formal comparisons.",
+    "example": "We need active practice as opposed to passive reading.",
+    "level": "C1"
+  },
+  {
+    "chunk": "In terms of",
+    "cz": "Pokud jde o; z hlediska",
+    "desc": "A very common chunk for narrowing the focus to one aspect.",
+    "usage": "Useful in comparison, analysis, and structured speaking.",
+    "example": "In terms of speed, the new system is much better.",
+    "level": "B2"
+  },
+  {
+    "chunk": "By and large",
+    "cz": "Celkově vzato",
+    "desc": "A polished chunk meaning generally or overall.",
+    "usage": "Useful in summaries and evaluations.",
+    "example": "By and large, the course was very useful.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As it turns out",
+    "cz": "Jak se ukázalo",
+    "desc": "A natural storytelling chunk for introducing a discovered fact.",
+    "usage": "Useful when the result was different from what you expected.",
+    "example": "As it turns out, we were worrying for no reason.",
+    "level": "C1"
+  },
+  {
+    "chunk": "On top of that",
+    "cz": "K tomu navíc",
+    "desc": "A spoken chunk for adding another strong point.",
+    "usage": "Useful in conversation when building an argument naturally.",
+    "example": "It is cheaper, and on top of that, it is easier to maintain.",
+    "level": "B2"
+  },
+  {
+    "chunk": "By no means",
+    "cz": "V žádném případě",
+    "desc": "A firm chunk used for strong negation.",
+    "usage": "Useful when you want to reject an idea clearly and emphatically.",
+    "example": "This is by no means a complete solution.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As a whole",
+    "cz": "Jako celek",
+    "desc": "A summary chunk for talking about the overall picture.",
+    "usage": "Useful in evaluation and general assessment.",
+    "example": "As a whole, the project was a success.",
+    "level": "B2"
+  },
+  {
+    "chunk": "On the whole",
+    "cz": "Celkově vzato",
+    "desc": "A polished alternative to overall.",
+    "usage": "Useful in spoken and written summaries.",
+    "example": "On the whole, I am satisfied with the result.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As soon as possible",
+    "cz": "Co nejdříve",
+    "desc": "A fixed chunk for urgency and timing.",
+    "usage": "Useful in work, planning, and requests.",
+    "example": "Please send me the file as soon as possible.",
+    "level": "B2"
+  },
+  {
+    "chunk": "For the time being",
+    "cz": "Prozatím",
+    "desc": "A chunk meaning for now or temporarily.",
+    "usage": "Useful when describing a short-term arrangement.",
+    "example": "For the time being, we should keep the process simple.",
+    "level": "C1"
+  },
+  {
+    "chunk": "Sooner or later",
+    "cz": "Dříve nebo později",
+    "desc": "A natural chunk for saying something will eventually happen.",
+    "usage": "Useful in advice, prediction, and reflection.",
+    "example": "Sooner or later, you have to face the real issue.",
+    "level": "B2"
+  },
+  {
+    "chunk": "For one thing",
+    "cz": "Zaprvé; jednak",
+    "desc": "A chunk for introducing the first reason in an argument.",
+    "usage": "Useful when organizing spoken reasons more clearly.",
+    "example": "For one thing, it saves time. For another, it reduces stress.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For another thing",
+    "cz": "Zadruhé; a za další",
+    "desc": "A matching chunk for adding another reason after the first one.",
+    "usage": "Useful in structured argumentation.",
+    "example": "For another thing, it makes the process easier to follow.",
+    "level": "C1"
+  },
+  {
+    "chunk": "There is no point in",
+    "cz": "Nemá smysl",
+    "desc": "A practical chunk for saying an action would be useless.",
+    "usage": "Useful in advice and realistic evaluation.",
+    "example": "There is no point in memorizing words you never use.",
+    "level": "B2"
+  },
+  {
+    "chunk": "It does not necessarily mean",
+    "cz": "To nutně neznamená",
+    "desc": "A nuanced chunk for separating one fact from a false conclusion.",
+    "usage": "Useful in discussion and careful reasoning.",
+    "example": "A delay does not necessarily mean that the plan has failed.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As long as",
+    "cz": "Pokud; dokud",
+    "desc": "A high-value chunk for conditions and limits.",
+    "usage": "Useful in rules, promises, and conditional statements.",
+    "example": "As long as you stay consistent, you will improve.",
+    "level": "B2"
+  },
+  {
+    "chunk": "The fact is",
+    "cz": "Fakt je, že",
+    "desc": "A direct chunk for emphasizing a reality that matters.",
+    "usage": "Useful when you want to sound decisive and clear.",
+    "example": "The fact is, we should have started earlier.",
+    "level": "B2"
+  },
+  {
+    "chunk": "For that matter",
+    "cz": "Když už jsme u toho",
+    "desc": "A linking chunk for adding another related point.",
+    "usage": "Useful in more advanced conversational flow.",
+    "example": "We need better examples, and for that matter, better instructions too.",
+    "level": "C1"
+  },
+  {
+    "chunk": "In any case",
+    "cz": "Každopádně",
+    "desc": "A chunk for moving to the point that remains true regardless.",
+    "usage": "Useful in conversation when shifting toward what matters now.",
+    "example": "In any case, we need to make a decision today.",
+    "level": "B2"
+  },
+  {
+    "chunk": "Either way",
+    "cz": "Tak jako tak",
+    "desc": "A compact spoken chunk meaning in both possible outcomes.",
+    "usage": "Useful when the conclusion stays the same in different scenarios.",
+    "example": "Either way, we need to prepare better next time.",
+    "level": "B2"
+  },
+  {
+    "chunk": "At short notice",
+    "cz": "Na poslední chvíli",
+    "desc": "A useful chunk for describing something arranged with little time.",
+    "usage": "Useful in work and scheduling contexts.",
+    "example": "They asked me to step in at short notice.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For that reason",
+    "cz": "Z toho důvodu",
+    "desc": "A formal connector for stating a consequence based on the previous point.",
+    "usage": "Useful in presentations and more structured speaking.",
+    "example": "The data was incomplete. For that reason, we postponed the decision.",
+    "level": "B2"
+  },
+  {
+    "chunk": "All of a sudden",
+    "cz": "Najednou",
+    "desc": "A natural storytelling chunk for sudden change.",
+    "usage": "Useful in narratives and personal stories.",
+    "example": "All of a sudden, everything started to make sense.",
+    "level": "B2"
+  },
+  {
+    "chunk": "As a consequence",
+    "cz": "V důsledku toho",
+    "desc": "A formal alternative to as a result.",
+    "usage": "Useful in academic or polished explanation.",
+    "example": "They ignored the warning signs. As a consequence, the costs increased.",
+    "level": "C1"
+  },
+  {
+    "chunk": "Needless to say",
+    "cz": "Netřeba dodávat",
+    "desc": "A polished chunk used before an obvious point.",
+    "usage": "Useful when you want to sound fluent and rhetorically smooth.",
+    "example": "Needless to say, trust is essential in that kind of situation.",
+    "level": "C1"
+  },
+  {
+    "chunk": "Be that as it may",
+    "cz": "Ať je to jak chce",
+    "desc": "A formal concession chunk meaning even so.",
+    "usage": "Useful in advanced discussion when moving past an objection.",
+    "example": "Be that as it may, we still need a workable solution.",
+    "level": "C2"
+  },
+  {
+    "chunk": "All things considered",
+    "cz": "Když se vezme vše v úvahu",
+    "desc": "A polished summary chunk for final evaluation.",
+    "usage": "Useful at the end of an argument or assessment.",
+    "example": "All things considered, it was the right decision.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For what it is worth",
+    "cz": "Jestli to za něco stojí",
+    "desc": "A modest chunk for offering an opinion without sounding pushy.",
+    "usage": "Useful when you want to sound careful and non-dominating.",
+    "example": "For what it is worth, I think the first option is safer.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As far as that goes",
+    "cz": "Pokud jde o tohle",
+    "desc": "A chunk for narrowing your comment to one specific issue.",
+    "usage": "Useful in discussion when partially qualifying your agreement.",
+    "example": "As far as that goes, I do not see a serious problem.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For once",
+    "cz": "Pro jednou",
+    "desc": "A chunk meaning on this occasion, unlike usual.",
+    "usage": "Useful in personal stories and contrast with habit.",
+    "example": "For once, everything went exactly as planned.",
+    "level": "B2"
+  },
+  {
+    "chunk": "On second thought",
+    "cz": "Když o tom přemýšlím znovu",
+    "desc": "A natural chunk for revising your opinion mid-speech.",
+    "usage": "Useful in spontaneous speaking when your judgment changes.",
+    "example": "On second thought, we should probably wait until tomorrow.",
+    "level": "C1"
+  },
+  {
+    "chunk": "To be more specific",
+    "cz": "Abych byl konkrétnější",
+    "desc": "A chunk for narrowing a general point into a precise one.",
+    "usage": "Useful in explanation and teaching.",
+    "example": "To be more specific, we need better examples, not more theory.",
+    "level": "B2"
+  },
+  {
+    "chunk": "To make matters worse",
+    "cz": "Aby toho nebylo málo",
+    "desc": "A storytelling chunk for introducing an additional negative factor.",
+    "usage": "Useful when describing escalation of a problem.",
+    "example": "The system was already slow. To make matters worse, it crashed twice.",
+    "level": "C1"
+  },
+  {
+    "chunk": "For better or worse",
+    "cz": "Ať už k lepšímu nebo horšímu",
+    "desc": "A chunk for saying something is true regardless of whether it is good or bad.",
+    "usage": "Useful in reflection and big-picture statements.",
+    "example": "For better or worse, technology shapes how we communicate.",
+    "level": "C1"
+  },
+  {
+    "chunk": "In one way or another",
+    "cz": "Tak či onak",
+    "desc": "A slightly fuller version of one way or another.",
+    "usage": "Useful when the path is unclear but the outcome is likely.",
+    "example": "In one way or another, the issue will come back.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As things stand",
+    "cz": "Jak se věci mají teď",
+    "desc": "A chunk for describing the current situation at this moment.",
+    "usage": "Useful in updates, planning, and analysis.",
+    "example": "As things stand, we are still waiting for confirmation.",
+    "level": "C1"
+  },
+  {
+    "chunk": "More to the point",
+    "cz": "Přesněji řečeno; důležitější je",
+    "desc": "A chunk for redirecting attention to the more important issue.",
+    "usage": "Useful in argumentation and sharper explanations.",
+    "example": "The cost matters, but more to the point, the system is unreliable.",
+    "level": "C1"
+  },
+  {
+    "chunk": "In the meantime",
+    "cz": "Mezitím",
+    "desc": "A useful chunk for referring to the period before something else happens.",
+    "usage": "Useful in planning and narrative sequencing.",
+    "example": "We are waiting for approval. In the meantime, we can prepare the draft.",
+    "level": "B2"
+  },
+  {
+    "chunk": "To say the least",
+    "cz": "Mírně řečeno",
+    "desc": "A rhetorical chunk used to soften a strong judgment while still implying more.",
+    "usage": "Useful when emphasizing that a situation is more serious than the words suggest.",
+    "example": "The meeting was awkward, to say the least.",
+    "level": "C1"
+  },
+  {
+    "chunk": "If nothing else",
+    "cz": "Když už nic jiného",
+    "desc": "A chunk for identifying the one thing that still remains true or useful.",
+    "usage": "Useful in argumentation and consolation.",
+    "example": "If nothing else, the experience taught us what to avoid.",
+    "level": "C1"
+  },
+  {
+    "chunk": "At best",
+    "cz": "V tom nejlepším případě",
+    "desc": "A concise chunk for setting an upper limit on what is possible.",
+    "usage": "Useful in realistic estimates and cautious planning.",
+    "example": "At best, we can finish it by Friday.",
+    "level": "B2"
+  },
+  {
+    "chunk": "At worst",
+    "cz": "V tom nejhorším případě",
+    "desc": "A concise chunk for describing the negative limit of a situation.",
+    "usage": "Useful in risk assessment and planning.",
+    "example": "At worst, we lose a few hours of work.",
+    "level": "B2"
+  },
+  {
+    "chunk": "If that is the case",
+    "cz": "Jestli je to tak",
+    "desc": "A chunk for responding logically to a stated condition.",
+    "usage": "Useful in structured thinking and discussion.",
+    "example": "If that is the case, we need to change our approach.",
+    "level": "C1"
+  },
+  {
+    "chunk": "As it happens",
+    "cz": "Shodou okolností; zrovna",
+    "desc": "A chunk for introducing an interesting coincidence or relevant fact.",
+    "usage": "Useful in conversation and storytelling.",
+    "example": "As it happens, I spoke to her about it yesterday.",
+    "level": "C1"
+  },
+  {
+    "chunk": "At this point",
+    "cz": "V tuto chvíli; v této fázi",
+    "desc": "A very useful chunk for referring to the current stage of a process.",
+    "usage": "Useful in updates, planning, and spoken analysis.",
+    "example": "At this point, we should focus on what is still realistic.",
+    "level": "B2"
+  },
+  {
+    "chunk": "In light of that",
+    "cz": "Ve světle toho",
+    "desc": "A polished chunk for adjusting your thinking based on new information.",
+    "usage": "Useful in formal discussion and thoughtful explanation.",
+    "example": "In light of that, we should probably revise the schedule.",
+    "level": "C1"
+  },
+  {
+    "chunk": "At all costs",
+    "cz": "Za každou cenu",
+    "desc": "A fixed chunk for saying something must happen no matter what.",
+    "usage": "Useful in strong advice and high-stakes statements.",
+    "example": "We should avoid burnout at all costs.",
+    "level": "B2"
+  },
+  {
+    "chunk": "For the sake of clarity",
+    "cz": "Pro lepší srozumitelnost",
+    "desc": "A formal chunk for introducing a clarification.",
+    "usage": "Useful in explanation, teaching, and careful reasoning.",
+    "example": "For the sake of clarity, let me explain the difference again.",
+    "level": "C1"
+  }
+]
+  </script>
+  <script>
+    function cleanValue(value) { return String(value || "").trim(); }
+    function splitSentences(value) { return cleanValue(value).split(/(?<=[.!?])\s+/).map(part => part.trim()).filter(Boolean); }
+    const data = JSON.parse(document.getElementById("json-data").textContent);
+    document.getElementById("count").textContent = `${data.length} chunks`;
+    const grid = document.getElementById("grid");
+    for (const item of data) {
+      const card = document.createElement("article");
+      card.className = "card";
+      const head = document.createElement("div");
+      head.className = "head";
+      head.innerHTML = `<span class="chunk">${item.chunk}</span> <span class="level">(${item.level})</span> <span class="cz">- ${cleanValue(item.cz)}</span>`;
+      card.appendChild(head);
+      const desc = document.createElement("div");
+      desc.className = "desc";
+      desc.textContent = cleanValue(item.desc);
+      card.appendChild(desc);
+      const usage = document.createElement("div");
+      usage.className = "usage";
+      usage.textContent = cleanValue(item.usage);
+      card.appendChild(usage);
+      const examples = document.createElement("div");
+      examples.className = "examples";
+      for (const line of splitSentences(item.example)) {
+        const sentence = document.createElement("span");
+        sentence.className = "sentence";
+        sentence.textContent = line;
+        examples.appendChild(sentence);
+      }
+      card.appendChild(examples);
+      grid.appendChild(card);
+    }
+  </script>
+<script>
+(function () {
+  function shuffleInPlace(items) {
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = items[i];
+      items[i] = items[j];
+      items[j] = temp;
+    }
+    return items;
+  }
+
+  function initShuffle() {
+    const grid = document.querySelector('.grid');
+    const button = document.getElementById('shuffle-toggle');
+    if (!grid || !button) {
+      return;
+    }
+
+    const cards = Array.from(grid.children);
+    if (!cards.length) {
+      return;
+    }
+
+    cards.forEach((card, index) => {
+      card.dataset.originalIndex = String(index);
+    });
+
+    const originalOrder = cards.slice();
+    let shuffled = false;
+
+    button.addEventListener('click', function () {
+      let nextOrder;
+      if (!shuffled) {
+        nextOrder = shuffleInPlace(cards.slice());
+        shuffled = true;
+        button.classList.add('is-active');
+        button.setAttribute('aria-pressed', 'true');
+      } else {
+        nextOrder = originalOrder.slice().sort((a, b) => Number(a.dataset.originalIndex) - Number(b.dataset.originalIndex));
+        shuffled = false;
+        button.classList.remove('is-active');
+        button.setAttribute('aria-pressed', 'false');
+      }
+
+      nextOrder.forEach((card) => grid.appendChild(card));
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initShuffle);
+  } else {
+    initShuffle();
+  }
+})();
+</script>
+</body>
+</html>
+
+
+

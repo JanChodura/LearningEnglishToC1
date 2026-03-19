@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentences</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --card: #fffaf1;
+      --text: #201d19;
+      --muted: #736c62;
+      --rule: #e7e0d3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(180deg, #f2ede3 0%, #f8f6f0 100%);
+      color: var(--text);
+      font-family: Tahoma, sans-serif;
+      font-size: 12pt;
+      line-height: 1.24;
+    }
+    .wrap {
+      max-width: 1500px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 14px;
+      padding: 16px 18px 18px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    }
+    h1 { margin: 0 0 4px; font-size: 16pt; line-height: 1.1; }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-size: 16pt;
+      line-height: 1.1;
+      flex-wrap: wrap;
+    }
+    .toolbar a { color: #0645ad; text-decoration: none; }
+    .toolbar a:hover { text-decoration: underline; }
+    .shuffle-btn {
+      appearance: none;
+      border: 1px solid var(--rule);
+      background: #f6f1e7;
+      color: #0645ad;
+      border-radius: 999px;
+      padding: 4px 12px;
+      font: inherit;
+      font-size: 11pt;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+    .shuffle-btn:hover { text-decoration: underline; }
+    .shuffle-btn.is-active {
+      background: #e7dcc7;
+      border-color: #c8b999;
+      color: #1f1a15;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .grid { display: grid; gap: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 12px 14px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+    }
+    .head {
+      font-size: 12pt;
+      line-height: 1.22;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .sentence {
+      font-size: 14pt;
+      line-height: 1.3;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Sentences</h1>
+    <div class="toolbar">
+      <span><a href="../../index.html">Back to index</a></span>
+      <span id="count">300 polozek</span>
+      <span>
+        <button type="button" class="shuffle-btn" id="shuffle-toggle" aria-pressed="false">Shuffle</button>
+        <a href="../../../data/vocabulary/sentences.json">JSON</a>
+      </span>
+    </div>
+    <section id="grid" class="grid"></section>
+  </main>
+  <script id="json-data" type="application/json">
+{
+  &quot;sentences&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;sentence&quot;: &quot;I woke up earlier than usual.&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;sentence&quot;: &quot;I really need a few more minutes.&quot;
+    },
+    {
+      &quot;id&quot;: 3,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to start my day positively.&quot;
+    },
+    {
+      &quot;id&quot;: 4,
+      &quot;sentence&quot;: &quot;I haven&#x27;t had breakfast yet.&quot;
+    },
+    {
+      &quot;id&quot;: 5,
+      &quot;sentence&quot;: &quot;I&#x27;m still getting ready.&quot;
+    },
+    {
+      &quot;id&quot;: 6,
+      &quot;sentence&quot;: &quot;Do you have any plans for today?&quot;
+    },
+    {
+      &quot;id&quot;: 7,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to be more organized.&quot;
+    },
+    {
+      &quot;id&quot;: 8,
+      &quot;sentence&quot;: &quot;I&#x27;ll leave in a few minutes.&quot;
+    },
+    {
+      &quot;id&quot;: 9,
+      &quot;sentence&quot;: &quot;Don&#x27;t forget to bring your keys.&quot;
+    },
+    {
+      &quot;id&quot;: 10,
+      &quot;sentence&quot;: &quot;I&#x27;ll text you when I arrive.&quot;
+    },
+    {
+      &quot;id&quot;: 11,
+      &quot;sentence&quot;: &quot;Can we talk about this later?&quot;
+    },
+    {
+      &quot;id&quot;: 12,
+      &quot;sentence&quot;: &quot;I appreciate your patience.&quot;
+    },
+    {
+      &quot;id&quot;: 13,
+      &quot;sentence&quot;: &quot;That&#x27;s completely understandable.&quot;
+    },
+    {
+      &quot;id&quot;: 14,
+      &quot;sentence&quot;: &quot;Let me know if you need help.&quot;
+    },
+    {
+      &quot;id&quot;: 15,
+      &quot;sentence&quot;: &quot;I&#x27;ll try my best.&quot;
+    },
+    {
+      &quot;id&quot;: 16,
+      &quot;sentence&quot;: &quot;I didn&#x27;t mean to interrupt.&quot;
+    },
+    {
+      &quot;id&quot;: 17,
+      &quot;sentence&quot;: &quot;Thanks for letting me know.&quot;
+    },
+    {
+      &quot;id&quot;: 18,
+      &quot;sentence&quot;: &quot;I&#x27;ll get back to you soon.&quot;
+    },
+    {
+      &quot;id&quot;: 19,
+      &quot;sentence&quot;: &quot;Do you want to grab something to eat?&quot;
+    },
+    {
+      &quot;id&quot;: 20,
+      &quot;sentence&quot;: &quot;I&#x27;m still thinking about it.&quot;
+    },
+    {
+      &quot;id&quot;: 21,
+      &quot;sentence&quot;: &quot;That sounds like a great idea.&quot;
+    },
+    {
+      &quot;id&quot;: 22,
+      &quot;sentence&quot;: &quot;I&#x27;m on my way.&quot;
+    },
+    {
+      &quot;id&quot;: 23,
+      &quot;sentence&quot;: &quot;I&#x27;m working on it.&quot;
+    },
+    {
+      &quot;id&quot;: 24,
+      &quot;sentence&quot;: &quot;I need a little more time.&quot;
+    },
+    {
+      &quot;id&quot;: 25,
+      &quot;sentence&quot;: &quot;I completely understand your point.&quot;
+    },
+    {
+      &quot;id&quot;: 26,
+      &quot;sentence&quot;: &quot;I didn&#x27;t mean to leave you on read.&quot;
+    },
+    {
+      &quot;id&quot;: 27,
+      &quot;sentence&quot;: &quot;Let&#x27;s figure this out together.&quot;
+    },
+    {
+      &quot;id&quot;: 28,
+      &quot;sentence&quot;: &quot;I think the file didn&#x27;t upload.&quot;
+    },
+    {
+      &quot;id&quot;: 29,
+      &quot;sentence&quot;: &quot;What exactly do you mean?&quot;
+    },
+    {
+      &quot;id&quot;: 30,
+      &quot;sentence&quot;: &quot;I&#x27;m not sure if I understood correctly.&quot;
+    },
+    {
+      &quot;id&quot;: 31,
+      &quot;sentence&quot;: &quot;Could you speak a little slower, please?&quot;
+    },
+    {
+      &quot;id&quot;: 32,
+      &quot;sentence&quot;: &quot;I&#x27;ll try to explain it more clearly.&quot;
+    },
+    {
+      &quot;id&quot;: 33,
+      &quot;sentence&quot;: &quot;I didn&#x27;t catch that.&quot;
+    },
+    {
+      &quot;id&quot;: 34,
+      &quot;sentence&quot;: &quot;That makes a lot of sense now.&quot;
+    },
+    {
+      &quot;id&quot;: 35,
+      &quot;sentence&quot;: &quot;Do you mind if I ask a question?&quot;
+    },
+    {
+      &quot;id&quot;: 36,
+      &quot;sentence&quot;: &quot;I think we should consider other options.&quot;
+    },
+    {
+      &quot;id&quot;: 37,
+      &quot;sentence&quot;: &quot;Let&#x27;s take a short break.&quot;
+    },
+    {
+      &quot;id&quot;: 38,
+      &quot;sentence&quot;: &quot;I&#x27;m open to suggestions.&quot;
+    },
+    {
+      &quot;id&quot;: 39,
+      &quot;sentence&quot;: &quot;I&#x27;ve been thinking about it lately.&quot;
+    },
+    {
+      &quot;id&quot;: 40,
+      &quot;sentence&quot;: &quot;I&#x27;m still deciding.&quot;
+    },
+    {
+      &quot;id&quot;: 41,
+      &quot;sentence&quot;: &quot;Let me know what you think.&quot;
+    },
+    {
+      &quot;id&quot;: 42,
+      &quot;sentence&quot;: &quot;Let me know what you think.&quot;
+    },
+    {
+      &quot;id&quot;: 43,
+      &quot;sentence&quot;: &quot;I didn&#x27;t expect that to happen.&quot;
+    },
+    {
+      &quot;id&quot;: 44,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to stay focused.&quot;
+    },
+    {
+      &quot;id&quot;: 45,
+      &quot;sentence&quot;: &quot;That&#x27;s not what I meant.&quot;
+    },
+    {
+      &quot;id&quot;: 46,
+      &quot;sentence&quot;: &quot;I need to check my schedule.&quot;
+    },
+    {
+      &quot;id&quot;: 47,
+      &quot;sentence&quot;: &quot;I&#x27;ll let you know as soon as possible.&quot;
+    },
+    {
+      &quot;id&quot;: 48,
+      &quot;sentence&quot;: &quot;I didn&#x27;t have time to finish it.&quot;
+    },
+    {
+      &quot;id&quot;: 49,
+      &quot;sentence&quot;: &quot;I&#x27;ll try to make it.&quot;
+    },
+    {
+      &quot;id&quot;: 50,
+      &quot;sentence&quot;: &quot;I appreciate your understanding.&quot;
+    },
+    {
+      &quot;id&quot;: 51,
+      &quot;sentence&quot;: &quot;That&#x27;s a fair point.&quot;
+    },
+    {
+      &quot;id&quot;: 52,
+      &quot;sentence&quot;: &quot;I&#x27;m looking for something better.&quot;
+    },
+    {
+      &quot;id&quot;: 53,
+      &quot;sentence&quot;: &quot;I&#x27;m happy to help.&quot;
+    },
+    {
+      &quot;id&quot;: 54,
+      &quot;sentence&quot;: &quot;I really needed that.&quot;
+    },
+    {
+      &quot;id&quot;: 55,
+      &quot;sentence&quot;: &quot;I&#x27;ll think about it more.&quot;
+    },
+    {
+      &quot;id&quot;: 56,
+      &quot;sentence&quot;: &quot;I&#x27;m not totally convinced.&quot;
+    },
+    {
+      &quot;id&quot;: 57,
+      &quot;sentence&quot;: &quot;Let&#x27;s talk about it tomorrow.&quot;
+    },
+    {
+      &quot;id&quot;: 58,
+      &quot;sentence&quot;: &quot;I should have planned better.&quot;
+    },
+    {
+      &quot;id&quot;: 59,
+      &quot;sentence&quot;: &quot;That was very thoughtful of you.&quot;
+    },
+    {
+      &quot;id&quot;: 60,
+      &quot;sentence&quot;: &quot;I&#x27;ll handle it when I have time.&quot;
+    },
+    {
+      &quot;id&quot;: 61,
+      &quot;sentence&quot;: &quot;Do you want to hang out later?&quot;
+    },
+    {
+      &quot;id&quot;: 62,
+      &quot;sentence&quot;: &quot;I&#x27;ve been really busy lately.&quot;
+    },
+    {
+      &quot;id&quot;: 63,
+      &quot;sentence&quot;: &quot;It was nice talking to you.&quot;
+    },
+    {
+      &quot;id&quot;: 64,
+      &quot;sentence&quot;: &quot;I&#x27;m glad you mentioned that.&quot;
+    },
+    {
+      &quot;id&quot;: 65,
+      &quot;sentence&quot;: &quot;I didn&#x27;t expect to see you here.&quot;
+    },
+    {
+      &quot;id&quot;: 66,
+      &quot;sentence&quot;: &quot;Sorry, I completely forgot.&quot;
+    },
+    {
+      &quot;id&quot;: 67,
+      &quot;sentence&quot;: &quot;I&#x27;ll try to be there on time.&quot;
+    },
+    {
+      &quot;id&quot;: 68,
+      &quot;sentence&quot;: &quot;Let&#x27;s keep in touch.&quot;
+    },
+    {
+      &quot;id&quot;: 69,
+      &quot;sentence&quot;: &quot;Do you want to join us?&quot;
+    },
+    {
+      &quot;id&quot;: 70,
+      &quot;sentence&quot;: &quot;I haven&#x27;t seen you in a while.&quot;
+    },
+    {
+      &quot;id&quot;: 71,
+      &quot;sentence&quot;: &quot;I really appreciate your support.&quot;
+    },
+    {
+      &quot;id&quot;: 72,
+      &quot;sentence&quot;: &quot;I&#x27;m not in the mood right now.&quot;
+    },
+    {
+      &quot;id&quot;: 73,
+      &quot;sentence&quot;: &quot;That took me by surprise.&quot;
+    },
+    {
+      &quot;id&quot;: 74,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to stay positive.&quot;
+    },
+    {
+      &quot;id&quot;: 75,
+      &quot;sentence&quot;: &quot;I&#x27;m a little stressed at the moment.&quot;
+    },
+    {
+      &quot;id&quot;: 76,
+      &quot;sentence&quot;: &quot;I&#x27;m proud of you.&quot;
+    },
+    {
+      &quot;id&quot;: 77,
+      &quot;sentence&quot;: &quot;That&#x27;s not what I was expecting.&quot;
+    },
+    {
+      &quot;id&quot;: 78,
+      &quot;sentence&quot;: &quot;I&#x27;m happy with the results.&quot;
+    },
+    {
+      &quot;id&quot;: 79,
+      &quot;sentence&quot;: &quot;I&#x27;m still processing what happened.&quot;
+    },
+    {
+      &quot;id&quot;: 80,
+      &quot;sentence&quot;: &quot;I need some time to think.&quot;
+    },
+    {
+      &quot;id&quot;: 81,
+      &quot;sentence&quot;: &quot;I&#x27;m doing my best to stay calm.&quot;
+    },
+    {
+      &quot;id&quot;: 82,
+      &quot;sentence&quot;: &quot;I just need a short break.&quot;
+    },
+    {
+      &quot;id&quot;: 83,
+      &quot;sentence&quot;: &quot;Thank you for being patient with me.&quot;
+    },
+    {
+      &quot;id&quot;: 84,
+      &quot;sentence&quot;: &quot;I&#x27;m feeling much better now.&quot;
+    },
+    {
+      &quot;id&quot;: 85,
+      &quot;sentence&quot;: &quot;That explains everything.&quot;
+    },
+    {
+      &quot;id&quot;: 86,
+      &quot;sentence&quot;: &quot;I&#x27;ll try to stay flexible.&quot;
+    },
+    {
+      &quot;id&quot;: 87,
+      &quot;sentence&quot;: &quot;I really value your opinion.&quot;
+    },
+    {
+      &quot;id&quot;: 88,
+      &quot;sentence&quot;: &quot;That sounds like a reasonable plan.&quot;
+    },
+    {
+      &quot;id&quot;: 89,
+      &quot;sentence&quot;: &quot;I&#x27;m willing to give it a try.&quot;
+    },
+    {
+      &quot;id&quot;: 90,
+      &quot;sentence&quot;: &quot;Let&#x27;s see how it goes.&quot;
+    },
+    {
+      &quot;id&quot;: 91,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to build better habits.&quot;
+    },
+    {
+      &quot;id&quot;: 92,
+      &quot;sentence&quot;: &quot;I&#x27;ll try to be more consistent.&quot;
+    },
+    {
+      &quot;id&quot;: 93,
+      &quot;sentence&quot;: &quot;I finally finished everything.&quot;
+    },
+    {
+      &quot;id&quot;: 94,
+      &quot;sentence&quot;: &quot;I need to stay focused on my goals.&quot;
+    },
+    {
+      &quot;id&quot;: 95,
+      &quot;sentence&quot;: &quot;I should take better care of myself.&quot;
+    },
+    {
+      &quot;id&quot;: 96,
+      &quot;sentence&quot;: &quot;I want to learn something new.&quot;
+    },
+    {
+      &quot;id&quot;: 97,
+      &quot;sentence&quot;: &quot;I&#x27;m slowly getting better at this.&quot;
+    },
+    {
+      &quot;id&quot;: 98,
+      &quot;sentence&quot;: &quot;I&#x27;m still figuring things out.&quot;
+    },
+    {
+      &quot;id&quot;: 99,
+      &quot;sentence&quot;: &quot;That&#x27;s very helpful.&quot;
+    },
+    {
+      &quot;id&quot;: 100,
+      &quot;sentence&quot;: &quot;I&#x27;m proud of my progress.&quot;
+    },
+    {
+      &quot;id&quot;: 101,
+      &quot;sentence&quot;: &quot;I was just about to call you.&quot;
+    },
+    {
+      &quot;id&quot;: 102,
+      &quot;sentence&quot;: &quot;I didn&#x27;t realize it was so late.&quot;
+    },
+    {
+      &quot;id&quot;: 103,
+      &quot;sentence&quot;: &quot;I&#x27;ve heard a lot about this place.&quot;
+    },
+    {
+      &quot;id&quot;: 104,
+      &quot;sentence&quot;: &quot;That reminds me of something.&quot;
+    },
+    {
+      &quot;id&quot;: 105,
+      &quot;sentence&quot;: &quot;I haven&#x27;t thought about that before.&quot;
+    },
+    {
+      &quot;id&quot;: 106,
+      &quot;sentence&quot;: &quot;Do you want to hear my opinion?&quot;
+    },
+    {
+      &quot;id&quot;: 107,
+      &quot;sentence&quot;: &quot;I didn&#x27;t mean to make things complicated.&quot;
+    },
+    {
+      &quot;id&quot;: 108,
+      &quot;sentence&quot;: &quot;I&#x27;ll explain everything later.&quot;
+    },
+    {
+      &quot;id&quot;: 109,
+      &quot;sentence&quot;: &quot;Thanks for checking on me.&quot;
+    },
+    {
+      &quot;id&quot;: 110,
+      &quot;sentence&quot;: &quot;I&#x27;m glad everything worked out.&quot;
+    },
+    {
+      &quot;id&quot;: 111,
+      &quot;sentence&quot;: &quot;I&#x27;m in the middle of something.&quot;
+    },
+    {
+      &quot;id&quot;: 112,
+      &quot;sentence&quot;: &quot;I&#x27;ll take care of it later.&quot;
+    },
+    {
+      &quot;id&quot;: 113,
+      &quot;sentence&quot;: &quot;Can you help me with this for a second?&quot;
+    },
+    {
+      &quot;id&quot;: 114,
+      &quot;sentence&quot;: &quot;I forgot where I put it.&quot;
+    },
+    {
+      &quot;id&quot;: 115,
+      &quot;sentence&quot;: &quot;I need to clean up a little.&quot;
+    },
+    {
+      &quot;id&quot;: 116,
+      &quot;sentence&quot;: &quot;I&#x27;ll grab something to drink.&quot;
+    },
+    {
+      &quot;id&quot;: 117,
+      &quot;sentence&quot;: &quot;Do you want anything from the kitchen?&quot;
+    },
+    {
+      &quot;id&quot;: 118,
+      &quot;sentence&quot;: &quot;I&#x27;ll be right there.&quot;
+    },
+    {
+      &quot;id&quot;: 119,
+      &quot;sentence&quot;: &quot;Can we continue this later?&quot;
+    },
+    {
+      &quot;id&quot;: 120,
+      &quot;sentence&quot;: &quot;I&#x27;m almost finished.&quot;
+    },
+    {
+      &quot;id&quot;: 121,
+      &quot;sentence&quot;: &quot;I totally forgot about that.&quot;
+    },
+    {
+      &quot;id&quot;: 122,
+      &quot;sentence&quot;: &quot;I didn&#x27;t see that coming.&quot;
+    },
+    {
+      &quot;id&quot;: 123,
+      &quot;sentence&quot;: &quot;That could be a problem.&quot;
+    },
+    {
+      &quot;id&quot;: 124,
+      &quot;sentence&quot;: &quot;I&#x27;m trying not to overthink it.&quot;
+    },
+    {
+      &quot;id&quot;: 125,
+      &quot;sentence&quot;: &quot;I just need some fresh air.&quot;
+    },
+    {
+      &quot;id&quot;: 126,
+      &quot;sentence&quot;: &quot;I&#x27;m honestly impressed.&quot;
+    },
+    {
+      &quot;id&quot;: 127,
+      &quot;sentence&quot;: &quot;I&#x27;m a bit confused right now.&quot;
+    },
+    {
+      &quot;id&quot;: 128,
+      &quot;sentence&quot;: &quot;That really motivated me.&quot;
+    },
+    {
+      &quot;id&quot;: 129,
+      &quot;sentence&quot;: &quot;I didn&#x27;t expect it to be that good.&quot;
+    },
+    {
+      &quot;id&quot;: 130,
+      &quot;sentence&quot;: &quot;I&#x27;m glad you told me.&quot;
+    },
+    {
+      &quot;id&quot;: 131,
+      &quot;sentence&quot;: &quot;Let&#x27;s make a plan for tomorrow.&quot;
+    },
+    {
+      &quot;id&quot;: 132,
+      &quot;sentence&quot;: &quot;I&#x27;m free after lunch.&quot;
+    },
+    {
+      &quot;id&quot;: 133,
+      &quot;sentence&quot;: &quot;We should do this more often.&quot;
+    },
+    {
+      &quot;id&quot;: 134,
+      &quot;sentence&quot;: &quot;Let me check the weather first.&quot;
+    },
+    {
+      &quot;id&quot;: 135,
+      &quot;sentence&quot;: &quot;I might be a little late.&quot;
+    },
+    {
+      &quot;id&quot;: 136,
+      &quot;sentence&quot;: &quot;That depends on the situation.&quot;
+    },
+    {
+      &quot;id&quot;: 137,
+      &quot;sentence&quot;: &quot;I&#x27;ll remind you later.&quot;
+    },
+    {
+      &quot;id&quot;: 138,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to be more productive.&quot;
+    },
+    {
+      &quot;id&quot;: 139,
+      &quot;sentence&quot;: &quot;Let me double check.&quot;
+    },
+    {
+      &quot;id&quot;: 140,
+      &quot;sentence&quot;: &quot;I&#x27;ll send it to you soon.&quot;
+    },
+    {
+      &quot;id&quot;: 141,
+      &quot;sentence&quot;: &quot;I need directions to get there.&quot;
+    },
+    {
+      &quot;id&quot;: 142,
+      &quot;sentence&quot;: &quot;How far is it from here?&quot;
+    },
+    {
+      &quot;id&quot;: 143,
+      &quot;sentence&quot;: &quot;Could you please repeat the address?&quot;
+    },
+    {
+      &quot;id&quot;: 144,
+      &quot;sentence&quot;: &quot;I think we missed the turn.&quot;
+    },
+    {
+      &quot;id&quot;: 145,
+      &quot;sentence&quot;: &quot;Let&#x27;s take the next exit.&quot;
+    },
+    {
+      &quot;id&quot;: 146,
+      &quot;sentence&quot;: &quot;I&#x27;m waiting for my ride.&quot;
+    },
+    {
+      &quot;id&quot;: 147,
+      &quot;sentence&quot;: &quot;The traffic is really slow today.&quot;
+    },
+    {
+      &quot;id&quot;: 148,
+      &quot;sentence&quot;: &quot;Can you check the schedule for me?&quot;
+    },
+    {
+      &quot;id&quot;: 149,
+      &quot;sentence&quot;: &quot;I&#x27;ll send you my location.&quot;
+    },
+    {
+      &quot;id&quot;: 150,
+      &quot;sentence&quot;: &quot;Please let me know when you arrive.&quot;
+    },
+    {
+      &quot;id&quot;: 151,
+      &quot;sentence&quot;: &quot;Can we get a table for two, please?&quot;
+    },
+    {
+      &quot;id&quot;: 152,
+      &quot;sentence&quot;: &quot;Do you have any recommendations?&quot;
+    },
+    {
+      &quot;id&quot;: 153,
+      &quot;sentence&quot;: &quot;Could we have the menu, please?&quot;
+    },
+    {
+      &quot;id&quot;: 154,
+      &quot;sentence&quot;: &quot;I&#x27;d like to order the same thing.&quot;
+    },
+    {
+      &quot;id&quot;: 155,
+      &quot;sentence&quot;: &quot;Can I have a glass of water, please?&quot;
+    },
+    {
+      &quot;id&quot;: 156,
+      &quot;sentence&quot;: &quot;Does this come with a side dish?&quot;
+    },
+    {
+      &quot;id&quot;: 157,
+      &quot;sentence&quot;: &quot;Could you please check the bill?&quot;
+    },
+    {
+      &quot;id&quot;: 158,
+      &quot;sentence&quot;: &quot;Do you accept mobile payments?&quot;
+    },
+    {
+      &quot;id&quot;: 159,
+      &quot;sentence&quot;: &quot;Everything looks delicious.&quot;
+    },
+    {
+      &quot;id&quot;: 160,
+      &quot;sentence&quot;: &quot;Thank you.&quot;
+    },
+    {
+      &quot;id&quot;: 161,
+      &quot;sentence&quot;: &quot;I haven&#x27;t been sleeping well lately.&quot;
+    },
+    {
+      &quot;id&quot;: 162,
+      &quot;sentence&quot;: &quot;I think I need to rest for a bit.&quot;
+    },
+    {
+      &quot;id&quot;: 163,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to drink more water.&quot;
+    },
+    {
+      &quot;id&quot;: 164,
+      &quot;sentence&quot;: &quot;I feel a little tired today.&quot;
+    },
+    {
+      &quot;id&quot;: 165,
+      &quot;sentence&quot;: &quot;I&#x27;ll be okay.&quot;
+    },
+    {
+      &quot;id&quot;: 166,
+      &quot;sentence&quot;: &quot;I just need some time to relax.&quot;
+    },
+    {
+      &quot;id&quot;: 167,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to stay healthy.&quot;
+    },
+    {
+      &quot;id&quot;: 168,
+      &quot;sentence&quot;: &quot;I think fresh air will help.&quot;
+    },
+    {
+      &quot;id&quot;: 169,
+      &quot;sentence&quot;: &quot;Thanks for checking on me.&quot;
+    },
+    {
+      &quot;id&quot;: 170,
+      &quot;sentence&quot;: &quot;I appreciate your concern.&quot;
+    },
+    {
+      &quot;id&quot;: 171,
+      &quot;sentence&quot;: &quot;Ou won&#x27;t believe what happened.&quot;
+    },
+    {
+      &quot;id&quot;: 172,
+      &quot;sentence&quot;: &quot;Let me tell you something interesting.&quot;
+    },
+    {
+      &quot;id&quot;: 173,
+      &quot;sentence&quot;: &quot;I wasn&#x27;t expecting that outcome.&quot;
+    },
+    {
+      &quot;id&quot;: 174,
+      &quot;sentence&quot;: &quot;It all happened so quickly.&quot;
+    },
+    {
+      &quot;id&quot;: 175,
+      &quot;sentence&quot;: &quot;I should have seen that coming.&quot;
+    },
+    {
+      &quot;id&quot;: 176,
+      &quot;sentence&quot;: &quot;It turned out better than expected.&quot;
+    },
+    {
+      &quot;id&quot;: 177,
+      &quot;sentence&quot;: &quot;Let me think for a moment.&quot;
+    },
+    {
+      &quot;id&quot;: 178,
+      &quot;sentence&quot;: &quot;I&#x27;ll tell you the whole story later.&quot;
+    },
+    {
+      &quot;id&quot;: 179,
+      &quot;sentence&quot;: &quot;That&#x27;s exactly what I was thinking.&quot;
+    },
+    {
+      &quot;id&quot;: 180,
+      &quot;sentence&quot;: &quot;I still don&#x27;t know how to feel about it.&quot;
+    },
+    {
+      &quot;id&quot;: 181,
+      &quot;sentence&quot;: &quot;I need help as soon as possible.&quot;
+    },
+    {
+      &quot;id&quot;: 182,
+      &quot;sentence&quot;: &quot;Is everything okay over there?&quot;
+    },
+    {
+      &quot;id&quot;: 183,
+      &quot;sentence&quot;: &quot;Stay calm, we&#x27;ll figure it out.&quot;
+    },
+    {
+      &quot;id&quot;: 184,
+      &quot;sentence&quot;: &quot;Can you please call someone for me?&quot;
+    },
+    {
+      &quot;id&quot;: 185,
+      &quot;sentence&quot;: &quot;Something doesn&#x27;t feel right.&quot;
+    },
+    {
+      &quot;id&quot;: 186,
+      &quot;sentence&quot;: &quot;I think we should leave immediately.&quot;
+    },
+    {
+      &quot;id&quot;: 187,
+      &quot;sentence&quot;: &quot;Do you know where the exit is?&quot;
+    },
+    {
+      &quot;id&quot;: 188,
+      &quot;sentence&quot;: &quot;Let&#x27;s stay together.&quot;
+    },
+    {
+      &quot;id&quot;: 189,
+      &quot;sentence&quot;: &quot;Please slow down and explain.&quot;
+    },
+    {
+      &quot;id&quot;: 190,
+      &quot;sentence&quot;: &quot;Everything will be fine.&quot;
+    },
+    {
+      &quot;id&quot;: 191,
+      &quot;sentence&quot;: &quot;I&#x27;d like to schedule an appointment.&quot;
+    },
+    {
+      &quot;id&quot;: 192,
+      &quot;sentence&quot;: &quot;Could you check that for me, please?&quot;
+    },
+    {
+      &quot;id&quot;: 193,
+      &quot;sentence&quot;: &quot;Is there anything else I should bring?&quot;
+    },
+    {
+      &quot;id&quot;: 194,
+      &quot;sentence&quot;: &quot;I&#x27;d like to confirm my reservation.&quot;
+    },
+    {
+      &quot;id&quot;: 195,
+      &quot;sentence&quot;: &quot;Thank you for your assistance.&quot;
+    },
+    {
+      &quot;id&quot;: 196,
+      &quot;sentence&quot;: &quot;I really appreciate your time.&quot;
+    },
+    {
+      &quot;id&quot;: 197,
+      &quot;sentence&quot;: &quot;Could you send me the details, please?&quot;
+    },
+    {
+      &quot;id&quot;: 198,
+      &quot;sentence&quot;: &quot;I&#x27;ll contact you if anything changes.&quot;
+    },
+    {
+      &quot;id&quot;: 199,
+      &quot;sentence&quot;: &quot;That&#x27;s very helpful. Thank you.&quot;
+    },
+    {
+      &quot;id&quot;: 200,
+      &quot;sentence&quot;: &quot;Have a great rest of your day.&quot;
+    },
+    {
+      &quot;id&quot;: 201,
+      &quot;sentence&quot;: &quot;I&#x27;ll send you the link in a minute.&quot;
+    },
+    {
+      &quot;id&quot;: 202,
+      &quot;sentence&quot;: &quot;Can you check your messages?&quot;
+    },
+    {
+      &quot;id&quot;: 203,
+      &quot;sentence&quot;: &quot;Sorry, my internet connection dropped.&quot;
+    },
+    {
+      &quot;id&quot;: 204,
+      &quot;sentence&quot;: &quot;I&#x27;ll reply as soon as I can.&quot;
+    },
+    {
+      &quot;id&quot;: 205,
+      &quot;sentence&quot;: &quot;Let&#x27;s continue this later.&quot;
+    },
+    {
+      &quot;id&quot;: 206,
+      &quot;sentence&quot;: &quot;I didn&#x27;t mean to leave you on read.&quot;
+    },
+    {
+      &quot;id&quot;: 207,
+      &quot;sentence&quot;: &quot;Can we switch to a voice call?&quot;
+    },
+    {
+      &quot;id&quot;: 208,
+      &quot;sentence&quot;: &quot;I think the file didn&#x27;t upload.&quot;
+    },
+    {
+      &quot;id&quot;: 209,
+      &quot;sentence&quot;: &quot;Let me restart my device.&quot;
+    },
+    {
+      &quot;id&quot;: 210,
+      &quot;sentence&quot;: &quot;Thanks for sending that so quickly.&quot;
+    },
+    {
+      &quot;id&quot;: 211,
+      &quot;sentence&quot;: &quot;You&#x27;re doing better than you think.&quot;
+    },
+    {
+      &quot;id&quot;: 212,
+      &quot;sentence&quot;: &quot;Take it one step at a time.&quot;
+    },
+    {
+      &quot;id&quot;: 213,
+      &quot;sentence&quot;: &quot;I&#x27;m here if you need anything.&quot;
+    },
+    {
+      &quot;id&quot;: 214,
+      &quot;sentence&quot;: &quot;Don&#x27;t be too hard on yourself.&quot;
+    },
+    {
+      &quot;id&quot;: 215,
+      &quot;sentence&quot;: &quot;Ou handled that really well.&quot;
+    },
+    {
+      &quot;id&quot;: 216,
+      &quot;sentence&quot;: &quot;It&#x27;s okay to take a break.&quot;
+    },
+    {
+      &quot;id&quot;: 217,
+      &quot;sentence&quot;: &quot;I believe in your potential.&quot;
+    },
+    {
+      &quot;id&quot;: 218,
+      &quot;sentence&quot;: &quot;Keep going.&quot;
+    },
+    {
+      &quot;id&quot;: 219,
+      &quot;sentence&quot;: &quot;You deserve good things.&quot;
+    },
+    {
+      &quot;id&quot;: 220,
+      &quot;sentence&quot;: &quot;Never stop learning.&quot;
+    },
+    {
+      &quot;id&quot;: 221,
+      &quot;sentence&quot;: &quot;I remember that very clearly.&quot;
+    },
+    {
+      &quot;id&quot;: 222,
+      &quot;sentence&quot;: &quot;It happened a long time ago.&quot;
+    },
+    {
+      &quot;id&quot;: 223,
+      &quot;sentence&quot;: &quot;I didn&#x27;t realize how important it was.&quot;
+    },
+    {
+      &quot;id&quot;: 224,
+      &quot;sentence&quot;: &quot;Let me start from the beginning.&quot;
+    },
+    {
+      &quot;id&quot;: 225,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to explain it properly.&quot;
+    },
+    {
+      &quot;id&quot;: 226,
+      &quot;sentence&quot;: &quot;That was one of the best days ever.&quot;
+    },
+    {
+      &quot;id&quot;: 227,
+      &quot;sentence&quot;: &quot;I still laugh when I think about it.&quot;
+    },
+    {
+      &quot;id&quot;: 228,
+      &quot;sentence&quot;: &quot;I didn&#x27;t know what to say.&quot;
+    },
+    {
+      &quot;id&quot;: 229,
+      &quot;sentence&quot;: &quot;Everything happened so fast.&quot;
+    },
+    {
+      &quot;id&quot;: 230,
+      &quot;sentence&quot;: &quot;I wish you were there.&quot;
+    },
+    {
+      &quot;id&quot;: 231,
+      &quot;sentence&quot;: &quot;We need to think this through.&quot;
+    },
+    {
+      &quot;id&quot;: 232,
+      &quot;sentence&quot;: &quot;Let&#x27;s list our options.&quot;
+    },
+    {
+      &quot;id&quot;: 233,
+      &quot;sentence&quot;: &quot;There must be another solution.&quot;
+    },
+    {
+      &quot;id&quot;: 234,
+      &quot;sentence&quot;: &quot;I&#x27;m willing to compromise.&quot;
+    },
+    {
+      &quot;id&quot;: 235,
+      &quot;sentence&quot;: &quot;Let&#x27;s focus on what we can control.&quot;
+    },
+    {
+      &quot;id&quot;: 236,
+      &quot;sentence&quot;: &quot;We should ask for a second opinion.&quot;
+    },
+    {
+      &quot;id&quot;: 237,
+      &quot;sentence&quot;: &quot;That might actually work.&quot;
+    },
+    {
+      &quot;id&quot;: 238,
+      &quot;sentence&quot;: &quot;I&#x27;ll handle the rest.&quot;
+    },
+    {
+      &quot;id&quot;: 239,
+      &quot;sentence&quot;: &quot;Let&#x27;s try a different approach.&quot;
+    },
+    {
+      &quot;id&quot;: 240,
+      &quot;sentence&quot;: &quot;That&#x27;s worth considering.&quot;
+    },
+    {
+      &quot;id&quot;: 241,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to spend less this month.&quot;
+    },
+    {
+      &quot;id&quot;: 242,
+      &quot;sentence&quot;: &quot;Do you think it&#x27;s worth the price?&quot;
+    },
+    {
+      &quot;id&quot;: 243,
+      &quot;sentence&quot;: &quot;I&#x27;m still comparing options.&quot;
+    },
+    {
+      &quot;id&quot;: 244,
+      &quot;sentence&quot;: &quot;Can I return it if it doesn&#x27;t fit?&quot;
+    },
+    {
+      &quot;id&quot;: 245,
+      &quot;sentence&quot;: &quot;I&#x27;ll wait for a discount.&quot;
+    },
+    {
+      &quot;id&quot;: 246,
+      &quot;sentence&quot;: &quot;Do you have something similar?&quot;
+    },
+    {
+      &quot;id&quot;: 247,
+      &quot;sentence&quot;: &quot;I&#x27;m just checking the prices.&quot;
+    },
+    {
+      &quot;id&quot;: 248,
+      &quot;sentence&quot;: &quot;Could you please hold this for me?&quot;
+    },
+    {
+      &quot;id&quot;: 249,
+      &quot;sentence&quot;: &quot;Do you have it in stock?&quot;
+    },
+    {
+      &quot;id&quot;: 250,
+      &quot;sentence&quot;: &quot;I&#x27;ll think about it and come back.&quot;
+    },
+    {
+      &quot;id&quot;: 251,
+      &quot;sentence&quot;: &quot;My phone battery is almost dead.&quot;
+    },
+    {
+      &quot;id&quot;: 252,
+      &quot;sentence&quot;: &quot;I need to update my software.&quot;
+    },
+    {
+      &quot;id&quot;: 253,
+      &quot;sentence&quot;: &quot;The app isn&#x27;t working properly.&quot;
+    },
+    {
+      &quot;id&quot;: 254,
+      &quot;sentence&quot;: &quot;Can you send me the screenshot?&quot;
+    },
+    {
+      &quot;id&quot;: 255,
+      &quot;sentence&quot;: &quot;I accidentally deleted it.&quot;
+    },
+    {
+      &quot;id&quot;: 256,
+      &quot;sentence&quot;: &quot;Do you know the Wi-Fi password?&quot;
+    },
+    {
+      &quot;id&quot;: 257,
+      &quot;sentence&quot;: &quot;My storage is almost full.&quot;
+    },
+    {
+      &quot;id&quot;: 258,
+      &quot;sentence&quot;: &quot;Let me restart the app.&quot;
+    },
+    {
+      &quot;id&quot;: 259,
+      &quot;sentence&quot;: &quot;I&#x27;ll send you the file right now.&quot;
+    },
+    {
+      &quot;id&quot;: 260,
+      &quot;sentence&quot;: &quot;Thanks for helping me fix it.&quot;
+    },
+    {
+      &quot;id&quot;: 261,
+      &quot;sentence&quot;: &quot;Have you watched anything good lately?&quot;
+    },
+    {
+      &quot;id&quot;: 262,
+      &quot;sentence&quot;: &quot;I&#x27;ve been listening to this song all day.&quot;
+    },
+    {
+      &quot;id&quot;: 263,
+      &quot;sentence&quot;: &quot;I really enjoy learning new skills.&quot;
+    },
+    {
+      &quot;id&quot;: 264,
+      &quot;sentence&quot;: &quot;That&#x27;s one of my favorite hobbies.&quot;
+    },
+    {
+      &quot;id&quot;: 265,
+      &quot;sentence&quot;: &quot;I want to get better at it.&quot;
+    },
+    {
+      &quot;id&quot;: 266,
+      &quot;sentence&quot;: &quot;Do you have any recommendations?&quot;
+    },
+    {
+      &quot;id&quot;: 267,
+      &quot;sentence&quot;: &quot;I haven&#x27;t tried that before.&quot;
+    },
+    {
+      &quot;id&quot;: 268,
+      &quot;sentence&quot;: &quot;It sounds interesting actually.&quot;
+    },
+    {
+      &quot;id&quot;: 269,
+      &quot;sentence&quot;: &quot;Maybe I&#x27;ll try it someday.&quot;
+    },
+    {
+      &quot;id&quot;: 270,
+      &quot;sentence&quot;: &quot;Let&#x27;s do it together.&quot;
+    },
+    {
+      &quot;id&quot;: 271,
+      &quot;sentence&quot;: &quot;Let&#x27;s stay focused on the main point.&quot;
+    },
+    {
+      &quot;id&quot;: 272,
+      &quot;sentence&quot;: &quot;Do you have any updates for us?&quot;
+    },
+    {
+      &quot;id&quot;: 273,
+      &quot;sentence&quot;: &quot;I&#x27;ll send you the final version.&quot;
+    },
+    {
+      &quot;id&quot;: 274,
+      &quot;sentence&quot;: &quot;Can we schedule a quick meeting?&quot;
+    },
+    {
+      &quot;id&quot;: 275,
+      &quot;sentence&quot;: &quot;I&#x27;ll doublech checkck the information.&quot;
+    },
+    {
+      &quot;id&quot;: 276,
+      &quot;sentence&quot;: &quot;Let&#x27;s review this together.&quot;
+    },
+    {
+      &quot;id&quot;: 277,
+      &quot;sentence&quot;: &quot;I really appreciate your feedback.&quot;
+    },
+    {
+      &quot;id&quot;: 278,
+      &quot;sentence&quot;: &quot;I&#x27;ll try to finish it by tomorrow.&quot;
+    },
+    {
+      &quot;id&quot;: 279,
+      &quot;sentence&quot;: &quot;Could you clarify that part, please?&quot;
+    },
+    {
+      &quot;id&quot;: 280,
+      &quot;sentence&quot;: &quot;Let&#x27;s keep each other updated.&quot;
+    },
+    {
+      &quot;id&quot;: 281,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to stay consistent with my studies.&quot;
+    },
+    {
+      &quot;id&quot;: 282,
+      &quot;sentence&quot;: &quot;Can you recommend helpful resources?&quot;
+    },
+    {
+      &quot;id&quot;: 283,
+      &quot;sentence&quot;: &quot;I still have a lot to learn.&quot;
+    },
+    {
+      &quot;id&quot;: 284,
+      &quot;sentence&quot;: &quot;I need more time to practice.&quot;
+    },
+    {
+      &quot;id&quot;: 285,
+      &quot;sentence&quot;: &quot;I understand it better now.&quot;
+    },
+    {
+      &quot;id&quot;: 286,
+      &quot;sentence&quot;: &quot;I&#x27;ll review it again later.&quot;
+    },
+    {
+      &quot;id&quot;: 287,
+      &quot;sentence&quot;: &quot;That explanation really helped.&quot;
+    },
+    {
+      &quot;id&quot;: 288,
+      &quot;sentence&quot;: &quot;Can you check my answer, please?&quot;
+    },
+    {
+      &quot;id&quot;: 289,
+      &quot;sentence&quot;: &quot;I&#x27;m trying to improve every day.&quot;
+    },
+    {
+      &quot;id&quot;: 290,
+      &quot;sentence&quot;: &quot;Learning takes time and that&#x27;s okay.&quot;
+    },
+    {
+      &quot;id&quot;: 291,
+      &quot;sentence&quot;: &quot;I haven&#x27;t seen you around lately.&quot;
+    },
+    {
+      &quot;id&quot;: 292,
+      &quot;sentence&quot;: &quot;The neighborhood feels quieter today.&quot;
+    },
+    {
+      &quot;id&quot;: 293,
+      &quot;sentence&quot;: &quot;Do you know who lives next door?&quot;
+    },
+    {
+      &quot;id&quot;: 294,
+      &quot;sentence&quot;: &quot;I think they just moved in.&quot;
+    },
+    {
+      &quot;id&quot;: 295,
+      &quot;sentence&quot;: &quot;Let&#x27;s go for a walk later.&quot;
+    },
+    {
+      &quot;id&quot;: 296,
+      &quot;sentence&quot;: &quot;The weather is perfect today.&quot;
+    },
+    {
+      &quot;id&quot;: 297,
+      &quot;sentence&quot;: &quot;I love this quiet atmosphere.&quot;
+    },
+    {
+      &quot;id&quot;: 298,
+      &quot;sentence&quot;: &quot;Do you need help carrying that?&quot;
+    },
+    {
+      &quot;id&quot;: 299,
+      &quot;sentence&quot;: &quot;Thanks for stopping by.&quot;
+    },
+    {
+      &quot;id&quot;: 300,
+      &quot;sentence&quot;: &quot;See you around.&quot;
+    }
+  ]
+}
+  </script>
+  <script>
+  (function () {
+    const dataNode = document.getElementById('json-data');
+    const grid = document.getElementById('grid');
+    const button = document.getElementById('shuffle-toggle');
+    if (!dataNode || !grid || !button) {
+      return;
+    }
+
+    const decoder = document.createElement('textarea');
+    decoder.innerHTML = dataNode.textContent;
+    const payload = JSON.parse(decoder.value);
+    const items = Array.isArray(payload.sentences) ? payload.sentences.slice() : [];
+
+    function renderCards(list) {
+      grid.replaceChildren();
+      list.forEach(function (item, index) {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.dataset.originalIndex = String(index);
+
+        const head = document.createElement('div');
+        head.className = 'head';
+        head.textContent = 'Sentence ' + item.id;
+
+        const sentence = document.createElement('div');
+        sentence.className = 'sentence';
+        sentence.textContent = item.sentence;
+
+        card.appendChild(head);
+        card.appendChild(sentence);
+        grid.appendChild(card);
+      });
+    }
+
+    renderCards(items);
+    let shuffled = false;
+
+    button.addEventListener('click', function () {
+      const next = items.slice();
+      if (!shuffled) {
+        for (let i = next.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const temp = next[i];
+          next[i] = next[j];
+          next[j] = temp;
+        }
+        shuffled = true;
+        button.classList.add('is-active');
+        button.setAttribute('aria-pressed', 'true');
+      } else {
+        next.sort(function (a, b) {
+          return a.id - b.id;
+        });
+        shuffled = false;
+        button.classList.remove('is-active');
+        button.setAttribute('aria-pressed', 'false');
+      }
+      renderCards(next);
+    });
+  })();
+  </script>
+</body>
+</html>
+
+
+
