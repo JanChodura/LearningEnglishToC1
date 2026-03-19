@@ -155,6 +155,16 @@ For the browser teaching side, create a separate ChatGPT Project and paste the b
 6. Let Codex process the result automatically
 7. Regenerate and inspect the HTML views
 
+## Local HTML Preview
+
+Use `startServer.bat` from the project root to serve the `html/` directory locally.
+
+- Fixed port: `8000`
+- Local URL: `http://localhost:8000/`
+
+The batch file switches into `html/` first and then starts Python's built-in `http.server`.
+It tries `py` first and falls back to `python`.
+
 ## Notes
 
 - The system is designed around interactive sentence-based learning, not isolated flashcards only.
